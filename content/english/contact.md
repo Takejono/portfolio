@@ -1,7 +1,7 @@
 ---
 title : "SAY HELLO!"
 bg_image: ""
-form_action: "#" # "https://formspree.io/f/xdobkarn" # works with https://formspree
+form_action: "https://formspree.io/f/xdobkarn" # works with https://formspree
 name: "Name"
 email: "Email"
 message: "Message"
