@@ -12,9 +12,29 @@ submit: "Submit"
 custom_class: ""
 custom_attributes: ""
 custom_css: "
-.form-container .form-control {
-  border-radius: .3rem;
+.form-container input.form-control, .form-container textarea.form-control {
+  border-radius: .2rem;
+  background-color: #323232;
+  color: beige;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid beige;
 }
+.form-container input::placeholder, .form-container textarea::placeholder {
+  color: beige;
+}
+.form-container input:focus, .form-container textarea:focus {
+  background: #777;
+  transition: border-color .5s ease-in-out,box-shadow .5s ease-in-out;
+  -webkit-transition: border-color .5s ease-in-out,box-shadow .5s ease-in-out;
+}
+}
+.form-container button {
+  background: beige;
+  border-radius: .2rem!important;
+}
+
 .to-top .fa {
   border-radius: 1rem;
 
