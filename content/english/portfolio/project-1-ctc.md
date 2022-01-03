@@ -1,7 +1,7 @@
 ---
-title: "Rappel du voyage"
-date: 2020-09-12T12:14:34+06:00
-image: "images/portfolio/item6.jpg"
+title: "Works for CTC"
+date: 2021-05-12T12:14:34+06:00
+image: "images/portfolio/ctc-1.jpg"
 categories: ["Tableau"]
 description: "This is meta description."
 draft: false
@@ -13,7 +13,7 @@ project_info:
   icon: "fas fa-globe"
   content: "Watercolor on Paper"
 ---
-
+![heller](/images/portfolio/ctc-2.jpg)
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
 ex ea commodo consequat.

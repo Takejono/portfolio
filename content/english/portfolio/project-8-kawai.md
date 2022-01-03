@@ -1,8 +1,8 @@
 ---
-title: "Bienvenu à la forêt"
+title: "couverture partition musique"
 date: 2021-07-12T12:14:34+06:00
-image: "images/backgrounds/full-nav-bg.jpg"
-categories: ["Tableau"]
+image: "images/portfolio/kawai-1.jpg"
+categories: ["Illustration"]
 description: "This is meta description."
 draft: false
 project_info:
@@ -11,8 +11,10 @@ project_info:
   content: "50cm x 40cm"
 - name: "Support"
   icon: "fas fa-globe"
-  content: "Watercolor on Paper"
+  content: "Watercolor on Paper, Digital masterd"
 ---
+
+![heller](/images/portfolio/kawai-2.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
