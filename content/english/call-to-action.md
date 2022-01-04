@@ -12,6 +12,6 @@ custom_class: ""
 custom_attributes: ""
 custom_css: "
 .overlay::before {
-  background: rgba(0,0,0,.4);
+  background: rgba(0,0,0,.2);
 "
 ---
