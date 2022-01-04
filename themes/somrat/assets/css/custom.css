@@ -1,0 +1,10 @@
+.content p img {
+  width: 100%;
+}
+
+.fab, .to-top .fa {
+  border-radius: 2rem;
+}
+.fab {
+  font-size: 40px;
+}
