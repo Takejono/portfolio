@@ -37,7 +37,12 @@ custom_css: "
   transition: all .2s ease-in-out;
 }
 .portfolio {
-  background: #ccc;
+  background: ;
+}
+.content p img {
+  width: 100%;
 }
 "
 ---
+
+For display the detail on smartphone, keep in touch on the image.

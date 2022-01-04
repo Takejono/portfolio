@@ -12,6 +12,13 @@ project_info:
 - name: "Support"
   icon: "fas fa-globe"
   content: "Watercolor on Paper, Digital masterd"
+
+  # custom style
+  custom_css: "
+  .content p img {
+    width: 100%;
+  }
+  "
 ---
 
 ![heller](/images/portfolio/kawai-2.jpg)

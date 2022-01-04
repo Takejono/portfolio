@@ -1,8 +1,8 @@
 ---
-title: "Mistral"
+title: "Design for Patisserie Masaki YAMAMOTO"
 date: 2020-05-12T12:14:34+06:00
-image: "images/portfolio/item5.jpg"
-categories: ["Tableau"]
+image: "images/portfolio/my-1.jpg"
+categories: ["Design"]
 description: "This is meta description."
 draft: false
 project_info:
@@ -12,8 +12,17 @@ project_info:
 - name: "Support"
   icon: "fas fa-globe"
   content: "Watercolor on Paper"
+
+  # custom style
+  custom_css: "
+  .content p img {
+    width: 100%;
+  }
+  "
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat.
+![heller](/images/portfolio/my-2.jpg)
+*Box for Buche de Noël*  
+
+![heller](/images/portfolio/my-3.jpg)
+*Box for chocolates*

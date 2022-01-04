@@ -2,7 +2,7 @@
 title: "Works for Ankama"
 date: 2020-05-12T12:14:34+06:00
 image: "images/portfolio/ankama-1.jpg"
-categories: ["Tableau"]
+categories: ["Digital"]
 description: "This is meta description."
 draft: false
 project_info:
@@ -12,8 +12,21 @@ project_info:
 - name: "Support"
   icon: "fas fa-globe"
   content: "Watercolor on Paper"
+
+  # custom style
+  custom_css: "
+  .content p img {
+    width: 100%;
+  }
+  "
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat.
+Works for Ankama.
+
+![heller](/images/portfolio/ankama-2.jpg)
+
+![heller](/images/portfolio/ankama-3.jpg)
+
+![heller](/images/portfolio/ankama-4.jpg)
+
+![heller](/images/portfolio/ankama-5.jpg)

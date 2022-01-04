@@ -2,7 +2,7 @@
 title: "Zombie"
 date: 2021-11-12T12:14:34+06:00
 image: "images/portfolio/zombie-1.jpg"
-categories: ["Tableau"]
+categories: ["Illustration", "Digital"]
 description: "This is meta description."
 draft: false
 project_info:
