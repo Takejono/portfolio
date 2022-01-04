@@ -27,20 +27,23 @@ custom_css: "
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-.text-light {
+.item-created.text-light {
   background: none;
   padding: 0;
 }
 
-.item-captin {
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+p.mb-0 {
+  display: none;
 }
-.portfolio {
-  background: ;
+.item-caption {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 .content p img {
   width: 100%;
+}
+.mt-2 {
+overflow-wrap: anywhere;
 }
 "
 ---

@@ -14,25 +14,24 @@ custom_attributes: ""
 custom_css: "
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .2rem;
-  background-color: #323232;
+  background: #313131;
   color: beige;
   border-top: 0;
   border-left: 0;
   border-right: 0;
   border-bottom: 3px solid beige;
+  transition: border-color .3s ease-in-out,background .3s ease-in-out;
+  -webkit-transition: border-color .3s ease-in-out,background .3s ease-in-out;
 }
-.form-container input::placeholder, .form-container textarea::placeholder {
+.form-container .form-control::placeholder {
   color: beige;
 }
-.form-container input:focus, .form-container textarea:focus {
-  background: #777;
-  transition: border-color .5s ease-in-out,box-shadow .5s ease-in-out;
-  -webkit-transition: border-color .5s ease-in-out,box-shadow .5s ease-in-out;
-}
+.form-container .form-control:focus {
+  background: #555;
 }
 .form-container button {
   background: beige;
-  border-radius: .2rem!important;
+  border-radius: .3rem!important;
 }
 
 .to-top .fa {
