@@ -32,10 +32,6 @@ custom_css: "
 .header .slider::after, .header::after {
   background: rgba(50, 50, 50, 0.3);  
 }
-.fab, .to-top .fab {
-  border-radius: 2rem;
-  font-size: 33px;
-}
 .full-nav-icons .fab.fa-facebook-f, .footer-icons .fab.fa-facebook-f {
   padding: 7px 11px;
 }

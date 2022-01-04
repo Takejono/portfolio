@@ -34,10 +34,6 @@ custom_css: "
   border-radius: .3rem!important;
 }
 
-.to-top .fa {
-  border-radius: 1rem;
-
-}
 .contact:after {
   background: rgba(50, 50, 50, 0.6);
 }

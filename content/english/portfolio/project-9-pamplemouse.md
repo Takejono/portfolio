@@ -12,13 +12,6 @@ project_info:
 - name: "Support"
   icon: "fas fa-globe"
   content: "Watercolor on Paper"
-
-  # custom style
-  custom_css: "
-  .content p img {
-    width: 100%;
-  }
-  "
 ---
 
 Children book. Auto-edition. Project of my friend.

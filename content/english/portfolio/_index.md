@@ -40,7 +40,7 @@ p.mb-0 {
   transition: all .5s ease-in-out;
 }
 .content p img {
-  width: 100%;
+  width: 100%!important;
 }
 .mt-2 {
 overflow-wrap: anywhere;
