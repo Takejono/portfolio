@@ -42,7 +42,7 @@ custom_css: "
 
 @media (hover: hover) {
  .item-caption .nonhover-icon {
-  padding-left: 10px;
+  padding-left: 13px;
   font-size: 26px;
 }
 }
