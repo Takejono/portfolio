@@ -18,7 +18,7 @@ custom_css: "
   font-family: rubik;
 }
 .item-caption a {
-  font-size: 25px;
+  font-size: 20px;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
@@ -27,23 +27,42 @@ custom_css: "
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-.item-created.text-light {
+.item-created {
   background: none;
   padding: 0;
-}
-
-p.mb-0 {
-  display: none;
-}
-.item-caption {
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
 }
 .content p img {
   width: 100%!important;
 }
-.mt-2 {
+.item-caption h2 {
 overflow-wrap: anywhere;
+}
+ .item-caption p, .item-caption .nonhover-icon {
+  display: none;
+}
+
+@media (hover: none) {
+.filtr-item:hover .item-holder img {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+.item-caption {
+  height: 70px;
+  width: 70px;
+  border-radius: 0 0 100% 0;
+  background: rgba(22, 22, 22, .4);
+  -webkit-transform: translate(0px);
+  transform: translate(0px);
+}
+.item-caption .nonhover-icon {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  font-size: 32px;
+}
+.item-caption h2, .item-caption .item-created {
+  display: none;
+}
 }
 "
 ---
