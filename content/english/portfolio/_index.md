@@ -18,14 +18,11 @@ custom_css: "
   font-family: rubik;
 }
 .item-caption a {
-  font-size: 20px;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 .item-caption a:hover {
-  color: #e37f00 !important;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  color: #e37f00!important;
 }
 .item-created {
   background: none;
@@ -35,16 +32,19 @@ custom_css: "
   width: 100%!important;
 }
 .item-caption h2 {
-overflow-wrap: anywhere;
+  font-size: 20px;
+  overflow-wrap: anywhere;
+  line-height: 1.5rem;
 }
- .item-caption p, .item-caption .nonhover-icon {
+ .item-caption p {
   display: none;
 }
 
 @media (hover: hover) {
-  .item-caption .nonhover-icon {
-   display: none;
- }
+ .item-caption .nonhover-icon {
+  padding-left: 10px;
+  font-size: 26px;
+}
 }
 @media (hover: none) {
 .filtr-item:hover .item-holder img {
@@ -52,8 +52,8 @@ overflow-wrap: anywhere;
   transform: translateX(0px);
 }
 .item-caption {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   border-radius: 0 0 100% 0;
   background: rgba(22, 22, 22, .4);
   -webkit-transform: translate(0px);
@@ -61,15 +61,12 @@ overflow-wrap: anywhere;
 }
 .item-caption .nonhover-icon {
   position: absolute;
-  top: 8px;
-  left: 15px;
-  font-size: 32px;
+  top: 6px;
+  left: 10px;
+  font-size: 26px;
 }
 .item-caption h2, .item-caption .item-created {
   display: none;
-}
-.item-caption .nonhover-icon {
- display: block;
 }
 }
 "
