@@ -41,6 +41,11 @@ overflow-wrap: anywhere;
   display: none;
 }
 
+@media (hover: hover) {
+  .item-caption .nonhover-icon {
+   display: none;
+ }
+}
 @media (hover: none) {
 .filtr-item:hover .item-holder img {
   -webkit-transform: translateX(0px);
