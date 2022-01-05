@@ -63,6 +63,9 @@ overflow-wrap: anywhere;
 .item-caption h2, .item-caption .item-created {
   display: none;
 }
+.item-caption .nonhover-icon {
+ display: block;
+}
 }
 "
 ---
