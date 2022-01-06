@@ -1,7 +1,7 @@
 ---
-title: "Works for CTC"
-date: 2021-05-12T12:14:34+06:00
-image: "images/portfolio/ctc-1.jpg"
+title: "Kanetsu-kai"
+date: 2016-10-12T12:14:34+06:00
+image: "images/portfolio/kanetsu-1.jpg"
 categories: ["Illustration"]
 description: "This is meta description."
 draft: false
@@ -14,8 +14,10 @@ project_info:
   content: "Watercolor on Paper"
 ---
 
-![heller](/images/portfolio/ctc-2.jpg)
+Livret for a hopital.
 
-![heller](/images/portfolio/ctc-3.jpg)
+![heller](/images/portfolio/kanetsu-2.jpg)
 
-![heller](/images/portfolio/ctc-4.jpg)
+![heller](/images/portfolio/kanetsu-3.jpg)
+
+![heller](/images/portfolio/kanetsu-4.jpg)

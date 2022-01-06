@@ -1,8 +1,8 @@
 ---
-title: "Letters between image and music"
-date: 2021-12-12T12:14:34+06:00
-image: "images/portfolio/saboten-1.jpg"
-categories: ["Tableau"]
+title: "N/B"
+date: 2017-06-12T12:14:34+06:00
+image: "images/portfolio/nb-1.jpg"
+categories: ["Pencil"]
 description: "This is meta description."
 draft: false
 project_info:
@@ -14,4 +14,4 @@ project_info:
   content: "Watercolor on Paper"
 ---
 
-![heller](/images/portfolio/saboten-2.jpg)
+![heller](/images/portfolio/nb-2.jpg)

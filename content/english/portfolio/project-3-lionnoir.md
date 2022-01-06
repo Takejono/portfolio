@@ -52,4 +52,12 @@ les oiseaux blancs à l'horizon lointain
 Entre la ville, la forêt et la mer,  
 ce moment arrive.  
 
+Looking for a Black Lion is a series of pictures for my exhibision.  
+
 ![heller](/images/portfolio/lionnoir-2.jpg)
+
+![heller](/images/portfolio/lionnoir-3.jpg)
+
+![heller](/images/portfolio/lionnoir-4.jpg)
+
+[Gallery info is here.](https://galleryyamagoya.com/2021/takeshi-jonoo-exhibition/)

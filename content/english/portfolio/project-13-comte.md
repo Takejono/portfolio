@@ -2,7 +2,7 @@
 title: "Comte Hibou"
 date: 2017-06-12T12:14:34+06:00
 image: "images/slider/slider-1.jpg"
-categories: ["Illustration"]
+categories: ["Tableau"]
 description: "This is meta description."
 draft: false
 project_info:
@@ -15,7 +15,3 @@ project_info:
 ---
 
 ![heller](/images/portfolio/comte-2.jpg)
-
-![heller](/images/portfolio/comte-3.jpg)
-
-![heller](/images/portfolio/comte-4.jpg)

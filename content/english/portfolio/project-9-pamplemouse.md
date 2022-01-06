@@ -17,3 +17,9 @@ project_info:
 Children book. Auto-edition. Project of my friend.
 
 ![heller](/images/portfolio/pamplemousse-2.jpg)
+
+![heller](/images/portfolio/pamplemousse-3.jpg)
+
+![heller](/images/portfolio/pamplemousse-4.jpg)
+
+![heller](/images/portfolio/pamplemousse-5.jpg)
