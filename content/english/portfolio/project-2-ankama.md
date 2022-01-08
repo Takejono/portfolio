@@ -1,6 +1,6 @@
 ---
 title: "Ankama"
-date: 2019-05-12T12:14:34+06:00
+date: 2015-05-12T12:14:34+06:00
 image: "images/portfolio/ankama-1.jpg"
 categories: ["Digital"]
 description: "This is meta description."
@@ -23,3 +23,5 @@ Works for Ankama.
 ![heller](/images/portfolio/ankama-4.jpg)
 
 ![heller](/images/portfolio/ankama-5.jpg)
+
+![heller](/images/portfolio/ankama-6.jpg)

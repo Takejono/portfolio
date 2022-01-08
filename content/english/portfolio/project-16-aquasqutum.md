@@ -1,7 +1,7 @@
 ---
-title: "Grand"
-date: 2017-03-12T12:14:34+06:00
-image: "images/backgrounds/need-service.jpg"
+title: "Pieces of sea shore"
+date: 2018-06-12T12:14:34+06:00
+image: "images/portfolio/aquasqutum-1.jpg"
 categories: ["Tableau"]
 description: "This is meta description."
 draft: false
@@ -14,8 +14,8 @@ project_info:
   content: "Watercolor on Paper"
 ---
 
-![heller](/images/portfolio/grand-2.jpg)
+![aquasqutum](/images/portfolio/aquasqutum-2.jpg)
 
-![heller](/images/portfolio/grand-3.jpg)
+![aquasqutum](/images/portfolio/aquasqutum-3.jpg)
 
-![heller](/images/portfolio/grand-4.jpg)
+![aquasqutum](/images/portfolio/aquasqutum-4.jpg)
