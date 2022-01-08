@@ -12,10 +12,8 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
+gallery_images:
+- images/portfolio/aquasqutum-2.jpg
+- images/portfolio/aquasqutum-3.jpg
+- images/portfolio/aquasqutum-4.jpg
 ---
-
-![aquasqutum](/images/portfolio/aquasqutum-2.jpg)
-
-![aquasqutum](/images/portfolio/aquasqutum-3.jpg)
-
-![aquasqutum](/images/portfolio/aquasqutum-4.jpg)

@@ -12,10 +12,7 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"
+gallery_images:
+- images/portfolio/my-2.jpg
+- images/portfolio/my-3.jpg
 ---
-
-![heller](/images/portfolio/my-2.jpg)
-*Box for Buche de Noël*  
-
-![heller](/images/portfolio/my-3.jpg)
-*Box for chocolates*

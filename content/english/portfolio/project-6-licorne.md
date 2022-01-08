@@ -12,6 +12,6 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper, Digital"
+gallery_images:
+- images/portfolio/licorne-2.jpg
 ---
-
-![heller](/images/portfolio/licorne-2.jpg)

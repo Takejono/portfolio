@@ -12,10 +12,8 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
+gallery_images:
+- images/portfolio/grand-2.jpg
+- images/portfolio/grand-3.jpg
+- images/portfolio/grand-4.jpg
 ---
-
-![heller](/images/portfolio/grand-2.jpg)
-
-![heller](/images/portfolio/grand-3.jpg)
-
-![heller](/images/portfolio/grand-4.jpg)

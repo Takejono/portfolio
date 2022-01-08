@@ -12,12 +12,10 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
+gallery_images:
+- images/portfolio/kanetsu-2.jpg
+- images/portfolio/kanetsu-3.jpg
+- images/portfolio/kanetsu-4.jpg
 ---
 
 Livret for a hopital.
-
-![heller](/images/portfolio/kanetsu-2.jpg)
-
-![heller](/images/portfolio/kanetsu-3.jpg)
-
-![heller](/images/portfolio/kanetsu-4.jpg)

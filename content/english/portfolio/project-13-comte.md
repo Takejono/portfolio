@@ -12,6 +12,6 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
+gallery_images:
+- images/portfolio/comte-2.jpg
 ---
-
-![heller](/images/portfolio/comte-2.jpg)

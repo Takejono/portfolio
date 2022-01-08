@@ -12,8 +12,19 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on paper"
+- name: "Link"
+  icon: "fas fa-link"
+  content: "[Gallery Yamagoya](https://galleryyamagoya.com/2021/takeshi-jonoo-exhibition/)"
+gallery_images:
+- images/portfolio/lionnoir-2.jpg
+- images/portfolio/lionnoir-3.jpg
+- images/portfolio/lionnoir-4.jpg
 ---
 
+« Looking for a Black Lion » is a series of pictures for my exhibision in Gallery Yamagoya at Ebisu, TOKYO.
+Pictures are based in my text bellow.
+
+---
 ##### « À la recherche d'un lion noir »
 
 Depuis un moment, je suis à la recherche d'un lion noir.  
@@ -51,13 +62,3 @@ les oiseaux blancs à l'horizon lointain
 
 Entre la ville, la forêt et la mer,  
 ce moment arrive.  
-
-Looking for a Black Lion is a series of pictures for my exhibision.  
-
-![heller](/images/portfolio/lionnoir-2.jpg)
-
-![heller](/images/portfolio/lionnoir-3.jpg)
-
-![heller](/images/portfolio/lionnoir-4.jpg)
-
-[Gallery info is here.](https://galleryyamagoya.com/2021/takeshi-jonoo-exhibition/)

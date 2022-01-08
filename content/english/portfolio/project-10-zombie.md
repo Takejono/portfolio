@@ -12,5 +12,6 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"
+gallery_images:
+- images/portfolio/zombie-2.jpg
 ---
-![heller](/images/portfolio/zombie-2.jpg)

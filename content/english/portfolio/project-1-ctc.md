@@ -12,10 +12,9 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
+gallery_images:
+- images/portfolio/ctc-2.jpg
+- images/portfolio/ctc-3.jpg
+- images/portfolio/ctc-4.jpg
+
 ---
-
-![ctc](/images/portfolio/ctc-2.jpg)
-
-![ctc](/images/portfolio/ctc-3.jpg)
-
-![ctc](/images/portfolio/ctc-4.jpg)

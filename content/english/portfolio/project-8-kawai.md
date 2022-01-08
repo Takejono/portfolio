@@ -12,10 +12,8 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
+gallery_images:
+- images/portfolio/kawai-2.jpg
+- images/portfolio/kawai-3.jpg
+- images/portfolio/kawai-4.jpg
 ---
-
-![heller](/images/portfolio/kawai-2.jpg)
-
-![heller](/images/portfolio/kawai-3.jpg)
-
-![heller](/images/portfolio/kawai-4.jpg)

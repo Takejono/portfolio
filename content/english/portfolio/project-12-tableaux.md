@@ -12,18 +12,10 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
-project_images:
-- "images/portfolio/tableaux-2.jpg"
-- "images/portfolio/tableaux-3.jpg"
-- "images/portfolio/tableaux-4.jpg"
+gallery_images:
+- images/portfolio/tableaux-2.jpg
+- images/portfolio/tableaux-3.jpg
+- images/portfolio/tableaux-4.jpg
+- images/portfolio/tableaux-5.jpg
+- images/portfolio/tableaux-6.jpg
 ---
-
-![heller](/images/portfolio/tableaux-2.jpg)
-
-![heller](/images/portfolio/tableaux-3.jpg)
-
-![heller](/images/portfolio/tableaux-4.jpg)
-
-![heller](/images/portfolio/tableaux-5.jpg)
-
-![heller](/images/portfolio/tableaux-6.jpg)
