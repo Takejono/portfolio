@@ -1,7 +1,9 @@
 .preloader {
   background-color: #99999A;
 }
-
+.sticky-top{
+  z-index: 997;
+}
 /*--------------------------------
    banner
 ----------------------------------*/
@@ -55,7 +57,8 @@ input:checked+label span {
   padding: 0;
 }
 .content p img {
-  width: 100%!important;
+  max-width: 100%;
+  max-height: 900px;
 }
 .item-caption h2 {
   font-size: 20px;
@@ -65,18 +68,23 @@ input:checked+label span {
  .item-caption p {
   display: none;
 }
+.filtr-item:hover .item-holder img {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
 
 @media (hover: hover) {
+ .item-caption {
+background: linear-gradient(to right, rgba(50,50,50, .9), rgba(50,50,50, .2) 90%, rgba(50,50,50, .1));
+-webkit-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
  .item-caption .nonhover-icon {
   padding-left: 13px;
   font-size: 26px;
 }
 }
 @media (hover: none) {
-.filtr-item:hover .item-holder img {
-  -webkit-transform: translateX(0px);
-  transform: translateX(0px);
-}
 .item-caption {
   height: 50px;
   width: 50px;

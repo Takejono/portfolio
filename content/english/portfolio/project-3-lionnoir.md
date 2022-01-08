@@ -1,17 +1,17 @@
 ---
 title: "Looking for a Black Lion"
-date: 2020-04-12T12:14:34+06:00
+date: 2019-04-12T12:14:34+06:00
 image: "images/backgrounds/full-nav-bg.jpg"
 categories: ["Tableau"]
 description: "This is meta description."
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-globe"
+  icon: "fas fa-ruler-combined"
   content: "50cm x 40cm"
 - name: "Support"
-  icon: "fas fa-globe"
-  content: "Watercolor on Paper"
+  icon: "fas fa-paint-brush"
+  content: "Watercolor on paper"
 ---
 
 ##### « À la recherche d'un lion noir »

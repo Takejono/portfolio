@@ -1,5 +1,5 @@
 ---
-title : "ABOUT ME"
+title : "PRESENTATION"
 image : "images/backgrounds/portrait.png"
 # button
 button:
@@ -21,7 +21,7 @@ experience:
     # experience item loop
     - name : "Illustration"
       company : ""
-      duration : "2015-2018"
+      duration : "2015-"
       content : "I work for publications, packagings, children books, or web sites."
 
     # experience item loop

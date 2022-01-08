@@ -1,17 +1,17 @@
 ---
 title: "Rossignol"
-date: 2020-05-12T12:14:34+06:00
+date: 2013-05-12T12:14:34+06:00
 image: "images/portfolio/rossignol-1.jpg"
 categories: ["Illustration"]
 description: "This is meta description."
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-globe"
+  icon: "fas fa-ruler-combined"
   content: "50cm x 40cm"
 - name: "Support"
-  icon: "fas fa-globe"
-  content: "Watercolor on Paper"
+  icon: "fas fa-paint-brush"
+  content: "Watercolor on Paper, Pen"
 ---
 
 ![heller](/images/portfolio/rossignol-2.jpg)

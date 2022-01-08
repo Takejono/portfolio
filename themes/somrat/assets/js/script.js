@@ -224,7 +224,7 @@
 	/*--------------------------------
 			 Start Portfolio
 	----------------------------------*/
-	// Shuffle js filter 
+	// Shuffle js filter
 	var containerEl = document.querySelector('.filtr-wrapper');
 	if (containerEl) {
 		var Shuffle = window.Shuffle;
@@ -279,7 +279,7 @@
 	// Code for Opera Mini
 	var vh = $(window).height();
 	if (navigator.userAgent.indexOf('Opera Mini') != -1) {
-		// Setting Fun Facts Value Immediately 
+		// Setting Fun Facts Value Immediately
 		work.start();
 		happyClient.start();
 		projects.start();
@@ -309,7 +309,7 @@
 			"display": "table",
 			"margin": "auto"
 		});
-		// Setting Fun Facts Value Immediately 
+		// Setting Fun Facts Value Immediately
 		work.start();
 		happyClient.start();
 		projects.start();

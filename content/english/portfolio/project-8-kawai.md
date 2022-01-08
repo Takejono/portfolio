@@ -7,11 +7,11 @@ description: "This is meta description."
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-globe"
+  icon: "fas fa-ruler-combined"
   content: "50cm x 40cm"
 - name: "Support"
-  icon: "fas fa-globe"
-  content: "Watercolor on Paper, Digital masterd"
+  icon: "fas fa-paint-brush"
+  content: "Watercolor on Paper"
 ---
 
 ![heller](/images/portfolio/kawai-2.jpg)
