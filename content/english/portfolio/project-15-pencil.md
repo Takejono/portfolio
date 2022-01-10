@@ -1,0 +1,22 @@
+---
+title: "Pencil Drawings"
+date: 2017-06-12T12:14:34+06:00
+image: "images/portfolio/pencil-1.jpg"
+categories: ["Pencil"]
+description: "This is meta description."
+draft: false
+project_info:
+- name: "Format"
+  icon: "fas fa-ruler-combined"
+  content: "cm x cm"
+- name: "Support"
+  icon: "fas fa-paint-brush"
+  content: "Pencil on Paper"
+gallery_images:
+- images/portfolio/pencil-2.jpg
+- images/portfolio/pencil-3.jpg
+- images/portfolio/pencil-4.jpg
+- images/portfolio/pencil-5.jpg
+- images/portfolio/pencil-6.jpg
+- images/portfolio/pencil-7.jpg
+---

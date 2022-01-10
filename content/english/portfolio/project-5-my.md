@@ -15,4 +15,5 @@ project_info:
 gallery_images:
 - images/portfolio/my-2.jpg
 - images/portfolio/my-3.jpg
+- images/portfolio/my-4.jpg
 ---

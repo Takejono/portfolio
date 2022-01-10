@@ -6,12 +6,10 @@ categories: ["Digital"]
 description: "This is meta description."
 draft: false
 project_info:
-#- name: "Format"
-#  icon: "fas fa-ruler-combined"
-#  content: "50cm x 40cm"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"
 gallery_images:
 - images/portfolio/zombie-2.jpg
+- images/portfolio/zombie-3.jpg
 ---

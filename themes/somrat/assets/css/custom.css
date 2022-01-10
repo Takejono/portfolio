@@ -33,9 +33,6 @@ input:checked+label span {
 /*--------------------------------
    portfolio
 ----------------------------------*/
-.content p img {
-  width: 100%;
-}
 .portfolio-navigation label {
   border: 2px solid #ccc;
   border-radius: 0.3rem!important;
@@ -50,7 +47,7 @@ input:checked+label span {
   transition: all .2s ease-in-out;
 }
 .item-caption a:hover {
-  color: #e37f00!important;
+  color: orange!important;
 }
 .item-created {
   background: none;
@@ -75,13 +72,13 @@ input:checked+label span {
 
 @media (hover: hover) {
  .item-caption {
-background: linear-gradient(to right, rgba(50,50,50, .9), rgba(50,50,50, .2) 90%, rgba(50,50,50, .1));
+background: linear-gradient(to right, rgba(45,45,45, 1), rgba(65,65,65, .2));
 -webkit-transition: all 0.3s ease-out;
 transition: all 0.3s ease-out;
 }
  .item-caption .nonhover-icon {
   padding-left: 13px;
-  font-size: 26px;
+  font-size: 32px;
 }
 }
 @media (hover: none) {
@@ -89,7 +86,7 @@ transition: all 0.3s ease-out;
   height: 50px;
   width: 50px;
   border-radius: 0 0 100% 0;
-  background: rgba(22, 22, 22, .4);
+  background: rgba(65,65,65, .4);
   -webkit-transform: translate(0px);
   transform: translate(0px);
 }

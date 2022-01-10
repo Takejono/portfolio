@@ -19,6 +19,10 @@ gallery_images:
 - images/portfolio/lionnoir-2.jpg
 - images/portfolio/lionnoir-3.jpg
 - images/portfolio/lionnoir-4.jpg
+- images/portfolio/lionnoir-5.jpg
+- images/portfolio/lionnoir-6.jpg
+- images/portfolio/lionnoir-7.jpg
+- images/portfolio/lionnoir-8.jpg
 ---
 
 « Looking for a Black Lion » is a series of pictures for my exhibision in Gallery Yamagoya at Ebisu, TOKYO.

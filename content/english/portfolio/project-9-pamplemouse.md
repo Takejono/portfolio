@@ -17,6 +17,7 @@ gallery_images:
 - images/portfolio/pamplemousse-3.jpg
 - images/portfolio/pamplemousse-4.jpg
 - images/portfolio/pamplemousse-5.jpg
+- images/portfolio/pamplemousse-6.jpg
 ---
 
 Children book. Auto-edition. Project of my friend.
