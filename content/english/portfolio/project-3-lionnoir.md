@@ -22,6 +22,8 @@ gallery_images:
 - images/portfolio/lionnoir-5.jpg
 - images/portfolio/lionnoir-6.jpg
 - images/portfolio/lionnoir-7.jpg
+- images/portfolio/lionnoir-9.jpg
+- images/portfolio/lionnoir-10.jpg
 - images/portfolio/lionnoir-8.jpg
 ---
 

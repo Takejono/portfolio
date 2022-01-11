@@ -18,4 +18,5 @@ gallery_images:
 - images/portfolio/tableaux-4.jpg
 - images/portfolio/tableaux-5.jpg
 - images/portfolio/tableaux-6.jpg
+- images/portfolio/tableaux-7.jpg
 ---
