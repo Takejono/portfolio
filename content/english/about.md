@@ -7,55 +7,35 @@ button:
   label : "DOWNLOAD MY CV"
   link : "images/CV-takeshi JONOO.pdf"
 
+
 ########################### Experience ##############################
-experience:
-  enable : true
-  title : "EXPERIENCE"
-  experience_list:
-    # experience item loop
-    - name : "painting"
-      company : ""
-      duration : "2015-"
-      content : "I exhibite my creations in the gallery punctually. And I create the paintings by order too."
-
-    # experience item loop
-    - name : "Illustration"
-      company : ""
-      duration : "2015-"
-      content : "I work for publications, packagings, children books, or web sites."
-
-    # experience item loop
-    - name : "Digital Painting"
-      company : "in video games development"
-      duration : "2001-2015"
-      content : "I worked as Concept Artist/Graphic Desiner/Artistic Director in some projects of video game, oftenly of the Fantasy world."
-
-    # experience item loop
-    - name : "Diplomes"
-      company : "Univercity of Art Tama TOKYO"
-      duration : "1999"
-      content : "Graphic Design"
-
-############################### Skill #################################
-#skill:
+#experience:
 #  enable : true
-#  title : "SKILL"
-#  skill_list:
-    # skill item loop
-#    - name : "Web Development"
-#      percentage : "98%"
+#  title : "EXPERIENCE"
+#  experience_list:
+    # experience item loop
+#    - name : "painting"
+#      company : ""
+#      duration : "2015-"
+#      content : "I exhibite my creations in the gallery punctually. And I create the paintings by order too."
 
-    # skill item loop
-#    - name : "Graphic Design"
-#      percentage : "85%"
+    # experience item loop
+#    - name : "Illustration"
+#      company : ""
+#      duration : "2015-"
+#      content : "I work for publications, packagings, children books, or web sites."
 
-    # skill item loop
-#    - name : "Database Management"
-#      percentage : "90%"
+    # experience item loop
+#    - name : "Digital Painting"
+#      company : "in video games development"
+#      duration : "2001-2015"
+#      content : "I worked as Concept Artist/Graphic Desiner/Artistic Director in some projects of video game, oftenly of the Fantasy world."
 
-    # skill item loop
-#    - name : "Wordpress"
-#      percentage : "70%"
+    # experience item loop
+#    - name : "Diplomes"
+#      company : "Univercity of Art Tama TOKYO"
+#      duration : "1999"
+#      content : "Graphic Design"
 
 
 # custom style
