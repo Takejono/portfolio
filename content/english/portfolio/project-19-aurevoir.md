@@ -2,8 +2,9 @@
 title: "Au revoir"
 date: 2015-05-12T12:14:34+06:00
 image: "images/portfolio/aurevoir-1.jpg"
-categories: ["Illustration"]
+categories: ["Personal Project"]
 description: "This is meta description."
+order: "12"
 draft: false
 project_info:
 - name: "Format"

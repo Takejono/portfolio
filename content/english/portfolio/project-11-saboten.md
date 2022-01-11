@@ -2,8 +2,9 @@
 title: "Letters between image and music"
 date: 2021-12-12T12:14:34+06:00
 image: "images/portfolio/saboten-1.jpg"
-categories: ["Tableau"]
+categories: ["Personal Project"]
 description: "This is meta description."
+order: "01"
 draft: false
 project_info:
 - name: "Format"

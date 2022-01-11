@@ -2,8 +2,9 @@
 title: "Looking for a Black Lion"
 date: 2019-04-12T12:14:34+06:00
 image: "images/backgrounds/full-nav-bg.jpg"
-categories: ["Tableau"]
+categories: ["Personal Project", "Exhibition"]
 description: "This is meta description."
+order: "02"
 draft: false
 project_info:
 - name: "Format"

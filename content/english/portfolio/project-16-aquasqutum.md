@@ -2,8 +2,9 @@
 title: "Pieces of sea shore"
 date: 2018-06-12T12:14:34+06:00
 image: "images/portfolio/aquasqutum-1.jpg"
-categories: ["Tableau"]
+categories: ["Exhibition", "Personal Project"]
 description: "This is meta description."
+order: "04"
 draft: false
 project_info:
 - name: "Format"

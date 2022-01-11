@@ -2,8 +2,9 @@
 title: "Grand"
 date: 2017-03-12T12:14:34+06:00
 image: "images/backgrounds/need-service.jpg"
-categories: ["Tableau"]
+categories: ["Personal Project", "Exhibition"]
 description: "This is meta description."
+order: "03"
 draft: false
 project_info:
 - name: "Format"

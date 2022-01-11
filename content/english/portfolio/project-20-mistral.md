@@ -2,8 +2,9 @@
 title: "Mistral"
 date: 2017-05-12T12:14:34+06:00
 image: "images/portfolio/mistral.jpg"
-categories: ["Tableau"]
+categories: ["Exhibition", "Works"]
 description: "This is meta description."
+order: "06"
 draft: false
 project_info:
 - name: "Format"

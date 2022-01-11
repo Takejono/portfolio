@@ -2,8 +2,9 @@
 title: "Pencil Drawings"
 date: 2017-06-12T12:14:34+06:00
 image: "images/portfolio/pencil-1.jpg"
-categories: ["Pencil"]
+categories: ["Pencil", "Personal Project"]
 description: "This is meta description."
+order: "15"
 draft: false
 project_info:
 - name: "Format"

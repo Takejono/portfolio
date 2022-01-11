@@ -2,8 +2,9 @@
 title: "CTC"
 date: 2019-05-12T12:14:34+06:00
 image: "images/portfolio/ctc-1.jpg"
-categories: ["Illustration"]
+categories: ["Works"]
 description: "This is meta description."
+order: "08"
 draft: false
 project_info:
 - name: "Format"

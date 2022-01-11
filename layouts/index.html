@@ -245,36 +245,6 @@
 {{ end }}
 <!-- End About Me -->
 
-<!-- Start Services -->
-<!-- {{ with .GetPage "service" }}
-<style>{{.Params.custom_css | safeCSS}}</style>
-<section class="services {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="service">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto col-sm-10">
-        <div class="wow fadeInUp" data-wow-duration="1.5s">
-          <div class="services-heading">
-            <div class="bar"></div>
-            <h1>{{ .Title | markdownify }}</h1>
-          </div>
-          <div class="row">
-            {{ range .Params.service_list }}
-            <div class="col-lg-4 col-sm-4 col-12 services-icon">
-              <div class="service-img">
-                <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name | markdownify }}">
-              </div>
-              <div class="service-label">{{ .name | markdownify }}</div>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }} -->
-<!-- End Services -->
-
 <!-- Start Portfolio -->
 {{ with .GetPage "portfolio"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
@@ -304,7 +274,7 @@
       </div>
       <div class="col-lg-10 col-md-10 col-sm-10 col-10 mx-auto">
         <div class="row filtr-wrapper wow fadeInUp list" data-wow-duration="1.5s">
-          {{ range .Data.Pages }}
+          {{ range .Data.Pages.ByParam "order"}}
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item"
             data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder">
@@ -355,35 +325,8 @@
 {{ end }}
 <!-- end call to action -->
 
-<!-- Start Testimonials -->
-<!-- {{ with .GetPage "testimonial"}}
-<style>{{.Params.custom_css | safeCSS}}</style>
-<section class="testimonials {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="testimonial">
-  <div class="container">
-    <div class="row">
-      <div class="testimonials-container col-lg-8 offset-lg-2">
-        <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ .Title | markdownify }}</h1>
-        <div class="owl-carousel owl-theme wow fadeInUp" data-wow-duration="1.5s">
-          {{ range .Params.testimonial_slider }}
-          <div class="single-testimonial">
-            <div class="testimonial-holder">
-              <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
-              <h2>{{ .name }}</h2>
-              <span>{{ .designation | markdownify }}</span>
-              <p><i class="fa fa-quote-left"></i> {{ .content | markdownify }} <i class="fa fa-quote-right"></i></p>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }} -->
-<!-- End Testimonials -->
-
 <!-- funfacts -->
-<!-- {{ with .GetPage "funfacts"}}
+{{ with .GetPage "funfacts"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="wow fadeInUp section-sm {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s">
   <div class="container position-relative z-index-9">
@@ -404,7 +347,7 @@
     </div>
   </div>
 </section>
-{{ end }} -->
+{{ end }}
 <!-- end funfacts -->
 
 <!-- Start Contact -->
