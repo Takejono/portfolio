@@ -11,13 +11,15 @@
             <h1>{{.Title | markdownify}}</h1>
           </div>
           <div class="content">{{.Content}}</div>
-          <div class="gallery">
+
+          <div class="row gallery">
             {{ range .Params.gallery_images }}
-            <a class="image-pop" href="{{ . | absURL }}">
+          <div class="col-6">  <a class="image-pop" href="{{ . | absURL }}">
                <img src="{{ . | absURL }}" alt="image">
-            </a>
+            </a></div>
             {{ end }}
           </div>
+
         </div>
       </div>
       <div class="col-lg-4">
