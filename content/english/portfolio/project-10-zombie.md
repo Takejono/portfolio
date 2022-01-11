@@ -2,7 +2,7 @@
 title: "Zombie"
 date: 2014-11-12T12:14:34+06:00
 image: "images/portfolio/zombie-1.jpg"
-categories: ["Digital", "Works", "Book Art"]
+categories: ["Works", "Book Art"]
 description: "This is meta description."
 order: "19"
 draft: false
