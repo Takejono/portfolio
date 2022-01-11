@@ -278,7 +278,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item"
             data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder">
-              <a class="image-pop" href="{{ .Params.image | absURL }}" title="{{ .Title | markdownify }}">
+              <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}">
                  <img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}">
               </a>
               <div class="item-caption">
@@ -286,10 +286,10 @@
                   <h2 class="mt-2">{{ .Title | markdownify }}</h2>
                   <i class="nonhover-icon fas fa-search-plus"></i>
                 </a>
-<!--                {{ range .Params.categories }}
+                {{ range .Params.categories }}
                 <p class="mb-0 text-light">{{ . | title }}</p>
                 {{ end }}
-                <div class="item-created text-light">{{ .PublishDate.Format "02 Jan, 06" }}</div> -->
+                <div class="item-created text-light">{{ .PublishDate.Format "2006" }}</div>
               </div>
             </div>
           </div>

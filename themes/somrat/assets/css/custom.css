@@ -61,9 +61,7 @@ input:checked+label span {
   font-size: 20px;
   overflow-wrap: anywhere;
   line-height: 1.5rem;
-}
- .item-caption p {
-  display: none;
+  padding-bottom: 2rem;
 }
 .filtr-item:hover .item-holder img {
   -webkit-transform: translateX(0px);
@@ -77,6 +75,7 @@ background: linear-gradient(to right, rgba(45,45,45, 1), rgba(65,65,65, .2));
 transition: all 0.3s ease-out;
 }
  .item-caption .nonhover-icon {
+  display: none;
   padding-left: 13px;
   font-size: 32px;
 }
