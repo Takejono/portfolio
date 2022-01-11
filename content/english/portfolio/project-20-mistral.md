@@ -1,6 +1,6 @@
 ---
 title: "Mistral"
-date: 2015-05-12T12:14:34+06:00
+date: 2017-05-12T12:14:34+06:00
 image: "images/portfolio/mistral.jpg"
 categories: ["Tableau"]
 description: "This is meta description."
