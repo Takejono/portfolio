@@ -21,4 +21,10 @@ gallery_images:
 - images/portfolio/pen-5.jpg
 - images/portfolio/pen-6.jpg
 - images/portfolio/pen-7.jpg
+- images/portfolio/pen-8.jpg
+- images/portfolio/pen-9.jpg
+- images/portfolio/pen-10.jpg
+- images/portfolio/pen-11.jpg
+- images/portfolio/pen-12.jpg
+- images/portfolio/pen-13.jpg
 ---
