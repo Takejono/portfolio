@@ -61,7 +61,7 @@ input:checked+label span {
   font-size: 20px;
   overflow-wrap: anywhere;
   line-height: 1.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .filtr-item:hover .item-holder img {
   -webkit-transform: translateX(0px);
