@@ -14,7 +14,6 @@ project_info:
   icon: "fas fa-paint-brush"
   content: "Pen on paper, Digital colored"
 gallery_images:
-- images/portfolio/pen-8.jpg
 - images/portfolio/pen-2.jpg
 - images/portfolio/pen-3.jpg
 - images/portfolio/pen-4.jpg
@@ -26,5 +25,4 @@ gallery_images:
 - images/portfolio/pen-10.jpg
 - images/portfolio/pen-11.jpg
 - images/portfolio/pen-12.jpg
-- images/portfolio/pen-13.jpg
 ---
