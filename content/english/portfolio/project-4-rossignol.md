@@ -2,7 +2,7 @@
 title: "Rossignol"
 date: 2015-05-12T12:14:34+06:00
 image: "images/portfolio/rossignol-1.jpg"
-categories: ["Works", "Book Art"]
+categories: ["Works", "Book Illustration"]
 description: "This is meta description."
 order: "14"
 draft: false

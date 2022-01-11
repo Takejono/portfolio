@@ -1,6 +1,6 @@
 ---
 title: "Looking for a Black Lion"
-date: 2019-04-12T12:14:34+06:00
+date: 2021-07-12T12:14:34+06:00
 image: "images/backgrounds/full-nav-bg.jpg"
 categories: ["Personal Project", "Exhibition"]
 description: "This is meta description."

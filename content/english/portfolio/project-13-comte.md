@@ -1,6 +1,6 @@
 ---
 title: "Comte"
-date: 2017-06-12T12:14:34+06:00
+date: 2016-05-12T12:14:34+06:00
 image: "images/slider/slider-1.jpg"
 categories: ["Personal Project"]
 description: "This is meta description."

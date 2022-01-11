@@ -20,3 +20,5 @@ gallery_images:
 - images/portfolio/aurevoir-5.jpg
 - images/portfolio/aurevoir-6.jpg
 ---
+異国の浜辺での、ある少年との出会いの一日を描いた自作絵本プロジェクト。  
+言葉が違っても、言葉がなくても通じあえることの素晴らしさを描いた作品です。

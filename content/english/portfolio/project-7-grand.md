@@ -17,4 +17,7 @@ gallery_images:
 - images/portfolio/grand-2.jpg
 - images/portfolio/grand-3.jpg
 - images/portfolio/grand-4.jpg
+- images/portfolio/grand-5.jpg
+- images/portfolio/grand-6.jpg
+- images/portfolio/grand-7.jpg
 ---

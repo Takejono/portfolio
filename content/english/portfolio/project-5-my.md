@@ -7,9 +7,6 @@ description: "This is meta description."
 order: "21"
 draft: false
 project_info:
-- name: "Format"
-  icon: "fas fa-ruler-combined"
-  content: "50cm x 40cm"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"

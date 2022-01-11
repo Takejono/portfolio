@@ -47,7 +47,7 @@ input:checked+label span {
   transition: all .2s ease-in-out;
 }
 .item-caption a:hover {
-  color: #1a1a1a!important;
+  color: moccasin!important;
 }
 .item-created {
   background: none;

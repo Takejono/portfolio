@@ -1,6 +1,6 @@
 ---
-title: "Pieces of sea shore"
-date: 2018-06-12T12:14:34+06:00
+title: "Aqua Pieces"
+date: 2020-03-12T12:14:34+06:00
 image: "images/portfolio/aquasqutum-1.jpg"
 categories: ["Exhibition", "Personal Project"]
 description: "This is meta description."
@@ -17,4 +17,8 @@ gallery_images:
 - images/portfolio/aquasqutum-2.jpg
 - images/portfolio/aquasqutum-3.jpg
 - images/portfolio/aquasqutum-4.jpg
+- images/portfolio/aquasqutum-5.jpg
+- images/portfolio/aquasqutum-6.jpg
 ---
+渋谷スクランブルスクエアにて行われたAquaqutum X Artists のコラボレーション展示に参加しました。
+« Aqua pieces » をテーマに描いた少作品です。

@@ -2,7 +2,7 @@
 title: "Roman Dofus"
 date: 2017-05-12T12:14:34+06:00
 image: "images/portfolio/r_dofus-1.jpg"
-categories: ["Works", "Game", "Book Art"]
+categories: ["Works", "Game", "Book Illustration"]
 description: "This is meta description."
 order: "18"
 draft: false

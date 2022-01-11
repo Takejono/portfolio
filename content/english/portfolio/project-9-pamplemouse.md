@@ -2,7 +2,7 @@
 title: "Pamplemousse"
 date: 2016-11-12T12:14:34+06:00
 image: "images/portfolio/pamplemousse-2.jpg"
-categories: ["Works", "Book Art"]
+categories: ["Works", "Book Illustration"]
 description: "This is meta description."
 order: "13"
 draft: false

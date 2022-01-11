@@ -1,8 +1,8 @@
 ---
 title: "CTC"
-date: 2019-05-12T12:14:34+06:00
+date: 2021-05-12T12:14:34+06:00
 image: "images/portfolio/ctc-1.jpg"
-categories: ["Works"]
+categories: ["Works", "Book Illustration"]
 description: "This is meta description."
 order: "08"
 draft: false
@@ -19,3 +19,6 @@ gallery_images:
 - images/portfolio/ctc-4.jpg
 
 ---
+CTC未来財団の紹介パンフレット及びウェブサイトの挿絵です。  
+CTC未来財団とは、子供・青少年のための奨学・IT教育支援をしている素晴らしい財団です。  
+デザイン会社アグイジェさんからのご依頼。
