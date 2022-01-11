@@ -64,6 +64,5 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-It's Takeshi. I love watercolor painting. I'm interested in childish, naive and poetic world more then more and I enjoy painting between figurative and abstract.<br>
-Also, I know well digital painting as concept artist/Illustrator in video games development.<br>
-Anyways, I hope always to create the visual who touch to the heat, and evoke the emotion.
+My name is Takeshi. I paint with watercolors.
+I like the simple and poetic world of children, and I am searching for expression between abstraction and figuration brought about by the stain of watercolor.
