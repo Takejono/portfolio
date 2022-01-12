@@ -2,7 +2,7 @@
 title: "Pencil Drawings"
 date: 2016-05-12T12:14:34+06:00
 image: "images/slider/slider-5.jpg"
-categories: ["Pencil", "Personal Project"]
+categories: ["Personal Project"]
 description: "This is meta description."
 order: "15"
 draft: false

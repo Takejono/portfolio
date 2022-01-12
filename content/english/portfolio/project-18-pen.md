@@ -2,7 +2,7 @@
 title: "Pen drawings"
 date: 2020-05-12T12:14:34+06:00
 image: "images/portfolio/pen-1.jpg"
-categories: ["Pen", "Personal Project"]
+categories: ["Personal Project"]
 description: "This is meta description."
 order: "16"
 draft: false
