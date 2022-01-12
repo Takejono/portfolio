@@ -1,7 +1,7 @@
 ---
 title: "Letters between image and music"
 date: 2021-12-12T12:14:34+06:00
-image: "images/portfolio/saboten-1.jpg"
+image: "images/slider/slider-2.jpg"
 categories: ["Personal Project"]
 description: "This is meta description."
 order: "01"

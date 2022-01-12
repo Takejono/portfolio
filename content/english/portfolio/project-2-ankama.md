@@ -1,7 +1,7 @@
 ---
 title: "Ankama"
 date: 2014-05-12T12:14:34+06:00
-image: "images/portfolio/ankama-1.jpg"
+image: "images/slider/slider-4.jpg"
 categories: ["Works", "Game"]
 description: "This is meta description."
 order: "17"
