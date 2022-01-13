@@ -15,15 +15,15 @@ project_info:
   content: "Digital"
 resources:
 - src: images/portfolio/ankama-2.jpg
-title:
+  title:
 - src: images/portfolio/ankama-3.jpg
-title:
+  title:
 - src: images/portfolio/ankama-4.jpg
-title:
+  title:
 - src: images/portfolio/ankama-5.jpg
-title:
+  title:
 - src: images/portfolio/ankama-6.jpg
-title:
+  title:
 ---
 
 Works for Ankama. Ankama is the video games enterprise.
