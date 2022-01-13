@@ -15,11 +15,11 @@ project_info:
   content: "Watercolor on Paper"
 resources:
 - src: images/portfolio/ctc-2.jpg
-  title:
+  title: Cut illutration - Digital
 - src: images/portfolio/ctc-3.jpg
-title:
+  title: cut illustration - 5cm x 5cm
 - src: images/portfolio/ctc-4.jpg
-title:
+  title: Sub main art - 32cm x 24cm
 ---
 CTC未来財団の紹介パンフレット及びウェブサイトの挿絵です。  
 CTC未来財団とは、子供・青少年のための奨学・IT教育支援をしている素晴らしい財団です。  
