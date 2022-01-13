@@ -120,7 +120,7 @@ font-size: 32px;
 ----------------------------------*/
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .2rem;
-  background: #313131;
+  background: none;
   color: beige;
   border-top: 0;
   border-left: 0;
@@ -133,14 +133,15 @@ font-size: 32px;
   color: beige;
 }
 .form-container .form-control:focus {
-  background: #555;
+  background: #666;
 }
 .form-container button {
   background: beige;
   border-radius: .3rem!important;
 }
 .contact:after {
-  background: rgba(50, 50, 50, 0.6);
+  background: rgba(0 0 0 .1);
+  opacity: 0.4;
 }
 
 .fab, .to-top .fa {
