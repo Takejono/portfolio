@@ -10,8 +10,8 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"
-gallery_images:
-- images/portfolio/zombie-2.jpg
-- images/portfolio/zombie-3.jpg
+resources:
+- src: images/portfolio/zombie-2.jpg
+- src: images/portfolio/zombie-3.jpg
 ---
-Cover art for the book "Culture Zombie". 
+Cover art for the book "Culture Zombie".

@@ -16,16 +16,16 @@ project_info:
 - name: "Link"
   icon: "fas fa-link"
   content: "[Gallery Yamagoya](https://galleryyamagoya.com/2021/takeshi-jonoo-exhibition/)"
-gallery_images:
-- images/portfolio/lionnoir-2.jpg
-- images/portfolio/lionnoir-3.jpg
-- images/portfolio/lionnoir-4.jpg
-- images/portfolio/lionnoir-5.jpg
-- images/portfolio/lionnoir-6.jpg
-- images/portfolio/lionnoir-7.jpg
-- images/portfolio/lionnoir-9.jpg
-- images/portfolio/lionnoir-10.jpg
-- images/portfolio/lionnoir-8.jpg
+resources:
+- src: images/portfolio/lionnoir-2.jpg
+- src: images/portfolio/lionnoir-3.jpg
+- src: images/portfolio/lionnoir-4.jpg
+- src: images/portfolio/lionnoir-5.jpg
+- src: images/portfolio/lionnoir-6.jpg
+- src: images/portfolio/lionnoir-7.jpg
+- src: images/portfolio/lionnoir-9.jpg
+- src: images/portfolio/lionnoir-10.jpg
+- src: images/portfolio/lionnoir-8.jpg
 ---
 
 « Looking for a Black Lion » is a series of pictures for my exhibision in Gallery Yamagoya at Ebisu, TOKYO.

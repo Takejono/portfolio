@@ -13,12 +13,12 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
-gallery_images:
-- images/portfolio/aquasqutum-2.jpg
-- images/portfolio/aquasqutum-3.jpg
-- images/portfolio/aquasqutum-4.jpg
-- images/portfolio/aquasqutum-5.jpg
-- images/portfolio/aquasqutum-6.jpg
+resources:
+- src: images/portfolio/aquasqutum-2.jpg
+- src: images/portfolio/aquasqutum-3.jpg
+- src: images/portfolio/aquasqutum-4.jpg
+- src: images/portfolio/aquasqutum-5.jpg
+- src: images/portfolio/aquasqutum-6.jpg
 ---
 渋谷スクランブルスクエアにて行われたAquaqutum X Artists のコラボレーション展示に参加しました。
 « Aqua pieces » をテーマに描いた小作品です。

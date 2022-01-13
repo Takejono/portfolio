@@ -13,16 +13,16 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Pen on paper, Digital colored"
-gallery_images:
-- images/portfolio/pen-8.jpg
-- images/portfolio/pen-2.jpg
-- images/portfolio/pen-3.jpg
-- images/portfolio/pen-6.jpg
-- images/portfolio/pen-4.jpg
-- images/portfolio/pen-5.jpg
-- images/portfolio/pen-7.jpg
-- images/portfolio/pen-9.jpg
-- images/portfolio/pen-10.jpg
-- images/portfolio/pen-11.jpg
-- images/portfolio/pen-12.jpg
+resources:
+- src: images/portfolio/pen-8.jpg
+- src: images/portfolio/pen-2.jpg
+- src: images/portfolio/pen-3.jpg
+- src: images/portfolio/pen-6.jpg
+- src: images/portfolio/pen-4.jpg
+- src: images/portfolio/pen-5.jpg
+- src: images/portfolio/pen-7.jpg
+- src: images/portfolio/pen-9.jpg
+- src: images/portfolio/pen-10.jpg
+- src: images/portfolio/pen-11.jpg
+- src: images/portfolio/pen-12.jpg
 ---

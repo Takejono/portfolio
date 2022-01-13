@@ -13,11 +13,13 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
-gallery_images:
-- images/portfolio/ctc-2.jpg
-- images/portfolio/ctc-3.jpg
-- images/portfolio/ctc-4.jpg
-
+resources:
+- src: images/portfolio/ctc-2.jpg
+  title:
+- src: images/portfolio/ctc-3.jpg
+title:
+- src: images/portfolio/ctc-4.jpg
+title:
 ---
 CTC未来財団の紹介パンフレット及びウェブサイトの挿絵です。  
 CTC未来財団とは、子供・青少年のための奨学・IT教育支援をしている素晴らしい財団です。  

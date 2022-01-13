@@ -13,10 +13,10 @@
           <div class="content">{{.Content}}</div>
 
           <div class="row gallery">
-            {{ range .Params.gallery_images }}
+            {{ range .Params.resources }}
           <div class="col-6">
-            <a class="image-pop" href="{{ . | absURL }}" title="{{ . | markdownify }}">
-               <img src="{{ . | absURL }}" alt="image">
+            <a class="image-pop" href="{{ .src | absURL }}" title="{{ .title | markdownify }}">
+               <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}">
             </a></div>
             {{ end }}
           </div>

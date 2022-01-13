@@ -13,6 +13,6 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper, Digital retouch"
-gallery_images:
-- images/portfolio/licorne-2.jpg
+resources:
+- src: images/portfolio/licorne-2.jpg
 ---

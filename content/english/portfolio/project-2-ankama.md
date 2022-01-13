@@ -13,14 +13,17 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"
-gallery_images:
-- images/portfolio/ankama-2.jpg
-- images/portfolio/ankama-3.jpg
-- images/portfolio/ankama-4.jpg
-- images/portfolio/ankama-5.jpg
-- images/portfolio/ankama-6.jpg
-
-
+resources:
+- src: images/portfolio/ankama-2.jpg
+title:
+- src: images/portfolio/ankama-3.jpg
+title:
+- src: images/portfolio/ankama-4.jpg
+title:
+- src: images/portfolio/ankama-5.jpg
+title:
+- src: images/portfolio/ankama-6.jpg
+title:
 ---
 
 Works for Ankama. Ankama is the video games enterprise.

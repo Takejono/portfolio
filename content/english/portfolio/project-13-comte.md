@@ -13,15 +13,15 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
-gallery_images:
-- images/portfolio/comte-2.jpg
-- images/portfolio/comte-3.jpg
-- images/portfolio/comte-4.jpg
-- images/portfolio/comte-5.jpg
-- images/portfolio/comte-6.jpg
-- images/portfolio/comte-7.jpg
-- images/portfolio/comte-8.jpg
-- images/portfolio/comte-9.jpg
-- images/portfolio/comte-10.jpg
+resources:
+- src: images/portfolio/comte-2.jpg
+- src: images/portfolio/comte-3.jpg
+- src: images/portfolio/comte-4.jpg
+- src: images/portfolio/comte-5.jpg
+- src: images/portfolio/comte-6.jpg
+- src: images/portfolio/comte-7.jpg
+- src: images/portfolio/comte-8.jpg
+- src: images/portfolio/comte-9.jpg
+- src: images/portfolio/comte-10.jpg
 ---
 お話の挿絵のような絵たち。

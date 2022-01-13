@@ -13,11 +13,11 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
-gallery_images:
-- images/portfolio/tableaux-2.jpg
-- images/portfolio/tableaux-3.jpg
-- images/portfolio/tableaux-4.jpg
-- images/portfolio/tableaux-5.jpg
-- images/portfolio/tableaux-6.jpg
-- images/portfolio/tableaux-7.jpg
+resources:
+- src: images/portfolio/tableaux-2.jpg
+- src: images/portfolio/tableaux-3.jpg
+- src: images/portfolio/tableaux-4.jpg
+- src: images/portfolio/tableaux-5.jpg
+- src: images/portfolio/tableaux-6.jpg
+- src: images/portfolio/tableaux-7.jpg
 ---

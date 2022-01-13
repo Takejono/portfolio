@@ -13,9 +13,9 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper, Pen"
-gallery_images:
-- images/portfolio/rossignol-2.jpg
-- images/portfolio/rossignol-3.jpg
-- images/portfolio/rossignol-4.jpg
-- images/portfolio/rossignol-5.jpg
+resources:
+- src: images/portfolio/rossignol-2.jpg
+- src: images/portfolio/rossignol-3.jpg
+- src: images/portfolio/rossignol-4.jpg
+- src: images/portfolio/rossignol-5.jpg
 ---

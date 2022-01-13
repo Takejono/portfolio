@@ -13,7 +13,8 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on paper"
-gallery_images:
+resources:
+- src: images/portfolio/mistral.jpg
 ---
 
 マルセイユが大使館と共同主催する展示会に参加する機会をいただき、描いた一枚です。

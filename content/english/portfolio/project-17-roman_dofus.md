@@ -13,11 +13,11 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"
-gallery_images:
-- images/portfolio/r_dofus-2.jpg
-- images/portfolio/r_dofus-3.jpg
-- images/portfolio/r_dofus-4.jpg
-- images/portfolio/r_dofus-5.jpg
+resources:
+- src: images/portfolio/r_dofus-2.jpg
+- src: images/portfolio/r_dofus-3.jpg
+- src: images/portfolio/r_dofus-4.jpg
+- src: images/portfolio/r_dofus-5.jpg
 ---
 
 Works for Bayard Edition. Series of Adventure books.

@@ -13,11 +13,11 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Pencil on Paper"
-gallery_images:
-- images/portfolio/pencil-2.jpg
-- images/portfolio/pencil-3.jpg
-- images/portfolio/pencil-4.jpg
-- images/portfolio/pencil-5.jpg
-- images/portfolio/pencil-6.jpg
-- images/portfolio/pencil-7.jpg
+resources:
+- src: images/portfolio/pencil-2.jpg
+- src: images/portfolio/pencil-3.jpg
+- src: images/portfolio/pencil-4.jpg
+- src: images/portfolio/pencil-5.jpg
+- src: images/portfolio/pencil-6.jpg
+- src: images/portfolio/pencil-7.jpg
 ---

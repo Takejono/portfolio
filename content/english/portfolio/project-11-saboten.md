@@ -13,6 +13,7 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
-gallery_images:
-- "images/portfolio/saboten-2.jpg"
+resources:
+- src: "images/portfolio/saboten-2.jpg"
+  title: "la lettre ouverte"
 ---

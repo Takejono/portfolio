@@ -13,12 +13,12 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
-gallery_images:
-- images/portfolio/pamplemousse-1.jpg
-- images/portfolio/pamplemousse-3.jpg
-- images/portfolio/pamplemousse-4.jpg
-- images/portfolio/pamplemousse-5.jpg
-- images/portfolio/pamplemousse-6.jpg
+resources:
+- src: images/portfolio/pamplemousse-1.jpg
+- src: images/portfolio/pamplemousse-3.jpg
+- src: images/portfolio/pamplemousse-4.jpg
+- src: images/portfolio/pamplemousse-5.jpg
+- src: images/portfolio/pamplemousse-6.jpg
 ---
 
 Children book. Auto-edition. Project of my friend.
