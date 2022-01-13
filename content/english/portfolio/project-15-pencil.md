@@ -9,7 +9,7 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "cm x cm"
+  content: "various"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Pencil on Paper"

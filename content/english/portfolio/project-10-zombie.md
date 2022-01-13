@@ -1,5 +1,5 @@
 ---
-title: "Zombie"
+title: "Culture Zombie"
 date: 2013-10-12T12:14:34+06:00
 image: "images/portfolio/zombie-1.jpg"
 categories: ["Works", "Book Illustration"]
@@ -14,3 +14,4 @@ gallery_images:
 - images/portfolio/zombie-2.jpg
 - images/portfolio/zombie-3.jpg
 ---
+Cover art for the book "Culture Zombie". 

@@ -9,7 +9,7 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "60cm x 50cm"
+  content: "various"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on paper"

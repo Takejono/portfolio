@@ -1,5 +1,5 @@
 ---
-title: "Private Collections"
+title: "Commissioned Paintings"
 date: 2021-02-12T12:14:34+06:00
 image: "images/portfolio/tableaux-1.jpg"
 categories: ["Works"]
@@ -9,7 +9,7 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "50cm x 40cm"
+  content: "various"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"

@@ -21,4 +21,4 @@ gallery_images:
 - images/portfolio/aquasqutum-6.jpg
 ---
 渋谷スクランブルスクエアにて行われたAquaqutum X Artists のコラボレーション展示に参加しました。
-« Aqua pieces » をテーマに描いた少作品です。
+« Aqua pieces » をテーマに描いた小作品です。

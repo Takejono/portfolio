@@ -9,7 +9,7 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "cm x cm"
+  content: "A5"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"

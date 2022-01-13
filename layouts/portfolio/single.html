@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 mb-4 mb-lg-0">
         <div class="wow fadeInUp" data-wow-duration="1.5s">
-          {{ with .Params.image }}<a class="image-pop" href="{{ . | absURL }}"><img src="{{. | absURL}}" alt="image" class="img-fluid w-100 mb-5"></a>{{ end }}
+          {{ with .Params.image }}<a class="image-pop" href="{{ . | absURL }}" title="{{ . | markdownify }}"><img src="{{. | absURL}}" alt="image" class="img-fluid w-100 mb-5"></a>{{ end }}
           <div class="about-me-text mb-4">
             <h1>{{.Title | markdownify}}</h1>
           </div>
@@ -14,7 +14,8 @@
 
           <div class="row gallery">
             {{ range .Params.gallery_images }}
-          <div class="col-6">  <a class="image-pop" href="{{ . | absURL }}">
+          <div class="col-6">
+            <a class="image-pop" href="{{ . | absURL }}" title="{{ . | markdownify }}">
                <img src="{{ . | absURL }}" alt="image">
             </a></div>
             {{ end }}

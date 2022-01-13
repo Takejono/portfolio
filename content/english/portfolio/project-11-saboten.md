@@ -14,5 +14,5 @@ project_info:
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
 gallery_images:
-- images/portfolio/saboten-2.jpg
+- "images/portfolio/saboten-2.jpg"
 ---
