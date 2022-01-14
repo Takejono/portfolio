@@ -1,5 +1,5 @@
 ---
-title: "Comte"
+title: "Story teller"
 date: 2016-05-12T12:14:34+06:00
 image: "images/slider/slider-1.jpg"
 categories: ["Personal Project"]

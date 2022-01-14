@@ -1,5 +1,5 @@
 ---
-title: "Rossignol"
+title: "Les trois peines d'un Rossignol"
 date: 2015-05-12T12:14:34+06:00
 image: "images/portfolio/rossignol-1.jpg"
 categories: ["Works", "Book Illustration"]
