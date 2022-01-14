@@ -50,7 +50,7 @@ input:checked+label span {
   font-family: rubik;
 }
 .item-caption {
-top: 0;
+top: 24px;
 background-image: url("/images/backgrounds/contact-bg.jpg");
 background-size: cover;
 background-position: center;
@@ -98,10 +98,11 @@ transition: all 0.3s ease-out;
 }
 
 @media (hover: hover) {
-  .item-caption {
+ .filtr-item:hover .item-caption {
  /*background: linear-gradient(to right, rgba(45,45,45, 1), rgba(65,65,65, .15));*/
- -webkit-transition: all 0.3s ease-out;
- transition: all 0.3s ease-out;
+  top: 0;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
  }
  .item-caption * {
 opacity: 0;
