@@ -15,8 +15,13 @@ project_info:
   content: "Watercolor on paper"
 resources:
 - src: images/portfolio/tache-2.jpg
+  title: "«  » -  cm x  cm"
 - src: images/portfolio/tache-3.jpg
+  title: "«  » -  cm x  cm"
 - src: images/portfolio/tache-4.jpg
+  title: "«  » -  cm x  cm"
 - src: images/portfolio/tache-5.jpg
+  title: "«  » -  cm x  cm"
 - src: images/portfolio/tache-6.jpg
+  title: "«  » -  cm x  cm"
 ---
