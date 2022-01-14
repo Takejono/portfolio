@@ -1,5 +1,5 @@
 ---
-title: "Letters between image and music"
+title: "Letters between picture and music"
 date: 2021-12-12T12:14:34+06:00
 image: "images/slider/slider-2.jpg"
 categories: ["Personal Project"]

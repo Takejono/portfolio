@@ -62,10 +62,10 @@ transition: all 0.3s ease-out;
 .item-caption a {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  color: moccasin!important;
+  color: black!important;
 }
 .item-caption a:hover {
-  color: black!important;
+  color: moccasin!important;
 }
 .item-created {
   background: none;
@@ -76,10 +76,10 @@ transition: all 0.3s ease-out;
   padding-bottom: 10px;
 }
 .item-caption h2 {
-  font-size: 20px;
+  font-size: 22px;
   overflow-wrap: anywhere;
   line-height: 1.5rem;
-  padding-bottom: 1rem;
+  padding: .5rem 1rem 1rem 1rem;
 }
 .filtr-item {
   padding: 7px;
