@@ -54,7 +54,7 @@ top: 24px;
 background-image: url("/images/backgrounds/contact-bg.jpg");
 background-size: cover;
 background-position: center;
-opacity: .75;
+opacity: .7;
 filter: contrast(130%);
 -webkit-transition: all 0.3s ease-out;
 transition: all 0.3s ease-out;
@@ -127,10 +127,12 @@ transition-delay: 360ms;
 /* background: linear-gradient(to right, rgba(45,45,45, .8), rgba(65,65,65, .15));*/
  -webkit-transform: translate(0px);
  transform: translate(0px);
+ top: 0;
+ opacity: .6;
  }
 .item-holder img {
-   -webkit-transform: scale(130%);
-   transform: scale(130%);
+   -webkit-transform: scale(120%);
+   transform: scale(120%);
    transform-origin: 30% 50%;
  }
 }
