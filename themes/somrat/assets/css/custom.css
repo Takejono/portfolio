@@ -110,7 +110,7 @@ transition: opacity 0.3s ease-out;
 }
 .filtr-item:hover .item-caption h2 {
 opacity: 1;
-transition-delay: 300ms;
+transition-delay: 200ms;
 }
 .filtr-item:hover  .item-caption p {
 opacity: 1;
