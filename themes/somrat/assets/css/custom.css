@@ -50,6 +50,7 @@ input:checked+label span {
   font-family: rubik;
 }
 .item-caption {
+top: 0;
 background-image: url("/images/backgrounds/contact-bg.jpg");
 background-size: cover;
 background-position: center;
@@ -85,16 +86,15 @@ transition: all 0.3s ease-out;
   padding: 7px;
 }
 .item-holder img {
-max-height: px;
 object-fit: cover;
-transform-origin: 0 0;
--webkit-transition: all 0.4s ease-out;
-transition: all 0.4s ease-out;
+transform-origin: 30% 50%;
+-webkit-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
 }
-.filtr-item:hover .item-holder img {
+.filtr-item .item-holder:hover img {
   -webkit-transform: scale(130%);
   transform: scale(130%);
-  transform-origin: 0 0;
+  transform-origin: 30% 50%;
 }
 
 @media (hover: hover) {
@@ -120,11 +120,6 @@ transition-delay: 330ms;
 opacity: 1;
 transition-delay: 360ms;
 }
-.item-caption .nonhover-icon {
-display: none;
-padding-left: 13px;
-font-size: 32px;
-}
 }
 @media (hover: none) {
   .item-caption {
@@ -132,9 +127,11 @@ font-size: 32px;
  -webkit-transform: translate(0px);
  transform: translate(0px);
  }
- .item-caption .nonhover-icon {
-  display: none;
-}
+.item-holder img {
+   -webkit-transform: scale(130%);
+   transform: scale(130%);
+   transform-origin: 30% 50%;
+ }
 }
 
 /*--------------------------------
