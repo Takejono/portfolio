@@ -91,9 +91,9 @@ transform-origin: 30% 50%;
 -webkit-transition: all 0.3s ease-out;
 transition: all 0.3s ease-out;
 }
-.filtr-item .item-holder:hover img {
-  -webkit-transform: scale(130%);
-  transform: scale(130%);
+.filtr-item:hover .item-holder img {
+  -webkit-transform: translateX(0px) scale(120%);
+  transform: translateX(0px) scale(120%);
   transform-origin: 30% 50%;
 }
 
@@ -112,11 +112,11 @@ transition: opacity 0.3s ease-out;
 opacity: 1;
 transition-delay: 300ms;
 }
-.filtr-item:hover .item-caption p {
+.filtr-item:hover  .item-caption p {
 opacity: 1;
 transition-delay: 330ms;
 }
-.filtr-item:hover .item-caption div {
+.filtr-item:hover  .item-caption div {
 opacity: 1;
 transition-delay: 360ms;
 }
