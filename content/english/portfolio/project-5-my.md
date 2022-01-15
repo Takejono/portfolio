@@ -11,7 +11,7 @@ project_info:
   icon: "fas fa-paint-brush"
   content: "Digital"
 resources:
-- src: mages/portfolio/my-2.jpg
+- src: images/portfolio/my-2.jpg
 - src: images/portfolio/my-3.jpg
 - src: images/portfolio/my-4.jpg
 ---
