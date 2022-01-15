@@ -2,6 +2,7 @@
 title: "Looking for a Black Lion"
 date: 2021-07-12T12:14:34+06:00
 image: "images/backgrounds/full-nav-bg.jpg"
+img_title: "« Bienvenu à la forêt » - 32cm x 40cm"
 categories: ["Personal Project", "Exhibition"]
 description: "This is meta description."
 order: "02"
@@ -9,7 +10,7 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "10cm x 15cm ~ 20cm x 60cm"
+  content: "various"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on paper"
@@ -18,14 +19,23 @@ project_info:
   content: "[Gallery Yamagoya](https://galleryyamagoya.com/2021/takeshi-jonoo-exhibition/)"
 resources:
 - src: images/portfolio/lionnoir-2.jpg
+  title:
 - src: images/portfolio/lionnoir-3.jpg
+  title:
 - src: images/portfolio/lionnoir-4.jpg
+  title:
 - src: images/portfolio/lionnoir-5.jpg
+  title:
 - src: images/portfolio/lionnoir-6.jpg
+  title:
 - src: images/portfolio/lionnoir-7.jpg
+  title:
 - src: images/portfolio/lionnoir-9.jpg
+  title:
 - src: images/portfolio/lionnoir-10.jpg
+  title:
 - src: images/portfolio/lionnoir-8.jpg
+  title:
 ---
 
 « Looking for a Black Lion » is a series of pictures for my exhibision in Gallery Yamagoya at Ebisu, TOKYO.

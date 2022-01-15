@@ -2,6 +2,7 @@
 title: "Ankama"
 date: 2014-05-12T12:14:34+06:00
 image: "images/slider/slider-4.jpg"
+img_title: "« Garde corps » - Digital"
 categories: ["Works", "Game"]
 description: "This is meta description."
 order: "17"
@@ -26,4 +27,4 @@ resources:
   title:
 ---
 
-Works for Ankama. Ankama is the video games enterprise.
+アンカマは「Dofus」、「Wakfu」といったタイトルを制作しているフランスのゲーム会社です。ゲーム開発のコンセプトアート、メディア展開用のイラスト、TCGプロジェクトのイラスト等担当していました。

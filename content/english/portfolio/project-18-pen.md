@@ -2,6 +2,7 @@
 title: "Pen<br/>drawings"
 date: 2020-05-12T12:14:34+06:00
 image: "images/portfolio/pen-1.jpg"
+img_title: "«  » - "
 categories: ["Personal Project"]
 description: "This is meta description."
 order: "16"
@@ -12,7 +13,7 @@ project_info:
   content: "various"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Pen on paper, Digital colored"
+  content: "Pen on paper, Digital color"
 resources:
 - src: images/portfolio/pen-8.jpg
 - src: images/portfolio/pen-2.jpg
