@@ -4,6 +4,10 @@
 .sticky-top{
   z-index: 997;
 }
+.menu-slider li a {
+ font-size: 22px;
+ font-weight: 600;
+}
 /*--------------------------------
    banner
 ----------------------------------*/
@@ -34,8 +38,10 @@ input:checked+label span {
 }
 .animated-text, .introduction h1 {
   font-family: 'Homemade Apple', cursive;
-  font-size: 42px;
-  padding-left: 2rem;
+  padding-left: 1rem;
+}
+.cd-words-wrapper {
+  padding: 10px 0px 10px 10px;
 }
 
 /*--------------------------------
