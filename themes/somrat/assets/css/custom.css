@@ -7,6 +7,11 @@
 .menu-slider li a {
  font-size: 22px;
  font-weight: 600;
+ font-family: ;
+}
+h1 {
+ font-family: 'Londrina Sketch';
+ font-size: 50px;
 }
 /*--------------------------------
    banner
@@ -37,13 +42,12 @@ input:checked+label span {
   display: none !important;
 }
 .animated-text, .introduction h1 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Homemade Apple';
   padding-left: 1rem;
 }
 .cd-words-wrapper {
   padding: 10px 0px 10px 10px;
 }
-
 /*--------------------------------
    portfolio
 ----------------------------------*/
@@ -90,7 +94,9 @@ transition: all 0.3s ease-out;
   padding-bottom: 10px;
 }
 .item-caption h2 {
-  font-size: 22px;
+  font-size: 27px;
+  font-family: 'Londrina Sketch';
+  letter-spacing: 1px;
   overflow-wrap: anywhere;
   line-height: 1.5rem;
   padding: .5rem 1rem 1rem 1rem;
