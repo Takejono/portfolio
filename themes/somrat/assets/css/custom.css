@@ -4,14 +4,19 @@
 .sticky-top{
   z-index: 997;
 }
-.menu-slider li a {
- font-size: 22px;
- font-weight: 600;
- font-family: ;
+.menu-slider li a, ul.fullscreen-nav-holder a {
+ font-size: 40px;
+ font-family: 'Dokdo';
 }
 h1 {
- font-family: 'Londrina Sketch';
- font-size: 50px;
+ font-family: 'Dokdo';
+ font-size: 55px;
+ letter-spacing: -0.04em!important;
+}
+h1.introduction {
+ font-family: 'Rubik';
+ font-size: 60px;
+ letter-spacing: -0.0em!important;
 }
 /*--------------------------------
    banner
@@ -29,24 +34,20 @@ h1 {
 .fullscreen-nav-container::after {
   background: rgba(0,0,0,0.2);
 }
-ul.fullscreen-nav-holder a {
-  font-size: 35px;
-}
 .navigation-icon:hover .burger-menu span {
   background: #1a1a1a;
 }
 input:checked+label span {
   background: #1a1a1a;
 }
-.logo, .mobile-menu-logo, .mr-auto {
-  display: none !important;
-}
 .animated-text, .introduction h1 {
-  font-family: 'Homemade Apple';
-  padding-left: 1rem;
+  font-family: 'Dokdo';
+  font-size: 33px;
+  padding-left: .1rem;
+  letter-spacing: .2em;
 }
 .cd-words-wrapper {
-  padding: 10px 0px 10px 10px;
+ padding-left: 15px;
 }
 /*--------------------------------
    portfolio
@@ -94,9 +95,9 @@ transition: all 0.3s ease-out;
   padding-bottom: 10px;
 }
 .item-caption h2 {
-  font-size: 27px;
-  font-family: 'Londrina Sketch';
-  letter-spacing: 1px;
+  font-size: 30px;
+  font-family: 'Dokdo';
+  letter-spacing: -0.04em;
   overflow-wrap: anywhere;
   line-height: 1.5rem;
   padding: .5rem 1rem 1rem 1rem;
@@ -171,7 +172,9 @@ transition: all 0.3s ease-out;
 .overlay::before {
   background: rgba(0,0,0,.2);
 }
-
+.need-service {
+  padding: 100px 0;
+}
 /*--------------------------------
   contact
 ----------------------------------*/
