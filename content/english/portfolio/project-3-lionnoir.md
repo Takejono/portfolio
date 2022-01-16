@@ -3,7 +3,7 @@ title: "Looking for a Black Lion"
 date: 2021-07-12T12:14:34+06:00
 image: "images/backgrounds/full-nav-bg.jpg"
 img_title: "« Bienvenu à la forêt » - 32cm x 40cm"
-categories: ["Personal Project", "Exhibition"]
+categories: ["Exhibition"]
 description: "This is meta description."
 order: "02"
 draft: false
