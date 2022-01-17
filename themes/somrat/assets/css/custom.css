@@ -5,10 +5,7 @@
   z-index: 997;
 }
 .menu-slider li a, ul.fullscreen-nav-holder a {
- font-size: 30px;
- font-family: 'Dokdo';
- transform: scaleY(110%);
- line-height: 1em;
+ font-size: 25px;
 }
 h1 {
  font-family: 'Dokdo';
@@ -16,10 +13,6 @@ h1 {
  letter-spacing: -0.04em!important;
  transform: scaleY(110%);
 }
-/*h1.introduction {
- font-family: 'Palette Mosaic';
- font-size: 60px;
-}*/
 /*--------------------------------
    banner
 ----------------------------------*/
@@ -45,7 +38,7 @@ input:checked+label span {
 .animated-text, .introduction h1 {
   font-family: 'Dokdo';
   font-size: 33px;
-  padding-left: .1rem;
+  padding-left: 1em;
   letter-spacing: .1em;
 }
 .cd-words-wrapper {
