@@ -1,5 +1,5 @@
 ---
-title: "Commissioned Paintings"
+title: "Paintings"
 date: 2021-02-12T12:14:34+06:00
 image: "images/portfolio/tableaux-1.jpg"
 img_title: "«  » - "
