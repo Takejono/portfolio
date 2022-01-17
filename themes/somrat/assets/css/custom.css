@@ -8,10 +8,11 @@
  font-size: 30px;
  font-family: 'Dokdo';
  transform: scaleY(110%);
+ line-height: 1em;
 }
 h1 {
  font-family: 'Dokdo';
- font-size: 55px;
+ font-size: 50px;
  letter-spacing: -0.04em!important;
  transform: scaleY(110%);
 }
