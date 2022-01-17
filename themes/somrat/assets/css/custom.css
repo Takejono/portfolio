@@ -16,6 +16,10 @@ h1 {
  letter-spacing: -0.04em!important;
  transform: scaleY(110%);
 }
+/*h1.introduction {
+ font-family: 'Palette Mosaic';
+ font-size: 60px;
+}*/
 /*--------------------------------
    banner
 ----------------------------------*/
