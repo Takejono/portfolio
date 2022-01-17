@@ -23,6 +23,5 @@ resources:
 - src: images/portfolio/comte-7.jpg
 - src: images/portfolio/comte-8.jpg
 - src: images/portfolio/comte-9.jpg
-- src: images/portfolio/comte-10.jpg
 ---
 お話の挿絵のような絵たち。

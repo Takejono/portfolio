@@ -21,4 +21,5 @@ resources:
 - src: images/portfolio/pencil-5.jpg
 - src: images/portfolio/pencil-6.jpg
 - src: images/portfolio/pencil-7.jpg
+- src: images/portfolio/pencil-8.jpg
 ---

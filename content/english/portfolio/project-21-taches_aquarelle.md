@@ -25,4 +25,6 @@ resources:
   title: "«  » -  cm x  cm"
 - src: images/portfolio/tache-6.jpg
   title: "«  » -  cm x  cm"
+- src: images/portfolio/tache-7.jpg
+  title: "«  » -  cm x  cm"
 ---
