@@ -5,7 +5,7 @@
   z-index: 997;
 }
 .menu-slider li a, ul.fullscreen-nav-holder a {
- font-size: 40px;
+ font-size: 30px;
  font-family: 'Dokdo';
  transform: scaleY(110%);
 }
@@ -41,7 +41,7 @@ input:checked+label span {
   font-family: 'Dokdo';
   font-size: 33px;
   padding-left: .1rem;
-  letter-spacing: .15em;
+  letter-spacing: .1em;
 }
 .cd-words-wrapper {
  padding-left: 15px;
