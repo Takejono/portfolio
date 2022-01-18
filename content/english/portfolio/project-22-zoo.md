@@ -1,6 +1,6 @@
 ---
 title: "Zoo"
-date: 2007-05-12T12:14:34+06:00
+date: 2008-04-12T12:14:34+06:00
 image: "images/portfolio/zoo-1.jpg"
 img_title: "«  » - "
 categories: ["Exhibition"]
