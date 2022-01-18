@@ -93,12 +93,49 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
 #link = "https://www.linkedin.com/in/somratpro"
 
 
+################################### French language #####################################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr"
+contentDir = "content/french"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+
+
+################# french navigation ##################
+
+# main menu
+[[Languages.fr.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[Languages.fr.menu.main]]
+name = "Presentation"
+pre = "#"
+url = "about"
+weight = 2
+
+[[Languages.fr.menu.main]]
+name = "Portfolio"
+pre = "#"
+url = "portfolio"
+weight = 3
+
+[[Languages.fr.menu.main]]
+name = "Contact"
+pre = "#"
+url = "contact"
+weight = 4
+
 ################################### English language #####################################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 home = "Home"
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
