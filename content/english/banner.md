@@ -25,7 +25,6 @@ button:
   label : "CONTACT"
   link : "#contact"
 
-
 # custom style
 custom_class: ""
 custom_attributes: ""

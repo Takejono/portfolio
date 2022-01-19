@@ -1,5 +1,5 @@
 ---
-title : "Dis moi quelque chose!"
+title : "Contact"
 bg_image: "images/backgrounds/contact-bg.jpg"
 form_action: "https://formspree.io/f/xdobkarn" # works with https://formspree
 name: "Nom"

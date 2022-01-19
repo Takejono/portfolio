@@ -12,7 +12,7 @@ disableLanguages = [] # disable language from here
 googleAnalytics = "" # example : UA-123-45
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
-
+defaultContentLanguage = 'fr'
 
 ############################# Outputs ##############################
 [outputs]
