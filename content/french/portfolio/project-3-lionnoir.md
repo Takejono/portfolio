@@ -38,11 +38,11 @@ resources:
   title:
 ---
 
-« A la recherche d'un lion noir » est une série des tableaux pour mon exposition à la Gallerie Yamagoya à Ebisu, TOKYO au JAPON. Ces tableaux sont faits d'après mon texte ci-dessous.
+Il s'agit d'une série des tableaux pour mon exposition à la Gallerie Yamagoya à Ebisu, TOKYO au JAPON. Ces tableaux sont faits d'après mon texte ci-dessous.
 
 ---
 
-##### « À la recherche d'un lion noir »
+###### À la recherche d'un lion noir
 
 Depuis un moment, je suis à la recherche d'un lion noir.  
 Il m'est apparu soudain, un jour.  
@@ -57,9 +57,9 @@ Parfois j'ai l'impression qu'il disparait,
 mais je fini toujours par le trouver là où je ne l'imagine pas.  
 
 
-sur une colline ventée  
-au coin d'une l'affiche  
-au delà d'une fenêtre au crépuscule  
+  sur une colline ventée  
+  au coin d'une l'affiche  
+  au delà d'une fenêtre au crépuscule  
 
 
 On me dit, ce n'est qu'une illusion.  
@@ -72,12 +72,13 @@ Peut-être, pourrais-je aimer jouer sans fin avec lui?
 Ainsi, je serais heureux de découvrir différents paysages.  
 
 
-dans la rue endormie  
-les herbes sous la lumière à travers les arbres  
-les oiseaux blancs à l'horizon lointain  
+  dans la rue endormie  
+  les herbes sous la lumière à travers les arbres  
+  les oiseaux blancs à l'horizon lointain  
 
 
 Entre la ville, la forêt et la mer,  
+
 ce moment arrive.  
 
 ---

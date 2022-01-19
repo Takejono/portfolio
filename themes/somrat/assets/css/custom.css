@@ -13,6 +13,13 @@ h1 {
  letter-spacing: -0.04em!important;
  transform: scaleY(110%);
 }
+
+#select-language {
+ border-radius: .3rem;
+ padding: .2rem;
+ margin-right: .3rem;
+ background: rgba(255, 255, 255, .7)!important;
+}
 /*--------------------------------
    banner
 ----------------------------------*/

@@ -1,5 +1,5 @@
 ---
-title: "Paintings"
+title: "Tableaux"
 date: 2021-02-12T12:14:34+06:00
 image: "images/portfolio/tableaux-1.jpg"
 img_title: "«  » - "
@@ -22,3 +22,4 @@ resources:
 - src: images/portfolio/tableaux-6.jpg
 - src: images/portfolio/tableaux-7.jpg
 ---
+Il s'git des tableaux à la commande. Des fois avec le thème précis, des fois la carte blanche.
