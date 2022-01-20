@@ -3,7 +3,7 @@ title: "Dans le Comte"
 date: 2016-05-12T12:14:34+06:00
 image: "images/slider/slider-1.jpg"
 img_title: "«  » - "
-categories: ["Personal Project"]
+categories: ["Personal works"]
 description: "This is meta description."
 order: "11"
 draft: false

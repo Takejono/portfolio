@@ -3,7 +3,7 @@ title: "Pen Drawings"
 date: 2020-05-12T12:14:34+06:00
 image: "images/portfolio/pen-1.jpg"
 img_title: "«  » - "
-categories: ["Personal Project"]
+categories: ["Personal works"]
 description: "This is meta description."
 order: "16"
 draft: false
