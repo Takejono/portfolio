@@ -3,7 +3,7 @@ title : "D'autres images?"
 bg_image : "images/backgrounds/need-service.jpg"
 button:
   enable : true
-  label : "Ici!"
+  label : "Link vers Google album"
   link : "https://photos.app.goo.gl/JJeRjL3Bw2TSniMTA"
 
 

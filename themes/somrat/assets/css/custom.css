@@ -8,10 +8,8 @@
  font-size: 25px;
 }
 h1 {
- font-family: 'Dokdo';
- font-size: 50px;
- letter-spacing: -0.04em!important;
- transform: scaleY(110%);
+ font-size: 46px;
+ letter-spacing: -0.02em!important;
 }
 
 #select-language {
@@ -42,11 +40,11 @@ h1 {
 input:checked+label span {
   background: #1a1a1a;
 }
-.animated-text, .introduction h1 {
-  font-family: 'Dokdo';
-  font-size: 33px;
-  padding-left: 1em;
-  letter-spacing: .1em;
+.animated-text {
+  font-size: 22px;
+  letter-spacing: .3em;
+  margin:0 auto;
+  text-align: center;
 }
 .cd-words-wrapper {
  padding-left: 10px;
@@ -100,12 +98,10 @@ transition: all 0.3s ease-out;
   padding-bottom: 10px;
 }
 .item-caption h2 {
-  font-size: 30px;
-  font-family: 'Dokdo';
+  font-size: 25px;
   letter-spacing: -0.04em;
-  transform: scaleY(110%);
   overflow-wrap: anywhere;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   padding: .5rem 1rem 1rem 1rem;
 }
 .item-caption p, .item-created {
