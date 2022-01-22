@@ -44,7 +44,7 @@ input:checked+label span {
   font-size: 23px;
   letter-spacing: .2em;
   margin:0 auto;
-  text-align: right;
+  text-align: center;
   font-weight: 600;
 }
 .cd-words-wrapper {
