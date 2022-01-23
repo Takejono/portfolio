@@ -9,6 +9,7 @@
 }
 h1 {
  font-size: 40px;
+ font-weight: 300!important;
  letter-spacing: -0.02em!important;
 }
 
@@ -43,16 +44,13 @@ input:checked+label span {
 .animated-text {
   font-size: 23px;
   letter-spacing: .2em;
-  margin:0 auto;
-  text-align: center;
-  font-weight: 600;
-}
-.cd-words-wrapper {
- padding-left: 10px;
+  text-align: right;
+  font-weight: 400;
 }
 .rotate {
-  padding-right: .5em;
   display: block;
+  position: absolute;
+  width: 85%;
   opacity: 0;
   animation-duration: 9s;
   animation-iteration-count: infinite;

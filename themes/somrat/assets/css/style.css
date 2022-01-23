@@ -714,7 +714,8 @@ input:checked+label span:last-child {
 }
 
 .mobile-menu-logo img {
-  height: 55px;
+  max-height: 55px;
+  width: 50%;
 }
 
 .mobile-menu-logo {

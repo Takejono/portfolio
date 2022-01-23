@@ -62,9 +62,9 @@ link = "plugins/owl-carousel/owl.carousel.min.js"
 #################### default parameters ################################
 [params]
 favicon = "images/favicon.png"
-logo_light = "images/logo_takeshi.png"
-logo_dark = "images/logo_takeshi.png"
-logo_width = "150px"
+logo_light = ""
+logo_dark = ""
+logo_width = "100px"
 # Meta data
 description = "This is meta description"
 author = "takeshi jonoo"
