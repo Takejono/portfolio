@@ -42,7 +42,6 @@ input:checked+label span {
   background: #1a1a1a;
 }
 .animated-text {
-  font-size: 23px;
   letter-spacing: .2em;
   text-align: right;
   font-weight: 400;
