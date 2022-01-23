@@ -22,6 +22,11 @@ h1 {
  margin-right: .3rem;
  background: rgba(255, 255, 255, .7)!important;
 }
+
+.mobile-menu-logo img, .mr-auto {
+ display: none;
+}
+
 /*--------------------------------
    banner
 ----------------------------------*/
@@ -72,11 +77,12 @@ input:checked+label span {
     40% {opacity: 0;}
     to {opacity: 0;}
   }
-
+  /*--------------------------------
+     presentation
+  ----------------------------------*/
 .about-me {
-  backgournd: beige;
+  background: #efe6d5;
 }
-
 /*--------------------------------
    portfolio
 ----------------------------------*/
@@ -196,7 +202,9 @@ transition: all 0.3s ease-out;
   transform-origin: 30% 50%;
  }
 }
-
+.back-arrow {
+  color: #666!important;
+}
 /*--------------------------------
   call to action
 ----------------------------------*/
