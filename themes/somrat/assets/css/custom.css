@@ -81,7 +81,7 @@ input:checked+label span {
      presentation
   ----------------------------------*/
 .about-me {
-  background: linear-gradient(#efe6d5 60%, #fff);
+  background: linear-gradient(#efdbb5 60%, #fff);
 }
 /*--------------------------------
    portfolio
@@ -220,7 +220,8 @@ transition: all 0.3s ease-out;
   background-attachment: local;
 }
 .contact:after {
-  opacity: .6;
+  background: #efe6d5;
+  opacity: .1;
 }
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .2rem;
@@ -254,4 +255,11 @@ transition: all 0.3s ease-out;
 }
 .fab.fa-facebook-f {
   padding: 7px 14px!important;
+}
+
+/*--------------------------------
+  footer
+----------------------------------*/
+.footer-bg {
+  background: moccasin!important;
 }
