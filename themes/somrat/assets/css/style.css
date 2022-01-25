@@ -847,12 +847,12 @@ input:checked+label span:last-child {
 
 .about-me {
   background: #fff;
-  padding: 125px 0px 70px 0px;
+  padding: 150px 0px 70px 0px;
 }
 
 .about-me-text h1 {
   position: relative;
-  color: #6f6f6f;
+  color: #525252;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -864,11 +864,11 @@ input:checked+label span:last-child {
   top: -15px;
   width: 70px;
   height: 3px;
-  background: #6f6f6f;
+  background: #525252;
 }
 
 .about-me-text p {
-  color: #6f6f6f;
+  color: #525252;
   font-size: 16px;
 }
 
@@ -890,6 +890,7 @@ input:checked+label span:last-child {
 
 .about-me-images img {
   width: 100%;
+  opacity: .9;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -1200,7 +1201,7 @@ ul.experience-chart h4 {
 }
 
 .portfolio h1 {
-  color: #6f6f6f;
+  color: #525252;
   text-align: center;
   font-weight: 700;
   letter-spacing: 4px;
@@ -1210,7 +1211,7 @@ ul.experience-chart h4 {
 .portfolio h1:before {
   content: "";
   height: 3px;
-  background: #6f6f6f;
+  background: #525252;
   position: absolute;
   top: -15px;
   left: 43%;
@@ -1261,7 +1262,7 @@ ul.experience-chart h4 {
   color: #6f6f6f;
   font-weight: 700;
   margin: 0 5px;
-  border-radius: 0 !important;
+  border-radius: 0;
   background-color: transparent;
 }
 
@@ -2048,11 +2049,11 @@ textarea.form-control::-webkit-input-placeholder,
   }
 }
 
-@media(min-width: 601px) {
+/*@media(min-width: 601px) {
   .mobile-menu-fix {
-    display: none;
+    display: ;
   }
-}
+}*/
 
 /*--------------------------------
  End Menu
@@ -2108,13 +2109,13 @@ textarea.form-control::-webkit-input-placeholder,
 
 @media (min-width:601px) and (max-width: 991px) {
   .about-me {
-    padding: 125px 0px 35px 0px;
+    padding: 170px 0px 35px 0px;
   }
 }
 
 @media (max-width: 600px) {
   .about-me {
-    padding: 70px 0px 0px 0px;
+    padding: 90px 0px 0px 0px;
   }
 }
 

@@ -203,6 +203,9 @@ transition: all 0.3s ease-out;
 }
 .back-arrow {
   color: #666!important;
+  position: absolute;
+  top: 6px;
+  left: 15px;
 }
 /*--------------------------------
   call to action
