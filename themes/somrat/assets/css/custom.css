@@ -17,7 +17,7 @@ h1 {
 #select-language {
  border-radius: .3rem;
  padding: .2rem;
- margin-right: .3rem;
+ margin-right: .5rem;
  background: rgba(255, 255, 255, .7)!important;
 }
 /*--------------------------------
@@ -33,14 +33,19 @@ h1 {
 .mobile-menu-list {
  padding-top: 55px!important;
 }
+.mobile-menu-icons {
+  justify-content: center;
+}
 .mobile-menu-logo img, .mr-auto {
  display: none;
 }
 .menu-slider {
   top: 0px;
   right: 0px;
+  height: 65px;
+  width: 65px;
   overflow: hidden;
-  border-radius: 50% 0 50% 100%;
+  border-radius: 0 0 0 80%;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -62,6 +67,12 @@ h1 {
   transition: all 0.4s ease-out;
   transition-delay: 200ms;
 }
+.menu-slider.open #select-language {
+ display: block;
+}
+.menu-slider span {
+}
+
 /*--------------------------------
    banner
 ----------------------------------*/
@@ -301,5 +312,5 @@ transition: all 0.3s ease-out;
   footer
 ----------------------------------*/
 .footer-bg {
-  background: moccasin!important;
+  background: #efdbb5!important;
 }

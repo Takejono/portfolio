@@ -774,7 +774,7 @@ input:checked+label span:last-child {
   display: block;
   width: 100%;
   height: 4px;
-  background: #dc6e6f;
+  background: #fff;
   position: relative;
   top: 4px;
   -webkit-transition: .5s;
@@ -819,8 +819,6 @@ input:checked+label span:last-child {
   z-index: 999;
   top: 0;
   right: 0;
-  height: 0vh;
-  width: 0vw;
   background: #dc6e6f;
 }
 
