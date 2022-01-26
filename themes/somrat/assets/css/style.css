@@ -774,7 +774,7 @@ input:checked+label span:last-child {
   display: block;
   width: 100%;
   height: 4px;
-  background: #6f6f6f;
+  background: #dc6e6f;
   position: relative;
   top: 4px;
   -webkit-transition: .5s;
@@ -800,6 +800,7 @@ input:checked+label span:last-child {
 
 .menu-link.active span:first-child {
   opacity: 1;
+  background: #fff;
   -webkit-transform: rotate(225deg);
   transform: rotate(225deg);
   top: 6px;
@@ -807,6 +808,7 @@ input:checked+label span:last-child {
 
 .menu-link.active span:last-child {
   opacity: 1;
+  background: #fff;
   -webkit-transform: rotate(-225deg);
   transform: rotate(-225deg);
   top: -2px;
@@ -819,7 +821,7 @@ input:checked+label span:last-child {
   right: 0;
   height: 0vh;
   width: 0vw;
-  background: rgba(220, 110, 111, 1);
+  background: #dc6e6f;
 }
 
 .menu-slider ul {
