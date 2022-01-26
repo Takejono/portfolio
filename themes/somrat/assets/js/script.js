@@ -189,9 +189,10 @@
 	});
 
 	// Toggle Mobile Menu
-	$('.mobile-menu a.menu-link').on("click", function () {
+	$('.mobile-menu a.menu-link, .mobile-menu-list a').on("click", function () {
 		$(".menu-link").toggleClass("active");
-		$(".menu-slider").slideToggle(400);
+//		$(".menu-slider").slideToggle(300);
+		$(".menu-slider").toggleClass("open");
 	});
 	/*--------------------------------
 			 End Menu
