@@ -1554,7 +1554,7 @@ ul.experience-chart h4 {
 ----------------------------------*/
 
 .contact {
-  background: #313131;
+  background: #ddc79e;
   /* Fallback Background */
   background-repeat: no-repeat;
   background-size: cover;
@@ -1563,7 +1563,7 @@ ul.experience-chart h4 {
   position: relative;
 }
 
-.contact:after {
+/*.contact:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -1572,12 +1572,11 @@ ul.experience-chart h4 {
   top: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.05);
   z-index: 1;
-}
-
+}*/
 .contact-holder {
-  margin-top: 120px;
+  margin-top: 100px;
   position: relative;
   z-index: 2;
 }

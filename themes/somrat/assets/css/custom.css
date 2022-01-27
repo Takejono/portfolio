@@ -269,11 +269,7 @@ transition: all 0.3s ease-out;
   contact
 ----------------------------------*/
 .contact {
-  background-attachment: local;
-}
-.contact:after {
-  background: #efdbb5;
-  opacity: .6;
+/*  background-attachment: local;*/
 }
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .2rem;
@@ -290,10 +286,10 @@ transition: all 0.3s ease-out;
   color: #313131;
 }
 .form-container .form-control:focus {
-  background: rgba(220, 220, 220, .5);
+  background: rgba(225, 225, 225, 1);
 }
 .form-container button {
-  background: beige;
+  background: #fff;
   border-radius: .3rem!important;
 }
 .fab, .to-top .fa {
