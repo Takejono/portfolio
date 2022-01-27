@@ -32,4 +32,4 @@ resources:
 - src: images/portfolio/pataques-9.jpg
   title: "«  » -  cm x  cm"  
 ---
-渡仏して初めての個展です。Pataquesというベルヴィルの小さなバーでした。
+Ma première exposition en France, dans un petit bar de Belleville appelé Pataques. Une série de corps et figures par les lignes entrelacées.

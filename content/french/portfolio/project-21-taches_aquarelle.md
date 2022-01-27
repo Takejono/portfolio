@@ -1,5 +1,5 @@
 ---
-title: "Colored Stains"
+title: "Taches d'aquarelle"
 date: 2020-05-12T12:14:34+06:00
 image: "images/portfolio/tache-1.jpg"
 img_title: "«  » - "
@@ -28,3 +28,4 @@ resources:
 - src: images/portfolio/tache-7.jpg
   title: "«  » -  cm x  cm"
 ---
+Œuvress tirée de taches d'aquarelle.

@@ -21,5 +21,4 @@ resources:
 - src: images/portfolio/aquasqutum-5.jpg
 - src: images/portfolio/aquasqutum-6.jpg
 ---
-渋谷スクランブルスクエアにて行われたAquaqutum x Artists のコラボレーション展示に参加しました。
-「海辺で見つかるかけらたち」をテーマに描いた小作品です。
+J'ai participé à l'exposition collaborative d'Aquaqutum x Artists au Shibuya Scramble Square, dirigée par la Galerie Yamagoya. Le thème de l'exposition était "fragments trouvés sur la plage".

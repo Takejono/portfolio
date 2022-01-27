@@ -19,6 +19,7 @@ h1 {
 
 #select-language {
  border-radius: .3rem;
+ border-color: #ccc;
  padding: .2rem;
  margin-right: .5rem;
  background: rgba(255, 255, 255, .7)!important;
@@ -59,7 +60,6 @@ h1 {
   width: 100vw;
   border-radius: 0 0 0 0;
   background: #dc6e6f;
-
 }
 .menu-slider nav {
  opacity: 0;
@@ -76,6 +76,7 @@ h1 {
  display: block;
  position: absolute;
  right: 55px;
+ top: 12px;
 }
 
 /*--------------------------------
@@ -239,7 +240,7 @@ transition: all 0.3s ease-out;
   opacity: .9;
  }
 .item-caption::before {
-  border-radius: 0 0 6px 0;
+  border-radius: 0% 0% 20px 0%;
 }
 .item-created {
   padding-top: 1rem;
@@ -283,11 +284,11 @@ transition: all 0.3s ease-out;
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .2rem;
   background: none;
-  color: #313131;
+  color: #525252;
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 2px solid #313131;
+  border-bottom: 2px solid #525252;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
 }

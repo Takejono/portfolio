@@ -22,8 +22,8 @@ slider_images:
 # button
 button:
   enable : false
-  label : "CONTACT"
-  link : "#contact"
+  label : "start"
+  link : "#about"
 
 
 # custom style

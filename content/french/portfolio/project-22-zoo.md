@@ -28,3 +28,4 @@ resources:
 - src: images/portfolio/zoo-7.jpg
   title: "«  » -  cm x  cm"  
 ---
+Une série d'oeuvres sur le thème des animaux pour une exposition personnelle dans un restaurant à Paris.
