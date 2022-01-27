@@ -1554,16 +1554,16 @@ ul.experience-chart h4 {
 ----------------------------------*/
 
 .contact {
-  background: #E7D09A;
+  background: #efdbb5;
   /* Fallback Background */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom right;
   background-attachment: fixed;
   position: relative;
 }
 
-/*.contact:after {
+.contact:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -1572,9 +1572,9 @@ ul.experience-chart h4 {
   top: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(239, 219, 181, .8);
   z-index: 1;
-}*/
+}
 .contact-holder {
   margin-top: 100px;
   position: relative;
@@ -1584,7 +1584,7 @@ ul.experience-chart h4 {
 .contact-holder h1 {
   position: relative;
   text-align: center;
-  color: #fff;
+  color: #525252;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -1598,7 +1598,7 @@ ul.experience-chart h4 {
   margin: auto;
   width: 70px;
   height: 3px;
-  background: #fff;
+  background: #525252;
 }
 
 .form-container {
@@ -1649,7 +1649,7 @@ textarea.form-control::-webkit-input-placeholder,
 }
 
 .footer-bg {
-  background-color: moccasin;
+  background-color: #efdbb5;
 }
 
 .footer hr {
@@ -1728,7 +1728,7 @@ textarea.form-control::-webkit-input-placeholder,
   left: 0;
   right: 0;
   text-align: center;
-  color: #fff;
+  color: #525252;
 }
 
 .content.text-white * {
@@ -2048,12 +2048,6 @@ textarea.form-control::-webkit-input-placeholder,
     justify-content: flex-start;
   }
 }
-
-/*@media(min-width: 601px) {
-  .mobile-menu-fix {
-    display: ;
-  }
-}*/
 
 /*--------------------------------
  End Menu

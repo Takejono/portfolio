@@ -280,25 +280,26 @@ transition: all 0.3s ease-out;
   -webkit-transition: all .3s ease-in-out;
 }
 .form-container .form-control::placeholder {
-  color: #313131;
+  color: #525252;
 }
 .form-container .form-control:focus {
-  background: rgba(225, 225, 225, 1);
+  background: rgba(255, 255, 255, .5);
 }
 .form-container button {
   background: #fff;
   border-radius: .3rem!important;
 }
 .fab, .to-top .fa {
-  border-radius: 100%;
   background: none!important;
   font-size: 40px;
   color: #fff;
 }
-
+.footer .fab, .to-top .fa {
+  color: #525252;
+}
 /*--------------------------------
   footer
 ----------------------------------*/
-.footer-bg {
-  background: #efdbb5!important;
+.footer hr {
+  border-color: #525252;
 }
