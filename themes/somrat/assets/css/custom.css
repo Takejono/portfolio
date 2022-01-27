@@ -8,6 +8,9 @@
 .menu-slider li a, ul.fullscreen-nav-holder a {
  font-size: 25px;
 }
+.full-nav-icons a {
+  color: #fff;
+}
 h1 {
  font-size: 40px;
  font-weight: 300!important;
@@ -34,7 +37,7 @@ h1 {
  padding-top: 55px!important;
 }
 .mobile-menu-icons {
-  justify-content: center;
+  justify-content: space-around;;
 }
 .mobile-menu-logo img, .mr-auto {
  display: none;
@@ -55,6 +58,8 @@ h1 {
   height: 100vh;
   width: 100vw;
   border-radius: 0 0 0 0;
+  background: #dc6e6f;
+
 }
 .menu-slider nav {
  opacity: 0;
@@ -69,8 +74,8 @@ h1 {
 }
 .menu-slider.open #select-language {
  display: block;
-}
-.menu-slider span {
+ position: absolute;
+ right: 55px;
 }
 
 /*--------------------------------
@@ -89,7 +94,7 @@ h1 {
   background: rgba(0,0,0,0.2);
 }
 .navigation-icon:hover .burger-menu span {
-  background: #1a1a1a;
+  background: #fff;
 }
 input:checked+label span {
   background: #1a1a1a;
@@ -247,10 +252,11 @@ transition: all 0.3s ease-out;
  }
 }
 .back-arrow {
-  color: #666!important;
+  color: #fff!important;
   position: absolute;
   top: 6px;
-  left: 15px;
+  right: 15px;
+  z-index: 1002;
 }
 .h2 {
   font-size: 1.1rem;
@@ -271,25 +277,25 @@ transition: all 0.3s ease-out;
   background-attachment: local;
 }
 .contact:after {
-  background: #efe6d5;
-  opacity: .1;
+  background: #efdbb5;
+  opacity: .6;
 }
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .2rem;
   background: none;
-  color: beige;
+  color: #313131;
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 3px solid beige;
+  border-bottom: 2px solid #313131;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
 }
 .form-container .form-control::placeholder {
-  color: beige;
+  color: #313131;
 }
 .form-container .form-control:focus {
-  background: rgba(120, 120, 120, .7);
+  background: rgba(220, 220, 220, .5);
 }
 .form-container button {
   background: beige;
@@ -297,15 +303,9 @@ transition: all 0.3s ease-out;
 }
 .fab, .to-top .fa {
   border-radius: 100%;
-}
-.fab {
+  background: none!important;
   font-size: 40px;
-}
-.fab.fa-instagram {
-  padding: 7px 9px;
-}
-.fab.fa-facebook-f {
-  padding: 7px 14px!important;
+  color: #fff;
 }
 
 /*--------------------------------
