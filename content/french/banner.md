@@ -21,7 +21,7 @@ slider_images:
 
 # button
 button:
-  enable : false
+  enable : true
   label : "start"
   link : "#about"
 

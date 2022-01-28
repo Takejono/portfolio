@@ -309,22 +309,21 @@ body {
 .head-holder .hireMe {
   display: inline-block;
   background: transparent;
-  margin-top: 18px;
   text-decoration: none;
   color: white;
   font-family: 'Rubik', sans-serif;
   font-size: 19px;
   font-weight: 500;
-  border: 2px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid #fff!important;
   padding: 5px 18px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .head-holder .hireMe:hover {
-  background: #6f6f6f;
-  color: #fff;
-  border: 2px solid #6f6f6f;
+  background: rgba(255, 255, 255, .4);
+  color: #525252;
 }
 
 input+label {

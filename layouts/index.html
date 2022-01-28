@@ -13,6 +13,11 @@
   <div class="slider-next-button slider-button">
     <i class="fa fa-angle-right"></i>
   </div>
+  {{ with .Params.button }}
+  <div class="btn-container">
+    <a class="hireMe" href="{{ .link | relURL}}"><i class="fas fa-chevron-down"></i></a>
+  </div>
+  {{ end }}
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
     <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
@@ -29,11 +34,6 @@
               <span class="rotate">{{ . }}</span>
               {{ end }}
           </div>
-          {{ with .Params.button }}
-          {{ if .enable }}
-          <a class="hireMe" href="{{ .link | relURL}}">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
         </div>
       </div>
     </div>
