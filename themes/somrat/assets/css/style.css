@@ -1198,7 +1198,7 @@ ul.experience-chart h4 {
 
 .portfolio {
   background: #fff;
-  padding: 70px 0px;
+  padding: 70px 0px 160px;
 }
 
 .portfolio h1 {
@@ -1561,6 +1561,7 @@ ul.experience-chart h4 {
   background-position: bottom right;
   background-attachment: fixed;
   position: relative;
+  padding-top: 80px;
 }
 
 .contact:after {
@@ -1572,7 +1573,7 @@ ul.experience-chart h4 {
   top: 0;
   left: 0;
   bottom: 0;
-  background: rgba(239, 219, 181, .8);
+  background: linear-gradient(#fff, rgba(239, 219, 181, .8) 40%);
   z-index: 1;
 }
 .contact-holder {

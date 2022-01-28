@@ -1,7 +1,7 @@
 ---
 title: "Grand"
 date: 2017-03-12T12:14:34+06:00
-image: "images/backgrounds/need-service.jpg"
+image: "images/portfolio/grand-1.jpg"
 img_title: "« la mer est grande » - 30cm x 40cm"
 categories: ["Exhibition"]
 description: "This is meta description."
