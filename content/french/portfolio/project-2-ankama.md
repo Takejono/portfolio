@@ -1,7 +1,7 @@
 ---
 title: "Ankama"
 date: 2014-05-12T12:14:34+06:00
-image: "images/slider/slider-4.jpg"
+image: "images/portfolio/ankama-4.jpg"
 img_title: "« Garde corps » - Digital"
 categories: ["Works", "Game"]
 description: "This is meta description."
@@ -19,11 +19,11 @@ resources:
   title:
 - src: images/portfolio/ankama-3.jpg
   title:
-- src: images/portfolio/ankama-4.jpg
-  title:
 - src: images/portfolio/ankama-5.jpg
   title:
 - src: images/portfolio/ankama-6.jpg
+  title:
+- src: images/slider/slider-4.jpg
   title:
 ---
 
