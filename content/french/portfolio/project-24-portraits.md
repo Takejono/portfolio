@@ -16,4 +16,4 @@ project_info:
   content: "Oil pastel, pastel on paper"
 resources:
 ---
-Il s'agit le portrait d'un réfugié syrien auquel j'ai rencontré à l'aéroport d'Istanbul, à la nuit de transit. Il était coincé et habitait déjà un mois dans l'aéroport à cause de problème de son identité. Ce n'était pas que lui, il y en avait plusieurs qui se sont caché dans la journée, et sortaient à la nuit dans l'espace publique.
+Il s'agit du portrait d'un réfugié syrien que j'ai rencontré à l'aéroport d'Istanbul, à la nuit de transit. Il était coincé déjà plus un mois dans l'aéroport à cause de problème de son identité. Il s'était caché dans la salle d'équipe d'aéroport dans la journée, et sortait à la nuit pour prendre l'air. En fait, il n'était pas seul. Il y en avait plusieurs personnes qui sont coincé comme lui.

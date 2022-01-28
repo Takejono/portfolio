@@ -16,4 +16,4 @@ resources:
 - src: images/portfolio/my-3.jpg
 - src: images/portfolio/my-4.jpg
 ---
-ロゴ、パッケージデザイン等諸々担当しています。
+Travail de design pour une pâtisserie à Arles. Je m'occupe du logo, des cartes de visite, de design des emballages et de bien d'autres choses.

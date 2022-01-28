@@ -21,4 +21,4 @@ resources:
 - src: images/portfolio/r_dofus-5.jpg
 ---
 
-Works for Bayard Edition. Series of Adventure books.
+Travail pour BAYARD Edition, illustrant six livres dont vous etes le héros basés sur l'univers de DOFUS.

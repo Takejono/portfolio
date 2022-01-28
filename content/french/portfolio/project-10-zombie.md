@@ -15,4 +15,4 @@ resources:
 - src: images/portfolio/zombie-2.jpg
 - src: images/portfolio/zombie-3.jpg
 ---
-ゾンビ文化についての本 « Culture Zombie» 、のフランス語版の表紙及び裏表紙イラスト。
+Illustration de la couverture avant et arrière pour l'édition française de "Culture Zombie", un livre sur la culture zombie.

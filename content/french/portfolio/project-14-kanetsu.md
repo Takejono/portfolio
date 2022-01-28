@@ -20,5 +20,6 @@ resources:
 - src: images/portfolio/kanetsu-4.jpg
 ---
 
-関越会病院の記念パンフレットの挿絵です。
-新館建設のために歴史ある旧館を取り壊すことになり、その記念として病院の歴史を絵本のように紹介した面白いお仕事でした。
+Il s'agit des illustrations pour un livret commémoratif de l'hôpital Kanetsu-kai.
+L'ancien bâtiment historique devait être démoli pour faire place à un nouveau bâtiment. En guise de commémoration, ce livret présente l'histoire de l'hôpital sous la forme d'un livre d'images. C'était un travail intéressant.  
+Commandé par la société de Design Aguije.

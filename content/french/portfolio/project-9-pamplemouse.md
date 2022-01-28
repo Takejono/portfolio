@@ -21,4 +21,4 @@ resources:
 - src: images/portfolio/pamplemousse-5.jpg
 - src: images/portfolio/pamplemousse-6.jpg
 ---
-友人の自費出版の絵本プロジェクト。イラスト全般及びページデザイン担当。
+Un projet de livre d'images auto-édité d'une amie. Je m'occupais de toutes les illustrations et de la mise en page.

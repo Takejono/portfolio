@@ -24,4 +24,4 @@ resources:
 - src: images/portfolio/rossignol-5.jpg
   title:
 ---
-フランスの作家ルネ・バザン短編集の表紙及び挿絵。
+Couverture et une vingtaine d'illustrations pour le recueil de nouvelles de l'écrivain français René Bazin.
