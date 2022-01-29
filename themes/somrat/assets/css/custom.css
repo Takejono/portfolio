@@ -287,7 +287,7 @@ transition: all 0.3s ease-out;
   contact
 ----------------------------------*/
 .form-container input.form-control, .form-container textarea.form-control {
-  border-radius: .2rem;
+  border-radius: .3rem .3rem 0 0;
   background: none;
   color: #525252;
   border-top: 0;
