@@ -21,4 +21,4 @@ resources:
 - src: images/portfolio/aquasqutum-5.jpg
 - src: images/portfolio/aquasqutum-6.jpg
 ---
-J'ai participé à l'exposition collaborative d'Aquaqutum x Artists au Shibuya Scramble Square, dirigée par la Galerie Yamagoya. Le thème de l'exposition était "fragments trouvés sur la plage".
+J'ai participé à l'exposition collaborative d'Aquaqutum x Artists au Shibuya Scramble Square, dirigée par [MOVE Art management](https://move-art.jp). Le thème de l'exposition était "fragments trouvés sur la plage".

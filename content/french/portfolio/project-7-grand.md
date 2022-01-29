@@ -22,7 +22,7 @@ resources:
 - src: images/portfolio/grand-6.jpg
 - src: images/portfolio/grand-7.jpg
 ---
-Un groupe d'œuvres exposées à la galerie Yamagoya, Ebisu, Tokyo, 2017.  
+Un groupe d'œuvres exposées à la [Gallery and shop Yamagoya](https://galleryyamagoya.com), Ebisu, Tokyo, 2017.  
 Basées sur un texte que j'ai écrit sur le thème du "grand", ces œuvres sont bleues et fraîches, influencées par la mer et le ciel de Marseille, où je viens de déménager.  
 
 C'était une tournure d'événements intéressante pour moi, car j'avais travaillé sur ce projet pour mettre en place sous la forme d'un livre d'images, mais il a finalement pris la forme d'une exposition.

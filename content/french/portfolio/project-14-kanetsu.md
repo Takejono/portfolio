@@ -22,4 +22,4 @@ resources:
 
 Il s'agit des illustrations pour un livret commémoratif de l'hôpital Kanetsu-kai.
 L'ancien bâtiment historique devait être démoli pour faire place à un nouveau bâtiment. En guise de commémoration, ce livret présente l'histoire de l'hôpital sous la forme d'un livre d'images. C'était un travail intéressant.  
-Commandé par la société de Design Aguije.
+Commandé par la société de Design [aguije inc.](https://aguije.jp).

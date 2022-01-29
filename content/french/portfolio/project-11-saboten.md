@@ -18,4 +18,6 @@ resources:
 - src: "images/slider/slider-2.jpg"
   title: "« la ville tourne » - 32cm x 24cm"
 ---
-Correspondance entre l'image et du sons avec la musicienne Saboten Haruna TAKAMIZU, que j'ai rencontrée et avec laquelle j'ai sympathisé lors de mon exposition à la galerie Yamagoya à Ebisu TOKYO en 2021. J'envoie des dessins et elle renvoie de la musique. Nous y allons doucement, à notre rythme.
+Correspondance entre l'image et du sons avec la musicienne [Saboten Haruna TAKAMIZU](http://takamizuharuna.com), que j'ai rencontrée et avec laquelle j'ai sympathisé lors de mon exposition à la galerie Yamagoya en 2021. Je lui envoie un dessin et elle m'envoie un morceau de musique. Nous y allons doucement, à notre rythme.  
+
+[Instagram #絵と音の往復書簡](https://www.instagram.com/explore/tags/絵と音の往復書簡/?hl=undefined)

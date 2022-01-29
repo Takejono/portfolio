@@ -24,4 +24,4 @@ resources:
 ---
 Il s'agit des illustrations pour la brochure de présentation et le site web de la CTC Future Foundation.  
 CTC Future Foundation est une grande fondation qui soutient les bourses d'études et l'éducation informatique des enfants et des jeunes.  
-Commandé par la société de design Aguije.
+Commandé par la société de design [aguije inc.](https://aguije.jp).
