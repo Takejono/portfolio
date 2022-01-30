@@ -24,4 +24,4 @@ resources:
 - src: images/portfolio/comte-8.jpg
 - src: images/portfolio/comte-9.jpg
 ---
-Ce sont des illustrations sur scène qui évoquerait une histoire.
+Comme une scène d'une histoire.

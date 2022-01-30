@@ -6,10 +6,10 @@
 }
 
 .menu-slider li a, ul.fullscreen-nav-holder a {
- font-size: 25px;
+ font-size: 20px;
 }
 .full-nav-icons a {
-  color: #fff;
+  color: ;
 }
 h1 {
  font-size: 40px;
@@ -22,7 +22,7 @@ h1 {
   bottom: 20px;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 11;
   font-size: 50px;
 }
 .btn-container i {
@@ -314,17 +314,17 @@ transition: all 0.3s ease-out;
   background: #fff;
   border-radius: .3rem!important;
 }
-.fab, .to-top .fa {
-  background: none!important;
-  font-size: 40px;
-  color: #fff;
-}
-.footer .fab, .to-top .fa {
-  color: #525252;
-}
 /*--------------------------------
   footer
 ----------------------------------*/
 .footer hr {
   border-color: #525252;
+}
+.fab, .to-top .fa {
+  background: none!important;
+  font-size: 35px;
+  color: #fff;
+}
+.footer .fab, .to-top .fa {
+  color: #525252;
 }

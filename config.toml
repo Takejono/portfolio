@@ -76,16 +76,12 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
 [[params.social]]
-icon = "fab fa-facebook-f"
+icon = "fab fa-facebook"
 link = "https://www.facebook.com/takeshi.jonoo"
 
 [[params.social]]
 icon = "fab fa-instagram"
 link = "https://www.instagram.com/takeshi_jonoo_drawing"
-
-#[[params.social]]
-#icon = "fab fa-linkedin"
-#link = "https://www.linkedin.com/in/somratpro"
 
 
 ################################### French language #####################################
