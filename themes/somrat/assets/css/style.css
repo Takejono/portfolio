@@ -1258,7 +1258,7 @@ ul.experience-chart h4 {
 .portfolio-navigation label {
   cursor: pointer;
   padding: 7px 14px;
-  border: 1.5px solid #6f6f6f;
+  border: 0px solid #efdbb5;
   color: #6f6f6f;
   font-weight: 700;
   margin: 0 5px;
@@ -1267,8 +1267,8 @@ ul.experience-chart h4 {
 }
 
 .portfolio-navigation label:hover {
-  border-color: #6f6f6f;
-  color: #fff;
+  border-color: transparent!important;
+  color: #6f6f6f;
   background-color: transparent !important;
 }
 
@@ -1276,31 +1276,33 @@ ul.experience-chart h4 {
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
   box-shadow: none !important;
+  color: #6f6f6F;
+  border-color: #efdbb5 !important;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
   background-color: transparent;
-  border-color: transparent;
+  border-color: #efdbb5;
   box-shadow: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #6f6f6f !important;
-  border-color: #6f6f6f !important;
+  color: #6F6f6f;
+  background-color: #efdbb5 !important;
+  border-color: #efdbb5 !important;
 }
-.portfolio .hvr-sweep-to-right.active:before {
-  background: #212121;
-}
-
-.portfolio .hvr-sweep-to-right:before {
-  background: #6f6f6f;
+.portfolio .hvr-radial-out.active:before {
+  background: #efdbb5;
 }
 
-.portfolio .hvr-sweep-to-right.active:before {
+.portfolio .hvr-radial-out:before {
+  background: #efdbb5;
+}
+
+.portfolio .hvr-radial-out.active:before {
   background: transparent;
 }
 

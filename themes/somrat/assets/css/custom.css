@@ -155,9 +155,16 @@ input:checked+label span {
 /*--------------------------------
    portfolio
 ----------------------------------*/
+.section {
+  padding-top: 50px;
+}
+h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
 .portfolio-navigation label {
-  border: 2px solid #ccc;
-  border-radius: 0.3rem!important;
+  border: 1px solid #eee;
+  border-radius: 0.4rem!important;
   margin: 5px 5px;
 }
 .btn-primary {
