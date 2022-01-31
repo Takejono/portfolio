@@ -1258,11 +1258,11 @@ ul.experience-chart h4 {
 .portfolio-navigation label {
   cursor: pointer;
   padding: 7px 14px;
-  border: 0px solid #efdbb5;
+  border: 1px solid #efdbb5;
   color: #6f6f6f;
   font-weight: 700;
-  margin: 0 5px;
-  border-radius: 0;
+  margin: 5px 5px;
+  border-radius: .4rem!important;
   background-color: transparent;
 }
 
@@ -1300,6 +1300,8 @@ ul.experience-chart h4 {
 
 .portfolio .hvr-radial-out:before {
   background: #efdbb5;
+  -webkit-transition: all .4s ease-out;
+  transition: all .4s ease-out;
 }
 
 .portfolio .hvr-radial-out.active:before {
