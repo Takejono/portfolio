@@ -38,7 +38,7 @@ resources:
   title:
 ---
 
-Il s'agit d'une série des tableaux pour mon exposition à la [Gallery and shop Yamagoya](https://galleryyamagoya.com) à Ebisu, TOKYO au JAPON. Ces tableaux sont faits d'après mon texte ci-dessous.
+Il s'agit d'une série d'œuvres exposés à la [Gallery and shop Yamagoya](https://galleryyamagoya.com) à Ebisu, TOKYO au JAPON. Ces œuvres sont faits d'après mon texte ci-dessous.
 
 ---
 

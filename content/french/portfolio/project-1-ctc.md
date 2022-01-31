@@ -14,6 +14,9 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper, Digital"
+- name: "Link"
+  icon: "fas fa-link"
+  content: "[CTC未来財団](https://mirai-zaidan.or.jp)"
 resources:
 - src: images/portfolio/ctc-2.jpg
   title: « Cut illutration » - Digital

@@ -29,12 +29,19 @@ h1 {
   color: #fff;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  transform: translateY(0px) scale(100%);
 }
 .btn-container a:hover i {
-  color: #333;
-  transform: translateY(5px);
+  animation-duration: .85s;
+  animation-iteration-count: infinite;
+  animation-name: ShakeDown;
 }
-
+@keyframes ShakeDown {
+  from {  transform: translateY(0px) scale(100%);}
+  45% {  transform: translateY(8px) scale(120%);}
+  55% {  transform: translateY(8px) scale(120%);}
+  to {  transform: translateY(0px) scale(100%);}
+}
 #select-language {
  border-radius: .3rem;
  border-color: #ccc;
@@ -53,7 +60,7 @@ h1 {
   box-shadow: none;
 }
 .mobile-menu-list {
- padding-top: 55px!important;
+ padding-top: 75px!important;
 }
 .mobile-menu-icons {
   justify-content: space-around;;

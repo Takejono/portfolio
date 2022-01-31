@@ -14,6 +14,9 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
+- name: "Link"
+  icon: "fas fa-link"
+  content: "[Gallery Yamagoya](https://galleryyamagoya.com/)"
 resources:
 - src: images/portfolio/grand-2.jpg
 - src: images/portfolio/grand-3.jpg
@@ -29,78 +32,53 @@ C'était une tournure d'événements intéressante pour moi, car j'avais travail
 
 ---
 
-Grand  
-大きい  
-
+#### Grand  
+<br/>
 
 L'arbre est grand.  
-木は大きい  
 
 La montagne est plus grande.  
-山はもっと大きい  
 
 Le bateau est grand.  
-船は大きい  
 
 La mer est plus grande.  
-海はもっと大きい  
 
-À la grande ville,  
-大きな街で  
+À la grande ville,    
 
 dans la grande foule,  
-大勢の中で  
 
-entre les grands bâtiments,  
-大きな建物のあいだで  
+entre les grands bâtiments,   
 
-parfois il y a des grands moments,  
-時に大きく駆け上がり  
+parfois il y a des grands moments,   
 
-parfois le mur est trop grand.  
-時に大きな壁を見る  
+parfois le mur est trop grand.   
 
-Pourtant, la mer est toujours grande.  
-それでも　海はいつだって大きくて  
+Pourtant, la mer est toujours grande.   
 
 Et le ciel, toujours grandiose au-delà de toutes ces choses.  
-空はいつだって　でっかくその向こうに広がっている  
 
 Je suis tellement petit dans ce monde.  
-ぼくはあまりにちっぽけで  
 
-Ce monde est grand!  
-この世界は大きい！  
+Ce monde est grand!   
+<br/>
 
-La mer est toujours grande comme l'autre jour.  
-いつだって海は　あの日のまんま  
+La mer est toujours grande comme l'autre jour.   
 
-Et la montagne, et l'arbre aussi.   
-山も木も  
+Et la montagne, et l'arbre aussi.     
 
-Quant à moi, comme sur la balançoire,  
-けれどもぼくは　まるでブランコみたいに  
+Quant à moi, comme sur la balançoire,   
 
-Parfois je deviens grand,  
-時に大きくなったり  
+Parfois je deviens grand,    
 
-parfois je deviens petit.  
-時に小さくなったり  
+parfois je deviens petit.   
 
 J'y vais et j'y reviens.  
 Je commence et recommence.  
-あっちへ行き　こっちへ戻り  
-繰り返し　また繰り返す  
 
 Encore et encore, je lance mes pieds.  
-なんどもなんども　足を蹴る  
 
 Aucune idée d’où je vais,  
-mais tout en regardant cet azur,  
-どこへ行けるのかなんてわからない　けど  
-その青さをいつだって見上げながら  
+mais tout en regardant cet azur,   
 
 je fais juste des bonds scintillants,  
 sous ce grand ciel.  
-この大きな空の下  
-ただキラキラと跳びはねるのだ  

@@ -14,6 +14,9 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper, Digital retouch"
+- name: "Link"
+  icon: "fas fa-link"
+  content: "[Licorne_Japon](https://www.licorne-savonnerie.jp)"
 resources:
 - src: images/portfolio/licorne-2.jpg
 ---
