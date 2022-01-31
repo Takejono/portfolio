@@ -14,6 +14,9 @@ project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"
+- name: "Link"
+  icon: "fas fa-link"
+  content: "[Bayard Editions](https://www.bayard-editions.com/jeunesse/collection/dofus)"
 resources:
 - src: images/portfolio/r_dofus-2.jpg
 - src: images/portfolio/r_dofus-3.jpg
