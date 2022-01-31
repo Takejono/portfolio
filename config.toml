@@ -122,12 +122,12 @@ url = "contact"
 weight = 4
 
 ################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
+[Languages.jp]
+languageName = "Jp"
+languageCode = "jp"
+contentDir = "content/jp"
 weight = 2
-home = "Home"
+home = "ホーム"
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
 
@@ -135,25 +135,25 @@ copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netli
 ################# english navigation ##################
 
 # main menu
-[[Languages.en.menu.main]]
-name = "Home"
+[[Languages.jp.menu.main]]
+name = "ホーム"
 url = "/"
 weight = 1
 
-[[Languages.en.menu.main]]
-name = "About me"
+[[Languages.jp.menu.main]]
+name = "わたしについて"
 pre = "#"
 url = "about"
 weight = 2
 
-[[Languages.en.menu.main]]
-name = "Portfolio"
+[[Languages.jp.menu.main]]
+name = "ポートフォリオ"
 pre = "#"
 url = "portfolio"
 weight = 3
 
-[[Languages.en.menu.main]]
-name = "Contact"
+[[Languages.jp.menu.main]]
+name = "コンタクト"
 pre = "#"
 url = "contact"
 weight = 4
