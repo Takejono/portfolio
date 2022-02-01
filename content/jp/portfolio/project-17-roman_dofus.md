@@ -3,7 +3,7 @@ title: "Roman Dofus"
 date: 2017-05-12T12:14:34+06:00
 image: "images/portfolio/r_dofus-1.jpg"
 img_title: "«  » - A5"
-categories: ["Works", "Game", "Book Illustration"]
+categories: ["仕事", "ゲーム", "挿絵"]
 description: "This is meta description."
 order: "18"
 draft: false
@@ -24,4 +24,4 @@ resources:
 - src: images/portfolio/r_dofus-5.jpg
 ---
 
-Travail pour BAYARD Edition, illustrant six livres dont vous etes le héros basés sur l'univers de DOFUS.
+BAYARD出版社から出版された「ドフュス」の世界を元にしたアドベンチャーブック全６冊の挿絵を担当しました。

@@ -141,7 +141,7 @@ url = "/"
 weight = 1
 
 [[Languages.jp.menu.main]]
-name = "わたしについて"
+name = "私について"
 pre = "#"
 url = "about"
 weight = 2

@@ -1,9 +1,9 @@
 ---
-title: "Tableaux"
+title: "絵画"
 date: 2021-02-12T12:14:34+06:00
 image: "images/portfolio/tableaux-1.jpg"
 img_title: "«  » - "
-categories: ["Works"]
+categories: ["仕事"]
 description: "This is meta description."
 order: "07"
 draft: false
@@ -22,4 +22,5 @@ resources:
 - src: images/portfolio/tableaux-6.jpg
 - src: images/portfolio/tableaux-7.jpg
 ---
-Il s'git des tableaux à la commande. Des fois avec le thème précis, des fois la carte blanche.
+注文を受けて描いた作品群です。  
+テーマは指定の時も自由な時もあり、注文によってまちまちです。

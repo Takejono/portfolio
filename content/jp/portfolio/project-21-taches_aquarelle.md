@@ -1,9 +1,9 @@
 ---
-title: "Taches d'aquarelle"
+title: "滲み、染み"
 date: 2020-05-12T12:14:34+06:00
 image: "images/portfolio/tache-1.jpg"
 img_title: "«  » - "
-categories: ["Personal works"]
+categories: ["個人プロジェクト"]
 description: "This is meta description."
 order: "05"
 draft: false
@@ -28,4 +28,4 @@ resources:
 - src: images/portfolio/tache-7.jpg
   title: "«  » -  cm x  cm"
 ---
-Œuvress tirée de taches d'aquarelle.
+水彩ならではの滲み、染みから触発されて描かれる作品群です。

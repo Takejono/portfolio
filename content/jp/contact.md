@@ -4,7 +4,7 @@ bg_image: "/images/backgrounds/contact-bg02.jpg"
 form_action: "https://formspree.io/f/xdobkarn" # works with https://formspree
 name: "お名前"
 email: "メールアドレス"
-message: "メッセージをどうぞ"
+message: "メッセージ"
 submit: "送信"
 
 

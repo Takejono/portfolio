@@ -1,9 +1,9 @@
 ---
-title: "Mistral"
+title: "ミストラル"
 date: 2017-05-12T12:14:34+06:00
 image: "images/portfolio/mistral.jpg"
 img_title: "« Mistral » - 50cm x 60cm"
-categories: ["Exhibition"]
+categories: ["展示"]
 description: "This is meta description."
 order: "06"
 draft: false
@@ -17,4 +17,5 @@ project_info:
 resources:
 ---
 
-J'ai peint ce tableau lorsque j'ai eu l'occasion de participer à une exposition organisée par Marseille en collaboration avec les ambassades de différents pays. C'est une œuvre qui est devenue un point de départ pour moi, car elle associe le vent fort du mistral dans le sud de la France à mon propre état d'esprit.
+マルセイユと各国大使館共同主催の展示会に参加の機会をいただき、描いた一枚です。
+南仏に吹く強風ミストラルと僕の心境を重ね合わせた、僕にとってある起点となった作品です。

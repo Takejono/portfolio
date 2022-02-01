@@ -1,5 +1,5 @@
 ---
-title : "もっと見たいですか？"
+title : "もっといろんな絵"
 bg_image : "images/backgrounds/need-service.jpg"
 button:
   enable : true

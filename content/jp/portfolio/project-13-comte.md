@@ -1,9 +1,9 @@
 ---
-title: "Dans le Comte"
+title: "お話の中"
 date: 2016-05-12T12:14:34+06:00
 image: "images/slider/slider-1.jpg"
 img_title: "«  » - "
-categories: ["Personal works"]
+categories: ["個人プロジェクト"]
 description: "This is meta description."
 order: "11"
 draft: false

@@ -3,7 +3,7 @@ title: "Ankama"
 date: 2014-05-12T12:14:34+06:00
 image: "images/portfolio/ankama-4.jpg"
 img_title: "« Garde corps » - Digital"
-categories: ["Works", "Game"]
+categories: ["仕事", "ゲーム"]
 description: "This is meta description."
 order: "17"
 draft: false
@@ -27,4 +27,4 @@ resources:
   title:
 ---
 
-Ankama est une société française de jeux-vidéos qui produit des titres tels que "Dofus" et "Wakfu". J'étais en charge du concept art pour le développement du jeu, des illustrations pour les médias, des illustrations pour les projets TCG, etc.
+アンカマは「ドフュス」「ワクフー」といったタイトルを制作しているフランスのゲーム会社です。そこでゲーム開発のコンセプトアート、メディア展開用のイラスト、トレーディングカードゲーム用のイラストなどを担当していました。

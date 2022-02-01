@@ -1,9 +1,9 @@
 ---
-title: "CTC"
+title: "CTC 未来財団"
 date: 2021-05-12T12:14:34+06:00
 image: "images/portfolio/ctc-1.jpg"
 img_title: "« Main visual for the Foundation CTC » - 32cm x 24cm"
-categories: ["Works", "Book Illustration"]
+categories: ["仕事", "挿絵"]
 description: "This is meta description."
 order: "08"
 draft: false

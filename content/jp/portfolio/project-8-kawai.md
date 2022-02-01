@@ -1,9 +1,9 @@
 ---
-title: "Cover Art for music book"
+title: "ピアノ曲集表紙デザイン"
 date: 2020-07-12T12:14:34+06:00
 image: "images/portfolio/kawai-1.jpg"
 img_title: "«  » - 24cm x 32cm"
-categories: ["Works", "Book Illustration"]
+categories: ["仕事", "挿絵"]
 description: "This is meta description."
 order: "10"
 draft: false

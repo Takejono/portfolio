@@ -1,9 +1,9 @@
 ---
-title: "A la recherche d'un lion noir"
+title: "黒いライオンを探して"
 date: 2021-07-12T12:14:34+06:00
 image: "images/backgrounds/full-nav-bg.jpg"
 img_title: "« Bienvenu à la forêt » - 32cm x 40cm"
-categories: ["Exhibition"]
+categories: ["展示"]
 description: "This is meta description."
 order: "02"
 draft: false
@@ -38,11 +38,12 @@ resources:
   title:
 ---
 
-Il s'agit d'une série d'œuvres exposés à la [Gallery and shop Yamagoya](https://galleryyamagoya.com) à Ebisu, TOKYO au JAPON. Ces œuvres sont faits d'après mon texte ci-dessous.
+東京恵比寿にある[Gallery and shop 山小屋](https://galleryyamagoya.com)での２０２１年個展展示作品。  
+この展示も自作の文章を元に描かれた作品群です。
 
 ---
 
-###### À la recherche d'un lion noir
+###### 黒いライオンを探して
 
 Depuis un moment, je suis à la recherche d'un lion noir.  
 Il m'est apparu soudain, un jour.  
