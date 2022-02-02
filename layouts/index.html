@@ -4,9 +4,6 @@
 {{ with .GetPage "banner" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
-<!--  <div class="logo">
-    <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
-  </div>-->
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
@@ -280,7 +277,10 @@
                 {{ range .Params.categories }}
                 <p class="mb-0 text-light">{{ . | title }}</p>
                 {{ end }}
-                <div class="item-created text-light">{{ .PublishDate.Format "2006" }}</div>
+                <div class="item-created text-light">
+                  {{ if .Params.date }}
+                  {{ .PublishDate.Format "2006" }}{{else}}Date variée{{ end }}
+                </div>
               </div>
             </div>
           </div>

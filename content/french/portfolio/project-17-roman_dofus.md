@@ -1,6 +1,6 @@
 ---
 title: "Roman Dofus"
-date: 2017-05-12T12:14:34+06:00
+date: 
 image: "images/portfolio/r_dofus-1.jpg"
 img_title: "«  » - A5"
 categories: ["Works", "Game", "Book Illustration"]

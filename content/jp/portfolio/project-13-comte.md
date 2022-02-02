@@ -1,6 +1,6 @@
 ---
 title: "お話のなか"
-date: 2016-05-12T12:14:34+06:00
+date: 
 image: "images/slider/slider-1.jpg"
 img_title: "«  » - "
 categories: ["個人プロジェクト"]

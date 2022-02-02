@@ -1,6 +1,6 @@
 ---
 title: "Taches d'aquarelle"
-date: 2020-05-12T12:14:34+06:00
+date: 
 image: "images/portfolio/tache-1.jpg"
 img_title: "«  » - "
 categories: ["Personal works"]

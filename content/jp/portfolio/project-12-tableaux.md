@@ -1,6 +1,6 @@
 ---
 title: "絵画"
-date: 2021-02-12T12:14:34+06:00
+date: 
 image: "images/portfolio/tableaux-1.jpg"
 img_title: "«  » - "
 categories: ["仕事"]

@@ -1,6 +1,6 @@
 ---
 title: "ペン画"
-date: 2020-05-12T12:14:34+06:00
+date: 
 image: "images/portfolio/pen-1.jpg"
 img_title: "«  » - "
 categories: ["個人プロジェクト"]

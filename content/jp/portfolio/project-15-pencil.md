@@ -1,6 +1,6 @@
 ---
 title: "鉛筆画"
-date: 2016-05-12T12:14:34+06:00
+date: 
 image: "images/slider/slider-5.jpg"
 img_title: "«  » - "
 categories: ["個人プロジェクト"]

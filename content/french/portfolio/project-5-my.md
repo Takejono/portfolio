@@ -1,6 +1,6 @@
 ---
 title: "Design for Patisserie Masaki YAMAMOTO"
-date: 2021-05-12T12:14:34+06:00
+date: 
 image: "images/portfolio/my-1.jpg"
 img_title: "«  » - "
 categories: ["Design", "Works"]

@@ -30,7 +30,10 @@
               <i class="mt-1 fas fa-calendar h2"></i>
                <div class="ml-3">
                  <h4>Date</h4>
-                 <div class="content">{{.PublishDate.Format "Jan, 2006"}}</div>
+                 <div class="content">
+                   {{ if .Params.date }}
+                   {{ .PublishDate.Format "Jan, 2006" }}{{else}}various{{ end }}
+                   </div>
                </div>
              </li>
              <li class="media mb-4">
