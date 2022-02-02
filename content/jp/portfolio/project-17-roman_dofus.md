@@ -1,5 +1,5 @@
 ---
-title: "Roman Dofus"
+title: "ドフュス<br/> アドベンチャーブック"
 date: 2017-05-12T12:14:34+06:00
 image: "images/portfolio/r_dofus-1.jpg"
 img_title: "«  » - A5"

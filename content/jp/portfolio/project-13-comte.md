@@ -1,5 +1,5 @@
 ---
-title: "お話の中"
+title: "お話のなか"
 date: 2016-05-12T12:14:34+06:00
 image: "images/slider/slider-1.jpg"
 img_title: "«  » - "

@@ -1,5 +1,5 @@
 ---
-title: "Ankama"
+title: "アンカマ<br/> イラスト"
 date: 2014-05-12T12:14:34+06:00
 image: "images/portfolio/ankama-4.jpg"
 img_title: "« Garde corps » - Digital"
