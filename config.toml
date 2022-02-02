@@ -139,23 +139,23 @@ copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netli
 # main menu
 [[Languages.jp.menu.main]]
 name = "ホーム"
-url = "/"
+url = "jp/"
 weight = 1
 
 [[Languages.jp.menu.main]]
 name = "私について"
-pre = "#"
+pre = "jp/#"
 url = "about"
 weight = 2
 
 [[Languages.jp.menu.main]]
 name = "ポートフォリオ"
-pre = "#"
+pre = "jp/#"
 url = "portfolio"
 weight = 3
 
 [[Languages.jp.menu.main]]
 name = "コンタクト"
-pre = "#"
+pre = "jp/#"
 url = "contact"
 weight = 4
