@@ -123,7 +123,7 @@ pre = "#"
 url = "contact"
 weight = 4
 
-################################### English language #####################################
+################################### jp language #####################################
 [Languages.jp]
 languageName = "Jp"
 languageCode = "jp"
@@ -134,17 +134,17 @@ home = "ホーム"
 copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
 
 
-################# english navigation ##################
+################# jp navigation ##################
 
 # main menu
 [[Languages.jp.menu.main]]
 name = "ホーム"
-url = "/"
+url = "jp/"
 weight = 1
 
 [[Languages.jp.menu.main]]
 name = "私について"
-pre = "#"
+pre = "jp/#"
 url = "about"
 weight = 2
 
