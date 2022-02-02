@@ -7,9 +7,7 @@
 
 .menu-slider li a, ul.fullscreen-nav-holder a {
  font-size: 20px;
-}
-.full-nav-icons a {
-  color: ;
+ font-weight: 500;
 }
 h1 {
  font-size: 40px;
@@ -89,6 +87,14 @@ h1 {
  opacity: 0;
  -webkit-transition: all 0.1s linear;
  transition: all 0.1s linear;
+}
+.menu-slider li {
+  -webkit-transition: transform 0.3s;
+  transition: transform 0.3s;
+}
+.menu-slider li:hover {
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
 }
 .menu-slider.open nav {
   opacity: 1;

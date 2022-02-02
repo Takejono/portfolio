@@ -127,35 +127,33 @@
         </a>
         <div class="menu-slider">
           <nav>
+            <!-- Language List -->
+            {{- if .IsTranslated }}
+            <select id="select-language" onchange="location = this.value;">
+              {{ $siteLanguages := site.Languages}}
+              {{ $pageLang := .Page.Lang}}
+              {{ range .Page.AllTranslations }}
+              {{ $translation := .}}
+              {{ range $siteLanguages }}
+              {{ if eq $translation.Lang .Lang }}
+              {{ $selected := false }}
+              {{ if eq $pageLang .Lang}}
+              <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
+              </option>
+              {{ else }}
+              <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+              {{ end }}
+              {{ end }}
+              {{ end }}
+              {{ end }}
+            </select>
+            {{ end }}
             <ul class="mobile-menu-list">
               {{ range site.Menus.main }}
-              <li class="mobile-menu-item 1">
+              <li class="text-uppercase mobile-menu-item 1">
                 <a href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
               </li>
               {{ end }}
-              <li class="list-lang">
-              <!-- Language List -->
-              {{- if .IsTranslated }}
-              <select id="select-language" onchange="location = this.value;">
-                {{ $siteLanguages := site.Languages}}
-                {{ $pageLang := .Page.Lang}}
-                {{ range .Page.AllTranslations }}
-                {{ $translation := .}}
-                {{ range $siteLanguages }}
-                {{ if eq $translation.Lang .Lang }}
-                {{ $selected := false }}
-                {{ if eq $pageLang .Lang}}
-                <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-                </option>
-                {{ else }}
-                <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-                {{ end }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
-              </select>
-              {{ end }}
-            </li>
             </ul>
             <ul class="mobile-menu-icons list-inline">
               {{ range site.Params.social }}

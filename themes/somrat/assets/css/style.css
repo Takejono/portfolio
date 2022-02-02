@@ -491,21 +491,20 @@ input:checked+label span:last-child {
   justify-content: space-around;
 }
 
-.fullscreen-nav-holder div {
+.fullscreen-nav-holder li {
   margin: 0px 10px;
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
+  -webkit-transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 
-.fullscreen-nav-holder div:hover {
+.fullscreen-nav-holder li:hover {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
 }
 
 .fullscreen-nav-holder a {
   color: white;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', 'Noto Sans Jp' sans-serif;
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
