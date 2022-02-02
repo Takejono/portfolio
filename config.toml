@@ -129,7 +129,7 @@ languageName = "Jp"
 languageCode = "jp"
 contentDir = "content/jp"
 weight = 2
-home = "ホーム"
+home = "Home"
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
 
@@ -139,12 +139,12 @@ copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netli
 # main menu
 [[Languages.jp.menu.main]]
 name = "ホーム"
-url = "jp/"
+url = "/"
 weight = 1
 
 [[Languages.jp.menu.main]]
 name = "私について"
-pre = "jp/#"
+pre = "#"
 url = "about"
 weight = 2
 
