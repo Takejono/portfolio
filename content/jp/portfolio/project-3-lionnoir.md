@@ -39,47 +39,51 @@ resources:
 ---
 
 東京恵比寿にある[Gallery and shop 山小屋](https://galleryyamagoya.com)での２０２１年個展展示作品。  
-この展示も自作の文章を元に描かれた作品群です。
+この展示も自作の文章を元に描いた作品群です。
 
 ---
 
 ###### 黒いライオンを探して
+<br/>
 
-Depuis un moment, je suis à la recherche d'un lion noir.  
-Il m'est apparu soudain, un jour.  
+ずいぶんと前から探している、黒いライオン。  
+そいつはある日突然やって来た。  
+いつだったかは覚えてない。  
 
-Je ne sais pas d'où il vient, mais, il ne me fait pas peur.  
-Il est même charmant.  
+どこから来たのか知らないけれど、怖くはない。  
+どちらかといえば愛嬌もある。  
 
-Je le vois clairement au loin.  
-Mais plus il s'approche, plus flou il devient, et il s'enfuit à travers mon corps.  
+遠くにいるとはっきり見えるのに、  
+近づけば近づくほどぼんやりと透けて、  
+僕の体をするりと抜けていく。  
 
-Parfois j'ai l'impression qu'il disparait,  
-mais je fini toujours par le trouver là où je ne l'imagine pas.  
+時々ふと、居なくなってしまったような気がする事もあるけれど、  
+目を凝らせば思いがけないところにちゃんといる。  
+<br/>
 
+風の吹く丘の上  
+ポスターの隅っこ  
+夕暮れの窓の向こう側  
+<br/>
 
-  sur une colline ventée  
-  au coin d'une l'affiche  
-  au delà d'une fenêtre au crépuscule  
+そんなのただの幻さ、と言う人もいる。  
+けれど耳をすませば、はっきりと心音が聞こえるんだ。  
 
+そんなに隠れんぼが好きなら、一緒に遊ぼうか。  
+別に見つけられなくてもいいんだ。  
 
-On me dit, ce n'est qu'une illusion.  
-Mais si je tend l'oreille, je pourrai entendre le battement de son coeur.  
+思うに、僕はただこうして、  
+奴と戯れていたいだけなのかもしれない。  
+そして、いろんな景色が見られればいいな、と思っているんだ。  
+<br/>
 
-Si tu aimes jouer à cache-cache comme tel, je vais y jouer aussi.  
-Mais qu'importe je ne le trouve pas.  
+寝静まった夜の路地  
+木洩れ日に揺れる草葉の下  
+水平線の白い鳥  
+<br/>
 
-Peut-être, pourrais-je aimer jouer sans fin avec lui?  
-Ainsi, je serais heureux de découvrir différents paysages.  
+街と森と海の間で、  
 
-
-  dans la rue endormie  
-  les herbes sous la lumière à travers les arbres  
-  les oiseaux blancs à l'horizon lointain  
-
-
-Entre la ville, la forêt et la mer,  
-
-ce moment arrive.  
+いつか、時が来るまで。  
 
 ---

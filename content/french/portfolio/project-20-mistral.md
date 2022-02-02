@@ -17,4 +17,10 @@ project_info:
 resources:
 ---
 
-J'ai peint ce tableau lorsque j'ai eu l'occasion de participer à une exposition organisée par Marseille en collaboration avec les ambassades de différents pays. C'est une œuvre qui est devenue un point de départ pour moi, car elle associe le vent fort du mistral dans le sud de la France à mon propre état d'esprit.
+J'ai peint ce tableau lorsque j'ai eu l'occasion de participer à une exposition organisée par Marseille en collaboration avec les ambassades de différents pays.  
+
+Cette oeuvre inspiré par Marseille où le mistral souffle.  
+Le vent est un élément que j'affectionne souvent dans mes œuvres car il est symbole de la liberté. Parfois, le vent emporte violemment diverses choses. Après son passage, il reste pus que soi-même, ne portant rien.
+C'est ce que je me sentais au travers de séjour au pays d'étranger.
+
+"Débarrasse de toutes les barrières, et soit ton propre maître (=Mistral)."

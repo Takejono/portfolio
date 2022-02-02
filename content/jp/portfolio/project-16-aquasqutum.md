@@ -22,4 +22,4 @@ resources:
 - src: images/portfolio/aquasqutum-6.jpg
 ---
 [MOVE Art management](https://move-art.jp)企画による、渋谷スクランブルスクエア内 Aquaqutum x Artists コラボ展示に参加しました。  
-「海辺のかけら」の企画テーマを元に制作した小作品郡です。
+「海辺のかけら」の企画テーマを元に制作した小作品群です。

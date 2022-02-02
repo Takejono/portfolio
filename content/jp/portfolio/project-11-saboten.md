@@ -1,5 +1,5 @@
 ---
-title: "絵と音の往復書簡"
+title: "絵と音の<br/> 往復書簡"
 date: 2021-12-12T12:14:34+06:00
 image: "images/portfolio/saboten-2.jpg"
 img_title: "« Une lettre ouverte » - 30cm x 24cm"

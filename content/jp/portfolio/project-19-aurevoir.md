@@ -1,5 +1,5 @@
 ---
-title: "さようなら"
+title: "さよなら"
 date: 2015-05-12T12:14:34+06:00
 image: "images/portfolio/aurevoir-1.jpg"
 img_title: "«  » - "
@@ -21,6 +21,6 @@ resources:
 - src: images/portfolio/aurevoir-5.jpg
 - src: images/portfolio/aurevoir-6.jpg
 ---
-異国の浜辺で出会った少年との一日を描いた自作絵本プロジェクト。
-日の終りに訪れる別れ、あの少年は本当だったのだろうか、それとも幻？  
+異国の浜辺で出会った少年との一日を描いた自作絵本プロジェクト。  
+日の終りに訪れる別れ、あの少年は本当だったのだろうか、それとも幻？    
 言葉が違くても、言葉がなくても通じ会える喜び、そして出会いの機微を描いた作品です。
