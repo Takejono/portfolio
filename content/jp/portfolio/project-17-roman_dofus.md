@@ -14,7 +14,7 @@ project_info:
   content: "A5"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Digital"
+  content: "デジタル"
 - name: "Link"
   icon: "fas fa-link"
   content: "[Bayard Editions](https://www.bayard-editions.com/jeunesse/collection/dofus)"

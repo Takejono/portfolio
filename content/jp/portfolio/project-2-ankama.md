@@ -14,7 +14,7 @@ project_info:
   content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Digital"
+  content: "デジタル"
 resources:
 - src: images/portfolio/ankama-2.jpg
   title:
