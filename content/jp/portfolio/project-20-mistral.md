@@ -13,7 +13,7 @@ project_info:
   content: "60cm x 50cm"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on paper"
+  content: "紙に水彩、カラーインク"
 resources:
 ---
 

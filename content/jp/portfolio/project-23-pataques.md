@@ -10,10 +10,10 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "various"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Pastel on paper, pen"
+  content: "紙にパステル、ペン"
 resources:
 - src: images/portfolio/pataques-2.jpg
   title: "«  » -  cm x  cm"

@@ -1,6 +1,7 @@
 ---
 title: "ペン画"
-date: 
+date: 2011-12-12T12:14:34+06:00
+date_show: "制作年いろいろ"
 image: "images/portfolio/pen-1.jpg"
 img_title: "«  » - "
 categories: ["個人プロジェクト"]
@@ -10,7 +11,7 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "various"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Pen on paper, Digital color"

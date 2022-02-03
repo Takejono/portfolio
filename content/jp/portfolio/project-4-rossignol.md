@@ -13,7 +13,7 @@ project_info:
   content: "15cm x 20cm"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on Paper, Pen"
+  content: "紙に水彩、カラーインク、 ペン"
 resources:
 - src: images/portfolio/rossignol-2.jpg
   title:

@@ -1,6 +1,7 @@
 ---
 title: "ピアノ曲集表紙デザイン"
-date: 
+date: 2020-07-12T12:14:34+06:00
+date_show: "制作年いろいろ"
 image: "images/portfolio/kawai-1.jpg"
 img_title: "«  » - 24cm x 32cm"
 categories: ["仕事", "挿絵"]
@@ -13,7 +14,7 @@ project_info:
   content: "24cm x 32cm"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on Paper"
+  content: "紙に水彩、カラーインク"
 resources:
 - src: images/portfolio/kawai-2.jpg
 - src: images/portfolio/kawai-3.jpg

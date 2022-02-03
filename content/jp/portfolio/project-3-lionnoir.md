@@ -10,10 +10,10 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "various"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on paper"
+  content: "紙に水彩、カラーインク"
 - name: "Link"
   icon: "fas fa-link"
   content: "[Gallery Yamagoya](https://galleryyamagoya.com/2021/takeshi-jonoo-exhibition/)"

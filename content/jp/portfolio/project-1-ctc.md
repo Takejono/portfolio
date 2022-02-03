@@ -10,10 +10,10 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "various"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on Paper, Digital"
+  content: "紙に水彩、カラーインク、デジタル"
 - name: "Link"
   icon: "fas fa-link"
   content: "[CTC未来財団](https://mirai-zaidan.or.jp)"

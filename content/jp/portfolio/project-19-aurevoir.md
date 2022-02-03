@@ -10,10 +10,10 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "varitous"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on paper"
+  content: "紙に水彩、カラーインク"
 resources:
 - src: images/portfolio/aurevoir-2.jpg
 - src: images/portfolio/aurevoir-3.jpg

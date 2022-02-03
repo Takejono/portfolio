@@ -1,6 +1,7 @@
 ---
 title: "滲み、染み"
-date: 
+date: 2019-05-12T12:14:34+06:00
+date_show: "制作年いろいろ"
 image: "images/portfolio/tache-1.jpg"
 img_title: "«  » - "
 categories: ["個人プロジェクト"]
@@ -10,7 +11,7 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "various"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Watercolor on paper"

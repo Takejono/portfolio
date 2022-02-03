@@ -1,6 +1,7 @@
 ---
 title: "Lettres entre l'image et le son"
-date: 
+date: 2021-12-12T12:14:34+06:00
+date_show: "2021 ~"
 image: "images/portfolio/saboten-2.jpg"
 img_title: "« Une lettre ouverte » - 30cm x 24cm"
 categories: ["Personal works"]

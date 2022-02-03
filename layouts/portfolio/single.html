@@ -31,8 +31,8 @@
                <div class="ml-3">
                  <h4>Date</h4>
                  <div class="content">
-                   {{ if .Params.date }}
-                   {{ .PublishDate.Format "Jan, 2006" }}{{else}}various{{ end }}
+                   {{ if .Params.Date_show }}
+                   {{ .Params.Date_show }}{{else}}{{ .PublishDate.Format "Jan, 2006" }}{{ end }}
                    </div>
                </div>
              </li>

@@ -1,6 +1,7 @@
 ---
 title: "絵と音の<br/> 往復書簡"
 date: 2021-12-12T12:14:34+06:00
+date_show: "2021 ~"
 image: "images/portfolio/saboten-2.jpg"
 img_title: "« Une lettre ouverte » - 30cm x 24cm"
 categories: ["個人プロジェクト"]
@@ -10,10 +11,10 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "various"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on Paper"
+  content: "紙に水彩、カラーインク"
 resources:
 - src: "images/slider/slider-2.jpg"
   title: "« la ville tourne » - 32cm x 24cm"

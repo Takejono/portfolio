@@ -10,10 +10,10 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "various"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on Paper, Digital retouch"
+  content: "紙に水彩、カラーインク、デジタルレタッチ"
 - name: "Link"
   icon: "fas fa-link"
   content: "[Licorne_Japon](https://www.licorne-savonnerie.jp)"

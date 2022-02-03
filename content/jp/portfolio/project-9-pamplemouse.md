@@ -13,7 +13,7 @@ project_info:
   content: "15cm x 18cm"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on Paper"
+  content: "紙に水彩、カラーインク"
 resources:
 - src: images/portfolio/pamplemousse-1.jpg
 - src: images/portfolio/pamplemousse-3.jpg

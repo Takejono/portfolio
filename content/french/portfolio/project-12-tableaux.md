@@ -1,6 +1,7 @@
 ---
 title: "Tableaux"
-date: 
+date: 2021-12-12T12:14:34+06:00
+date_show: "Date variée"
 image: "images/portfolio/tableaux-1.jpg"
 img_title: "«  » - "
 categories: ["Works"]

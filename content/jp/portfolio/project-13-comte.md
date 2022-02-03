@@ -1,6 +1,7 @@
 ---
 title: "お話のなか"
-date: 
+date: 2015-12-12T12:14:34+06:00
+date_show: "制作年いろいろ"
 image: "images/slider/slider-1.jpg"
 img_title: "«  » - "
 categories: ["個人プロジェクト"]
@@ -10,10 +11,10 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "various"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on Paper"
+  content: "紙に水彩、カラーインク"
 resources:
 - src: images/portfolio/comte-2.jpg
 - src: images/portfolio/comte-3.jpg

@@ -1,6 +1,7 @@
 ---
 title: "アンカマ<br/> イラスト"
-date: 
+date:
+date_show: "2012 ~ 2015"
 image: "images/portfolio/ankama-4.jpg"
 img_title: "« Garde corps » - Digital"
 categories: ["仕事", "ゲーム"]
@@ -10,7 +11,7 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "various"
+  content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"

@@ -1,6 +1,7 @@
 ---
 title: "Pencil Drawings"
-date: 
+date: 2015-12-12T12:14:34+06:00
+date_show: "Date variée"
 image: "images/slider/slider-5.jpg"
 img_title: "«  » - "
 categories: ["Personal works"]

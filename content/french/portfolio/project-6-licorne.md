@@ -1,6 +1,6 @@
 ---
 title: "Etiquette for Savon Licorne"
-date: 
+date: 2021-09-12T12:14:34+06:00
 image: "images/portfolio/licorne-1.jpg"
 img_title: "«  » - "
 categories: ["Works","Design"]

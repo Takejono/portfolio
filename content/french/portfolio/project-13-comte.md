@@ -1,6 +1,7 @@
 ---
 title: "Dans le Comte"
-date: 
+date: 2015-12-12T12:14:34+06:00
+date_show: "Date variée"
 image: "images/slider/slider-1.jpg"
 img_title: "«  » - "
 categories: ["Personal works"]

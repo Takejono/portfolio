@@ -10,7 +10,7 @@ draft: false
 project_info:
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Digital"
+  content: "デジタル"
 resources:
 - src: images/portfolio/my-2.jpg
 - src: images/portfolio/my-3.jpg

@@ -278,8 +278,8 @@
                 <p class="mb-0 text-light">{{ . | title }}</p>
                 {{ end }}
                 <div class="item-created text-light">
-                  {{ if .Params.date }}
-                  {{ .PublishDate.Format "2006" }}{{else}}Date variée{{ end }}
+                  {{ if .Params.date_show }}
+                  {{ .Params.Date_show }}{{else}}{{ .Params.Date.Format "2006"}}{{ end }}
                 </div>
               </div>
             </div>
