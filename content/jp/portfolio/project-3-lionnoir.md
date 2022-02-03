@@ -36,6 +36,8 @@ resources:
   title:
 - src: images/portfolio/lionnoir-8.jpg
   title:
+- src: images/portfolio/lionnoir-11.jpg
+  title:
 ---
 
 東京恵比寿にある[Gallery and shop 山小屋](https://galleryyamagoya.com)での２０２１年個展展示作品。  

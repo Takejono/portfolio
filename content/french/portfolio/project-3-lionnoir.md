@@ -36,6 +36,8 @@ resources:
   title:
 - src: images/portfolio/lionnoir-8.jpg
   title:
+- src: images/portfolio/lionnoir-11.jpg
+  title:
 ---
 
 Il s'agit d'une série d'œuvres exposés à la [Gallery and shop Yamagoya](https://galleryyamagoya.com) à Ebisu, TOKYO au JAPON. Ces œuvres sont faits d'après mon texte ci-dessous.
