@@ -20,5 +20,5 @@ project_info:
 resources:
 - src: images/portfolio/licorne-2.jpg
 ---
-
-Savonnerie de la Licorne, une des plus ancienne savonnerie de Marseille. Design des étiquettes pour un ami qui fait l'importation et la vente de leurs savons au Japon.
+マルセイユ石鹸の老舗の一つ「リコーヌ」。その名の通りユニコーンが目印のブランドです。  
+日本代理販売用にラベル、バンドイラスト等やらせていただきました。

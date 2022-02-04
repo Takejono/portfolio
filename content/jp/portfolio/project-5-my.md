@@ -16,4 +16,5 @@ resources:
 - src: images/portfolio/my-3.jpg
 - src: images/portfolio/my-4.jpg
 ---
-Travail de design pour une pâtisserie à Arles. Je m'occupe du logo, des cartes de visite, de design des emballages et de bien d'autres choses.
+
+アルルの友人のお菓子屋さん。美味しいです。立ち上げ当初からロゴ、名刺、パッケージデザイン等いろいろやらせてもらっています。
