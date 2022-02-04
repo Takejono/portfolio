@@ -1,6 +1,6 @@
 ---
 title : "D'autres images?"
-bg_image : "images/backgrounds/need-service1.jpg"
+bg_image : ""
 button:
   enable : true
   label : "Link vers Google album"

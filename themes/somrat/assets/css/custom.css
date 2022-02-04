@@ -112,14 +112,31 @@ h1 {
 /*--------------------------------
    banner
 ----------------------------------*/
+.header {
+  z-index: 0;
+}
 .header .slider::after, .header::after {
   background-image: url("/images/backgrounds/contact-bg.jpg");
   background-size: cover;
   background-position: top;
   transform: rotateX(180deg);
   opacity: .2;
-
 }
+/*.fullscreen-nav-container {
+}
+.fullscreen-nav-container:before {
+  content: '';
+  background-image: url("/images/backgrounds/full-nav-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}*/
 .fullscreen-nav-container::after {
   background: rgba(0,0,0,0.2);
 }
@@ -315,6 +332,7 @@ transition: all 0.3s ease-out;
   background-image: url("/images/backgrounds/need-service.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: fixed;
   z-index: 1;
   top: 0;
