@@ -208,8 +208,8 @@ transition: all 0.3s ease-out;
 }
 .item-created {
   background: none;
-  padding: 0;
-  padding-top: 1rem;
+  padding-left: 0;
+  padding-top: 1.4rem;
   position:relative;
 }
 .item-holder img, .gallery a img {
@@ -226,14 +226,18 @@ transition: all 0.3s ease-out;
 }
 .item-caption:lang(jp) h2 {
   font-size: 18px;
-  font-weight: 500;
   letter-spacing: 0;
-  line-height: 1.6rem;
 }
-
-.item-caption p, .item-created {
+.item-caption p {
  color: moccasin!important;
- font-weight: 400;
+ font-weight: 300;
+ line-height: 1.2rem;
+ font-size: 14px;
+}
+.item-created {
+ font-size: 14px;
+ color: #d1b98e!important;
+ font-weight: 300;
 }
 .filtr-item {
   padding: 7px;
@@ -241,13 +245,14 @@ transition: all 0.3s ease-out;
 .item-holder img {
 object-fit: cover;
 transform-origin: 30% 50%;
+-webkit-transform: translateX(0px);
+transform: translateX(0px);
 -webkit-transition: all 0.3s ease-out;
 transition: all 0.3s ease-out;
 }
 .filtr-item:hover .item-holder img {
-  -webkit-transform: translateX(0px) scale(120%);
-  transform: translateX(0px) scale(120%);
-  transform-origin: 30% 50%;
+  -webkit-transform: scale(120%);
+  transform: scale(120%);
 }
 
 @media (hover: hover) {
