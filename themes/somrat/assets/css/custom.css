@@ -158,6 +158,11 @@ input:checked+label span {
   text-align: right;
   font-weight: 400;
 }
+@media screen and (max-width: 880px) {
+  .animated-text {
+    font-size: 21px;
+  }
+}
 .rotate {
   display: block;
   position: absolute;
