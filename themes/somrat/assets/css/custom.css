@@ -112,9 +112,6 @@ h1 {
 /*--------------------------------
    banner
 ----------------------------------*/
-.header {
-  z-index: 0;
-}
 .header .slider::after, .header::after {
   background-image: url("/images/backgrounds/contact-bg.jpg");
   background-size: cover;
@@ -122,9 +119,33 @@ h1 {
   transform: rotateX(180deg);
   opacity: .2;
 }
-/*.fullscreen-nav-container {
+.fullscreen-nav-container {
+  display: block;
+  -webkit-transform: translateY(-100vh);
+  transform: translateY(-100vh);
+  border-radius: 0 0 50% 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.fullscreen-nav-container:before {
+.fullscreen-nav-container.open-nav {
+ display: block;
+ -webkit-transform: translateY(0vh);
+ transform: translateY(0vh);
+ border-radius: 0 0 0 0;
+}
+.fullscreen-nav-container .full-nav-content {
+ opacity: 0;
+ -webkit-transition: all 0.1s ease-in-out;
+ transition: all 0.1s ease-in-out;
+}
+.fullscreen-nav-container.open-nav .full-nav-content {
+ opacity: 1;
+ -webkit-transition: all 0.4s ease-in-out;
+ transition: all 0.4s ease-in-out;
+ transition-delay: .25s;
+}
+
+/*.fullscreen-nav-container:before {
   content: '';
   background-image: url("/images/backgrounds/full-nav-bg.jpg");
   background-repeat: no-repeat;

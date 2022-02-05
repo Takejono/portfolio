@@ -143,8 +143,11 @@
 	// Initializing Background Setting Function
 	SliderBackground();
 	// Toggle Fullscreen Navigation
+//	$('#burger').on("click", function () {
+//		$(".fullscreen-nav-container").slideToggle(300);
+//	});
 	$('#burger').on("click", function () {
-		$(".fullscreen-nav-container").slideToggle(300);
+		$(".fullscreen-nav-container").toggleClass("open-nav");
 	});
 	$(".fullscreen-nav-holder a, .turn-home").on("click", function () {
 		$("#burger").trigger("click");
