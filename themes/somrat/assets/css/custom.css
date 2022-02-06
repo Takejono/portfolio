@@ -290,7 +290,7 @@ transition: all 0.3s ease-out;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
  }
-.item-caption * {
+.item-caption h2, .item-caption p, .item-caption div {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-out;
   transition: opacity 0.3s ease-out;
