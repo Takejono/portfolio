@@ -29,7 +29,7 @@ h1 {
   transition: all 0.3s ease-out;
   transform: translateY(0px) scale(100%);
 }
-.btn-container a:hover i {
+.btn-container a:hover i, .btn-container.about a:hover i {
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-name: ShakeDown;
@@ -191,6 +191,22 @@ input:checked+label span {
   ----------------------------------*/
 .about-me {
   background: linear-gradient(#efdbb5 60%, #fff);
+}
+.btn-container.about {
+  text-align: center;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  font-size: 50px;
+  position: relative;
+}
+
+.btn-container.about i {
+  color: #9c8863;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transform: translateY(0px) scale(100%);
 }
 /*--------------------------------
    portfolio
