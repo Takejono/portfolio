@@ -1307,15 +1307,9 @@ ul.experience-chart h4 {
 
 .filtr-item img {
   width: 100%;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .filtr-item:hover .item-holder img {
-  -webkit-transform: translateX(150px);
-  transform: translateX(150px);
   cursor: pointer;
 }
 

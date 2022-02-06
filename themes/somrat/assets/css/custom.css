@@ -291,15 +291,14 @@ transition: all 0.3s ease-out;
 }
 .item-holder img {
 object-fit: cover;
-transform-origin: 30% 50%;
--webkit-transition: all 0.3s ease-out;
-transition: all 0.3s ease-out;
+-webkit-transition: all 0.45s ease-out;
+transition: all 0.45s ease-out;
 }
 .filtr-item:hover .item-holder img {
-  -webkit-transform: translateX(0px);
-  transform: translateX(0px);
-  -webkit-transform: scale(120%);
-  transform: scale(120%);
+  -webkit-transform: translateX(0px) scale(120%);
+  transform: translateX(0px) scale(120%);
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
 }
 
 @media (hover: hover) {
