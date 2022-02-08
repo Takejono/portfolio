@@ -295,8 +295,8 @@ object-fit: cover;
 transition: all 0.45s ease-out;
 }
 .filtr-item:hover .item-holder img {
-  -webkit-transform: translateX(0px) scale(120%);
-  transform: translateX(0px) scale(120%);
+  -webkit-transform: translateX(0px) scale(115%);
+  transform: translateX(0px) scale(115%);
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
@@ -330,8 +330,8 @@ transition: all 0.45s ease-out;
   transform: translate(0px);
  }
 .item-holder img {
-  -webkit-transform: scale(120%);
-  transform: scale(120%);
+  -webkit-transform: scale(100%);
+  transform: scale(100%);
  }
 }
 
