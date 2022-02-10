@@ -685,6 +685,7 @@ input:checked+label span:last-child {
   text-decoration: none;
   color: #fff;
   font-size: 17px;
+  font-weight: 500;
   -webkit-transition: color 1s;
   transition: color 1s;
 }
