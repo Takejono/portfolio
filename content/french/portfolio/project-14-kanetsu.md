@@ -18,6 +18,7 @@ resources:
 - src: images/portfolio/kanetsu-2.jpg
 - src: images/portfolio/kanetsu-3.jpg
 - src: images/portfolio/kanetsu-4.jpg
+- src: images/portfolio/kanetsu-5.jpg
 ---
 
 Il s'agit des illustrations pour un livret commémoratif de l'hôpital Kanetsu-kai.
