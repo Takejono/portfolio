@@ -241,6 +241,7 @@ transition: all 0.3s ease-out;
  background-position: center;
  opacity: .8;
  z-index: -1;
+ top: 0;
  border-radius: 0% 0% 20px 0%;
 }
 .item-caption a {
