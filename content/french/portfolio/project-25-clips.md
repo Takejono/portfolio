@@ -16,8 +16,8 @@ project_info:
   content: "Digital"
 resources:
 ---
+Illustrations pour le clip "La fin des contes" d'Al'Tarba, feat. Dooz Kawa.<br/><br/>
+Motion Design by [Célestin Jean-Charles](https://vimeo.com/celestinjeancharles)<br/>
+© & ℗ [I.O.T Records](https://www.iotrecords.org)  2022<br/>
 
 {{< youtube 8zyt2YTVxfc >}}
-
-Illustrations pour le clip "La fin des contes" de Al'Tarba. <br/>
-Motion design : @ Jean-charles Celestan
