@@ -10,14 +10,15 @@ draft: false
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "Digital"
+  content: "デジタル"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "デジタル"
 resources:
 ---
 
-{{< youtube 8zyt2YTVxfc >}}
+MV 「La fin des contes」（by Al'Tarba, feat. Dooz Kawa）のためのイラストレーション。<br/><br/>
+モーションデザイン by [Célestin Jean-Charles](https://vimeo.com/celestinjeancharles)<br/>
+© & ℗ [I.O.T Records](https://www.iotrecords.org)  2022<br/>
 
-Illustrations pour le clip "La fin des contes" de Al'Tarba. <br/>
-Motion design : @ Jean-charles Celestan
+{{< youtube 8zyt2YTVxfc >}}
