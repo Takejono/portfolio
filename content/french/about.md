@@ -19,4 +19,4 @@ Depuis 2000, je travaillais comme le concept artiste dans le secteur du jeux-vid
 En cherchant une expression entre abstraction et figuration que les taches d'aquarelle apportent, mon univers est de plus en plus enfantin, poétique et simple.  
 Ma recherche continue toujours, en espérant créer des oeuvres qui evoque l'emotion et la réfléxion.
 
-Résident à [Le Couvent](https://www.facebook.com/lecouvent.belledemai) depuis Mai 2021.
+Résident à [Le Couvent](http://le-couvent.org) depuis Mai 2021.
