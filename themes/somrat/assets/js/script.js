@@ -178,9 +178,7 @@
 			// Fixing Menu after leaving Header Section
 			$(".menu").toggleClass("menu-fix");
 			// Changing Menu background after leaving Header Section
-			$(".menu-container").toggleClass("menu-normal");
 			$(".menu-item").toggleClass("menu-item-transparent");
-			$(".desktop-menu .hvr-underline-from-left").toggleClass("dark");
 			// Toggling Mobile Menu Visibility
 			$(".mobile-menu").toggleClass("mobile-menu-fix");
 			// Auto-Collapsing Mobile Menu When Left Open
@@ -188,6 +186,14 @@
 			if (direction == "up" && a == "menu-link active") {
 				$(".menu-link").trigger("click");
 			}
+		}
+	});
+
+	$('.portfolio').waypoint({
+		handler: function (direction) {
+			// Changing Menu background after leaving Header Section
+			$(".menu-container").toggleClass("menu-normal");
+			$(".desktop-menu .hvr-underline-from-left").toggleClass("dark");
 		}
 	});
 

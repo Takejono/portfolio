@@ -40,11 +40,12 @@ h1 {
   to {  transform: translateY(0px) scale(100%);}
 }
 #select-language {
- border-radius: .3rem;
- border-color: #ccc;
- padding: .2rem;
+  appearance: none;
+ border-radius: 1rem;
+ border: none;
+ padding: 2px 20px;
  margin-right: .5rem;
- background: rgba(255, 255, 255, .7)!important;
+ background: rgba(255, 255, 255, .5)!important;
 }
 /*--------------------------------
    mobile menu
