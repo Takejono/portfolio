@@ -1,9 +1,9 @@
 ---
-title : "D'autres images?"
+title : ""
 bg_image : ""
 button:
   enable : true
-  label : "Link vers Google album"
+  label : "Encore d'autres images?"
   link : "https://photos.app.goo.gl/JJeRjL3Bw2TSniMTA"
 
 
