@@ -19,6 +19,8 @@ project_info:
   content: "[Licorne_Japon](https://www.licorne-savonnerie.jp)"
 resources:
 - src: images/portfolio/licorne-2.jpg
+- src: images/portfolio/licorne-3.jpg
+- src: images/portfolio/licorne-4.jpg
 ---
 
 Savonnerie de la Licorne, une des plus ancienne savonnerie de Marseille. Design des étiquettes pour un ami qui fait l'importation et la vente de leurs savons au Japon.
