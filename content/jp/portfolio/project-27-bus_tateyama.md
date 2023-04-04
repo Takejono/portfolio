@@ -17,4 +17,4 @@ project_info:
 resources:
 - src: images/portfolio/tateyama-2.jpg
 ---
-Illustrations pour le car entre Tateyama et Tokyo.
+館山ー東京間を走る高速バスのためのラッピングイラスト。
