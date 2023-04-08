@@ -223,6 +223,9 @@ input:checked+label span {
 .section {
   padding-top: 50px;
 }
+.item-holder {
+height: 400px;
+}
 h4 {
   font-size: 1.3rem;
   font-weight: 400;
@@ -266,7 +269,6 @@ transition: all 0.3s ease-out;
 }
 .item-holder img, .gallery a img {
   max-width: 100%;
-  padding-bottom: 10px;
 }
 .item-caption h2 {
   font-size: 22px;
@@ -298,12 +300,14 @@ transition: all 0.3s ease-out;
 }
 .item-holder img {
 object-fit: cover;
+height: 100%;
+width: 100%;
 -webkit-transition: all 0.45s ease-out;
 transition: all 0.45s ease-out;
 }
 .filtr-item:hover .item-holder img {
-  -webkit-transform: translateX(0px) scale(115%);
-  transform: translateX(0px) scale(115%);
+  -webkit-transform: translateX(0px) scale(110%);
+  transform: translateX(0px) scale(110%);
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
