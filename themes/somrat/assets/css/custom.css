@@ -220,11 +220,14 @@ input:checked+label span {
 /*--------------------------------
    portfolio
 ----------------------------------*/
-.section {
-  padding-top: 50px;
+.portfolio {
+  padding: 50px 0 250px;
+}
+.portfolio .mt-4 {
+padding-top: 4rem;
 }
 .item-holder {
-height: 400px;
+aspect-ratio: 1 / 1;
 }
 h4 {
   font-size: 1.3rem;
