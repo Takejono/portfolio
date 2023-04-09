@@ -403,6 +403,11 @@ border: none;!important
 /*--------------------------------
   contact
 ----------------------------------*/
+section.contact svg {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+}
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .3rem .3rem 0 0;
   background: none;
