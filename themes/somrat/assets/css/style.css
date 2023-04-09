@@ -1644,7 +1644,7 @@ textarea.form-control::-webkit-input-placeholder,
 }
 
 .footer-bg {
-  background-color: #efdbb5;
+  background: none;
 }
 
 .footer hr {

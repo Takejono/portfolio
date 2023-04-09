@@ -379,13 +379,13 @@ border-radius: 3rem;
 color: #fff;
 font-size: 35px;
 background-color: transparent;
-border: none;!important
+border: none!important;
 -webkit-transition: all 0.3s ease-out;
 transition: all 0.3s ease-out;
 }
 .need-service a:hover {
 color: #efdbb5;
-border: none;!important
+border: none!important;
 }
 .need-service::after {
   content: '';
@@ -442,4 +442,10 @@ section.contact svg {
 }
 .footer .fab, .to-top .fa {
   color: #525252;
+}
+.footer {
+  text-align: center;
+}
+.to-top {
+margin-top: 0;
 }
