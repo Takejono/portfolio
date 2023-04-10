@@ -1555,7 +1555,7 @@ ul.experience-chart h4 {
   background-position: bottom right;
   background-attachment: scroll;
   position: relative;
-  padding-top: 300px;
+  padding-top: 30vw;
 }
 
 .contact:after {
