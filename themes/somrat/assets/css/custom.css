@@ -449,3 +449,6 @@ section.contact svg {
 .to-top {
 margin-top: 0;
 }
+.scroll-up {
+  z-index: 3;
+}
