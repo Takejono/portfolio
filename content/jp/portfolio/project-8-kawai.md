@@ -1,5 +1,5 @@
 ---
-title: "ピアノ曲集表紙デザイン"
+title: "ピアノ曲集<br/> 表紙デザイン"
 date: 2020-07-12T12:14:34+06:00
 date_show: "制作年いろいろ"
 image: "images/portfolio/kawai-1.jpg"

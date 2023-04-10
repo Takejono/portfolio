@@ -2,6 +2,7 @@
 title: "ポートフォリオ"
 description: "This is meta description."
 draft: false
+link_list: "全ポートフォリオ"
 
 
 # custom style

@@ -1,5 +1,5 @@
 ---
-title: "Illustrations pour le car à Tateyama"
+title: "高速バス<br/>ラッピングイラスト"
 date: 2023-02-24T12:14:34+06:00
 image: "images/portfolio/tateyama-1.jpg"
 img_title: "« Illustrations pour le car Tateyama »"

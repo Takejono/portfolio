@@ -1,5 +1,5 @@
 ---
-title: "Koishi ラーメンポスター"
+title: "Koishi<br/>ラーメンポスター"
 date: 2023-01-20T12:14:34+06:00
 image: "images/portfolio/koishi-1.jpg"
 img_title: "« Affiche Ramen Koishi »"

@@ -1,5 +1,5 @@
 ---
-title: "黒いライオンを探して"
+title: "黒いライオンを<br/>探して"
 date: 2021-07-12T12:14:34+06:00
 image: "images/backgrounds/full-nav-bg.jpg"
 img_title: "« Bienvenu à la forêt » - 32cm x 40cm"

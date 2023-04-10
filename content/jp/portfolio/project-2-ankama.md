@@ -1,5 +1,5 @@
 ---
-title: "アンカマ<br/> イラスト"
+title: "アンカマ<br/>ゲームイラスト"
 date:
 date_show: "2012 ~ 2015"
 image: "images/portfolio/ankama-4.jpg"
