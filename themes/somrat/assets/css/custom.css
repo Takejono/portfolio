@@ -201,6 +201,9 @@ input:checked+label span {
   background: linear-gradient(#efdbb5 60%, #fff);
   padding: 100px 0px 70px 0px;
 }
+.about-me h1 {
+  margin-bottom: 50px;
+}
 .btn-container.about {
   text-align: center;
   bottom: 20px;
@@ -221,7 +224,7 @@ input:checked+label span {
    portfolio
 ----------------------------------*/
 .portfolio {
-  padding: 50px 0 250px;
+  padding: 70px 0 250px;
 }
 .portfolio .mt-4 {
 padding-top: 4rem;
@@ -248,13 +251,14 @@ transition: all 0.3s ease-out;
  position: absolute;
  width: 100%;
  height: 100%;
- background-image: url("/images/backgrounds/contact-bg-s.jpg");
+/* background-image: url("/images/backgrounds/contact-bg-s.jpg");
  background-size: cover;
- background-position: center;
- opacity: .8;
+ background-position: center;*/
+background-color: #efdbb5;
+ opacity: .9;
  z-index: -1;
  top: 0;
- border-radius: 0% 0% 20px 0%;
+ border-radius: 0% 0% 70% 0%;
 }
 .item-caption a {
   -webkit-transition: all .2s ease-in-out;
@@ -262,7 +266,7 @@ transition: all 0.3s ease-out;
   color: white;
 }
 .item-caption a:hover {
-  color: black!important;
+  color: #525252!important;
 }
 .item-created {
   background: none;
@@ -286,14 +290,14 @@ transition: all 0.3s ease-out;
   letter-spacing: 0;
 }
 .item-caption p {
- color: moccasin!important;
+ color: #998a6c!important;
  font-weight: 300;
  line-height: 1.2rem;
  font-size: 14px;
 }
 .item-created {
  font-size: 14px;
- color: #d1b98e!important;
+ color: #baa783!important;
  font-weight: 300;
 }
 .filtr-item {
