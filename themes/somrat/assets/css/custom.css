@@ -427,11 +427,11 @@ section.contact svg {
   color: #525252;
 }
 .form-container .form-control:focus {
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, .6);
 }
 .form-container button {
   background: #fff;
-  border-radius: .3rem!important;
+  border-radius: 3rem!important;
 }
 /*--------------------------------
   footer

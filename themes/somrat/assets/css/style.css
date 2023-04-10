@@ -1567,7 +1567,7 @@ ul.experience-chart h4 {
   top: 0;
   left: 0;
   bottom: 0;
-  background: rgba(239, 219, 181, .8);
+  background: rgba(239, 219, 181, .88);
   z-index: 0;
 }
 .contact-holder {
