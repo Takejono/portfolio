@@ -379,6 +379,12 @@ transition: all 0.45s ease-out;
   padding: 140px 0;
   background-image: none;
   z-index: -1;
+  clip-path: url(#svgclip);
+}
+#svgclip {
+  position: fixed;
+  right: 0;
+  margin: 0 auto;
 }
 .need-service h1 {
   color: #525252;
