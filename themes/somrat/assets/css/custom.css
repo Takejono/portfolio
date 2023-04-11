@@ -229,6 +229,11 @@ input:checked+label span {
 .portfolio .mt-4 {
 padding-top: 4rem;
 }
+.portfolio-navigation label {
+border-color: transparent;
+color: #bbb;
+font-weight: 500;
+}
 .item-holder {
 aspect-ratio: 1 / 1;
 }

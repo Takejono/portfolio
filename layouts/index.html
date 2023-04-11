@@ -306,6 +306,9 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section id="cta" class="need-service overlay section-sm wow {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s" style="background-image: url('{{ .Params.bg_image | absURL }}');">
   <div class="container position-relative z-index-9">
+<svg width="400px" height="400px" viewBox="0 0 400 400" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M189.558,388.25C142.389,388.536 96.327,370.859 65.608,346.199C34.889,321.539 9.804,278.806 5.243,240.287C0.683,201.769 14.665,150.91 38.243,115.088C61.821,79.265 110.772,40.303 146.71,25.351C179.692,11.63 219.479,15.74 253.875,25.379C288.551,35.098 330.857,56.198 354.772,83.662C378.686,111.126 394.746,154.579 397.363,190.162C400.277,229.791 389.248,279.588 351.11,325.874C327.483,354.55 249.619,387.885 189.558,388.25Z"/>
+</svg>
     <h1>{{ .Title | markdownify }}</h1>
     {{ with .Content }}<div class="text-white content">{{ . | markdownify }}</div> {{ end }}
     {{ with .Params.button }}

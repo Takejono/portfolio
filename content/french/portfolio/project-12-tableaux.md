@@ -1,8 +1,8 @@
 ---
 title: "Tableaux"
-date: 2021-12-12T12:14:34+06:00
+date: 2023-01-12T12:14:34+06:00
 date_show: "Date variée"
-image: "images/portfolio/tableaux-1.jpg"
+image: "images/portfolio/tableaux-8.jpg"
 img_title: "«  » - "
 categories: ["Works"]
 description: "This is meta description."
@@ -16,6 +16,7 @@ project_info:
   icon: "fas fa-paint-brush"
   content: "Watercolor on Paper"
 resources:
+- src: images/portfolio/tableaux-1.jpg
 - src: images/portfolio/tableaux-2.jpg
 - src: images/portfolio/tableaux-3.jpg
 - src: images/portfolio/tableaux-4.jpg
