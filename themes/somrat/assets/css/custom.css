@@ -238,7 +238,7 @@ font-weight: 500;
 aspect-ratio: 1 / 1;
 }
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 .item-caption {
@@ -366,7 +366,7 @@ transition: all 0.45s ease-out;
   z-index: 1002;
 }
 .h2 { /* font awsome icon size */
-  font-size: 1.1rem;
+  font-size: .9rem;
 }
 /*--------------------------------
   call to action
