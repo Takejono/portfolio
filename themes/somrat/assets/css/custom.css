@@ -379,17 +379,18 @@ transition: all 0.45s ease-out;
   padding: 140px 0;
   background-image: none;
   z-index: -1;
-  clip-path: url(#svgclip);
+  text-align: right;
+  clip-path: ellipse(280px 50% at 90% 50%);
 }
-#svgclip {
-  position: fixed;
-  right: 0;
-  margin: 0 auto;
+.need-service .container {
+  margin-right: 0;
 }
 .need-service h1 {
   color: #525252;
+  text-align: right;
 }
 .need-service a {
+width: 350px;
 border-radius: 3rem;
 color: #fff;
 font-size: 35px;
