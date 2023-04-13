@@ -12,11 +12,11 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-Je m'appelle Takeshi, Peintre/Illustrateur à Marseille.  
+Takeshi JONOO. Peintre - Illustrateur à Marseille.  
+
 Diplomé universitaire en Design graphique, en 1999.  
-Depuis 2000, je travaillais comme le concept artiste dans le secteur du jeux-vidéos, et puis devenu Artiste indépendant depuis 2015.  
+Après 10 ans de carrière dans le secteur du jeu vidéo, j'ai décidé de devenir Artiste indépendant en 2015, et réside à [Le Couvent](http://le-couvent.org) depuis Mai 2021.
 
-En cherchant une expression entre abstraction et figuration que les taches d'aquarelle apportent, mon univers est de plus en plus enfantin, poétique et simple.  
-Ma recherche continue toujours, en espérant créer des oeuvres qui evoque l'emotion et la réfléxion.
+C'est en cherchant mon expression entre l'abstrait et le figuratif, que mes taches d'aquarelle apportent à mon univers un style de plus en plus enfantin, poétique et simple.  
 
-Résident à [Le Couvent](http://le-couvent.org) depuis Mai 2021.
+Mes recherches continuent, en espérant que mes oeuvres susciteront des émotions et la réflexion.
