@@ -419,6 +419,9 @@ border: none!important;
 /*--------------------------------
   contact
 ----------------------------------*/
+section.contact {
+background-attachment: fixed;
+}
 section.contact svg {
   z-index: 1;
   position: absolute;
