@@ -198,7 +198,7 @@ input:checked+label span {
      presentation
   ----------------------------------*/
 .about-me {
-  background: linear-gradient(#efdbb5 60%, #fff);
+  background: #fff;
   padding: 100px 0px 70px 0px;
 }
 .about-me h1 {
