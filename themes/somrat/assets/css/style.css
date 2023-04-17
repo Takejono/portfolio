@@ -599,7 +599,7 @@ input:checked+label span:last-child {
   left: 0;
   right: 0;
   height: 55px;
-  background: #efdbb5;
+  background: #fff;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
