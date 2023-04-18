@@ -10,10 +10,10 @@ draft: falce
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "Digital"
+  content: "デジタル"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Digital"
+  content: "デジタル"
 resources:
 - src: images/portfolio/koishi-2.jpg
 
