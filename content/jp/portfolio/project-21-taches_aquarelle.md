@@ -14,7 +14,7 @@ project_info:
   content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on paper"
+  content: "紙に水彩"
 resources:
 - src: images/portfolio/tache-2.jpg
   title: "«  » -  cm x  cm"

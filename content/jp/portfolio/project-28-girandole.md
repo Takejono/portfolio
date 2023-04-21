@@ -3,7 +3,7 @@ title: "Girandole"
 date: 2022-12-01T12:14:34+06:00
 image: "images/portfolio/girandole-1.jpg"
 img_title: "«  »"
-categories: ["Exhibition"]
+categories: ["展示"]
 description: "This is meta description."
 order: "24"
 draft: false
@@ -13,7 +13,7 @@ project_info:
   content: "varios"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on Paper"
+  content: "紙に水彩、カラーインク"
 resources:
 - src: images/portfolio/girandole-2.jpg
 - src: images/portfolio/girandole-4.jpg

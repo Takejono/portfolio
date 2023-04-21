@@ -14,7 +14,7 @@ project_info:
   content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Pen on paper, Digital color"
+  content: "紙にペン, デジタル着色"
 resources:
 - src: images/portfolio/pen-8.jpg
 - src: images/portfolio/pen-2.jpg

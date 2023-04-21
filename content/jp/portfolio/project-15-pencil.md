@@ -14,7 +14,7 @@ project_info:
   content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Pencil on Paper"
+  content: "紙に鉛筆"
 resources:
 - src: images/portfolio/pencil-2.jpg
 - src: images/portfolio/pencil-3.jpg
