@@ -16,7 +16,7 @@
             {{ range .Params.resources }}
           <div class="col-6">
             <a class="image-pop" href="{{ .src | absURL }}" title="{{ .title | markdownify }}">
-               <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}">
+              <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}">
             </a></div>
             {{ end }}
           </div>
