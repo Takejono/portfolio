@@ -2013,7 +2013,7 @@ textarea.form-control::-webkit-input-placeholder,
   }
 }
 
-@media (max-width: 800px) {
+@media (min-width: 0px) {
   .desktop-menu, #select-language {
     display: none;
   }
