@@ -2252,8 +2252,8 @@ textarea.form-control::-webkit-input-placeholder,
 .btn-primary.active,
 .btn-primary:focus,
 .btn-primary.focus {
-  background: transparent !important;
-  border-color: #313131 !important;
+  background: #efdbb5 !important;
+  border-color: #efdbb5 !important;
   color: #313131;
 }
 
