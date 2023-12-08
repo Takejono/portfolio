@@ -1,6 +1,6 @@
 ---
 title : ""
-bg_image : ""
+bg_image : "/images/backgrounds/need-service.jpg"
 button:
   enable : true
   label : "Encore d'autres images?"
