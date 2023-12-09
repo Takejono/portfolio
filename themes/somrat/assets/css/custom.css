@@ -238,7 +238,7 @@ input:checked+label span {
    portfolio
 ----------------------------------*/
 .portfolio {
-  padding: 70px 0 250px;
+  padding: 70px 0 350px;
   z-index: 2;
   position: relative;
 }
@@ -389,11 +389,10 @@ transition: all 0.45s ease-out;
   call to action
 ----------------------------------*/
 .overlay::before {
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.2) 50%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(100, 100, 100, 0.3) 50%, rgba(255,255,255,1) 100%);
   z-index: 2;
 }
 .need-service {
-  padding: 140px 0;
   background :#fff;
   z-index: 2;
   text-align: right;
