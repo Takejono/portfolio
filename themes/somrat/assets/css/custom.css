@@ -210,7 +210,7 @@ input:checked+label span {
      presentation
   ----------------------------------*/
 .about-me {
-  background: #fff;
+  background: #ffffffed;
   padding: 100px 0px 70px 0px;
   z-index: 2;
   position: relative;
@@ -238,6 +238,7 @@ input:checked+label span {
    portfolio
 ----------------------------------*/
 .portfolio {
+  background: #fffffff7;
   padding: 70px 0 350px;
   z-index: 2;
   position: relative;
