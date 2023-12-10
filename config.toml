@@ -113,7 +113,7 @@ weight = 2
 
 [[Languages.fr.menu.main]]
 name = "Portfolio"
-pre = "#"
+pre = "/"
 url = "portfolio"
 weight = 3
 
