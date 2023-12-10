@@ -150,7 +150,7 @@ weight = 2
 
 [[Languages.jp.menu.main]]
 name = "ポートフォリオ"
-pre = "#"
+pre = "/"
 url = "portfolio"
 weight = 3
 
