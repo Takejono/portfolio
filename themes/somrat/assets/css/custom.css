@@ -430,6 +430,10 @@ border: none!important;
 section.contact {
 background-attachment: fixed;
 }
+.contact::after {
+  background: rgba(239,219,181,.95);
+  }
+
 section.contact svg {
   z-index: 1;
   position: absolute;
