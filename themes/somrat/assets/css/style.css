@@ -1551,7 +1551,7 @@ ul.experience-chart h4 {
   background: #efdbb5;
   /* Fallback Background */
   background-repeat: no-repeat;
-  background-size: 100lvh;
+  background-size: cover;
   background-position: bottom right;
   background-attachment: scroll;
   position: relative;
