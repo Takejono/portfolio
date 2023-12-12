@@ -1,6 +1,6 @@
 ---
 title : ""
-bg_image : "images/backgrounds/need-service.jpg"
+bg_image : ""
 button:
   enable : true
   label : "さらに いろんな絵"

@@ -1142,7 +1142,7 @@ ul.experience-chart h4 {
   position: relative;
 }
 
-.overlay::before {
+/*.overlay::before {
   content: '';
   position: absolute;
   right: 0;
@@ -1150,7 +1150,7 @@ ul.experience-chart h4 {
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-}
+}*/
 
 .need-service h1 {
   position: relative;
