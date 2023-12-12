@@ -141,8 +141,8 @@ cursor: pointer;
 ----------------------------------*/
 .fullscreen-nav-container {
   display: block;
-  -webkit-transform: translateY(-120vh);
-  transform: translateY(-120vh);
+  -webkit-transform: translateY(-200vh);
+  transform: translateY(-200vh);
   border-radius: 0 0 50% 120%;
   -webkit-transition: transform 0.4s ease-in-out, border-radius 0.6s ease-in-out;
   transition: transform 0.4s ease-in-out, border-radius 0.6s ease-in-out;
@@ -396,11 +396,12 @@ transition: all 0.45s ease-out;
 .need-service {
   background :#fff;
   z-index: 2;
+  width: ;
   text-align: right;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-attachment: fixed;
 }
 .need-service .container {
@@ -429,6 +430,8 @@ border: none!important;
 ----------------------------------*/
 section.contact {
 background-attachment: fixed;
+background-size: 100lvh;
+background-position: ;
 }
 .contact::after {
   background: rgba(239,219,181,.95);
