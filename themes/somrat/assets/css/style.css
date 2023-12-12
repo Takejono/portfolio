@@ -193,7 +193,7 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 100dvh;
   margin: 0;
   overflow: hidden;
 }
@@ -201,7 +201,7 @@ body {
 .owl-carousel.owl-full-width .slider {
   position: relative;
   width: 100%;
-  height: 100lvh;
+  height: 100%;
 }
 
 .owl-carousel.owl-full-width .slider img {
