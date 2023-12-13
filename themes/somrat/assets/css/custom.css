@@ -400,7 +400,7 @@ transition: all 0.45s ease-out;
 .need-service {
   background :#fff;
   z-index: 2;
-  width: ;
+  width: 100%;
   text-align: right;
   position: relative;
 }
@@ -422,15 +422,16 @@ transition: all 0.45s ease-out;
 }
 .need-service a {
 border-radius: 3rem;
-color: #efdbb5;
+color: #525252;
 font-size: 35px;
+text-shadow: #fff 0 0 30px;
 background-color: transparent;
 border: none!important;
 -webkit-transition: all 0.3s ease-out;
 transition: all 0.3s ease-out;
 }
 .need-service a:hover {
-color: #525252;
+color: #efdbb5;
 border: none!important;
 }
 
