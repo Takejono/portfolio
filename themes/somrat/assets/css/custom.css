@@ -393,10 +393,6 @@ transition: all 0.45s ease-out;
 /*--------------------------------
   call to action
 ----------------------------------*/
-/*.overlay::before {
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(100, 100, 100, 0.3) 50%, rgba(255,255,255,1) 100%);
-  z-index: 2;
-}*/
 .need-service {
   background :#fff;
   z-index: 2;
@@ -409,11 +405,20 @@ transition: all 0.45s ease-out;
   margin-right: 0;
   height: 250px;
   max-width: 550px;
+}
+.need-service .container::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
   background-image: url("/images/backgrounds/need-service.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  opacity: .5;
   border-radius: 8rem 0 0 8rem;
 }
 .need-service h1 {
@@ -424,7 +429,6 @@ transition: all 0.45s ease-out;
 border-radius: 3rem;
 color: #525252;
 font-size: 35px;
-text-shadow: #fff 0 0 30px;
 background-color: transparent;
 border: none!important;
 -webkit-transition: all 0.3s ease-out;
