@@ -401,10 +401,10 @@ transition: all 0.45s ease-out;
   position: relative;
 }
 .need-service .container {
-  padding-top: 70px;
+  padding-top: 60px;
   margin-right: 0;
-  height: 250px;
-  max-width: 550px;
+  height: 200px;
+  max-width: 500px;
 }
 .need-service .container::before {
   content: '';
@@ -428,7 +428,7 @@ transition: all 0.45s ease-out;
 .need-service a {
 border-radius: 3rem;
 color: #525252;
-font-size: 35px;
+font-size: 26px;
 background-color: transparent;
 border: none!important;
 -webkit-transition: all 0.3s ease-out;
