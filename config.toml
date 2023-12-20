@@ -59,6 +59,9 @@ link = "plugins/shuffle/shuffle.min.js"
 link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/owl-carousel/owl.carousel.min.js"
+[[params.plugins.js]]
+link = "https://kit.fontawesome.com/ad46f05c5d.js"
+
 
 
 #################### default parameters ################################
@@ -78,11 +81,15 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
 [[params.social]]
-icon = "fab fa-facebook"
+icon = "fa-regular fa-envelope fa-2xl"
+link = "mailto:takeshi.jonoo@gmail.com"
+
+[[params.social]]
+icon = "fa-brands fa-facebook fa-2xl"
 link = "https://www.facebook.com/takeshi.jonoo"
 
 [[params.social]]
-icon = "fab fa-instagram"
+icon = "fa-brands fa-instagram fa-2xl"
 link = "https://www.instagram.com/takeshi_jonoo_drawing"
 
 

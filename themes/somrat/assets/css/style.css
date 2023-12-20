@@ -544,7 +544,7 @@ input:checked+label span:last-child {
 .full-nav-icons a,
 .to-top a {
   text-decoration: none;
-  color: #313131;
+  color: #fff;
   font-size: 17px;
 }
 
@@ -552,15 +552,13 @@ input:checked+label span:last-child {
   padding: 7px 10px;
 }
 
-.full-nav-icons .fab,
-.to-top .fab {
+.full-nav-icons li {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #fff;
   padding: 7px;
 }
 
-.full-nav-icons .fab:hover {
+.full-nav-icons  li:hover {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
 }

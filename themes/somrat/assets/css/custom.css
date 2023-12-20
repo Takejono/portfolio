@@ -40,19 +40,18 @@ h1 {
   to {  transform: translateY(0px) scale(100%);}
 }
 #select-language {
-  appearance: none;
+appearance: none;
  border-radius: 1rem;
  border: none;
  padding: 2px 20px;
  margin-right: .5rem;
  background: rgba(255, 255, 255, .5)!important;
- -webkit-transition: all 0.5s ease-out;
- transition: all 0.5s ease-out;
+ -webkit-transition: all 0.3s ease-out;
+ transition: all 0.3s ease-out;
 }
 #select-language:hover {
 cursor: pointer;
- background: transparent !important;
- border: 2px solid #6f6f6f;
+ background: rgba(255, 255, 255, 1) !important;
 }
 /*--------------------------------
   Start Header
@@ -481,19 +480,15 @@ section.contact svg {
 .footer hr {
   border-color: #525252;
 }
-.fab, .to-top .fa {
-  background: none!important;
-  font-size: 35px;
-  color: #fff;
-}
-.footer .fab, .to-top .fa {
-  color: #525252;
-}
 .footer {
   text-align: center;
 }
 .to-top {
-margin-top: 0;
+  margin-top: 0;
+  }
+.to-top i {
+  font-size: 30px;
+background: transparent!important;
 }
 .scroll-up {
   z-index: 3;
