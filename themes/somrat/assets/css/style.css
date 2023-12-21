@@ -134,7 +134,7 @@ body {
   color: #999;
 }
 
-.scroll-up.hvr-icon-up:before {
+/*.scroll-up.hvr-icon-up:before {
   content: "\f077";
   font-size: 15px;
   font-family: 'Font Awesome 5 Free';
@@ -144,7 +144,7 @@ body {
   text-align: center;
   border-radius: 100%;
   border: 2px solid #999;
-}
+}*/
 
 /*--------------------------------
    End Preloader & General Styling

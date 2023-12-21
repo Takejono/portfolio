@@ -11,7 +11,7 @@
     <i class="fa fa-angle-right"></i>
   </div>
   <div class="btn-container">
-    <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
   </div>
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
@@ -167,6 +167,11 @@
 {{ with .GetPage "about" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="about">
+  <div class="divider-bottom">
+    <svg viewBox="0 0 700 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+      <path d="M0,33.501L0,64L700,64C700,64 647.405,59.555 637.475,61.084C618.785,63.963 624.386,56.241 609.69,56.536C605.546,56.619 599.77,53.596 595.578,53.252C589.628,52.763 584.322,55.804 578.619,53.974C570.925,51.503 563.729,56.195 555.765,55.739C543.061,55.01 518.688,44.549 505.856,45.929C475.059,49.241 450.803,55.634 419.533,54.064C409.054,53.538 398.667,50.896 388.285,49.785C382.832,49.202 377.939,51.708 372.281,50.941C364.413,49.874 343.04,44.673 335.054,46.912C324.215,49.951 314.377,46.928 303.391,47.755C295.331,48.362 292.255,52.753 282.273,52.109C273.31,51.53 263.497,50.065 256.45,45.819C247.45,40.395 225.18,49.147 213.498,47.301C198.263,44.894 173.262,48.025 165.218,47.563C150.685,46.73 150.752,38.048 136.374,39.739C124.284,41.16 110.164,36.941 103.63,38.598C96.756,40.341 87.579,45.737 82.413,46.454C77.803,47.095 62.621,43.834 58.009,42.167C54.089,40.75 40.239,44.753 35.067,44.493C24.446,43.96 9.792,35.914 0,33.501Z" style="fill:#ffffffed;"/>
+    </svg>
+  </div>
   <div class="container">
     <div class="row about-me-holder">
       <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
@@ -229,7 +234,7 @@
     </div>
   </div>
   <div class="btn-container about">
-    <a href="#portfolio"><i class="fas fa-chevron-down"></i></a>
+    <a href="#portfolio"><i class="fa-solid fa-chevron-down"></i></a>
   </div>
 
 </section>
@@ -373,6 +378,6 @@
 {{ end }}
 <!-- End Contact -->
 
-<a href="#home" class="scroll-up hvr-icon-up"></a>
+<a href="#home" class="scroll-up hvr-icon-up"><i class="fa-solid fa-circle-chevron-up fa-2xl"></i></a>
 
 {{ end }}
