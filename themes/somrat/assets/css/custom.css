@@ -68,12 +68,14 @@ cursor: pointer;
   background-position: top;
   position: fixed;
   transform: rotateX(180deg);
-  opacity: .2;
+  opacity: .3;
   z-index: 1;
 }
 .burger-menu {
-  top: 65px;
   right: 15px;
+  z-index: 1001;
+}
+.navigation-icon {
   z-index: 1001;
 }
 /*--------------------------------
@@ -96,10 +98,9 @@ cursor: pointer;
  display: none;
 }
 .menu {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   position: fixed;
-  right: -65px;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
 .menu-slider {
   top: 0px;
@@ -107,10 +108,10 @@ cursor: pointer;
   height: 65px;
   width: 65px;
   overflow: hidden;
-  background: #ffffffed;
+  background: none;
   border-radius: 0 0 0 80%;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 .menu-slider li {
   padding: 19px;
@@ -130,7 +131,8 @@ cursor: pointer;
  transition: all 0.1s linear;
 }
 .mobile-menu span {
-  background: #515151;
+ box-shadow: #ffffff 0 0 4px;
+ background: #515151;
 }
 .menu-slider li {
   -webkit-transition: transform 0.3s;
@@ -226,23 +228,25 @@ input:checked+label span {
   /*--------------------------------
      presentation
   ----------------------------------*/
-.about-me .divider-bottom {
+.divider-bottom {
   position: relative;
   width: 100%;
-  top: -0px;
+  top: 0px;
   z-index: 0;
-  }
-.divider-bottom svg {
+}
+.about-me .divider-bottom {
+  fill: #efdbb5;
+}
+.about-me .divider-bottom svg {
   position: absolute;
-  width: 100%;
-  bottom: 0;
+  bottom: -1px;
   z-index: 0;
 }
 .about-me .container {
   padding-top: 100px;
 }
 .about-me {
-    background: linear-gradient(#ffffffed, #fffffff7);
+  background: #efdbb5;
   padding: 0px 0px 70px 0px;
   margin-top: 100px;
   z-index: 2;
@@ -262,7 +266,7 @@ input:checked+label span {
 }
 
 .btn-container.about i {
-  color: #9c8863;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   transform: translateY(0px) scale(100%);
@@ -270,11 +274,24 @@ input:checked+label span {
 /*--------------------------------
    portfolio
 ----------------------------------*/
+.portfolio .divider-bottom {
+  background: #ddd;
+  fill: #fff;
+}
+.portfolio .divider-bottom svg {
+  position: absolute;
+  transform: scaleX(-1);
+  bottom: -1px;
+  z-index: 0;
+}
 .portfolio {
-  background: linear-gradient(#fffffff7, #fff);
-  padding: 70px 0 350px;
+  background: #fff;
+  padding: 0px 0 350px;
   z-index: 2;
   position: relative;
+}
+.portfolio .container-fluid {
+  padding-top: 70px;
 }
 .portfolio .mt-4 {
 padding-top: 4rem;
@@ -354,9 +371,9 @@ background-color: #efdbb5;
  font-weight: 300;
 }
 .filtr-item {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
 }
 .item-holder img {
 object-fit: cover;
@@ -407,7 +424,7 @@ transition: all 0.45s ease-out;
 }
 
 .back-arrow {
-  color: #fff!important;
+  color: #515151!important;
   position: absolute;
   top: 6px;
   right: 15px;
@@ -525,9 +542,14 @@ background: transparent!important;
 }
 .scroll-up {
   z-index: 3;
+  opacity: 0.5;
+  right: -20px;
 }
-.hvr-icon-up {
+i.hvr-icon-up {
   padding-right: 1em;
+}
+.hvr-icon-up:before {
+  content: "";
 }
 .credit {
 font-size: 12px;
