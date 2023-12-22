@@ -78,7 +78,14 @@ cursor: pointer;
 .navigation-icon {
   z-index: 1001;
 }
-/*--------------------------------
+.slider-button {
+  border: none;
+}
+.slider-button:hover {
+  background: none;
+}
+  
+  /*--------------------------------
    mobile menu
 ----------------------------------*/
 .mobile-menu-nav {
