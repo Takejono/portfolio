@@ -138,9 +138,12 @@ cursor: pointer;
  transition: all 0.1s linear;
 }
 .mobile-menu span {
- box-shadow: #ffffff91 0 0 5px;
- background: #515151;
+ background: #ffffff;
 }
+.mobile-menu.mobile-menu-fix span {
+  background: #515151;
+ }
+ 
 .menu-slider li {
   -webkit-transition: transform 0.3s;
   transition: transform 0.3s;
