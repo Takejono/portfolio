@@ -94,7 +94,12 @@ cursor: pointer;
 .mobile-menu {
   background: none;
   box-shadow: none;
+  right: -65px;
 }
+.mobile-menu.mobile-menu-fix {
+  right: 0px;
+}
+
 .mobile-menu-list {
  padding-top: 75px!important;
 }
