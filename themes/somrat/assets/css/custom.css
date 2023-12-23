@@ -143,7 +143,7 @@ cursor: pointer;
  transition: all 0.1s linear;
 }
 .mobile-menu span {
- background: #ffffff;
+  background: #515151;
 }
 .mobile-menu.mobile-menu-fix span {
   background: #515151;
