@@ -96,6 +96,7 @@ cursor: pointer;
   background: none;
   box-shadow: none;
   right: -65px;
+  transition: all 0.3s;
 }
 .mobile-menu.mobile-menu-fix {
   right: 0px;
@@ -460,7 +461,7 @@ transition: all 0.45s ease-out;
   position: relative;
 }
 .need-service .container {
-  padding-top: 30px;
+  padding-top: 40px;
   margin-right: 0;
   height: 150px;
   max-width: 400px;
@@ -489,7 +490,7 @@ transition: all 0.45s ease-out;
 border-radius: 3rem;
 vertical-align: middle;
 color: #525252;
-font-size: 24px;
+font-size: 1.2rem;
 background-color: transparent;
 border: none!important;
 -webkit-transition: all 0.3s ease-out;
