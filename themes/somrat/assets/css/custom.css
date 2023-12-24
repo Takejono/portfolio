@@ -269,6 +269,7 @@ input:checked+label span {
   margin-top: 100px;
   z-index: 2;
   position: relative;
+  padding-bottom: 100px;
 }
 .about-me h1 {
   margin-bottom: 50px;
@@ -309,7 +310,7 @@ input:checked+label span {
   position: relative;
   }
 .portfolio .container-fluid {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 .portfolio .mt-4 {
 padding-top: 4rem;
