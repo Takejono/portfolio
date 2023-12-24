@@ -81,6 +81,7 @@ cursor: pointer;
 }
 .slider-button {
   border: none;
+  z-index: 11;
 }
 .slider-button:hover {
   background: none;
