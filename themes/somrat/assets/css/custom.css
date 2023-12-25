@@ -172,7 +172,13 @@ cursor: pointer;
  right: 55px;
  top: 12px;
 }
-
+.back-arrow {
+  color: #515151!important;
+  position: absolute;
+  top: 6px;
+  right: 15px;
+  z-index: 1002;
+}
 /*--------------------------------
    banner
 ----------------------------------*/
@@ -442,13 +448,6 @@ transition: all 0.45s ease-out;
  }
 }
 
-.back-arrow {
-  color: #515151!important;
-  position: absolute;
-  top: 6px;
-  right: 15px;
-  z-index: 1002;
-}
 .h2 { /* font awsome icon size */
   font-size: .9rem;
 }
@@ -562,7 +561,7 @@ background: transparent!important;
 .scroll-up {
   z-index: 3;
   opacity: 0.5;
-  right: -20px;
+  right: 10px;
 }
 i.hvr-icon-up {
   padding-right: 1em;
@@ -571,5 +570,5 @@ i.hvr-icon-up {
   content: "";
 }
 .credit {
-font-size: 12px;
+font-size: 10px;
 }
