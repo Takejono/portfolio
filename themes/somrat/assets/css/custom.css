@@ -337,10 +337,10 @@ h4 {
 .item-caption {
 top: 0px;
 background: none;
-width: 180px;
+width: 100%;
 height: min-content;
--webkit-transform: translate(-180px);
-transform: translate(-180px);
+-webkit-transform: translate(-100%, -50%) rotate(-2deg);
+transform: translate(-100%, -50%) rotate(-2deg);
 -webkit-transition: all 0.3s ease-out;
 transition: all 0.3s ease-out;
 }
@@ -353,7 +353,7 @@ background-color: #efdbb5;
  opacity: .9;
  z-index: -1;
  top: 0;
- border-radius: 0% 0% 70% 0%;
+ border-radius: 0% 0% 100% 0%;
 }
 .item-caption a {
   -webkit-transition: all .2s ease-in-out;
@@ -366,19 +366,19 @@ background-color: #efdbb5;
 .item-created {
   background: none;
   padding-left: 0;
-  padding-top: 1.4rem;
+  padding-top: 1.2rem;
   position:relative;
 }
 .item-holder img, .gallery a img {
   max-width: 100%;
 }
 .item-caption h2 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   overflow-wrap: anywhere;
   line-height: 1.6rem;
-  padding: .5rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 .item-caption:lang(jp) h2 {
   font-size: 18px;
@@ -387,7 +387,7 @@ background-color: #efdbb5;
 .item-caption p {
  color: #998a6c!important;
  font-weight: 300;
- line-height: 1.2rem;
+ line-height: 1.1rem;
  font-size: 14px;
 }
 .item-created {
@@ -416,6 +416,8 @@ transition: all 0.45s ease-out;
 
 @media (hover: hover) {
 .filtr-item:hover .item-caption {
+  -webkit-transform: translate(-1%, -10%) rotate(-2deg);
+  transform: translate(-1%, -10%) rotate(-2deg);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
  }
