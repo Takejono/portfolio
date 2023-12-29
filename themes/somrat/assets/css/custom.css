@@ -444,7 +444,7 @@ transition: all 0.45s ease-out;
 @media (hover: none) {
 .item-caption {
   -webkit-transform: translate(-2%, -20%);
-  transform: translate(-2%, -20%;
+  transform: translate(-2%, -20%);
  }
 .item-holder img {
   -webkit-transform: scale(100%);
