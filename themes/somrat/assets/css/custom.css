@@ -71,7 +71,7 @@ cursor: pointer;
   opacity: .3;
   z-index: 1;
 }
-.header, .owl-carousel.owl-full-width .slider, .owl-full-width div, .owl-stage {
+.owl-carousel.owl-full-width .slider, .owl-full-width div, .owl-stage {
 height: 100vh;
 }
 .burger-menu {
