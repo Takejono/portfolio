@@ -517,7 +517,7 @@ background-attachment: fixed;
 height: 140vh;
 }
 .contact::after {
-  background: rgba(239,219,181,.95);
+  background: rgba(27, 27, 34, 0.95);
   }
 
 section.contact svg {
