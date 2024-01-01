@@ -514,7 +514,7 @@ border: none!important;
 ----------------------------------*/
 section.contact {
 background-attachment: fixed;
-height: 140vh;
+background-size: 100lvh;
 }
 .contact::after {
   background: rgba(27, 27, 34, 0.95);
