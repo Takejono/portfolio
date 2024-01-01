@@ -67,12 +67,11 @@ cursor: pointer;
   background-size: cover;
   background-position: top;
   position: fixed;
-  height: 100vh;
   transform: rotateX(180deg);
   opacity: .3;
   z-index: 1;
 }
-.owl-carousel.owl-full-width .slider, .owl-full-width div, .owl-stage {
+.header, .owl-carousel.owl-full-width .slider, .owl-full-width div, .owl-stage {
 height: 100vh;
 }
 .burger-menu {
