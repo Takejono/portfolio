@@ -514,6 +514,7 @@ border: none!important;
 ----------------------------------*/
 section.contact {
 background-attachment: fixed;
+height: 140vh;
 }
 .contact::after {
   background: rgba(239,219,181,.95);
@@ -540,7 +541,7 @@ section.contact svg {
   color: #525252;
 }
 .form-container .form-control:focus {
-  background: rgba(255, 255, 255, .6);
+  background: rgba(255, 255, 255, .8);
 }
 .form-container button {
   background: #fff;
