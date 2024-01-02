@@ -474,7 +474,6 @@ transition: all 0.45s ease-out;
 
 }
 .need-service .container {
-  position: ;
   background-image: url("/images/backgrounds/need-service.jpg");
   background-repeat: no-repeat;
   background-size: cover;
