@@ -510,9 +510,9 @@ border: none!important;
 /*--------------------------------
   contact
 ----------------------------------*/
-/*section.contact {
-background-attachment: fixed;
-}*/
+section.contact {
+background-position: center;
+}
 .contact::after {
   background: rgba(27, 27, 34, 0.95);
   }
