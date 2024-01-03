@@ -312,7 +312,7 @@ input:checked+label span {
 }
 .portfolio {
   background: #fff;
-  padding: 0px 0 350px;
+  padding: 0px 0 300px;
   z-index: 2;
   position: relative;
   }
@@ -463,22 +463,20 @@ transition: all 0.45s ease-out;
   background :#fff;
   z-index: 2;
   width: 100%;
-  text-align: right;
+  text-align: center;
   position: relative;
 }
 .need-service .container {
-  padding-top: 34px;
-  margin-right: 0;
-  height: 150px;
-  max-width: 360px;
+  margin-right: 20px;
+  height: 130px;
+  max-width: 140px;
 
 }
 .need-service .container {
   background-image: url("/images/backgrounds/need-service.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  border-radius: 8rem 0 7rem 8rem;
+  border-radius: 11rem 11rem 11rem 13rem;
 }
 .need-service h1 {
   color: #525252;
@@ -488,14 +486,14 @@ transition: all 0.45s ease-out;
 border-radius: 3rem;
 vertical-align: middle;
 color: #525252;
-font-size: 1.2rem;
+font-size: 1.1rem;
 background-color: transparent;
 border: none!important;
 -webkit-transition: all 0.3s ease-out;
 transition: all 0.3s ease-out;
 }
 .need-service a:hover {
-color: #efdbb5;
+color: #ffffff;
 border: none!important;
 }
 
