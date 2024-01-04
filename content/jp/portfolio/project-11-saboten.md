@@ -1,5 +1,5 @@
 ---
-title: "絵と音の<br/> 往復書簡"
+title: "絵と音の往復書簡"
 date: 2022-10-12T12:14:34+06:00
 date_show: "2021 ~"
 image: "images/portfolio/saboten-2.jpg"

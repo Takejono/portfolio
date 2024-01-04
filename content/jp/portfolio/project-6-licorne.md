@@ -1,5 +1,5 @@
 ---
-title: "リコーヌ石鹸<br/> ラベルデザイン"
+title: "リコーヌ石鹸 ラベルデザイン"
 date: 2022-12-12T12:14:34+06:00
 image: "images/portfolio/licorne-4.jpg"
 img_title: "«  » - "

@@ -1,7 +1,8 @@
 ---
 title: "Affiche Ramen Koishi"
-date: 2023-01-20T12:14:34+06:00
-image: "images/portfolio/koishi-1.jpg"
+date: 2023-11-20T12:14:34+06:00
+date_show: "2021 ~ 2023"
+image: "images/portfolio/koishi-3.jpg"
 img_title: "« Affiche Ramen Koishi »"
 categories: ["Works"]
 description: "This is meta description."
@@ -10,12 +11,13 @@ draft: falce
 project_info:
 - name: "Format"
   icon: "fas fa-ruler-combined"
-  content: "Digital"
+  content: "A2 - A3"
 - name: "Support"
   icon: "fas fa-paint-brush"
   content: "Digital"
 resources:
+- src: images/portfolio/koishi-1.jpg
 - src: images/portfolio/koishi-2.jpg
 
 ---
-Illustration pour le restaurant japonais [Koishi](https://www.facebook.com/people/Ko-ishi/100054103395859/) en style retro Showa ( des années 60 au japon ).
+Illustration pour le restaurant japonais [Koishi](https://www.facebook.com/people/Ko-ishi/100054103395859/) en plusieurs styles retros japonais.

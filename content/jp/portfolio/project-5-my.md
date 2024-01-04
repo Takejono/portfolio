@@ -1,5 +1,5 @@
 ---
-title: "パティスリーMasaki YAMAMOTO<br/> デザイン"
+title: "パティスリーMasaki YAMAMOTO デザイン"
 date: 2021-05-12T12:14:34+06:00
 image: "images/portfolio/my-1.jpg"
 img_title: "«  » - "

@@ -336,26 +336,28 @@ h4 {
   font-weight: 400;
 }
 .item-caption {
-top: 0px;
+top: -30px;
+left: 0px;
 background: none;
 width: 100%;
 height: min-content;
--webkit-transform: translate(-50%, -120%) rotate(-20deg);
-transform: translate(-50%, -120%) rotate(-20deg);
--webkit-transition: all 0.3s ease-out;
-transition: all 0.3s ease-out;
+opacity: 0;
+-webkit-transform: translate(0, 0);
+transform: translate(0, 0);
+-webkit-transition: all 0.4s ease-out;
+transition: all 0.4s ease-out;
 }
 .item-caption::before {
  content: '';
  position: absolute;
- width: 120%;
+ width: 130%;
  height: 90%;
-background-color: #41351c;
- opacity: .7;
+background-color: #302a1c;
+ opacity: .8;
  z-index: -1;
- top: 0;
- border-radius: 0% 0% 0% 0%;
- transform: rotate(-4deg);
+ top: -20px;
+ left: -20px;
+ transform: rotate(-10deg);
 }
 .item-caption a {
   -webkit-transition: all .2s ease-in-out;
@@ -419,15 +421,18 @@ transition: all 0.45s ease-out;
 
 @media (hover: hover) {
 .filtr-item:hover .item-caption {
-  -webkit-transform: translate(-2%, -20%);
-  transform: translate(-2%, -20%);
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  top: -30px;
+  left: 0px;
+ -webkit-transform: translate(0, 0);
+ transform: translate(0, 0);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  opacity: 1;
  }
 .item-caption h2, .item-caption p, .item-caption div {
   opacity: 0;
-  -webkit-transition: opacity 0.3s ease-out;
-  transition: opacity 0.3s ease-out;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
 }
 .filtr-item:hover .item-caption h2 {
   opacity: 1;
@@ -444,8 +449,9 @@ transition: all 0.45s ease-out;
 }
 @media (hover: none) {
 .item-caption {
-  -webkit-transform: translate(-2%, -20%);
-  transform: translate(-2%, -20%);
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0); 
+  opacity: 1;
  }
 .item-holder img {
   -webkit-transform: scale(100%);

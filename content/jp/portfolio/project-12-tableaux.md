@@ -2,7 +2,7 @@
 title: "絵画"
 date: 2023-01-12T12:14:34+06:00
 date_show: "制作年いろいろ"
-image: "images/portfolio/tableaux-8.jpg"
+image: "images/portfolio/tableaux-9.jpg"
 img_title: "«  » - "
 categories: ["仕事"]
 description: "This is meta description."
@@ -14,7 +14,7 @@ project_info:
   content: "いろいろ"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "紙に水彩、カラーインク"
+  content: "紙に水彩、カラーインク、オイルパステル"
 resources:
 - src: images/portfolio/tableaux-1.jpg
 - src: images/portfolio/tableaux-2.jpg

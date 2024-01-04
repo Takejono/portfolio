@@ -14,7 +14,7 @@ project_info:
   content: "various"
 - name: "Support"
   icon: "fas fa-paint-brush"
-  content: "Watercolor on Paper"
+  content: "Watercolor on Paper, Oilpastel"
 resources:
 - src: images/portfolio/tableaux-1.jpg
 - src: images/portfolio/tableaux-2.jpg
