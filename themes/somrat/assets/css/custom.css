@@ -341,6 +341,7 @@ left: 0px;
 background: none;
 width: 100%;
 height: min-content;
+margin-left: 16px;
 opacity: 0;
 -webkit-transform: translate(0, 0);
 transform: translate(0, 0);
@@ -352,6 +353,7 @@ transition: all 0.4s ease-out;
  position: absolute;
  width: 130%;
  height: 90%;
+ margin-left: -16px;
 background-color: #302a1c;
  opacity: .8;
  z-index: -1;
@@ -369,9 +371,10 @@ background-color: #302a1c;
 }
 .item-created {
   background: none;
-  padding-left: 0;
   padding-top: 1.2rem;
   position:relative;
+  left: 0;
+  padding-left: 0;
 }
 .item-holder img, .gallery a img {
   max-width: 100%;
@@ -382,7 +385,7 @@ background-color: #302a1c;
   letter-spacing: -0.02em;
   overflow-wrap: anywhere;
   line-height: 1.2rem;
-  padding: 2.5rem 1rem 0.2rem;
+  padding: 2.5rem 0rem 0.2rem;
 }
 .item-caption:lang(jp) h2 {
   font-size: 18px;
@@ -394,6 +397,7 @@ background-color: #302a1c;
  line-height: 1rem;
  font-size: 14px;
  display: inline-block;
+ padding: 0 5px 0 0;
 }
 .item-created {
  font-size: 14px;
