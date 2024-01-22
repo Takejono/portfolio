@@ -318,6 +318,7 @@ input:checked+label span {
   }
 .portfolio .container-fluid {
   padding-top: 100px;
+  padding-right: 60px;
 }
 .portfolio .mt-4 {
 padding-top: 4rem;
