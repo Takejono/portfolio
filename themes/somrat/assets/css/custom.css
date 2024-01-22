@@ -258,16 +258,13 @@ input:checked+label span {
   /*--------------------------------
      presentation
   ----------------------------------*/
-.divider-bottom {
+.divider {
   position: relative;
   width: 100%;
   top: 0px;
-  z-index: 0;
 }
-.about-me .divider-bottom {
+.about-me .divider svg {
   fill: #efdbb5;
-}
-.about-me .divider-bottom svg {
   position: absolute;
   bottom: -1px;
   z-index: 0;
@@ -304,15 +301,11 @@ input:checked+label span {
 /*--------------------------------
    portfolio
 ----------------------------------*/
-.portfolio .divider-bottom {
-  background: #ddd;
+.portfolio .divider svg {
   fill: #fff;
-}
-.portfolio .divider-bottom svg {
   position: absolute;
   transform: scaleX(-1);
   bottom: -1px;
-  z-index: 0;
 }
 .portfolio {
   background: #fff;
@@ -476,6 +469,14 @@ transition: all 0.45s ease-out;
 /*--------------------------------
   call to action
 ----------------------------------*/
+.need-service .divider svg {
+  fill: #fff;
+  position: absolute;
+  top: 59px;
+  left: 0;
+  transform: rotate(180deg);
+  filter: drop-shadow(0px -6px 3px rgba(38, 32, 15, 0.5));
+}
 .need-service {
   background :#fff;
   z-index: 2;
@@ -521,15 +522,8 @@ section.contact {
 background-position: center;
 }
 .contact::after {
-  background: rgba(27, 27, 34, 0.95);
+  background: rgba(27, 27, 34, 0.49);
   }
-
-section.contact svg {
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  filter: drop-shadow(0px 4px 3px rgba(38, 32, 15, 0.1));
-}
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .3rem .3rem 0 0;
   background: none;
