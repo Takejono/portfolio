@@ -6,8 +6,8 @@
 }
 
 .menu-slider li a, ul.fullscreen-nav-holder a {
- font-size: 20px;
- font-weight: 500;
+ font-size: 19px;
+ font-weight: 400;
 }
 h1 {
  font-size: 40px;
@@ -133,6 +133,14 @@ height: 100vh;
 .menu-slider li {
   padding: 19px;
   text-align: center;
+  -webkit-transition: transform 0.3s;
+  transition: transform 0.3s;
+  }
+  @media (height <= 450px) {
+    .menu-slider li {
+      padding: 0px;
+      }
+        
   }
 .open {
   top: 0px;
@@ -154,10 +162,6 @@ height: 100vh;
   background: #515151;
  }
  
-.menu-slider li {
-  -webkit-transition: transform 0.3s;
-  transition: transform 0.3s;
-}
 .menu-slider li:hover {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
@@ -171,7 +175,7 @@ height: 100vh;
 .menu-slider.open #select-language {
  display: block;
  position: absolute;
- right: 55px;
+ right: 80px;
  top: 12px;
 }
 .back-arrow {
