@@ -578,7 +578,7 @@ background-position: center;
 background: transparent!important;
 }
 .scroll-up {
-  z-index: 3;
+  z-index: 1000;
   opacity: 0.5;
   right: 10px;
 }
