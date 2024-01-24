@@ -2,7 +2,7 @@
 title: "PORTFOLIO"
 description: "This is meta description."
 draft: false
-link_list: "plus de portfolio"
+link_list: "&#43;"
 
 
 # custom style
