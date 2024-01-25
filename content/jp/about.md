@@ -1,5 +1,5 @@
 ---
-title : "私について"
+title : ""
 image : "images/backgrounds/portrait.png"
 # button
 button:

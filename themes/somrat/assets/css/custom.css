@@ -79,9 +79,14 @@ height: 100vh;
   z-index: 1001;
 }
 .head-holder {
+  z-index: 2;
+  width: 80%;
   display: block;
   position: absolute;
-  bottom: 110px;
+  bottom: 90px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
   }
 .navigation-icon {
   z-index: 1001;
@@ -94,13 +99,24 @@ height: 100vh;
   background: none;
 }
 .animated-text {
-  letter-spacing: .3em;
+  letter-spacing: .6em;
   text-align: right;
   font-weight: 400;
+  color: #fff;
+  font-size: 21px;
 }
-@media screen and (max-width: 880px) {
+@media screen and (min-width: 1200px) {
+  .head-holder {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .head-holder {
+    width: 100%;
+    padding: 0 10px;
+  }
   .animated-text {
-    font-size: 21px;
+    font-size: 18px;
   }
 }
 .rotate {
@@ -134,7 +150,7 @@ height: 100vh;
 .header .divider {
   position: absolute;
   width: 100%;
-  height: 200px;
+  height: 150px;
   bottom: 0;
   z-index: 2;
   background: #efdbb5;
@@ -142,7 +158,7 @@ height: 100vh;
 .header .divider svg {
   fill: #efdbb5;
   position: absolute;
-  bottom: 199px;
+  bottom: 149px;
 }
 /*--------------------------------
    mobile menu
@@ -287,7 +303,7 @@ input:checked+label span {
      presentation
   ----------------------------------*/
 .about-me .container {
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .about-me {
   background: #efdbb5;
@@ -338,7 +354,7 @@ input:checked+label span {
 .portfolio .mt-4 {
 padding-top: 0;
 }
-.portfolio .btn {
+.portfolio .btn:only-of-type {
   padding: 10px 23px;
   border-radius: 35px;
   font-size: 30px;
