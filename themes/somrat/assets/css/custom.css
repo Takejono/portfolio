@@ -122,7 +122,8 @@ height: 100vh;
 .rotate {
   display: block;
   position: absolute;
-  width: 98%;
+  width: 100%;
+  right: 15px;
   opacity: 0;
   animation-duration: 9s;
   animation-iteration-count: infinite;
