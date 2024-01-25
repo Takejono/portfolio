@@ -124,6 +124,7 @@ height: 100vh;
   position: absolute;
   width: 100%;
   right: 15px;
+  bottom: -18px;
   opacity: 0;
   animation-duration: 9s;
   animation-iteration-count: infinite;
