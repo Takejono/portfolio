@@ -74,7 +74,7 @@ cursor: pointer;
   z-index: 1;
 }
 .owl-carousel.owl-full-width .slider, .owl-full-width div, .owl-stage {
-height: 100vh;
+height: 100%;
 }
 .burger-menu {
   right: 15px;
