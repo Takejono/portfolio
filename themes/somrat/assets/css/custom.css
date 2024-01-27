@@ -73,7 +73,7 @@ cursor: pointer;
   z-index: 1;
 }
 .owl-carousel.owl-full-width .slider, .owl-full-width div, .owl-stage {
-height: 100vh;
+height: calc(100vh - 100px);
 width: 100%;
 }
 .burger-menu {
@@ -153,10 +153,10 @@ width: 100%;
   height: 150px;
   bottom: 0;
   z-index: 2;
-  background: #fe9e63;
+  background: #7d7561;
 }
 .header .divider svg {
-  fill: #fe9e63;
+  fill: #7d7561;
   position: absolute;
   bottom: 149px;
 }
@@ -178,6 +178,10 @@ width: 100%;
 
 .mobile-menu-list {
  padding-top: 75px!important;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ height: calc(100vh - 100px);
 }
 .mobile-menu-icons {
   justify-content: space-around;;
@@ -194,27 +198,18 @@ width: 100%;
   top: 0px;
   right: 0px;
   height: 100vh;
-  width: 65px;
+  width: 0px;
   overflow: hidden;
   background: none;
-  border-radius: 0 0 0 80%;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.menu-slider ul {
-  padding-right: 0px;
-  }
 .menu-slider li {
-  padding: 19px 17px 0;
-  text-align: right;
+  padding: 0;
+  flex: auto;
+  text-align: center;
   -webkit-transition: transform 0.3s;
   transition: transform 0.3s;
-  }
-  @media (height <= 450px) {
-    .menu-slider li {
-      padding: 5px 17px 0;
-      }
-        
   }
 .menu-slider li i {
  font-size: 24px;
@@ -223,7 +218,7 @@ width: 100%;
   top: 0px;
   right: 0px;
   height: 100vh;
-  width: 220px;
+  width: 100%;
   border-radius: 0 0 0 0;
   background: #75b634eb;
 }
@@ -306,7 +301,7 @@ input:checked+label span {
   padding-top: 30px;
 }
 .about-me {
-  background: #fe9e63;
+  background: #7d7561;
   padding: 0px 0px 150px 0px;
   z-index: 2;
   position: relative;
@@ -314,6 +309,9 @@ input:checked+label span {
 }
 .about-me h1 {
   margin-bottom: 50px;
+}
+.about-me-text p {
+  color: #fff;
 }
 .btn-container.about {
   text-align: center;
@@ -327,9 +325,6 @@ input:checked+label span {
 
 .btn-container.about i {
   color: #fff;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  transform: translateY(0px) scale(100%);
 }
 /*--------------------------------
    portfolio
@@ -608,7 +603,7 @@ padding-top: 40px;
 background: transparent!important;
 }
 .scroll-up {
-  z-index: 1000;
+  z-index: 10;
   opacity: 0.5;
   right: 10px;
 }
