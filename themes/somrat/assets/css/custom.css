@@ -407,7 +407,7 @@ background: linear-gradient(#ffffff 13%, #ffffff00 100%);
   max-width: 100%;
 }
 .item-caption h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: -0.02em;
   overflow-wrap: anywhere;
@@ -416,7 +416,7 @@ background: linear-gradient(#ffffff 13%, #ffffff00 100%);
     color: #525252;
 }
 .item-caption:lang(jp) h2 {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0;
 }
 .item-caption p {
