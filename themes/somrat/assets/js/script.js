@@ -193,7 +193,9 @@
 		handler: function (direction) {
 			// Changing Menu background after leaving Header Section
 			$(".menu-container").toggleClass("menu-normal");
-			$(".desktop-menu .hvr-underline-from-left").toggleClass("dark");
+		//	$(".desktop-menu .hvr-underline-from-left").toggleClass("dark");
+			// Slider croucel fade off
+			$(".owl-carousel").toggleClass("owl-off");
 		}
 	});
 
