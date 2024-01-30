@@ -61,7 +61,6 @@ cursor: pointer;
 ----------------------------------*/
 .header {
   z-index: 0;
-  height: calc(100vh + 9%);
 }
 #background-slide {
   position: fixed;
