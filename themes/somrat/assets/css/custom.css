@@ -5,7 +5,7 @@
   z-index: 997;
 }
 body {
-  --divide-bg-color: #4c442ac3;
+  --divide-bg-color: #4c442a;
 }
 .menu-slider li a, ul.fullscreen-nav-holder a {
  font-size: 18px;
@@ -162,11 +162,12 @@ cursor: pointer;
   bottom: 0;
   z-index: 2;
   background: var(--divide-bg-color);
+  opacity: .8;
 }
 .header .divider svg {
   fill: var(--divide-bg-color);
   position: absolute;
-  bottom: 150px;
+  bottom: 149px;
 }
 /*--------------------------------
    mobile menu
@@ -309,7 +310,7 @@ input:checked+label span {
   padding-top: 30px;
 }
 .about-me {
-  background: var(--divide-bg-color, black);
+  background: linear-gradient(#4c442acc, var(--divide-bg-color));
   padding: 0px 0px 150px 0px;
   z-index: 2;
   position: relative;
