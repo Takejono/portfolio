@@ -1322,7 +1322,7 @@ ul.experience-chart h4 {
 
 .item-caption {
   position: absolute;
-  top: 24px;
+  /* top: 24px; */
   bottom: 0;
   left: 0;
   width: 150px;

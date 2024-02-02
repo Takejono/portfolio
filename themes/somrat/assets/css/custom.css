@@ -12,9 +12,9 @@ body {
  font-weight: 400;
 }
 h1 {
- font-size: 35px;
+ font-size: 1.7rem;
  font-weight: 300!important;
- letter-spacing: -0.02em!important;
+ letter-spacing: 0.7rem!important;
 }
 .btn-container {
   text-align: center;
@@ -351,7 +351,7 @@ input:checked+label span {
   position: relative;
   }
 .portfolio .container-fluid {
-  padding-top: 100px;
+  padding-top: 70px;
   padding-right: 60px;
   padding-left: 60px;
 }
@@ -362,35 +362,39 @@ padding-top: 0;
   padding: 10px 23px;
   border-radius: 35px;
   font-size: 30px;
-  }
+}
 .portfolio-navigation label {
 border-color: transparent;
 color: #bbb;
 font-weight: 500;
 }
+.filtr-item {
+  padding: 5px 5px 5px;
+}
 .item-holder {
-aspect-ratio: 1 / 1;
-border-radius: 4px;
+  border-radius: 4px;
+  /* border: #7e7e7e 1px solid; */
+  filter: drop-shadow(0 0 4px #0000003d);
 }
 h4 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 .item-caption {
-top: -30px;
+position: absolute;
+bottom: 0px;
 left: 0px;
-padding-right: 30px;
-background: none;
+background: #ffffff8f;
+/* -webkit-backdrop-filter: blur(30px)); */
 width: 100%;
-height: min-content;
-margin-left: 16px;
-opacity: 0;
+/* height: min-content; */
+padding: 0 10px 0;
 -webkit-transform: translate(0, 0);
 transform: translate(0, 0);
 -webkit-transition: all 0.4s ease-out;
 transition: all 0.4s ease-out;
 }
-.item-caption::before {
+/* .item-caption::before {
  content: '';
  position: absolute;
  width: 130%;
@@ -401,7 +405,7 @@ background: linear-gradient(#ffffff 13%, #ffffff00 100%);
  top: -9px;
  left: -20px;
  transform: rotate(-4deg);
-}
+} */
 .item-caption a {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -410,49 +414,43 @@ background: linear-gradient(#ffffff 13%, #ffffff00 100%);
 .item-caption a:hover {
   color: #cfb890!important;
 }
-.item-holder img, .gallery a img {
-  max-width: 100%;
-}
 .item-caption h2 {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 500;
-  letter-spacing: -0.02em;
-  overflow-wrap: anywhere;
-  line-height: 1.5rem;
-  padding: 2.5rem 0rem 0;
+  /* letter-spacing: -0.02em; */
+  overflow-wrap: break-word;
+  word-break:keep-all;
+  /* line-height: 1rem; */
+  padding: 0;
     color: #525252;
 }
 .item-caption:lang(jp) h2 {
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 0;
 }
 .item-caption p {
  color: #525252!important;
  font-weight: 400;
- line-height: 1rem;
- font-size: 14px;
+ /* line-height: 1rem; */
+ font-size: 0.9rem;
  display: inline-block;
  padding: 0 5px 0 0;
 }
 .item-created {
+  /* display: inline-block; */
+  /* position: absolute; */
   background: none;
-  padding-top: 0.7rem;
-  position:relative;
-  left: 0;
-  padding-left: 0;
-  font-size: 15px;
+  text-align: right;
+  right: 0;
+  bottom: 0;
+  padding: 0 10px 0 0;
+  font-size: 0.9rem;
   color: #525252!important;
-  font-weight: 400;
-}
-.filtr-item {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 30px;
 }
 .item-holder img {
 object-fit: cover;
-height: 100%;
-width: 100%;
+/* height: 100%;
+width: 100%; */
 -webkit-transition: all 0.45s ease-out;
 transition: all 0.45s ease-out;
 }
@@ -465,16 +463,16 @@ transition: all 0.45s ease-out;
 
 @media (hover: hover) {
 .filtr-item:hover .item-caption {
-  top: -30px;
-  left: 0px;
- -webkit-transform: translate(0, 0);
- transform: translate(0, 0);
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  /* top: -30px;
+  left: 0px; */
+ /* -webkit-transform: translate(0, 0);
+ transform: translate(0, 0); */
+  /* -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; */
   opacity: 1;
  }
 .item-caption h2, .item-caption p, .item-caption div {
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
 }
@@ -491,7 +489,7 @@ transition: all 0.45s ease-out;
   transition-delay: 360ms;
 }
 }
-@media (hover: none) {
+/* @media (hover: none) {
 .item-caption {
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0); 
@@ -501,7 +499,7 @@ transition: all 0.45s ease-out;
   -webkit-transform: scale(100%);
   transform: scale(100%);
  }
-}
+} */
 
 .h2 { /* font awsome icon size */
   font-size: .9rem;
