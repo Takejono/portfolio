@@ -28,7 +28,7 @@
       <div class="col-lg-11 col-md-11 col-sm-12 col-12 mx-auto">
         <div class="row filtr-wrapper wow fadeInUp list" data-wow-duration="1.5s">
           {{ range .Data.Pages }}
-          <div class="col-lg-4 col-md-4 col-sm-6 col-12 filtr-item"
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 filtr-item"
             data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}">
