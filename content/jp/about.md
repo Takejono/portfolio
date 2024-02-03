@@ -1,6 +1,6 @@
 ---
 title : ""
-image : "images/backgrounds/portrait.png"
+image : "images/backgrounds/portrait03.jpg"
 # button
 button:
   enable : false
