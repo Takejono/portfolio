@@ -8,9 +8,10 @@ body {
   --divide-bg-color: #4c442a;
 }
 h1 {
+  font-family: 'Averia Serif Libre';
  font-size: 1.5rem;
- font-weight: 300!important;
- letter-spacing: 0.7rem!important;
+ font-weight: 400!important;
+ letter-spacing: 0.4rem!important;
  /* padding-bottom: 3rem; */
  padding-left: 0.7rem;
 }
@@ -313,12 +314,14 @@ input:checked+label span {
   color: #fff;
 }
 .hello p {
+  font-family: 'Averia Serif Libre';
   text-align: center;
   /* font-size: calc(0.5rem + 1vw); */
-  font-size: 1.1rem;
-  font-weight: 300;
-  letter-spacing: 0.5rem;
-  line-height: 2rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  line-height: 3rem;
   margin-bottom: 3rem;
 }
 .hello .btn-container {
