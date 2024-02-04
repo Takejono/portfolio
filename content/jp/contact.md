@@ -1,6 +1,6 @@
 ---
 title : "コンタクト"
-bg_image: "/images/backgrounds/contact-bg02.jpg"
+bg_image: ""
 form_action: "https://formspree.io/f/xdobkarn" # works with https://formspree
 name: "お名前"
 email: "メールアドレス"

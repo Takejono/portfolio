@@ -11,6 +11,7 @@ h1 {
  font-size: 1.5rem;
  font-weight: 300!important;
  letter-spacing: 0.7rem!important;
+ padding-bottom: 3rem;
 }
 .btn-container {
   text-align: center;
@@ -22,7 +23,7 @@ h1 {
 }
 .btn-container i {
   font-size: 2rem;
-  color: #fff;
+  color: #bbb;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   transform: translateY(0px) scale(100%);
@@ -297,7 +298,35 @@ cursor: pointer;
 input:checked+label span {
   background: #1a1a1a;
 } */
-  /*--------------------------------
+/*--------------------------------
+   hello
+----------------------------------*/
+.hello {
+  background: linear-gradient(#4c442acc, var(--divide-bg-color));
+  padding: 100px 0px 200px;
+  z-index: 2;
+  position: relative;
+  color: #fff;
+}
+.hello p {
+  text-align: center;
+  /* font-size: calc(0.5rem + 1vw); */
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.hello .btn-container {
+  text-align: center;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  z-index: 12;
+  font-size: 2rem;
+  position: relative;
+}
+ /*--------------------------------
      presentation
   ----------------------------------*/
 .about-me .container {
@@ -305,28 +334,24 @@ input:checked+label span {
 }
 .about-me {
   background: linear-gradient(#4c442acc, var(--divide-bg-color));
-  padding: 0px 0px 150px 0px;
+  padding: 100px 0px 150px;
   z-index: 2;
   position: relative;
-  padding-bottom: 100px;
+  background-size: cover;
+  background-position: 30%;
 }
-.about-me img {
-border-radius: 4px;
+.about-me h1 {
+  padding-bottom: 0;
 }
-.about-me-text p {
-  color: #fff;
+.about-me .about-me-text {
+  /* border: 1px solid #fff; */
+  /* color: #fff; */
+  background-color: #817a763c;
+  -webkit-backdrop-filter: blur(3px);
+  padding: 1rem;
+  border-radius: 4px;
 }
-.btn-container.about {
-  text-align: center;
-  bottom: 0px;
-  left: 0;
-  right: 0;
-  z-index: 12;
-  font-size: 50px;
-  position: relative;
-}
-
-.btn-container.about i {
+.about-me p {
   color: #fff;
 }
 /*--------------------------------
@@ -459,11 +484,11 @@ transition: all 0.45s ease-out;
   top: 99px;
   left: 0;
   transform: rotate(180deg);
-  filter: drop-shadow(0px -6px 3px rgba(38, 32, 15, 0.5));
+  filter: drop-shadow(0px -5px 4px rgba(38, 32, 15, 0.2));
 }
 .need-service {
   background :#fff;
-  z-index: 2;
+  z-index: 5;
   width: 100%;
   text-align: center;
   position: relative;
@@ -503,13 +528,48 @@ border: none!important;
 /*--------------------------------
   contact
 ----------------------------------*/
+.contact .divider svg {
+  fill: #25252f;
+  position: absolute;
+  transform: scaleX(-1);
+  bottom: -1px;
+}
 section.contact {
-background-position: center;
-padding-top: 40px;
+padding-top: 0px;
 }
 .contact::after {
-  background: rgba(27, 27, 34, 0.95);
+background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
+}
+.contact h1 {
+  padding: 0;
+}
+.form-container {
+  position: absoute;
+  border-radius: 4px 4px 1rem 1rem;
+  width: 100%;
+  max-height: 3rem;
+  opacity: 1;
+  overflow: hidden;
+  transition: all .6s ease-in-out;
+  -webkit-transition: all .6s ease-in-out;
+  .form-icon {
+    text-align: center;
   }
+  i {
+    color: #999;
+    font-size: 1.4rem;
+    background: #752d2d;
+    padding: 10px;
+    border-radius: 100%;
+  }
+}
+.contact-holder:hover .form-container, .contact-holder h1:active .form-container {
+  opacity: 1;
+  background: #752d2d;
+  /* border: 1px solid #7f7f7f; */
+  /* width: 500px; */
+  max-height: 600px;
+}
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .3rem .3rem 0 0;
   background: none;
@@ -518,8 +578,8 @@ padding-top: 40px;
   border-left: 0;
   border-right: 0;
   border-bottom: 2px solid #525252;
-  transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
+  transition: all .7s ease-in-out;
+  -webkit-transition: all .7s ease-in-out;
 }
 .form-container .form-control::placeholder {
   color: #999;
@@ -552,7 +612,7 @@ padding-top: 40px;
   margin-top: 0;
   }
 .to-top i {
-  font-size: 30px;
+  font-size: 1.4rem;
 background: transparent!important;
 }
 .scroll-up {
@@ -567,5 +627,6 @@ i.hvr-icon-up {
   content: "";
 }
 .credit {
-font-size: 0.7rem;
+font-size: 0.8rem;
+color: #999;
 }
