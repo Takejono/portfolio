@@ -11,7 +11,7 @@ h1 {
  font-size: 1.5rem;
  font-weight: 300!important;
  letter-spacing: 0.7rem!important;
- padding-bottom: 3rem;
+ /* padding-bottom: 3rem; */
  padding-left: 0.7rem;
 }
 .btn-container {
@@ -210,7 +210,10 @@ cursor: pointer;
   transition: all 0.2s ease-out;
 }
 .menu-slider li {
+  display: flex;
+  align-items: center;
   flex: auto;
+  justify-content: center;
   -webkit-transition: transform 0.3s;
   transition: transform 0.3s;
 }
@@ -220,7 +223,7 @@ cursor: pointer;
   letter-spacing: 1vw;
 }
 .menu-slider li i {
- font-size: 1.2rem;
+ font-size: 1.4rem;
 }
 .open {
   height: 100vh;
@@ -379,6 +382,9 @@ input:checked+label span {
 .portfolio .mt-4 {
 padding-top: 0;
 }
+.portfolio h1 {
+  padding-bottom: 3rem;
+}
 .portfolio .btn:only-of-type {
   padding: 10px 23px;
   border-radius: 35px;
@@ -398,7 +404,6 @@ font-weight: 500;
   border-radius: 4px;
   filter: drop-shadow(0 0 4px #0000003d);
   padding-bottom: 1rem;
-  /* gap: 1rem; */
 }
 h4 {
   font-size: 1rem;
@@ -462,16 +467,32 @@ filter: drop-shadow(0 0 4px #0000003d);
 transition: all 0.45s ease-out;
 }
 .filtr-item:hover {
-   /* .item-holder img {
-  -webkit-transform: scale(105%);
-  transform: scale(105%);
-  opacity: 0.5;
-   -webkit-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
-   } */
    .item-caption {
     opacity: 1;
    }
+}
+.section {
+  padding-top: 0;
+}
+#carouselExampleControls {
+  padding: 30px 0;
+  /* overflow: hidden; */
+}
+.carousel-item {
+  height: calc(100vh - 200px);
+}
+.carousel-item img {
+  /* border: 1px solid #000; */
+  object-fit: contain;
+  height: 100%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: #25252f;
+  font-size: 1.5rem;
+  background: none;
+  i {
+    filter: drop-shadow(0 0px 1px #fff);
+  }
 }
 .h2 { /* font awsome icon size */
   font-size: .9rem;

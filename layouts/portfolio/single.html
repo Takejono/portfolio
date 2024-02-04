@@ -12,16 +12,16 @@
           </div>
             {{ range .Params.resources }}
             <div class="carousel-item" href="{{ .src | absURL }}" title="{{ .title | markdownify }}">
-            <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}" class="d-block img-fluid w-100 mb-5">
+            <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}" class="d-block w-100 mb-5">
           </div>
           {{ end }}
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -30,16 +30,15 @@
           </div>
           <div class="content">{{.Content}}</div>
 
-          <div class="row gallery">
+          <!-- <div class="row gallery">
             {{ range .Params.resources }}
           <div class="col-6">
             <a class="image-pop" href="{{ .src | absURL }}" title="{{ .title | markdownify }}">
               <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}">
             </a></div>
             {{ end }}
-          </div>
+          </div> -->
 
-        </div>
       </div>
       <div class="col-lg-4">
         <div class="bg-white sticky-top wow fadeInUp" data-wow-duration="1.5s" style="top: 80px;">
