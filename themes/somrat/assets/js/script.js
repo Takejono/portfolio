@@ -192,7 +192,7 @@
 	$('.about').waypoint({
 		handler: function (direction) {
 			// Changing Menu background after leaving Header Section
-			$(".menu-container").toggleClass("menu-normal");
+			// $(".menu-container").toggleClass("menu-normal");
 		//	$(".desktop-menu .hvr-underline-from-left").toggleClass("dark");
 			// Slider croucel fade off
 			$(".owl-carousel").toggleClass("owl-off");
@@ -379,7 +379,7 @@
 	wow.init();
 
 	// Toggling Visibility of Scroll Up Button
-	$(".about-me-images").waypoint({
+	$(".hello").waypoint({
 		handler: function (direction) {
 			$(".scroll-up").toggleClass("scroll-up-show");
 		},
