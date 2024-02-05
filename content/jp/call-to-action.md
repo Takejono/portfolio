@@ -3,7 +3,7 @@ title : ""
 bg_image : ""
 button:
   enable : true
-  label : "さらに いろんな絵"
+  label : ""
   link : "https://photos.app.goo.gl/JJeRjL3Bw2TSniMTA"
 
 
