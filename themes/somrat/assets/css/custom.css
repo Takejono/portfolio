@@ -362,8 +362,8 @@ input:checked+label span {
   /* border: 1px solid #fff; */
   /* color: #fff; */
   background-color: #b6ada83c;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   padding: 1rem;
   border-radius: 4px;
 }
