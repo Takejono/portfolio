@@ -585,15 +585,16 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
   padding-bottom: 0;
 }
 .form-container {
-  position: absoute;
+  /* position: relative; */
   border-radius: 4px 4px 1rem 1rem;
+  padding: 0.7rem;
   /* margin-left: 0;
   margin-right: 0; */
   width: 100%;
   /* max-height: 3rem; */
   /* max-height: 600px; */
   opacity: 1;
-  overflow: hidden;
+  overflow: ;
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
   .form-icon {
@@ -605,6 +606,9 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
     background: #752d2d;
     padding: 10px;
     border-radius: 100%;
+    position: absolute;
+    top: -1.8rem;
+    left: calc(50% - 1.4rem);
   }
 }
 .contact-holder:hover .form-container,
