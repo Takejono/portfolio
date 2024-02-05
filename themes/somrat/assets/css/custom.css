@@ -15,10 +15,13 @@ h1 {
  font-weight: 400!important;
  letter-spacing: 0.4rem!important;
  text-indent: 0.4rem;
+ margin-bottom: 3rem;
 }
 h1:only-of-type {
   text-indent: 0rem;
- 
+}
+h1 > .col-11 {
+  text-indent: 0rem;
 }
 .btn-container {
   text-align: center;
