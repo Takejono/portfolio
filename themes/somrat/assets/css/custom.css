@@ -437,6 +437,7 @@ transition: all 0.4s ease-out;
   color: #cfb890!important;
 }
 .item-caption h2 {
+  font-family: 'Averia Serif Libre';
   font-size: 0.9rem;
   font-weight: 500;
   margin: 0;
