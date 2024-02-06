@@ -237,7 +237,7 @@ cursor: pointer;
 .open {
   height: 100vh;
   width: 100%;
-  background: #73b035;
+  background: radial-gradient(at center right, #9ee855, #73b035);
 }
 .menu-slider nav {
  opacity: 0;
