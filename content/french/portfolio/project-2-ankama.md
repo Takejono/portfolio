@@ -24,7 +24,7 @@ resources:
   title:
 - src: images/portfolio/ankama-6.jpg
   title:
-- src: images/slider/slider-4.jpg
+- src: images/portfolio/ankama-1.jpg
   title:
 ---
 

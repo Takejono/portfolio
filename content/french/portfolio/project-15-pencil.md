@@ -2,7 +2,7 @@
 title: "Pencil Drawings"
 date: 2015-12-12T12:14:34+06:00
 date_show: "Date variée"
-image: "images/slider/slider-5.jpg"
+image: "images/portfolio/pencil-2.jpg"
 img_title: "«  » - "
 categories: ["Personal works"]
 description: "This is meta description."
@@ -16,7 +16,6 @@ project_info:
   icon: "fas fa-paint-brush"
   content: "Pencil on Paper"
 resources:
-- src: images/portfolio/pencil-2.jpg
 - src: images/portfolio/pencil-3.jpg
 - src: images/portfolio/pencil-4.jpg
 - src: images/portfolio/pencil-5.jpg

@@ -2,7 +2,7 @@
 title: "鉛筆画"
 date: 2015-12-12T12:14:34+06:00
 date_show: "制作年いろいろ"
-image: "images/slider/slider-5.jpg"
+image: "images/portfolio/pencil-2.jpg"
 img_title: "«  » - "
 categories: ["個人プロジェクト"]
 description: "This is meta description."
@@ -16,7 +16,6 @@ project_info:
   icon: "fas fa-paint-brush"
   content: "紙に鉛筆"
 resources:
-- src: images/portfolio/pencil-2.jpg
 - src: images/portfolio/pencil-3.jpg
 - src: images/portfolio/pencil-4.jpg
 - src: images/portfolio/pencil-5.jpg
