@@ -197,7 +197,7 @@ cursor: pointer;
  flex-wrap: wrap;
  flex-direction: column;
  align-items: center;
- height: calc(100vh - 100px);
+ height: calc(100vh - 120px);
 }
 .mobile-menu-icons {
   justify-content: space-around;;
@@ -237,7 +237,7 @@ cursor: pointer;
 .open {
   height: 100vh;
   width: 100%;
-  background: radial-gradient(at center right, #9ee855, #73b035);
+  background: radial-gradient(at center, #73b035, #9ee855);
 }
 .menu-slider nav {
  opacity: 0;
