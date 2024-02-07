@@ -32,8 +32,12 @@ h1 > .col-11 {
   z-index: 11;
 }
 .btn-container i {
+  opacity: 0.6;
+  /* padding: 0.4rem;
+  background: #aaa;
+  border-radius: 2rem; */
   font-size: 2rem;
-  color: #bbb;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   transform: translateY(0px) scale(100%);
@@ -168,7 +172,7 @@ cursor: pointer;
   bottom: 0;
   z-index: 2;
   background: var(--divide-bg-color);
-  opacity: .8;
+  /* opacity: .8; */
 }
 .header .divider svg {
   fill: var(--divide-bg-color);
@@ -314,15 +318,30 @@ input:checked+label span {
 /*--------------------------------
    hello
 ----------------------------------*/
-.hello {
-  background: linear-gradient(#373327cc, var(--divide-bg-color));
+#hello {
+  background: var(--divide-bg-color);
+  background-image: url("/images/backgrounds/atelier02.jpg");
+  background-size: cover;
+  background-position: center;
   padding: 100px 0px 200px;
-  z-index: 2;
+  z-index: 1;
   position: relative;
   color: #fff;
+  position: relative;
+}
+#hello::before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(var(--divide-bg-color) 10%, #3733271a);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
 }
 .hello p {
-  font-family: 'Averia Serif Libre';
+    font-family: 'Averia Serif Libre';
   text-align: center;
   /* font-size: calc(0.5rem + 1vw); */
   font-size: 1.3rem;
@@ -350,7 +369,7 @@ input:checked+label span {
 .about-me {
   background: linear-gradient(#4c442acc, var(--divide-bg-color));
   padding: 100px 0px 150px;
-  z-index: 2;
+  z-index: 0;
   position: relative;
   background-size: cover;
   background-position: 32%;
@@ -527,7 +546,7 @@ h4 { /* categorie name */
 }
 .need-service {
   background :#fff;
-  z-index: 5;
+  /* z-index: 1; */
   width: 100%;
   text-align: center;
   position: relative;
