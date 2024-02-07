@@ -218,7 +218,7 @@ cursor: pointer;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.menu-slider li {
+.menu-slider li, .footer-icons li {
   display: flex;
   align-items: center;
   flex: auto;
@@ -251,7 +251,7 @@ cursor: pointer;
   background: #c0c0c0;
   border-radius: 1rem;
  }
-.menu-slider li:hover {
+.menu-slider li:hover, .footer-icons li:hover {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
 }
@@ -646,9 +646,9 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
 .contact-holder h1, .footer-icons a, .to-top a {
   color:#999;
 }
-
-.footer-icons {
-  width: 340px;
+.mobile-menu-icons, .footer-icons {
+  margin-inline: auto;
+  width: 50vw;
 }
 .footer {
   text-align: center;
