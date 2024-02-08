@@ -103,7 +103,7 @@ contentDir = "content/french"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)<br>Portrait photo by [Marion Brun](https://marionbrun.myportfolio.com)"
+copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)<br>Portrait & Atelier photo by [Marion Brun](https://marionbrun.myportfolio.com)"
 
 
 ################# french navigation ##################
@@ -140,7 +140,7 @@ contentDir = "content/jp"
 weight = 2
 home = "ホーム"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)<br>Portrait & Atelier photo by [Marion Brun](https://marionbrun.myportfolio.com)"
 
 
 ################# jp navigation ##################
