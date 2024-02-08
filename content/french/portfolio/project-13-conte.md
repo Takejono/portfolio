@@ -1,5 +1,5 @@
 ---
-title: "Dans le Comte"
+title: "Dans le Conte"
 date: 2015-12-12T12:14:34+06:00
 date_show: "Date variée"
 image: "images/portfolio/comte-2.jpg"

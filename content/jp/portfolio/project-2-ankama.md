@@ -1,6 +1,6 @@
 ---
 title: "アンカマ ゲームイラスト"
-date:
+date: 2012-05-12T12:14:34+06:00
 date_show: "2012 ~ 2015"
 image: "images/portfolio/ankama-4.jpg"
 img_title: "« Garde corps » - Digital"
