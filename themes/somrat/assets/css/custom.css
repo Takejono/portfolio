@@ -667,7 +667,7 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
 }
 .mobile-menu-icons, .footer-icons {
   margin-inline: auto;
-  width: 80vw;
+  width: 80%;
 }
 .footer {
   text-align: center;
