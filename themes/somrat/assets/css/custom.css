@@ -218,9 +218,10 @@ cursor: pointer;
   height: 100vh;
   width: 0px;
   overflow: hidden;
-  background: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  opacity: 0.5;
+  background: radial-gradient(at center, #73b035, #90d14e);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .menu-slider li, .footer-icons li {
   display: flex;
@@ -241,7 +242,7 @@ cursor: pointer;
 .open {
   height: 100vh;
   width: 100%;
-  background: radial-gradient(at center, #73b035, #9ee855);
+  opacity: 1;
 }
 .menu-slider nav {
  opacity: 0;
