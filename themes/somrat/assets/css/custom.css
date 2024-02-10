@@ -578,8 +578,8 @@ font-size: 2rem;
 padding-top: 1.5rem;
 background-color: transparent;
 border: none!important;
--webkit-transition: all 0.3s ease-out;
-transition: all 0.3s ease-out;
+-webkit-transition: all 0.2s ease-out;
+transition: all 0.2s ease-out;
 }
 .need-service a:hover {
 color: #525252;
