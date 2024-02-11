@@ -375,6 +375,16 @@ input:checked+label span {
   background-size: cover;
   background-position: 32%;
 }
+.about-me::before {
+  content: "";
+  background: radial-gradient(at right 20%, #ffffff86, #ffffff00 40%);
+  /* -webkit-backdrop-filter: brightness(120%); */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
 .about-me h1 {
   padding-bottom: 0;
 }
