@@ -411,7 +411,6 @@ input:checked+label span {
   bottom: -1px;
 }
 .portfolio {
-  /* background: #fff; */
   background: radial-gradient(at 20%,#e5e5e5, #fff 30%);
   padding: 0px 0 200px;
   z-index: 2;
@@ -425,9 +424,6 @@ input:checked+label span {
 .portfolio .mt-4 {
 padding-top: 0;
 }
-/* .portfolio h1 {
-  padding-bottom: 3rem;
-} */
 .portfolio .btn:only-of-type {
   padding: 10px 23px;
   border-radius: 35px;
@@ -440,6 +436,7 @@ font-weight: 500;
 }
 .filtr-item {
   padding: 6px 6px 9px;
+  border-radius: 4px;
 }
 .gallery img {
   width: 100%;
@@ -475,7 +472,7 @@ transition: all 0.4s ease-out;
   overflow-wrap: break-word;
   word-break:keep-all;
   padding: 0;
-    color: #525252;
+  /* color: #525252; */
 }
 .item-caption:lang(jp) h2 {
   font-size: 0.8rem;
@@ -511,7 +508,6 @@ transition: all 0.45s ease-out;
     opacity: 1;
    }
   background: radial-gradient(#dad7d3, #ffffff00 70%);
-  border-radius: 4px;
 }
 .section {
   padding-top: 0;
