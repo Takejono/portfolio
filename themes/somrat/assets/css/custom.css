@@ -353,7 +353,7 @@ input:checked+label span {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(var(--divide-bg-color) 5%, #25252f61);
+  background: linear-gradient(var(--divide-bg-color) 5%, #4541387f);
   height: 100%;
   width: 100%;
   z-index: -1;
