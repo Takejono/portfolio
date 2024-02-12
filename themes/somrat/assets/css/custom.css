@@ -251,7 +251,7 @@ cursor: pointer;
 .menu-slider li a {
   color: var(--divide-bg-color);
   font-size: calc(0.6rem + 1vw);
-  font-weight: 400;
+  font-family: 'Averia Serif Libre';
   letter-spacing: 1vw;
 }
 .menu-slider li i {
