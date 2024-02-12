@@ -395,7 +395,7 @@ input:checked+label span {
 }
 .about-me::before {
   content: "";
-  background: radial-gradient(at right 20%, #ffffff66, #ffffff00 40%);
+  background: radial-gradient(at left 90%, #ffffff7e, #ffffff00 40%, #ffffff00 70%, #ffffff4b);
   top: 0;
   left: 0;
   width: 100%;
