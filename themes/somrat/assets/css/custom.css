@@ -9,6 +9,10 @@ body {
   --divide-bg-color: #25252f;
   font-family: 'Roboto';
   font-weight: 300;
+  color: #3d3a33;
+}
+.content a:hover {
+  border-bottom: 1px solid #752d2d;
 }
 h1 {
  font-family: 'Averia Serif Libre';
@@ -17,6 +21,7 @@ h1 {
  letter-spacing: 0.4rem!important;
  text-indent: 0.4rem;
  margin-bottom: 3rem;
+ color: #25252f;
 }
 h1:only-of-type {
   text-indent: 0rem;
@@ -38,7 +43,7 @@ h1 > .col-11 {
   background: #aaa;
   border-radius: 2rem; */
   font-size: 2rem;
-  color: #fff;
+  color: #fff7dd;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   transform: translateY(0px) scale(100%);
@@ -108,8 +113,18 @@ cursor: pointer;
   bottom: 110px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-
+  img {
+    filter: blur(px);
+    animation-name: BlurIn;
+    animation-duration: 1.2s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
+  }
+@keyframes BlurIn {
+  from {filter: blur(14px)}
+  to {filter: blur(0px)}
+}
 .navigation-icon {
   z-index: 1001;
 }
@@ -123,8 +138,8 @@ cursor: pointer;
 .animated-text {
   letter-spacing: 0.8rem;
   text-align: right;
-  font-weight: 400;
-  color: #fff;
+  /* font-weight: 400; */
+  color: #fff7dd;
   font-size: 1rem;
 }
 @media screen and (max-width: 900px) {
@@ -221,7 +236,7 @@ cursor: pointer;
   overflow: hidden;
   opacity: 0.5;
   /* background: radial-gradient(at center, #73b035, #90d14e); */
-  background: linear-gradient(70deg, #ffffff 30%, #bcbcbc);
+  background: linear-gradient(70deg, #fff7dd 30%, #bcbcbc);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -276,7 +291,7 @@ cursor: pointer;
  top: 12px;
 }
 .back-arrow {
-  color: #515151!important;
+  color: #25252f!important;
   position: absolute;
   top: 6px;
   right: 15px;
@@ -330,7 +345,7 @@ input:checked+label span {
   padding: 100px 0px 200px;
   z-index: 1;
   position: relative;
-  color: #fff;
+  color: #fff7dd;
   position: relative;
 }
 #hello::before {
@@ -371,7 +386,7 @@ input:checked+label span {
   padding-top: 100px;
 }
 .about-me {
-  background: linear-gradient(#4c442acc, var(--divide-bg-color));
+  background: var(--divide-bg-color);
   padding: 100px 0px 150px;
   z-index: 0;
   position: relative;
@@ -381,7 +396,6 @@ input:checked+label span {
 .about-me::before {
   content: "";
   background: radial-gradient(at right 20%, #ffffff66, #ffffff00 40%);
-  /* -webkit-backdrop-filter: brightness(120%); */
   top: 0;
   left: 0;
   width: 100%;
@@ -394,8 +408,8 @@ input:checked+label span {
 .about-me .about-me-text {
   /* border: 1px solid #fff; */
   /* color: #fff; */
-  background-color: #b6ada83c;
-  -webkit-backdrop-filter: blur(8px);
+  background-color: #f7d4601c;
+  -webkit-backdrop-filter: blur(8px) contrast(0.7);
   backdrop-filter: blur(8px);
   padding: 1rem;
   border-radius: 4px;
@@ -418,6 +432,10 @@ input:checked+label span {
   padding: 0px 0 200px;
   z-index: 2;
   position: relative;
+  h1 {
+    color: #25252f;
+    padding-bottom: 1rem;
+  }
   }
 .portfolio .container-fluid {
   padding-top: 70px;
@@ -431,6 +449,7 @@ padding-top: 0;
   padding: 10px 23px;
   border-radius: 35px;
   font-size: 30px;
+  background: #25252f;
 }
 .portfolio-navigation label {
 border-color: transparent;

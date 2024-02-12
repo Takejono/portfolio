@@ -849,7 +849,7 @@ input:checked+label span:last-child {
 
 .about-me-text h1 {
   position: relative;
-  color: #525252;
+  /* color: #525252; */
   font-weight: 700;
   letter-spacing: 2px;
 }
