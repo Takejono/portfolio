@@ -189,7 +189,7 @@
 		}
 	});
 
-	$('.about').waypoint({
+	$('.hello').waypoint({
 		handler: function (direction) {
 			// Changing Menu background after leaving Header Section
 			// $(".menu-container").toggleClass("menu-normal");
