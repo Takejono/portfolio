@@ -91,7 +91,7 @@ cursor: pointer;
   z-index: 1;
 } */
 .owl-carousel .slider {
-  /* height: 100vh; */
+  height: 100lvh;
 }
 .owl-carousel {
   transition: opacity 1s ease-in-out;
