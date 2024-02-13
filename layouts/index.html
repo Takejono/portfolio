@@ -13,9 +13,9 @@
   <div class="btn-container">
     <a href="#hello"><i class="fa-solid fa-chevron-down"></i></a>
   </div>
-  <div class="owl-carousel owl-full-width owl-theme owl-height" id="background-slide">
+  <div class="owl-carousel owl-full-width owl-loaded" id="background-slide">
     {{ range .Params.slider_images }}
-    <div class="slider owl-height"><img class="img-fluid owl-height" src="{{ . | absURL }}" alt="slider-background"></div>
+    <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
     {{ end }}
   </div>
   <div class="divider">
