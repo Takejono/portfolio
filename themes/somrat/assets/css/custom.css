@@ -199,9 +199,6 @@ cursor: pointer;
 /*--------------------------------
    mobile menu
 ----------------------------------*/
-.mobile-menu-nav {
-  z-index: 1000;
-}
 .mobile-menu {
   background: none;
   box-shadow: none;
@@ -268,13 +265,6 @@ cursor: pointer;
  -webkit-transition: all 0.1s linear;
  transition: all 0.1s linear;
 }
-.mobile-menu span {
-  background: #c0c0c0;
-}
-.mobile-menu.mobile-menu-fix span {
-  background: #c0c0c0;
-  border-radius: 1rem;
- }
 .menu-slider li:hover, .footer-icons li:hover {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);

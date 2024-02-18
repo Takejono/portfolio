@@ -764,25 +764,33 @@ input:checked+label span:last-child {
   position: absolute;
   right: 14px;
   top: 18px;
+  z-index: 1000;
 }
 
 .mobile-menu-nav span {
   display: block;
   width: 100%;
-  height: 4px;
-  background: #fff;
+  height: 3px;
+  border-radius: 1rem;
+  background: #c0c0c0;
   position: relative;
   top: 4px;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
+.mobile-menu-nav:hover span,
+.menu-link.active:hover span:first-child,
+.menu-link.active:hover span:last-child {
+  background: #752d2d;
+}
+
 .mobile-menu-nav span:first-child {
-  top: -2px;
+  top: -3px;
 }
 
 .mobile-menu-nav span:last-child {
-  top: 10px;
+  top: 11px;
 }
 
 .mobile-menu-nav:hover {
@@ -799,7 +807,7 @@ input:checked+label span:last-child {
   background: #fff;
   -webkit-transform: rotate(225deg);
   transform: rotate(225deg);
-  top: 6px;
+  top: 5px;
 }
 
 .menu-link.active span:last-child {
@@ -807,7 +815,7 @@ input:checked+label span:last-child {
   background: #fff;
   -webkit-transform: rotate(-225deg);
   transform: rotate(-225deg);
-  top: -2px;
+  top: -1px;
 }
 
 .menu-slider {
