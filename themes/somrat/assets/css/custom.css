@@ -223,7 +223,7 @@ cursor: pointer;
 .mobile-menu-icons {
   justify-content: space-around;;
 }
-.mobile-menu-logo img, .mr-auto {
+.mobile-menu-logo img {
  display: none;
 }
 .menu {
