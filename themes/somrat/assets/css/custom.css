@@ -553,12 +553,6 @@ h4 { /* categorie name */
   left: 0;
   filter: drop-shadow(0px 5px 3px rgba(38, 32, 15, 0.2));
 }
-.need-service {
-  background :#fff;
-  /* width: 100%; */
-  text-align: center;
-  padding-bottom: 100px;
-}
 .need-service .container {
   margin-right: 70px;
   height: 130px;
@@ -571,28 +565,7 @@ h4 { /* categorie name */
   background-size: cover;
   border-radius: 11rem 11rem 11rem 13rem;
 }
-.need-service h1 {
-  color: #525252;
-  text-align: right;
-}
-.need-service a {
-/* border-radius: 3rem; */
-vertical-align: middle;
-color: #ffffff;
-font-size: 2rem;
-padding-top: 1.5rem;
-background-color: transparent;
-border: none!important;
--webkit-transition: all 0.2s ease-out;
-transition: all 0.2s ease-out;
-}
-.need-service a:hover {
-color: #525252;
-border: none!important;
-}
-.need-service i {
-  /* font-size: 2rem; */
-}
+
 /*--------------------------------
   contact
 ----------------------------------*/
