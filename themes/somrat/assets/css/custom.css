@@ -635,7 +635,8 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
   .icons {
     width: 25px;
     height: 25px;
-    fill: #999!important;
+    fill: #999;
+    border: #999 solid 1px;
   }
 }
 .to-top {

@@ -84,17 +84,17 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 ############################# social site ########################
 [[params.social]]
 icon = "fa-regular fa-envelope fa-xl"
-iconData = "/images/icons/envelope.svg"
+iconData = "images/icons/envelope.svg"
 link = "mailto:takeshi.jonoo@gmail.com"
 
 [[params.social]]
 icon = "fa-brands fa-facebook fa-xl"
-iconData = "/images/icons/facebook.svg"
+iconData = "images/icons/facebook.svg"
 link = "https://www.facebook.com/takeshi.jonoo"
 
 [[params.social]]
 icon = "fa-brands fa-instagram fa-xl"
-iconData = "/images/icons/instagram.svg"
+iconData = "images/icons/instagram.svg"
 link = "https://www.instagram.com/takeshi_jonoo_drawing"
 
 

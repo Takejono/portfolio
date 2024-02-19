@@ -401,7 +401,7 @@
         <ul class="footer-icons list-inline">
           {{ range site.Params.social }}
           <li><a href="{{ .link | safeURL }}">
-            <!-- <object type="image/svg+xml" data="{{ .iconData }}" class="icons"></object> -->
+            <!-- <svg src="{{ .iconData }}" class="icons"></svg> -->
             <i class="{{ .icon }}"></i>
           </a></li>
           {{ end }}
