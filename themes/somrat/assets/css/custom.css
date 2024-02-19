@@ -632,6 +632,11 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
 }
 .footer {
   text-align: center;
+  .icons {
+    width: 25px;
+    height: 25px;
+    fill: #999!important;
+  }
 }
 .to-top {
   margin-top: 0;
@@ -645,12 +650,7 @@ background: transparent!important;
   opacity: 0.5;
   right: 10px;
 }
-/* i.hvr-icon-up {
-  padding-right: 1em;
-}
-.hvr-icon-up:before {
-  content: "";
-} */
+
 .credit {
 font-size: 0.8rem;
 color: #999;
