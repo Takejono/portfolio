@@ -1585,7 +1585,7 @@ ul.experience-chart h4 {
   text-align: center;
   color: #525252;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 0.4rem;
 }
 
 /*.contact-holder h1:before {

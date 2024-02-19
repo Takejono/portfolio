@@ -19,15 +19,8 @@ h1 {
  font-size: 1.5rem;
  font-weight: 400!important;
  letter-spacing: 0.4rem!important;
- text-indent: 0.4rem;
  margin-bottom: 3rem;
  color: #25252f;
-}
-h1:only-of-type {
-  text-indent: 0rem;
-}
-h1 > .col-11 {
-  text-indent: 0rem;
 }
 .btn-container {
   text-align: center;
@@ -592,12 +585,8 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
 .form-container {
   border-radius: 4px 4px 1rem 1rem;
   padding: 0.7rem;
-  width: 100%;
-  /* max-height: 3rem; */
-  /* max-height: 600px; */
   margin-top: 0;
   opacity: 1;
-  overflow: ;
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
 }
@@ -605,7 +594,6 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
 .form-container:has(.form-control:focus) {
   opacity: 1;
   background: #752d2d;
-  /* max-height: 600px; */
 }
 .form-container input.form-control, .form-container textarea.form-control {
   border-radius: .3rem;
