@@ -383,13 +383,13 @@
 		handler: function (direction) {
 			$(".scroll-up").toggleClass("scroll-up-show");
 		},
-		offset: "bottom-in-view"
+		// offset: "bottom-in-view"
 	});
 	$(".sub-button").waypoint({
 		handler: function (direction) {
 			$(".scroll-up").toggleClass("scroll-up-show");
 		},
-		offset: "bottom-in-view"
+		// offset: "bottom-in-view"
 	});
 	/*--------------------------------
 			Others
