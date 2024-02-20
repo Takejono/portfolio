@@ -401,7 +401,7 @@
         <ul class="footer-icons list-inline">
           {{ range site.Params.social }}
           <li><a href="{{ .link | safeURL }}">
-            <!-- <svg src="{{ .iconData | safeURL }}" class="svg-icon"></svg> -->
+            <!-- <span>{{ partial "svg" (dict "name" "instagram" "class" "svg-icon") }}</span> -->
             <i class="{{ .icon }}"></i>
           </a></li>
           {{ end }}
