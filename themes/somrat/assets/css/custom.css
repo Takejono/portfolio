@@ -620,24 +620,17 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
 /*--------------------------------
   footer
 ----------------------------------*/
-.footer hr {
-  border-color: #525252;
-}
+
 .contact-holder h1, .footer-icons a, .to-top a {
   color:#999;
 }
 .mobile-menu-icons, .footer-icons {
-  margin-inline: auto;
-  width: 80%;
+  width: 100%;
 }
-.footer {
-  text-align: center;
-  .icons {
+.footer-icons .svg-icon {
     width: 25px;
     height: 25px;
     fill: #999;
-    border: #999 solid 1px;
-  }
 }
 .to-top {
   margin-top: 0;

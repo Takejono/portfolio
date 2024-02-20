@@ -158,7 +158,7 @@
               </li>
               {{ end }}
             </ul>
-            <ul class="mobile-menu-icons list-inline">
+            <ul class="mobile-menu-icons list-inline col-lg-8 offset-lg-2">
               {{ range site.Params.social }}
               <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
               {{ end }}
@@ -397,11 +397,11 @@
     </div>
     </div>
     <div class="row">
-      <div class="footer col-lg-10 offset-lg-1">
+      <div class="footer col-lg-8 offset-lg-2">
         <ul class="footer-icons list-inline">
           {{ range site.Params.social }}
           <li><a href="{{ .link | safeURL }}">
-            <!-- <svg src="{{ .iconData }}" class="icons"></svg> -->
+            <!-- <svg src="{{ .iconData | safeURL }}" class="svg-icon"></svg> -->
             <i class="{{ .icon }}"></i>
           </a></li>
           {{ end }}

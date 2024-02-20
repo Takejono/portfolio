@@ -1,10 +1,13 @@
 <footer class="footer-bg fadeInUp wow" data-wow-duration="1.5s">
   <div class="container">
     <div class="row">
-      <div class="footer col-lg-10 offset-lg-1">
+      <div class="footer col-lg-8 offset-lg-2">
         <ul class="footer-icons list-inline">
           {{ range site.Params.social }}
-          <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          <li><a href="{{ .link | safeURL }}">
+            <!-- <span>{{ partial "svg" (dict "name" "instagram" "class" "svg-icon") }}</span> -->
+            <i class="{{ .icon }}"></i>
+          </a></li>
           {{ end }}
         </ul>
         <div class="credit content">
