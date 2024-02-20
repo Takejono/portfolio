@@ -158,11 +158,12 @@
               </li>
               {{ end }}
             </ul>
-            <ul class="mobile-menu-icons list-inline col-lg-8 offset-lg-2">
+            {{ partial "social-icon" }}
+            <!-- <ul class="mobile-menu-icons list-inline col-lg-8 offset-lg-2">
               {{ range site.Params.social }}
               <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
               {{ end }}
-            </ul>
+            </ul> -->
           </nav>
         </div>
       </div>
@@ -398,30 +399,12 @@
     </div>
     <div class="row">
       <div class="footer col-lg-8 offset-lg-2">
-        <ul class="footer-icons list-inline">
-          <li><a href="mailto:takeshi.jonoo@gmail.com">
-            <span>{{ partial "svg" (dict "name" "envelope" "class" "svg-icon") }}</span>
-          </a></li>
-          <li><a href="https://www.facebook.com/takeshi.jonoo">
-            <span>{{ partial "svg" (dict "name" "facebook" "class" "svg-icon") }}</span>
-          </a></li>
-          <li><a href="https://www.instagram.com/takeshi_jonoo_drawing">
-            <span>{{ partial "svg" (dict "name" "instagram" "class" "svg-icon") }}</span>
-          </a></li>
+        <!-- <ul class="footer-icons list-inline"> -->
           <!-- {{ range site.Params.social }} -->
-          <!-- <li><a href="{{ .link | safeURL }}"> -->
-            <!-- <img src="{{.iconData}}" class="svg-icon"> -->
             <!-- <i class="{{ .icon }}"></i> -->
           <!-- </a></li> -->
           <!-- {{ end }} -->
-          <li class="to-top">
-            <a href="#home">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
-              </svg>
-            </a>
-          </li>  
-        </ul>
+          {{ partial "social-icon" }}
         <div class="credit content">
           {{ site.Params.copyright | markdownify }}
         </div>
