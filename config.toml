@@ -31,8 +31,8 @@ link = "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400&dis
 link = "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap"
-[[params.plugins.css]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+# [[params.plugins.css]]
+# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
 [[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]
@@ -41,8 +41,8 @@ link = "plugins/magnific-popup/magnific-popup.css"
 link = "plugins/owl-carousel/owl.carousel.min.css"
 [[params.plugins.css]]
 link = "plugins/owl-carousel/owl.theme.default.min.css"
-#[[params.plugins.css]]
-#link = "plugins/text-animation/text-animation.css"
+# [[params.plugins.css]]
+# link = "plugins/text-animation/text-animation.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -61,8 +61,8 @@ link = "plugins/shuffle/shuffle.min.js"
 link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/owl-carousel/owl.carousel.min.js"
-[[params.plugins.js]]
-link = "https://kit.fontawesome.com/ad46f05c5d.js"
+# [[params.plugins.js]]
+# link = "https://kit.fontawesome.com/ad46f05c5d.js"
 
 
 
