@@ -114,14 +114,15 @@ body {
 
 .scroll-up {
   position: fixed;
-  right: 0px;
-  bottom: 50px;
+  right: 20px;
+  bottom: 83px;
   text-decoration: none;
   color: #999;
   cursor: pointer;
   opacity: 0;
   transform: translateY(100px);
   transition: all 0.5s;
+  z-index: 10;
 }
 
 .scroll-up-show {
@@ -129,22 +130,23 @@ body {
   transform: translateY(0px);
 }
 
-.scroll-up:hover,
-.scroll-up:focus {
-  color: #999;
+.scroll-up:hover {
+  color: #752d2d;
 }
 
-/*.scroll-up.hvr-icon-up:before {
-  content: "\f077";
+/* .scroll-up:before {
+  content: "";
+  position: absolute;
   font-size: 15px;
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  height: 30px;
-  width: 30px;
+   font-weight: 900;
+  height: 40px;
+  width: 40px;
+  left: -0.3rem;
+  top: -0.3rem;
   text-align: center;
   border-radius: 100%;
   border: 2px solid #999;
-}*/
+} */
 
 /*--------------------------------
    End Preloader & General Styling
