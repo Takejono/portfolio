@@ -289,9 +289,9 @@
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} style="background-image: url('{{ .Params.image | absURL}}');" id="about">
   <div class="container">
     <div class="row about-me-holder">
-      <div class="col-lg-5 col-md-6 col-sm-8 col-10 about-me-text d-flex align-self-center wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-lg-5 col-md-6 col-sm-8 col-10 offset-1 about-me-text d-flex align-self-center wow fadeInUp" data-wow-duration="1.5s">
         <div class="text-holder">
-          <h1>{{ .Title | markdownify }}</h1>
+          <!-- <h1>{{ .Title | markdownify }}</h1> -->
           <div class="content">{{ .Content | markdownify | emojify }}</div>
           {{ with .Params.button }}
           {{ if .enable }}
