@@ -10,10 +10,10 @@ order: "05"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "various"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Watercolor on paper"
 resources:
 - src: images/portfolio/tache-2.jpg

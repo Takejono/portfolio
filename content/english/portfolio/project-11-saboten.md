@@ -9,10 +9,10 @@ order: "01"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "various"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Watercolor on Paper"
 resources:
 - src: "images/slider/slider-2.jpg"

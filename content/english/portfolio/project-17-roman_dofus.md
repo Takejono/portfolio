@@ -9,10 +9,10 @@ order: "18"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "A5"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Digital"
 resources:
 - src: images/portfolio/r_dofus-2.jpg

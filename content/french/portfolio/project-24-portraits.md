@@ -9,10 +9,10 @@ order: "06"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "23cm x 16cm"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Oil pastel, pastel on paper"
 resources:
 ---

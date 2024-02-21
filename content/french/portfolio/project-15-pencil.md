@@ -10,10 +10,10 @@ order: "15"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "various"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Pencil on Paper"
 resources:
 - src: images/portfolio/pencil-3.jpg

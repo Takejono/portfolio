@@ -10,10 +10,10 @@ order: "10"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "24cm x 32cm"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙に水彩、カラーインク"
 resources:
 - src: images/portfolio/kawai-2.jpg

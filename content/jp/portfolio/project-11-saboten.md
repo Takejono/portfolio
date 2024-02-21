@@ -10,10 +10,10 @@ order: "01"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "いろいろ"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙に水彩、カラーインク"
 resources:
 - src: "images/slider/slider-2.jpg"

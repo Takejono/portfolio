@@ -77,7 +77,10 @@
               </li>
             {{ range .Params.project_info }}
             <li class="media mb-3">
-             {{ with .icon}}<i class="mt-1 {{.}} h2"></i>{{ end }}
+             {{ with .icon}}
+             <img src="/images/icons/{{.}}.svg">
+             <!-- <i class="mt-1 {{.}} h2"></i> -->
+             {{ end }}
               <div class="ml-3">
                 <h4>{{.name | markdownify}}</h4>
                 <div class="content">{{.content | markdownify}}</div>

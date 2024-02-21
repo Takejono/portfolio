@@ -10,10 +10,10 @@ order: "11"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "various"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Watercolor on Paper"
 resources:
 - src: images/portfolio/comte-3.jpg

@@ -10,13 +10,13 @@ order: "18"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "A5"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "デジタル"
 - name: "Link"
-  icon: "fas fa-link"
+  icon: "link-45deg"
   content: "[Bayard Editions](https://www.bayard-editions.com/jeunesse/collection/dofus)"
 resources:
 - src: images/portfolio/r_dofus-2.jpg

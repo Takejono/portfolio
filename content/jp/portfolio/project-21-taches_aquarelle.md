@@ -10,10 +10,10 @@ order: "05"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "いろいろ"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙に水彩"
 resources:
 - src: images/portfolio/tache-2.jpg

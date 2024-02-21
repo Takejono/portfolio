@@ -9,10 +9,10 @@ order: "14"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "15cm x 20cm"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Watercolor on Paper, Pen"
 resources:
 - src: images/portfolio/rossignol-2.jpg

@@ -10,10 +10,10 @@ order: "16"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "いろいろ"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙にペン, デジタル着色"
 resources:
 - src: images/portfolio/pen-8.jpg

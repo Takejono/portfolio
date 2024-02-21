@@ -9,13 +9,13 @@ order: "26"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "Digital"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Crayon, Digital"
 - name: "Link"
-  icon: "fas fa-link"
+  icon: "link-45deg"
   content: "[la lune pleine](https://www.lalunepleine.fr)"
 resources:
 - src: images/portfolio/pl-2.jpg

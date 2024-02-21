@@ -9,10 +9,10 @@ order: "16"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "various"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Pen on paper, Digital color"
 resources:
 - src: images/portfolio/pen-8.jpg

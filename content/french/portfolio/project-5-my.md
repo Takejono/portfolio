@@ -9,7 +9,7 @@ order: "21"
 draft: false
 project_info:
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Digital"
 resources:
 - src: images/portfolio/my-2.jpg

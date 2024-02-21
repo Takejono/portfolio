@@ -9,13 +9,13 @@ order: "03"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "いろいろ"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙に水彩、カラーインク"
 - name: "Link"
-  icon: "fas fa-link"
+  icon: "link-45deg"
   content: "[Gallery Yamagoya](https://galleryyamagoya.com/)"
 resources:
 - src: images/portfolio/grand-2.jpg

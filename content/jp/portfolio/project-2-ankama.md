@@ -10,10 +10,10 @@ order: "17"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "いろいろ"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "デジタル"
 resources:
 - src: images/portfolio/ankama-2.jpg

@@ -9,13 +9,13 @@ order: "20"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "いろいろ"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙に水彩、カラーインク、デジタルレタッチ"
 - name: "Link"
-  icon: "fas fa-link"
+  icon: "link-45deg"
   content: "[Licorne_Japon](https://www.licorne-savonnerie.jp)"
 resources:
 - src: images/portfolio/licorne-1.jpg

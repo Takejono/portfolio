@@ -9,13 +9,13 @@ order: "08"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "いろいろ"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙に水彩、カラーインク、デジタル"
 - name: "Link"
-  icon: "fas fa-link"
+  icon: "link-45deg"
   content: "[CTC未来財団](https://mirai-zaidan.or.jp)"
 resources:
 - src: images/portfolio/ctc-2.jpg

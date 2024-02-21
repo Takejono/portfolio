@@ -536,6 +536,9 @@ h4 { /* categorie name */
   font-weight: 400;
   margin-bottom: 0.1rem;
 }
+li.media + * {
+ vertical-align: middle;
+}
 /*--------------------------------
   call to action
 ----------------------------------*/
@@ -551,12 +554,10 @@ h4 { /* categorie name */
   height: 130px;
   max-width: 140px;
   box-shadow: inset 3px 3px 7px #1e3d5389;
-}
-.need-service .container {
   background-image: url("/images/backgrounds/need-service.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 11rem 11rem 11rem 13rem;
+  border-radius: 3rem 4rem 3rem 5rem;
 }
 
 /*--------------------------------
@@ -620,26 +621,3 @@ background: radial-gradient(at center 90%, #25252ff0, #25252f 50%);
 /*--------------------------------
   footer
 ----------------------------------*/
-
-.contact-holder h1, .footer-icons a, .to-top a {
-  color:#999;
-}
-.mobile-menu-icons, .footer-icons {
-  width: 100%;
-}
-.footer-icons .svg-icon {
-    width: 25px;
-    height: 25px;
-    fill: #999;
-}
-.to-top {
-  margin-top: 0;
-  }
-.to-top i {
-  font-size: 1.4rem;
-background: transparent!important;
-}
-.credit {
-font-size: 0.8rem;
-color: #999;
-}

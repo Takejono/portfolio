@@ -9,10 +9,10 @@ order: "04"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "いろいろ"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙にパステル、ペン"
 resources:
 - src: images/portfolio/pataques-2.jpg

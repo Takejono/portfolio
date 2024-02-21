@@ -10,10 +10,10 @@ order: "15"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "いろいろ"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙に鉛筆"
 resources:
 - src: images/portfolio/pencil-3.jpg

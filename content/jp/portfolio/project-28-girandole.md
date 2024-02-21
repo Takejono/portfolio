@@ -9,10 +9,10 @@ order: "24"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "varios"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "紙に水彩、カラーインク"
 resources:
 - src: images/portfolio/girandole-2.jpg

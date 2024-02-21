@@ -9,13 +9,13 @@ order: "25"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "Digital"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Pen, Digital"
 - name: "Link"
-  icon: "fas fa-link"
+  icon: "link-45deg"
   content: "[in3 Inc.](https://in3alignment.com)"
 resources:
 - src: images/portfolio/in3-02.jpg

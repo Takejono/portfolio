@@ -9,7 +9,7 @@ order: "19"
 draft: false
 project_info:
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Digital"
 resources:
 - src: images/portfolio/zombie-2.jpg

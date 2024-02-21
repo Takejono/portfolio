@@ -9,10 +9,10 @@ order: "12"
 draft: false
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "varitous"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "Watercolor on paper"
 resources:
 - src: images/portfolio/aurevoir-2.jpg

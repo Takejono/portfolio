@@ -11,10 +11,10 @@ order: "23"
 draft: falce
 project_info:
 - name: "Format"
-  icon: "fas fa-ruler-combined"
+  icon: "rulers"
   content: "A2 - A3"
 - name: "Support"
-  icon: "fas fa-paint-brush"
+  icon: "brush-fill"
   content: "デジタル"
 resources:
 - src: images/portfolio/koishi-1.jpg
