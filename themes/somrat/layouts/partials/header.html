@@ -3,96 +3,50 @@
     =============================== -->
 <section class="menu menu-fix" id="home">
   <nav>
-    <!-- desktop-menu -->
+    <!-- Language List -->
+    {{- if .IsTranslated }}
+    <select class="ml-4" id="select-language" onchange="location = this.value;">
+                  {{ $siteLanguages := site.Languages}}
+                  {{ $pageLang := .Page.Lang}}
+                  {{ range .Page.AllTranslations }}
+                  {{ $translation := .}}
+                  {{ range $siteLanguages }}
+                  {{ if eq $translation.Lang .Lang }}
+                  {{ $selected := false }}
+                  {{ if eq $pageLang .Lang}}
+                  <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
+                  </option>
+                  {{ else }}
+                  <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                  {{ end }}
+                  {{ end }}
+                  {{ end }}
+                  {{ end }}
+    </select>
+    {{ end }}
     <div class="menu-container menu-normal">
-      <ul class="desktop-menu list-inline mb-0 justify-content-end" id="desktop-menu">
-<!--        <a class="mr-auto" href="{{ site.BaseURL | relLangURL }}">
-          {{ if site.Params.logo_dark }}
-          <img class="img-fluid" width="{{site.Params.logo_width}}" src="{{ site.Params.logo_dark | absURL}}"
-            alt="{{ site.Title }}">
-          {{ else }}
-          {{site.Title}}
-          {{ end }}
-        </a>-->
-        {{ range site.Menus.main }}
-        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="{{if .Pre}}{{site.LanguagePrefix}}/{{.Pre}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
-      <!-- Language List -->
-      {{- if .IsTranslated }}
-      <select id="select-language" onchange="location = this.value;">
-        {{ $siteLanguages := site.Languages}}
-        {{ $pageLang := .Page.Lang}}
-        {{ range .Page.AllTranslations }}
-        {{ $translation := .}}
-        {{ range $siteLanguages }}
-        {{ if eq $translation.Lang .Lang }}
-        {{ $selected := false }}
-        {{ if eq $pageLang .Lang}}
-        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-        </option>
-        {{ else }}
-        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-        {{ end }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-      </select>
-      {{ end }}
-      <!-- /desktop-menu -->
-
       <!-- mobile-menu -->
       <div class="mobile-menu mobile-menu-fix">
-<!--        <a class="menu-link">
+       <a class="menu-link">
           <div class="mobile-menu-nav">
             <span></span>
             <span></span>
             <span></span>
           </div>
-        </a>-->
-        <a class="back-arrow hvr-backward" href="javascript:window.history.back()">
+        </a>
+        <!-- <a class="back-arrow hvr-backward" href="javascript:window.history.back()">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
           </svg>  
-          <!-- <i class="fa-solid fa-arrow-left"></i> -->
-        </a>
-<!--        <div class="mobile-menu-logo">
-          <a href="{{site.BaseURL | relLangURL }}">
-              <img class="img-fluid" src="{{ site.Params.logo_dark | absURL }}" alt="{{ site.Title }}"></a>
-        </div>-->
+        </a> -->
         <div class="menu-slider">
           <nav>
-<!--            <ul class="mobile-menu-list">
+           <ul class="mobile-menu-list">
               {{ range site.Menus.main }}
-              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a></li>
+              <li class="text-uppercase mobile-menu-item 1"><a href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a></li>
               {{ end }}
-            </ul>-->
-            <!-- Language List -->
-            {{- if .IsTranslated }}
-            <select class="ml-4" id="select-language" onchange="location = this.value;">
-              {{ $siteLanguages := site.Languages}}
-              {{ $pageLang := .Page.Lang}}
-              {{ range .Page.AllTranslations }}
-              {{ $translation := .}}
-              {{ range $siteLanguages }}
-              {{ if eq $translation.Lang .Lang }}
-              {{ $selected := false }}
-              {{ if eq $pageLang .Lang}}
-              <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-              </option>
-              {{ else }}
-              <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-              {{ end }}
-              {{ end }}
-              {{ end }}
-              {{ end }}
-            </select>
-            {{ end }}
-<!--            <ul class="mobile-menu-icons list-inline">
-              {{ range site.Params.social }}
-              <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-              {{ end }}
-            </ul>-->
+            </ul>
+            {{ partial "social-icon" }}
           </nav>
         </div>
       </div>
@@ -103,4 +57,4 @@
 <div style="height: 50px;"></div>
 <!-- =============================
           End Menu
-        =============================== -->
+    =============================== -->

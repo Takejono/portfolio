@@ -108,38 +108,7 @@
       {{ end }}
     </select>
     {{ end }}
-     <!-- desktop-menu -->
     <div class="menu-container">
-      <!-- <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
-        {{ range site.Menus.main }}
-        <li class="menu-item hvr-underline-from-left 1"><a
-            href="{{if .Pre}}{{.Pre}}{{ .URL }}{{else}}#home{{end}}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-      </ul> -->
-      <!-- Language List -->
-      <!-- {{- if .IsTranslated }}
-      <select id="select-language" onchange="location = this.value;">
-        {{ $siteLanguages := site.Languages}}
-        {{ $pageLang := .Page.Lang}}
-        {{ range .Page.AllTranslations }}
-        {{ $translation := .}}
-        {{ range $siteLanguages }}
-        {{ if eq $translation.Lang .Lang }}
-        {{ $selected := false }}
-        {{ if eq $pageLang .Lang}}
-        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-        </option>
-        {{ else }}
-        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-        {{ end }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-      </select>
-      {{ end }} -->
-      <!-- /desktop-menu -->
-       
       <!-- mobile-menu -->
       <div class="mobile-menu">
         <a class="menu-link">
@@ -154,7 +123,7 @@
             <ul class="mobile-menu-list">
               {{ range site.Menus.main }}
               <li class="text-uppercase mobile-menu-item 1">
-                <a href="{{if .Pre}}{{.Pre}}{{ .URL }}{{else}}#home{{end}}">{{ .Name }}</a>
+                <a href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a>
               </li>
               {{ end }}
             </ul>
