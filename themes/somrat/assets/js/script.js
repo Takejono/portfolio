@@ -176,11 +176,11 @@
 	$('.hello').waypoint({
 		handler: function (direction) {
 			// Fixing Menu after leaving Header Section
-			$(".menu").toggleClass("menu-fix");
+			// $(".menu").toggleClass("menu-fix");
 			// Changing Menu background after leaving Header Section
-			$(".menu-item").toggleClass("menu-item-transparent");
+			// $(".menu-item").toggleClass("menu-item-transparent");
 			// Toggling Mobile Menu Visibility
-			$(".mobile-menu").toggleClass("mobile-menu-fix");
+			// $(".mobile-menu").toggleClass("mobile-menu-fix");
 			// Auto-Collapsing Mobile Menu When Left Open
 			var a = $(".menu-link").attr("class");
 			if (direction == "up" && a == "menu-link active") {

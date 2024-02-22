@@ -20,7 +20,6 @@
       <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
     </svg>
   </a>
-    <!-- <a href="#hello"><i class="fa-solid fa-chevron-down"></i></a> -->
   </div>
   <div class="owl-carousel owl-full-width" id="background-slide">
     {{ range .Params.slider_images }}
@@ -41,98 +40,33 @@
               {{ end }}
           </div>
         </div>
-  <!-- full nav start -->
-<!--  <div class="navigation-icon">
-    <input id="burger" type="checkbox" />
-    <label for="burger" class="burger-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-  </div>
-  <div class="fullscreen-nav-container" style="background-image: url('{{ .Params.bg_image | absURL }}');">
-    <div class="container-fluid">
-      <div class="full-nav-container row">
-        <div class="full-nav-holder">
-          <div class="full-nav-content">
-            <div class="name">
-              {{ with .Params.first_name }}<div class="first-name">{{ . }}</div>{{ end }}
-              {{ with .Params.last_name }}<div class="last-name">{{ . }}</div>{{ end }}
-            </div>
-            <div class="fulscreen-nav">
-              <ul class="list-inline fullscreen-nav-holder">
-                {{ range site.Menus.main }}
-                <li><a class="text-uppercase"
-                    href="{{if .Pre}}{{.Pre}}{{ .URL }}{{else}}#home{{end}}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-              </ul>
-            </div>
-            <div class="full-nav-icon-holder">
-              <ul class="full-nav-icons list-inline">
-                {{ range site.Params.social }}
-                <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-                {{ end }}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>-->
 </section>
 {{ end }}
 <!-- End Header -->
 
 <!-- Start Menu -->
 <section class="menu" id="menu">
-  <nav>
-      <!-- Language List -->
-    {{- if .IsTranslated }}
-    <select id="select-language" onchange="location = this.value;">
-      {{ $siteLanguages := site.Languages}}
-      {{ $pageLang := .Page.Lang}}
-      {{ range .Page.AllTranslations }}
-      {{ $translation := .}}
-      {{ range $siteLanguages }}
-      {{ if eq $translation.Lang .Lang }}
-      {{ $selected := false }}
-      {{ if eq $pageLang .Lang}}
-      <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-      </option>
-      {{ else }}
-      <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-      {{ end }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-    </select>
+  {{- if .IsTranslated }}
+  <select id="select-language" onchange="location = this.value;">
+    {{ $siteLanguages := site.Languages}}
+    {{ $pageLang := .Page.Lang}}
+    {{ range .Page.AllTranslations }}
+    {{ $translation := .}}
+    {{ range $siteLanguages }}
+    {{ if eq $translation.Lang .Lang }}
+    {{ $selected := false }}
+    {{ if eq $pageLang .Lang}}
+    <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
+    </option>
+    {{ else }}
+    <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
     {{ end }}
-    <div class="menu-container">
-      <!-- mobile-menu -->
-      <div class="mobile-menu">
-        <a class="menu-link">
-          <div class="mobile-menu-nav">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </a>
-        <div class="menu-slider">
-          <nav>
-            <ul class="mobile-menu-list">
-              {{ range site.Menus.main }}
-              <li class="text-uppercase mobile-menu-item 1">
-                <a href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a>
-              </li>
-              {{ end }}
-            </ul>
-            {{ partial "social-icon" }}
-          </nav>
-        </div>
-      </div>
-    </div>
-  </nav>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </select>
+  {{ end }}
+{{ partial "menu" }}
 </section>
 <!-- End Menu -->
 
@@ -151,7 +85,6 @@
           <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
         </svg>
       </a>
-        <!-- <a href="#portfolio"><i class="fa-solid fa-chevron-down"></i></a> -->
     </div>
   </div>
 </section>

@@ -55,7 +55,7 @@ h1 {
 appearance: none;
  border-radius: 1rem;
  border: none;
- padding: 2px 20px;
+ padding: 2px 15px;
  margin-right: .5rem;
  background: rgba(255, 255, 255, .6)!important;
  -webkit-transition: all 0.3s ease-out;
@@ -64,7 +64,7 @@ appearance: none;
  position: absolute;
  right: 50px;
  top: 12px;
- z-index: 2;
+ z-index: 1000;
 }
 #select-language:hover {
 cursor: pointer;
@@ -200,12 +200,12 @@ cursor: pointer;
 .mobile-menu {
   background: none;
   box-shadow: none;
-  right: -65px;
+  right: 0px;
   transition: all 0.3s;
 }
-.mobile-menu.mobile-menu-fix {
+/* .mobile-menu.mobile-menu-fix {
   right: 0px;
-}
+} */
 
 .mobile-menu-list {
  padding-top: 75px!important;
@@ -220,11 +220,6 @@ cursor: pointer;
 }
 .mobile-menu-logo img {
  display: none;
-}
-.menu {
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  position: fixed;
 }
 .menu-slider {
   height: 100vh;
@@ -267,7 +262,7 @@ cursor: pointer;
   opacity: 1;
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 
 .back-arrow {

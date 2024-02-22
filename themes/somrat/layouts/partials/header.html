@@ -1,8 +1,7 @@
 <!-- =============================
       Start Menu
     =============================== -->
-<section class="menu menu-fix" id="home">
-  <nav>
+<section class="menu" id="home">
     <!-- Language List -->
     {{- if .IsTranslated }}
     <select class="ml-4" id="select-language" onchange="location = this.value;">
@@ -24,34 +23,7 @@
                   {{ end }}
     </select>
     {{ end }}
-    <div class="menu-container menu-normal">
-      <!-- mobile-menu -->
-      <div class="mobile-menu mobile-menu-fix">
-       <a class="menu-link">
-          <div class="mobile-menu-nav">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </a>
-        <!-- <a class="back-arrow hvr-backward" href="javascript:window.history.back()">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-          </svg>  
-        </a> -->
-        <div class="menu-slider">
-          <nav>
-           <ul class="mobile-menu-list">
-              {{ range site.Menus.main }}
-              <li class="text-uppercase mobile-menu-item 1"><a href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-            {{ partial "social-icon" }}
-          </nav>
-        </div>
-      </div>
-    </div>
-  </nav>
+  {{ partial "menu" }}
 </section>
 
 <div style="height: 50px;"></div>
