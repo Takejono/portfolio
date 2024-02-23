@@ -1,7 +1,9 @@
 /*--------------------------------
    Start Preloader & General Styling
 ----------------------------------*/
-
+:root {
+  --divide-bg-color: #25252f;
+}
 html {
   height: 100%;
 }
@@ -11,8 +13,10 @@ html {
 }
 
 body {
-  font-family: 'Rubik', "Noto Sans JP", sans-serif;
+  font-family: 'Roboto', "Noto Sans JP", sans-serif;
+  font-weight: 300;
   height: 100%;
+  color: #3d3a33;
 }
 
 .content a {
@@ -20,9 +24,8 @@ body {
   border-bottom: 1px dashed #212121;
 }
 
-
 .content a:hover {
-  border-bottom: 1px solid #212121;
+  border-bottom: 2px solid #752d2d;;
   text-decoration: none;
 }
 
@@ -45,7 +48,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2B2C2F;
+  background-color: #99999A;
   z-index: 99999;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -689,9 +692,9 @@ input:checked+label span:last-child {
   transition: color 1s;
 }
 
-.menu-item-transparent.menu-item a {
+/* .menu-item-transparent.menu-item a {
   color: #6f6f6f;
-}
+} */
 
 /* ========= Mobile Menu ======= */
 
@@ -800,7 +803,8 @@ input:checked+label span:last-child {
 
 .menu-link.active span {
   opacity: 0;
-  top: 50%;
+  -webkit-transform: rotateY(90deg);
+  transform: rotateY(90deg);
 }
 
 .menu-link.active span:first-child {
@@ -878,7 +882,7 @@ input:checked+label span:last-child {
   font-size: 16px;
 }
 
-.download-cv {
+/* .download-cv {
   text-decoration: none;
   color: #4d4d4d;
   font-weight: 700;
@@ -892,9 +896,9 @@ input:checked+label span:last-child {
 .download-cv:focus {
   text-decoration: none;
   color: #4d4d4d;
-}
+} */
 
-.about-me-images img {
+/* .about-me-images img {
   width: 100%;
   opacity: .9;
   -webkit-filter: grayscale(100%);
@@ -907,8 +911,8 @@ input:checked+label span:last-child {
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
   transition: all linear .3s;
-}
-
+} */
+/* 
 .about-me-images img:hover {
   width: 100%;
   -webkit-filter: grayscale(0%);
@@ -916,9 +920,9 @@ input:checked+label span:last-child {
   -ms-filter: grayscale(0%);
   -o-filter: grayscale(0%);
   filter: grayscale(0%);
-}
+} */
 
-.about-me .hvr-icon-hang:before {
+/* .about-me .hvr-icon-hang:before {
   content: "\f0ab";
   position: absolute;
   font-family: 'Font Awesome 5 Free';
@@ -926,7 +930,7 @@ input:checked+label span:last-child {
   font-weight: 900;
   top: 6px;
   font-size: 16px;
-}
+} */
 
 /* ========= Start Experience ======= */
 
@@ -1411,7 +1415,7 @@ ul.experience-chart h4 {
 
 /* ========= Start Main Testimonials ======= */
 
-.testimonials {
+/* .testimonials {
   background: #fff;
   padding: 70px 0px;
 }
@@ -1497,11 +1501,11 @@ ul.experience-chart h4 {
 
 .owl-theme .owl-nav.disabled+.owl-dots {
   margin-top: 20px;
-}
+} */
 
 /* ========= 7.2 Start Fun Facts ======= */
 
-.no-js .fun-facts {
+/* .no-js .fun-facts {
   display: none;
 }
 
@@ -1539,7 +1543,7 @@ ul.experience-chart h4 {
   font-weight: 700;
   font-size: 21px;
   margin-top: 13px;
-}
+} */
 
 /*--------------------------------
    End Testimonials
@@ -1548,19 +1552,30 @@ ul.experience-chart h4 {
 /*--------------------------------
    Start Contact
 ----------------------------------*/
-
-.contact {
-  background: #efdbb5;
-  /* Fallback Background */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom right;
-  background-attachment: scroll;
-  position: relative;
-  padding-top: 30vw;
+.contact .divider svg {
+  fill: #25252f;
+  position: absolute;
+  transform: scaleX(-1);
+  bottom: -1px;
 }
 
-.contact:after {
+.contact {
+  background: #25252f;
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  background-attachment: scroll; */
+  position: relative;
+  padding-top: 0;
+  svg.bi-pencil {
+    color: #999;
+    display:block;
+    margin-inline: auto;
+    margin-bottom: 0.6rem;
+  }
+}
+
+.contact::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -1569,7 +1584,7 @@ ul.experience-chart h4 {
   top: 0;
   left: 0;
   bottom: 0;
-  background: rgba(239, 219, 181, .88);
+  background: radial-gradient(at center 90%, #2f2c26f0, #25252f 50%);
   z-index: 0;
 }
 .contact-holder {
@@ -1582,18 +1597,28 @@ ul.experience-chart h4 {
   position: relative;
   text-align: center;
   color: #525252;
-  font-weight: 700;
   letter-spacing: 0.4rem;
 }
 
 .form-container {
-  margin-top: 40px;
+  border-radius: 4px 4px 1rem 1rem;
+  padding: 0.7rem;
+  margin-top: 0;
+  opacity: 1;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
 }
 
 .form-container .form-control {
-  border: 0;
-  border-radius: 0;
   height: 47px;
+  background: none;
+  color: #999;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #525252;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
 }
 
 .form-container .help-block,
@@ -1605,42 +1630,39 @@ ul.experience-chart h4 {
   height: auto;
 }
 
-input.form-control::-webkit-input-placeholder,
-textarea.form-control::-webkit-input-placeholder,
-.submit {
-  font-weight: 700;
-  font-size: 16px;
-  color: #313131;
-}
-
 .submit {
   width: 120px;
   margin: auto;
   display: block;
+  background: #fff!important;
+  border-radius: 2rem!important;
 }
 
-.hvr-icon-push:before {
-  content: "\f1d8";
-  right: 19px;
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
+.contact-holder:hover .form-container,
+.form-container:has(.form-control:focus) {
+  opacity: 1;
+  background: #752d2d;
 }
+
+.form-container .form-control::placeholder {
+  color: #999;
+  font-size: 1rem;
+}
+.form-container .form-control:focus {
+  background: #25252f;
+  border: none;
+}
+
+/*--------------------------------
+   footer
+----------------------------------*/
 
 .footer {
   padding-top: 50px;
   padding-bottom: 10px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
-
-.footer-bg {
-  background: none;
-}
-
-/* .footer hr {
-  border: 1px solid #fff;
-  margin-bottom: 5px;
-} */
 
 .footer-icons {
   display: -webkit-inline-box;
@@ -1658,11 +1680,7 @@ textarea.form-control::-webkit-input-placeholder,
   margin-top: 15px;
 }
 
-.footer-icons div {
-  display: inline-block;
-}
-
-.footer-icons a, .to-top a, .contact-holder h1 {
+.footer-icons a, .to-top a, .contact-holder h1, .credit {
   color:#999;
 }
 
@@ -1674,7 +1692,6 @@ textarea.form-control::-webkit-input-placeholder,
 
 .credit {
   text-align: center;
-  color: #999;
   font-size: 0.75rem;
 }
 
