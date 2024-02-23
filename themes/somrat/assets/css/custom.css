@@ -444,23 +444,3 @@ h4 { /* categorie name */
 li.media + * {
  vertical-align: middle;
 }
-/*--------------------------------
-  call to action
-----------------------------------*/
-.need-service .divider svg {
-  fill: #fff;
-  position: absolute;
-  top: 99px;
-  left: 0;
-  filter: drop-shadow(0px 5px 3px rgba(38, 32, 15, 0.2));
-}
-.need-service .container {
-  margin-right: 70px;
-  height: 130px;
-  max-width: 140px;
-  box-shadow: inset 3px 3px 7px #1e3d5389;
-  background-image: url("/images/backgrounds/need-service.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 3rem 4rem 3rem 5rem;
-}

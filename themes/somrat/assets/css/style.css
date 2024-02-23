@@ -3,7 +3,7 @@
 ----------------------------------*/
 :root {
   --divide-bg-color: #25252f;
-  --hvr-color: #752d2d;
+  --hvr-color: #7e2d2d;
 }
 html {
   height: 100%;
@@ -1108,101 +1108,30 @@ ul.experience-chart h4 {
 /*--------------------------------
   Start Services
 ----------------------------------*/
-
-.services {
-  background: #fff;
-  padding: 70px 0px;
-}
-
-.services-heading {
-  position: relative;
-}
-
-.services-heading h1 {
-  color: #6f6f6f;
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 4px;
-  margin-bottom: 80px;
-  position: relative;
-}
-
-/*.services-heading h1:before {
-  content: "";
+.need-service .divider svg {
+  fill: #fff;
   position: absolute;
-  top: -8px;
-  right: 0;
+  top: 99px;
   left: 0;
-  margin: auto;
-  width: 70px;
-  height: 5px;
-  background: #fff;
-}*/
-
-.services-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 30px;
-  padding-bottom: 40px;
+  filter: drop-shadow(0px 5px 3px rgba(38, 32, 15, 0.2));
 }
 
-.service-img {
-  width: 100px;
-  margin: auto;
-}
-
-.services-icon img {
-  width: 100%;
-}
-
-.service-label {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100px;
-  text-align: center;
-  font-weight: 600;
-  letter-spacing: -0.5px;
-  font-size: 19px;
-}
 .need-service {
+  background: #fff;
   padding-bottom: 100px;
   width: 100%;
-  background: #fff;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  position: relative;
   text-align: center;
 }
-/* .overlay {
-  position: relative;
-} */
 
-/*.overlay::before {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-}*/
-
-.need-service h1 {
-  position: relative;
-  color: #525252;
-  font-weight: 700;
-  margin: 0;
-  font-size: 40px;
-  letter-spacing: 2px;
-  z-index: 2;
+.need-service .container {
+  margin-right: 70px;
+  height: 130px;
+  max-width: 140px;
+  box-shadow: inset 3px 3px 7px #1e3d5389;
+  background-image: url("/images/backgrounds/need-service.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3rem 4rem 3rem 5rem;
 }
 
 .need-service a {
@@ -1211,14 +1140,11 @@ ul.experience-chart h4 {
   text-decoration: none;
   color: #fff;
   margin-top: 3rem;
-  /* display: inline-block; */
 }
 
 .need-service a:hover {
   background: transparent;
   color: #525252;
-  /* border: 2px solid #fff; */
-  /* padding: 8px 17px; */
 }
 
 /*--------------------------------
@@ -2168,7 +2094,7 @@ ul.experience-chart h4 {
    Start Testimonials
 ----------------------------------*/
 
-@media(max-width: 380px) {
+/* @media(max-width: 380px) {
   .single-testimonial p {
     width: 80%;
   }
@@ -2194,7 +2120,7 @@ ul.experience-chart h4 {
   .testimonials {
     padding: 70px 0px 0px 0px;
   }
-}
+} */
 
 /*--------------------------------
   End Testimonials
