@@ -26,16 +26,15 @@
         </div>
       </div>
       <div class="col-12 mx-auto">
-        <div class="row filtr-wrapper wow fadeInUp list" data-wow-duration="1.5s">
+        <div class="row flex-nowrap filtr-wrapper wow fadeInUp list" data-wow-duration="1.5s">
           {{ range .Data.Pages }}
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 filtr-item"
-            data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 filtr-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder">
-              <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}">
-                <img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}">
-              </a>
+              <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
-                <h2 class="mt-2"><a class="text-white" href="{{.Permalink}}">{{ .Title | markdownify }}</a></h2>
+                <a class="text-white" href="{{.Permalink}}">
+                  <h2 class="mt-2">{{ .Title | markdownify }}</h2>
+                </a>
                 {{ range .Params.categories }}
                 <p class="mb-0 text-light">{{ . | title }}</p>
                 {{ end }}
