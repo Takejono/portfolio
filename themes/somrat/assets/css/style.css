@@ -723,8 +723,8 @@ input:checked+label span:last-child {
   right: 0;
   height: 55px;
   top: 0;
-  background: #fff;
-  box-shadow: 0px 0px 4px 0px;
+  /* background: #fff; */
+  /* box-shadow: 0px 0px 4px 0px; */
   transition: all 0.5s;
 }
 .mobile-menu-fix {
@@ -846,25 +846,78 @@ input:checked+label span:last-child {
   z-index: 999;
   top: 0;
   right: 0;
-  background: #efdbb5;
+  height: 100vh;
+  width: 0px;
+  overflow: scroll;
+  opacity: 0;
+  background: linear-gradient(70deg, #fff7dd 30%, #bcbcbc);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-
+.open {
+  height: 100vh;
+  width: 100%;
+  opacity: 1;
+}
 .menu-slider ul {
   list-style: none;
-  padding: 17px;
+  padding: 0;
   margin-bottom: 0;
 }
 
-.menu-slider li {
-  padding: 9px;
-  text-align: center;
+.mobile-menu {
+  background: none;
+  box-shadow: none;
+  right: 0px;
+  transition: all 0.3s;
+}
+.mobile-menu-list {
+ padding-top: 45px!important;
+ padding-left: 0;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ align-items: center;
+ height: calc(100vh - 60px);
 }
 
+.menu-slider li, .footer-icons li {
+  display: flex;
+  align-items: center;
+  flex: auto;
+  justify-content: center;
+  -webkit-transition: transform 0.3s;
+  transition: transform 0.3s;
+}
 .menu-slider li a {
-  font-size: 18px;
-  font-weight: 400;
+  color: var(--divide-bg-color);
+  font-size: calc(0.4rem + 1.2vw);
+  font-family: 'Averia Serif Libre';
+  letter-spacing: 0.7vw;
+}
+.menu-slider nav {
+ opacity: 0;
+ -webkit-transition: all 0.1s linear;
+ transition: all 0.1s linear;
+}
+.menu-slider li:hover, .footer-icons li:hover {
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+.menu-slider.open nav {
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  transition-delay: 300ms;
 }
 
+.back-arrow {
+  color: #25252f!important;
+  position: absolute;
+  top: 2px;
+  right: 15px;
+  z-index: 1002;
+}
 /*--------------------------------
    End Menu
 ----------------------------------*/
@@ -1648,7 +1701,7 @@ ul.experience-chart h4 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 15px;
+  padding: 0!important;
 }
 
 .footer-icons a, .to-top a, .contact-holder h1, .credit {
