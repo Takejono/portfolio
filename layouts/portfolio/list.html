@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="col-12 mx-auto">
-        <div class="row filtr-wrapper wow fadeInUp list" data-wow-duration="1.2s">
+        <div class="row filtr-wrapper wow fadeInUp list" data-wow-duration="1.5s">
           {{ range .Data.Pages }}
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 filtr-item"
             data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
