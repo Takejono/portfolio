@@ -183,7 +183,7 @@
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} style="background-image: url('{{ .Params.image | absURL}}');" id="about">
   <div class="container">
     <div class="row about-me-holder">
-      <div class="col-lg-5 col-md-6 col-sm-8 col-10 offset-1 about-me-text d-flex align-self-center wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-lg-5 offset-lg-0 col-md-6 offset-md-0 col-sm-8 offset-sm-0 col-10 offset-1 about-me-text d-flex align-self-center wow fadeInUp" data-wow-duration="1.5s">
         <div class="text-holder">
           <!-- <h1>{{ .Title | markdownify }}</h1> -->
           <div class="content">{{ .Content | markdownify | emojify }}</div>
@@ -200,47 +200,6 @@
       </div>
       {{ end }} -->
     </div>
-
-    <!-- <div class="row experience-skill">
-      {{ with .Params.experience }}
-      {{ if .enable }}
-      <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
-        <ul class="experience-chart">
-          {{ range .experience_list }}
-          <li>
-            <div class="single-experience">
-              <h4>{{ .name | markdownify }}</h4>
-              {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
-              {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
-              {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
-            </div>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-      {{ end }}
-
-      {{ with .Params.skill }}
-      {{ if .enable }}
-      <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
-        <div class="skill-progress-bar">
-          {{ range .skill_list }}
-          <div class="clearfix">
-            <span class="skillbar-title">{{ .name }}</span>
-            <span class="skill-bar-percent">{{ .percentage }}</span>
-            <div class="skillbar" data-percent="{{ .percentage }}">
-              <div class="skillbar-bar"></div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div> -->
   </div>
 </section>
 {{ end }}
