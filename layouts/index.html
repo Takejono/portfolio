@@ -131,13 +131,13 @@
             <div class="item-holder">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
-                <a class="text-white" href="{{.Permalink}}">
+                <a href="{{.Permalink}}">
                   <h2 class="mt-2">{{ .Title | markdownify }}</h2>
                 </a>
                 {{ range .Params.categories }}
-                <p class="mb-0 text-light">{{ . | title }}</p>
+                <p class="mb-0">{{ . | title }}</p>
                 {{ end }}
-                <div class="item-created text-light">
+                <div class="item-created">
                   {{ if .Params.date_show }}
                   {{ .Params.Date_show }}{{else}}{{ .Params.Date.Format "2006"}}{{ end }}
                 </div>

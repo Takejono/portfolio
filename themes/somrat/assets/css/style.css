@@ -1222,29 +1222,27 @@ ul.experience-chart h4 {
 /*--------------------------------
    Start Portfolio
 ----------------------------------*/
+.portfolio .divider svg {
+  fill: #fff;
+  position: absolute;
+  transform: scaleX(-1);
+  bottom: 49px;
+}
 
 .portfolio {
-  background: #fff;
-  padding: 70px 0px 160px;
+  background: radial-gradient(at 20%,#e5e5e5, #fff 30%);
+  padding: 50px 0 200px;
+  position: relative;
 }
 
 .portfolio h1 {
-  color: #525252;
+  color: #25252f;
   text-align: center;
   font-weight: 700;
   letter-spacing: 4px;
   position: relative;
+  padding: 3rem 0 3rem;
 }
-
-/*.portfolio h1:before {
-  content: "";
-  height: 3px;
-  background: #525252;
-  position: absolute;
-  top: -15px;
-  left: 43%;
-  right: 43%;
-}*/
 
 .filtering {
   width: 100%;
@@ -1286,16 +1284,14 @@ ul.experience-chart h4 {
 .portfolio-navigation label {
   cursor: pointer;
   padding: 7px 14px;
-  border: 1px solid #efdbb5;
   color: #999;
-  font-weight: 700;
   margin: 5px 5px;
   border-radius: .4rem!important;
   background-color: transparent;
+  border: none;
 }
 
 .portfolio-navigation label:hover {
-  border-color: transparent!important;
   color: #6f6f6f;
   background-color: transparent !important;
 }
@@ -1335,11 +1331,12 @@ ul.experience-chart h4 {
 .portfolio .hvr-radial-out.active:before {
   background: transparent;
 }
-
+.filtr-item {
+  padding: 6px 6px 9px;
+}
 .filtr-item img {
   width: 100%;
 }
-
 .filtr-item:hover .item-holder img {
   cursor: pointer;
 }
@@ -1351,51 +1348,72 @@ ul.experience-chart h4 {
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
   overflow: hidden;
+  filter: drop-shadow(0 0 3px #0000001f);
+  border-radius: 4px;
+  img {
+    object-fit: cover;
+    min-height: 200px;
+  }
 }
 
 .item-caption {
   position: absolute;
-  /* top: 24px; */
   bottom: 0;
   left: 0;
-  width: 150px;
-  background: #313131;
-  -webkit-transform: translateX(-150px);
-  transform: translateX(-150px);
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  width: 100%;
+  padding: 8px 3px 0;
+  opacity: 0;
+  background: linear-gradient(#fff0, #ffffffd4, #fff 70%);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .item-caption h2 {
-  font-size: 32px;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 700;
-  padding-left: 13px;
-}
-
-.item-caption p {
-  padding-left: 16px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Averia Serif Libre';
+  font-size: 0.9rem;
   font-weight: 500;
+  margin: 0;
+  overflow-wrap: break-word;
+  word-break:keep-all;
+  padding: 0;
 }
+.item-caption:lang(jp) h2 {
+  font-size: 0.8rem;
+  letter-spacing: 0;
+}
+.item-caption a {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.item-caption a:hover {
+  color: #cfb890!important;
+}
+.item-caption p {
+  color: #999!important;
+  font-weight: 400;
+  font-size: 0.7rem;
+  display: inline-block;
+  padding: 0 5px 0 0;}
 
 .item-created {
   text-decoration: none;
   position: absolute;
-  bottom: 16px;
-  left: 17px;
-  background: #6f6f6f;
-  padding: 5px 10px;
+  background: none;
+  text-align: right;
+  right: 0;
+  bottom: 0;
+  padding: 0 3px 0 0;
+  font-size: 0.7rem;
+  color: #999!important;
 }
 
 .filtr-item:hover .item-caption {
-  -webkit-transform: translateX(0px);
-  transform: translateX(0px);
+  opacity: 1;
 }
 
 .item-holder a {
   text-decoration: none;
-  color: #fff;
+  color: #25252f;
 }
 
 .item-holder a:focus {
@@ -1430,6 +1448,43 @@ ul.experience-chart h4 {
   text-decoration: none;
 }
 
+.portfolio .btn:only-of-type {
+  padding: 9px 23px;
+  border-radius: 50%;
+  font-size: 30px;
+  background: #25252f;
+}
+
+#carouselExampleControls {
+  padding: 1rem 0 3rem;
+  /* overflow: hidden; */
+}
+.carousel-item {
+  height: calc(100vh - 200px);
+  img {
+    object-fit: contain;
+    height: 100%;
+  }
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: #25252f;
+  /* font-size: 1.5rem; */
+  background: none;
+  svg {
+    filter: drop-shadow(0px 0px 2px #fff);
+  }
+}
+
+h4 { /* categorie name */
+  font-family: 'Averia Serif Libre';
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.1rem;
+}
+li.media + * {
+ vertical-align: middle;
+}
 /*--------------------------------
  End Portfolio
 ----------------------------------*/
