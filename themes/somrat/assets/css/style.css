@@ -1188,6 +1188,7 @@ ul.experience-chart h4 {
   padding-bottom: 100px;
   width: 100%;
   text-align: center;
+  z-index: 2;
 }
 
 .need-service .container {
