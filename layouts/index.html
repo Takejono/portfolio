@@ -125,7 +125,7 @@
         </div> -->
       </div>
       <div class="col-12 mx-auto">
-        <div class="row flex-nowrap filtr-wrapper wow fadeInUp list" data-wow-duration="1.2s">
+        <div class="row flex-nowrap filtr-wrapper wow fadeIn list" data-wow-duration="1.2s">
           {{ range first 6 .Data.Pages }}
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 filtr-item"
             data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
@@ -286,7 +286,7 @@
     </div>
     </div>
     <div class="row">
-      <div class="footer col-lg-8 offset-lg-2 fadeInUp wow" data-wow-duration="1.5s">
+      <div class="footer col-lg-8 offset-lg-2 fadeIn wow" data-wow-duration="1.5s">
           {{ partial "social-icon" }}
         <div class="credit content">
           {{ site.Params.copyright | markdownify }}
