@@ -936,7 +936,7 @@ input:checked+label span:last-child {
   z-index: 0;
   position: relative;
   background-size: cover;
-  background-position: 32%;
+  background-position: 35%;
 }
 
 .about-me::before {
@@ -950,9 +950,9 @@ input:checked+label span:last-child {
 }
 
 .about-me .about-me-text {
-  background-color: #f7d4601c;
-  -webkit-backdrop-filter: blur(8px) contrast(0.7);
-  backdrop-filter: blur(8px);
+  background-color: #ffffff28;
+  -webkit-backdrop-filter: blur(10px) contrast(0.7);
+  backdrop-filter: blur(10px) contrast(0.7);
   padding: 1rem;
   border-radius: 4px;
 }
@@ -966,7 +966,7 @@ input:checked+label span:last-child {
 }
 
 .about-me-text p {
-  color: #fff;
+  color: var(--divide-bg-color);
   font-size: 1rem;
 }
 
@@ -1032,7 +1032,7 @@ input:checked+label span:last-child {
 
 /* ========= Start Experience ======= */
 
-.experience-skill {
+/* .experience-skill {
   margin-top: 40px;
 }
 
@@ -1099,11 +1099,11 @@ ul.experience-chart h4 {
 .single-experience {
   position: relative;
   top: -2px;
-}
+} */
 
 /* ========= Start Skill ======= */
 
-.skill-progress-bar {
+/* .skill-progress-bar {
   margin-top: 41px;
 }
 
@@ -1166,7 +1166,7 @@ ul.experience-chart h4 {
   border-radius: 22px;
   -moz-border-radius: 22px;
   -webkit-border-radius: 22px;
-}
+} */
 
 /*--------------------------------
    End About Me
