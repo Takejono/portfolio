@@ -8,11 +8,11 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="wow fadeInUp carousel-inner" data-wow-duration="1s">
           <div class="carousel-item active" href="{{ .Params.Image | absURL }}" title="{{ .Params.img_title | markdownify }}">
-            <img src="{{.Params.Image | absURL}}" alt="image" class="d-block img-fluid w-100 mb-5">
+            <img src="{{.Params.Image | absURL}}" alt="image" class="d-block img-fluid w-100">
           </div>
             {{ range .Params.resources }}
             <div class="carousel-item" href="{{ .src | absURL }}" title="{{ .title | markdownify }}">
-            <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}" class="d-block w-100 mb-5">
+            <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}" class="d-block img-fluid w-100">
           </div>
           {{ end }}
         </div>
