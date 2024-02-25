@@ -692,6 +692,49 @@ input+label span {
 ----------------------------------*/
 
 /*--------------------------------
+   hello
+----------------------------------*/
+#hello {
+  background: var(--divide-bg-color);
+  background-image: url("/images/backgrounds/atelier02.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  z-index: 1;
+  position: relative;
+  color: #fff1c5;
+  position: relative;
+}
+#hello::before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(var(--divide-bg-color), #4541387f);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+.hello p {
+  font-family: 'Averia Serif Libre';
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+.hello .btn-container {
+  text-align: center;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  z-index: 12;
+  font-size: 2rem;
+  position: relative;
+}
+
+/*--------------------------------
    Start About Me
 ----------------------------------*/
 
