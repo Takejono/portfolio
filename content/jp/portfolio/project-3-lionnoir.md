@@ -26,8 +26,6 @@ resources:
   title:
 - src: images/portfolio/lionnoir-5.jpg
   title:
-- src: images/portfolio/lionnoir-6.jpg
-  title:
 - src: images/portfolio/lionnoir-7.jpg
   title:
 - src: images/portfolio/lionnoir-9.jpg

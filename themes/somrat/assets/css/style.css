@@ -72,12 +72,12 @@ body {
 }
 
 .section {
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 100px;
 }
 
 .section-sm {
-  padding-top: 60px;
+  padding-top: 0px;
   padding-bottom: 60px;
 }
 
@@ -329,7 +329,7 @@ body {
   display: none;
 }
 
-.head-holder .hireMe {
+/* .head-holder .hireMe {
   display: inline-block;
   background: transparent;
   text-decoration: none;
@@ -347,7 +347,7 @@ body {
 .head-holder .hireMe:hover {
   background: rgba(255, 255, 255, .4);
   color: #525252;
-}
+} */
 
 input+label {
   position: absolute;
@@ -379,11 +379,11 @@ input+label span {
   transition: .5s;
 }
 
-.navigation-icon:hover .burger-menu span {
+/* .navigation-icon:hover .burger-menu span {
   background: #6f6f6f;
-}
+} */
 
-input+label span:first-child {
+/* input+label span:first-child {
   top: 0px;
 }
 
@@ -411,7 +411,7 @@ input:checked+label span:last-child {
   opacity: 1;
   -webkit-transform: rotate(-225deg);
   transform: rotate(-225deg);
-}
+} */
 
 /* ========= Full Screen Navigation ======= */
 

@@ -32,9 +32,9 @@
   </svg>
   </div>
         <div class="head-holder">
-          <img src="/images/logo_takeshi.png" style="width:100%;" alt="Takeshi JONOO">
+          <img src="/images/logo_takeshi.png" style="width:100%;" class="blurIn" alt="Takeshi JONOO">
 <!-- <h1 class="introduction">{{ .Title | markdownify | emojify }}</h1> -->
-          <div class="animated-text">
+          <div class="animated-text blurIn">
               {{ range .Params.occupations }}
               <span class="rotate">{{ . }}</span>
               {{ end }}
@@ -125,10 +125,10 @@
         </div> -->
       </div>
       <div class="col-12 mx-auto">
-        <div class="row flex-nowrap filtr-wrapper wow fadeIn list" data-wow-duration="1.2s">
+        <div class="row flex-nowrap filtr-wrapper list">
           {{ range first 6 .Data.Pages }}
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 filtr-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
-            <div class="item-holder">
+            <div class="item-holder wow fadeIn" data-wow-duration="1.5s">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" loading="lazy" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
                 <a href="{{.Permalink}}">
