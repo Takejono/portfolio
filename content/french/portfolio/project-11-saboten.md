@@ -16,7 +16,7 @@ project_info:
   icon: "brush-fill"
   content: "Watercolor on Paper"
 resources:
-- src: "images/slider/slider-2.jpg"
+- src: "images/portfolio/saboten-1.jpg"
   title: "« la ville tourne » - 32cm x 24cm"
 - src: "images/portfolio/saboten-3.jpg"
   title: "« Balade avec les nouveaux basckets » - 32cm x 22cm"

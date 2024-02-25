@@ -16,7 +16,7 @@ project_info:
   icon: "brush-fill"
   content: "紙に水彩、カラーインク"
 resources:
-- src: "images/slider/slider-2.jpg"
+- src: "images/portfolio/saboten-1.jpg"
   title: "« 街は回る » - 32cm x 24cm"
 - src: "images/portfolio/saboten-3.jpg"
   title: "« 新しいスニーカーで散歩 » - 32cm x 22cm"
