@@ -358,7 +358,8 @@ h1 {
     z-index: 11;
 }
 .hello .btn-start {
-    bottom: 70px;
+    text-align: center;
+    bottom: 80px;
 }
 .btn-start svg {
     opacity: 0.6;
@@ -743,7 +744,7 @@ h1 {
   background-image: url("/images/backgrounds/atelier02.jpg");
   background-size: cover;
   background-position: center;
-  padding: 130px 0 200px;
+  padding: 130px 0 270px;
   z-index: 1;
   position: relative;
   color: #fff1c5;
@@ -767,15 +768,6 @@ h1 {
   font-style: italic;
   letter-spacing: 0.3rem;
   margin-bottom: 2rem;
-}
-.hello .btn-container {
-  text-align: center;
-  bottom: -100px;
-  left: 0;
-  right: 0;
-  z-index: 12;
-  font-size: 2rem;
-  position: relative;
 }
 
 /*--------------------------------
