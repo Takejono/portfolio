@@ -5,7 +5,7 @@ date_show: "2021 ~ 2023"
 
 image: "images/portfolio/koishi-3.jpg"
 img_title: "« Affiche Ramen Koishi »"
-categories: ["Works"]
+categories: ["仕事"]
 description: "This is meta description."
 order: "23"
 draft: falce

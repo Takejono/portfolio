@@ -3,7 +3,7 @@ title: "高速バス ラッピングイラスト"
 date: 2023-04-01T12:14:34+06:00
 image: "images/portfolio/bus-6.jpg"
 img_title: "« Illustrations pour le car Tateyama »"
-categories: ["Works"]
+categories: ["仕事"]
 description: "This is meta description."
 order: "24"
 draft: false
