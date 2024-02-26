@@ -14,7 +14,7 @@
       <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671"/>
     </svg>  
   </div>
-  <div class="btn-container">
+  <div class="btn-start">
     <a href="#hello">
     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
@@ -75,12 +75,12 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="hello {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="hello">
   <div class="container">
-    <p class="wow fadeInUp" data-wow-duration="1.2s">{{ .Params.txt1 }}</p>
-    <p class="wow fadeInUp" data-wow-duration="1.2s">{{ .Params.txt2 }}</p>
-    <p class="wow fadeInUp" data-wow-duration="1.2s">{{ .Params.txt3 }}</p>
-    <p class="wow fadeInUp" data-wow-duration="1.2s">{{ .Params.txt4 }}</p>
-    <p class="wow fadeInUp" data-wow-duration="1.2s">{{ .Params.txt5 }}</p>
-    <div class="btn-container">
+    <p class="wow fadeInUp" data-wow-duration="1s">{{ .Params.txt1 }}</p>
+    <p class="wow fadeInUp" data-wow-duration="1s">{{ .Params.txt2 }}</p>
+    <p class="wow fadeInUp" data-wow-duration="1s">{{ .Params.txt3 }}</p>
+    <p class="wow fadeInUp" data-wow-duration="1s">{{ .Params.txt4 }}</p>
+    <p class="wow fadeInUp" data-wow-duration="1s">{{ .Params.txt5 }}</p>
+    <div class="btn-start">
       <a href="#portfolio">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
@@ -104,7 +104,7 @@
   <div class="container-fluid text-center">
     <div class="row portfolio-holder text-left">
       <div class="col-12 text-center">
-        <h1 class="wow fadeInUp" data-wow-duration="1.2s">{{ .Title }}</h1>
+        <h1 class="wow fadeInUp" data-wow-duration="1s">{{ .Title }}</h1>
         <!-- <div class="filtering wow fadeInUp" data-wow-duration="1.5s">
           <div class="btn-group btn-group-toggle portfolio-navigation" data-toggle="buttons">
             <label class="btn btn-sm btn-primary active hvr-radial-out">
@@ -161,7 +161,7 @@
 
 <!-- call to action -->
 <section id="cta" class="need-service section-sm">
-  <div class="container position-relative wow fadeInUp" data-wow-duration="1.2s">
+  <div class="container position-relative wow fadeInUp" data-wow-duration="1s">
     <a href="https://photos.app.goo.gl/JJeRjL3Bw2TSniMTA" target="blanc" class="hvr-wobble-vertical">
     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-question-lg" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M4.475 5.458c-.284 0-.514-.237-.47-.517C4.28 3.24 5.576 2 7.825 2c2.25 0 3.767 1.36 3.767 3.215 0 1.344-.665 2.288-1.79 2.973-1.1.659-1.414 1.118-1.414 2.01v.03a.5.5 0 0 1-.5.5h-.77a.5.5 0 0 1-.5-.495l-.003-.2c-.043-1.221.477-2.001 1.645-2.712 1.03-.632 1.397-1.135 1.397-2.028 0-.979-.758-1.698-1.926-1.698-1.009 0-1.71.529-1.938 1.402-.066.254-.278.461-.54.461h-.777ZM7.496 14c.622 0 1.095-.474 1.095-1.09 0-.618-.473-1.092-1.095-1.092-.606 0-1.087.474-1.087 1.091S6.89 14 7.496 14"/>
@@ -182,7 +182,7 @@
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} style="background-image: url('{{ .Params.image | absURL}}');" id="about">
   <div class="container">
     <div class="row about-me-holder">
-      <div class="col-lg-5 col-md-6 offset-md-0 col-sm-8 offset-sm-0 col-10 offset-1 about-me-text d-flex align-self-center wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-lg-5 col-md-6 offset-md-0 col-sm-8 offset-sm-0 col-10 offset-1 about-me-text d-flex align-self-center wow fadeInUp" data-wow-duration="1s">
         <div class="text-holder">
           <!-- <h1>{{ .Title | markdownify }}</h1> -->
           <div class="content">{{ .Content | markdownify | emojify }}</div>
@@ -216,9 +216,9 @@
     <div class="container">
     <div class="row">
      <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2 col-10 offset-1">
-     <h1 class="wow fadeInUp" data-wow-duration="1.2s">{{ .Title | markdownify}}</h1>
+     <h1 class="wow fadeInUp" data-wow-duration="1s">{{ .Title | markdownify}}</h1>
      <form method="POST" data-netlify="true" data-toggle="validator">
-      <div class="form-container wow fadeInUp row" data-wow-duration="1.5s">
+      <div class="form-container wow fadeInUp row" data-wow-duration="1s">
         <div class="col-12">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
           <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
