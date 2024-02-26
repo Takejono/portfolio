@@ -1141,6 +1141,10 @@ h1 {
   }
 }
 
+.sticky-top {
+  z-index: 1;
+  /* margin-left: 1rem; */
+}
 h4 { /* categorie name */
   font-family: 'Averia Serif Libre';
   font-size: 1.1rem;
