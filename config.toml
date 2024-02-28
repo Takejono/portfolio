@@ -30,7 +30,7 @@ link = "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400&dis
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap"
+link = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap"
 # [[params.plugins.css]]
 # link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
 [[params.plugins.css]]
