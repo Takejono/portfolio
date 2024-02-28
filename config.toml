@@ -30,9 +30,7 @@ link = "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400&dis
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap"
-# [[params.plugins.css]]
-# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+link = "https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300;500&display=swap"
 [[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]
@@ -41,8 +39,6 @@ link = "plugins/magnific-popup/magnific-popup.css"
 link = "plugins/owl-carousel/owl.carousel.min.css"
 [[params.plugins.css]]
 link = "plugins/owl-carousel/owl.theme.default.min.css"
-# [[params.plugins.css]]
-# link = "plugins/text-animation/text-animation.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -51,8 +47,6 @@ link = "plugins/jQuery/jquery.min.js"
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/wow.min.js"
-#[[params.plugins.js]]
-#link = "plugins/text-animation/text-animation.js"
 [[params.plugins.js]]
 link = "plugins/jquery.waypoints.min.js"
 [[params.plugins.js]]
@@ -61,9 +55,6 @@ link = "plugins/shuffle/shuffle.min.js"
 link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/owl-carousel/owl.carousel.min.js"
-# [[params.plugins.js]]
-# link = "https://kit.fontawesome.com/ad46f05c5d.js"
-
 
 
 #################### default parameters ################################
@@ -173,7 +164,7 @@ url = "portfolio"
 weight = 3
 
 [[Languages.jp.menu.main]]
-name = "私について"
+name = "絵描き紹介"
 pre = "#"
 url = "#about"
 weight = 4
