@@ -1032,10 +1032,11 @@ h1:lang(jp) {
   border-radius: 4px;
   img {
     object-fit: cover;
-    /* min-height: 200px; */
   }
 }
-
+.portfolio-index img {
+  height: 400px;
+}
 .item-caption {
   position: absolute;
   bottom: 0;
