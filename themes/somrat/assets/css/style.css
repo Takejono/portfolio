@@ -1192,7 +1192,7 @@ li.media + * {
 }
 
 .contact {
- --contact-color: #5d5c58;
+ --contact-color: #76746d;
   background: var(--divide-bg-color);
   /* background-repeat: no-repeat;
   background-size: cover;
