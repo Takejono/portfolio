@@ -30,6 +30,7 @@ h1 {
 }
 h1:lang(jp) {
   /* font-weight: 500; */
+  word-break:keep-all;
 }
 
 .content a {
