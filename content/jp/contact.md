@@ -1,5 +1,5 @@
 ---
-title : "コンタクト"
+title : "お問い合わせ"
 bg_image: ""
 form_action: "https://formspree.io/f/xdobkarn" # works with https://formspree
 name: "お名前"

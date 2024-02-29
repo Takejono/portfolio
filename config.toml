@@ -30,7 +30,7 @@ link = "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400&dis
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300;500&display=swap"
+link = "https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap"
 [[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]
@@ -170,7 +170,7 @@ url = "#about"
 weight = 4
 
 [[Languages.jp.menu.main]]
-name = "コンタクト"
+name = "お問い合わせ"
 pre = "#"
 url = "#contact"
 weight = 5

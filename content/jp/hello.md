@@ -4,7 +4,7 @@ title : "Hello"
 txt1: "この色彩の滲みが"
 txt2: "感動と思索を"
 txt3: "想起するような"
-txt4: "作品を描けることを"
+txt4: "作品を描きたいと"
 txt5: "願いつつ"
 
 # custom style
