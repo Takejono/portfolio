@@ -3,7 +3,7 @@
 ----------------------------------*/
 :root {
   --divide-bg-color: #25252f;
-  --hvr-color: #7e2d2d;
+  --hvr-color: #501c24;
 }
 html {
   height: 100%;
@@ -551,6 +551,7 @@ h1:lang(jp) {
 #select-language:hover {
   cursor: pointer;
   background: var(--hvr-color)!important;
+  color: #fff;
 }
 
 .mobile-menu {
@@ -818,14 +819,14 @@ h1:lang(jp) {
   border-radius: 4px;
 }
 
-.about-me-text h1 {
-  /* position: absolite;
-  top: 0;
-  left: 0; */
-  /* color: #525252; */
-  /* font-weight: 700; */
-  /* letter-spacing: 2px; */
-  /* padding-bottom: 0; */
+.about-me h1 {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  color: #adadad;
+}
+.about-me h1:lang(jp) {
+  top: 0px;
 }
 
 .about-me-text p {
@@ -858,13 +859,13 @@ h1:lang(jp) {
 
 .need-service .container {
   margin-right: 70px;
-  height: 130px;
-  max-width: 140px;
+  height: 100px;
+  max-width: 100px;
   box-shadow: inset 3px 3px 7px #1e3d5389;
   background-image: url("/images/backgrounds/need-service.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 3rem 4rem 3rem 5rem;
+  border-radius: 4rem;
 }
 
 .need-service a {
@@ -872,7 +873,7 @@ h1:lang(jp) {
   z-index: 2;
   text-decoration: none;
   color: #fff;
-  margin-top: 3rem;
+  margin-top: 2rem;
   transition: .2s ease;
 }
 
@@ -904,7 +905,6 @@ h1:lang(jp) {
     padding-top: 5rem;
   }
   h1 {
-    letter-spacing: 4px;
     z-index: 2;
     color: #d9d9d9;
     top: calc(-140px - 4.7vw);
@@ -1030,7 +1030,7 @@ h1:lang(jp) {
   border-radius: 4px;
   img {
     object-fit: cover;
-    min-height: 200px;
+    /* min-height: 200px; */
   }
 }
 
@@ -1185,14 +1185,15 @@ li.media + * {
    Start Contact
 ----------------------------------*/
 .contact .divider svg {
-  fill: #25252f;
+  fill: var(--divide-bg-color);
   position: absolute;
   transform: scaleX(-1);
   bottom: -1px;
 }
 
 .contact {
-  background: #25252f;
+ --contact-color: #5d5c58;
+  background: var(--divide-bg-color);
   /* background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
@@ -1200,7 +1201,7 @@ li.media + * {
   position: relative;
   padding-top: 0;
   svg.bi-pencil {
-    color: #999;
+    color: var(--contact-color);
     display:block;
     margin-inline: auto;
     margin-bottom: 0.6rem;
@@ -1216,7 +1217,7 @@ li.media + * {
   top: 0;
   left: 0;
   bottom: 0;
-  background: radial-gradient(at 70% 95%, #282827f0, #25252f);
+  background: radial-gradient(at 70% 95%, #282827f0, var(--divide-bg-color));
   z-index: 0;
 }
 .contact-holder {
@@ -1225,11 +1226,12 @@ li.media + * {
   z-index: 2;
 }
 
-.contact-holder h1 {
-  position: relative;
-  text-align: center;
-  color: #525252;
-  letter-spacing: 0.4rem;
+.contact h1 {
+  position: absolute;
+  top: calc(-10px - 4.7vw);
+  right: 0;
+  color: var(--contact-color);
+  z-index: 2;
 }
 
 .form-container {
@@ -1249,7 +1251,7 @@ li.media + * {
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 2px solid #525252;
+  border-bottom: 2px solid var(--contact-color);
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
 }
@@ -1269,7 +1271,7 @@ li.media + * {
   width: 120px;
   margin: auto;
   display: block;
-  background: #fff!important;
+  background: #999!important;
   border-radius: 2rem!important;
 }
 
@@ -1280,7 +1282,7 @@ li.media + * {
 }
 
 .form-container .form-control::placeholder {
-  color: #999;
+  color: var(--contact-color);
   font-size: 1rem;
 }
 .form-container .form-control:focus {
