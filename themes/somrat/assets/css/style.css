@@ -758,21 +758,22 @@ h1:lang(jp) {
   position: relative;
   min-height: calc(100vh + 120px);
   .container {
+    padding: 7rem;
     height: 100vh;
     display: flex;
-    align-content: center;
     flex-direction: column;
-    justify-content: center;
-    row-gap: 3rem;
   }
   .hello-txt {
-    font-family: 'Roboto', 'Zen Kaku Gothic Antique';
+    /* font-family: 'Roboto', 'Zen Kaku Gothic Antique'; */
+    display: flex;
+    align-items: center;
+    flex: auto;
+    justify-content: center;
     text-align: center;
-    font-size: 1rem;
+    font-size: calc(0.75rem + 1vw);
     font-style: italic;
     letter-spacing: 0.3rem;
-    /* margin-bottom: 2rem; */
-  }
+   }
 }
 #hello::before {
   content:'';
@@ -1035,7 +1036,7 @@ h1:lang(jp) {
   }
 }
 .portfolio-index img {
-  height: 400px;
+  height: 350px;
 }
 .item-caption {
   position: absolute;
