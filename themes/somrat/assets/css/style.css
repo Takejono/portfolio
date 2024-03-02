@@ -797,7 +797,7 @@ h1:lang(jp) {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(var(--divide-bg-color), #4541387f);
+  background: linear-gradient(var(--divide-bg-color) 5%, #4541387f);
   height: 100%;
   width: 100%;
   z-index: -1;
