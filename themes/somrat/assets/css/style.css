@@ -23,7 +23,8 @@ body {
 
 h1 {
   font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif;
-  font-size: calc(1.4rem + 4vw);
+  /* font-size: calc(1.4rem + 4vw); */
+  font-size: clamp(2.3rem, 8vw, 6rem);
   font-weight: 400;
   letter-spacing: 0.4rem!important;
   margin-bottom: 1rem;
@@ -530,10 +531,6 @@ h1:lang(jp) {
   transition: color 1s;
 }
 
-/* .menu-item-transparent.menu-item a {
-  color: #6f6f6f;
-} */
-
 /* ========= Mobile Menu ======= */
 
 #select-language {
@@ -700,7 +697,7 @@ h1:lang(jp) {
 }
 .menu-slider li a {
   color: var(--divide-bg-color);
-  font-size: calc(1rem + 0.8vh);
+  font-size: clamp(0.8rem, 4vh, 1.4rem);
   font-family: 'Averia Serif Libre', 'Zen Antique Soft';
   letter-spacing: 0.7vw;
 }
