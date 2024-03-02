@@ -21,7 +21,7 @@ Après 10 ans de carrière dans le secteur du jeu vidéo au japon et en France, 
 
 Je travaille dans des styles variés, de l'illustration à la peinture, principalement à l'aquarelle et à l'encre de chine, entremêlés de crayon, de pastel à l'huile et de stylo.
 
-Fascinée par les taches d'aquarelle et d'encre, je m'oriente de plus en plus vers l'univers de l'enfant naïf.  
-Je veux exprimer la réalité qui oscille entre deux opposés - l'immobilité et le mouvement, la lumière et l'ombre, le rêve et la réalité, la vie et la mort, la liberté et la contrainte, le hasard et la nécessité - doucement enveloppée dans un monde poétique où la figuration et l'abstraction s'entrecroisent.
+Fascinée par les taches d'aquarelle et d'encre, je m'oriente de plus en plus vers l'univers naïf.  
+Je veux exprimer la réalité qui oscille entre deux opposés - l'immobilité et le mouvement, la lumière et l'ombre, le rêve et la réalité, la vie et la mort, la liberté et la contrainte, le hasard et la nécessité - doucement enveloppée dans un monde poétique où la figuration et l'abstrait s'entrecroisent.
 
 Mes recherches continuent, en espérant que mes oeuvres susciteront émotions et réflexions.
