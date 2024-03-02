@@ -24,7 +24,7 @@ body {
 h1 {
   font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif;
   /* font-size: calc(1.4rem + 4vw); */
-  font-size: clamp(2.3rem, 8vw, 6rem);
+  font-size: clamp(2.3rem, 10vw, 8rem);
   font-weight: 400;
   letter-spacing: 0.4rem!important;
   margin-bottom: 1rem;
@@ -810,7 +810,7 @@ h1:lang(jp) {
 
 .about-me {
   background: var(--divide-bg-color);
-  padding: 100px 0px 150px;
+  padding: 120px 0px 150px;
   z-index: 0;
   position: relative;
   background-size: cover;
@@ -839,9 +839,9 @@ h1:lang(jp) {
 
 .about-me h1 {
   position: absolute;
-  top: -5px;
+  top: -10px;
   right: 0;
-  color: #bdb9af;
+  color: #bdb9afab;
 }
 .about-me h1:lang(jp) {
   top: 0px;
@@ -924,8 +924,8 @@ h1:lang(jp) {
   }
   h1 {
     z-index: 2;
-    color: #f6f6f6;
-    top: calc(-153px - 4.7vw);
+    color: #e2e2e2ab;
+    top: calc(-135px - 7.7vw);
     right: 0;
     position: absolute;
     }  
@@ -1236,7 +1236,7 @@ li.media + * {
   top: 0;
   left: 0;
   bottom: 0;
-  background: radial-gradient(at 70% 95%, #282827f0, var(--divide-bg-color));
+  background: radial-gradient(at 70% bottom, #282827f0, var(--divide-bg-color) 80%);
   z-index: 0;
 }
 .contact-holder {
@@ -1247,10 +1247,11 @@ li.media + * {
 
 .contact h1 {
   position: absolute;
-  top: calc(-16px - 5.7vw);
+  top: calc(-5px - 7.7vw);
   right: 0;
-  color: color-mix(in srgb, var(--contact-color) 50%, var(--divide-bg-color));
-  /* color: var(--contact-color); */
+  /* color: color-mix(in srgb, var(--contact-color) 50%, var(--divide-bg-color)); */
+  color: color-mix(in srgb, var(--contact-color) 10%, #505062ab);
+  /* color: #4d4d58ab; */
   z-index: 2;
 }
 
