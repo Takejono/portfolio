@@ -185,20 +185,9 @@
     <div class="row about-me-holder">
       <div class="col-lg-5 col-md-6 offset-md-0 col-sm-8 offset-sm-0 col-10 offset-1 about-me-text d-flex align-self-center wow fadeInUp" data-wow-duration="1s">
         <div class="text-holder">
-          <!-- <h1>{{ .Title | markdownify }}</h1> -->
           <div class="content">{{ .Content | markdownify | emojify }}</div>
-          <!-- {{ with .Params.button }}
-          {{ if .enable }}
-          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
-          {{ end }}
-          {{ end }} -->
         </div>
       </div>
-      <!-- {{ with .Params.image }}
-      <div class="col-lg-6 col-sm-6 col-12 about-me-images wow fadeInUp" data-wow-duration="1.5s">
-        <img class="img-fluid" src="{{ . | absURL }}" alt="about-me">
-      </div>
-      {{ end }} -->
     </div>
   </div>
 </section>

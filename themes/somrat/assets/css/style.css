@@ -830,11 +830,11 @@ h1:lang(jp) {
 
 .about-me .about-me-text {
   background: linear-gradient(50deg, #fff7dd75, #bcbcbc53);
-  /* background-color: #ffffff32; */
   -webkit-backdrop-filter: blur(18px);
   backdrop-filter: blur(18px);
   padding: 1.5rem;
   border-radius: 4px;
+  /* min-width: 23rem; */
 }
 
 .about-me h1 {
@@ -1154,22 +1154,22 @@ h1:lang(jp) {
 }
 
 #carouselExampleControls {
-  padding: 2rem 2rem 3rem;
+  padding: 2rem 0rem 2rem;
   /* overflow: hidden; */
 }
 .carousel-item {
-  height: calc(100vh - 120px);
+  height: calc(100vh - 6rem);
   img {
     object-fit: contain;
     height: 100%;
   }
 }
 .carousel-control-prev {
-  left: -22px;
-  width: 5%;
+  left: -20px;
+  width: 0%;
 }
 .carousel-control-next {
-  width: 5%;
+  width: 0%;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
   color: #25252f;
@@ -1179,7 +1179,8 @@ h1:lang(jp) {
   }
 }
 
-.single-text h1 {
+.single-text h3 {
+  font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif;
   font-size: 1.5rem;
   /* font-weight: 300; */
 }
@@ -1190,12 +1191,11 @@ h1:lang(jp) {
 h4 { /* categorie name */
   font-family: 'Averia Serif Libre', 'Zen Antique Soft';
   font-size: 1.1rem;
-  /* font-weight: 300; */
-  margin-bottom: 0.1rem;
+  margin-bottom: 2px;
 }
-li.media + * {
+/* li.media + * {
  vertical-align: middle;
-}
+} */
 /*--------------------------------
  End Portfolio
 ----------------------------------*/
