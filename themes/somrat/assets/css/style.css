@@ -1250,7 +1250,7 @@ h4 { /* categorie name */
   top: calc(-5px - 7.7vw);
   right: 0;
   /* color: color-mix(in srgb, var(--contact-color) 50%, var(--divide-bg-color)); */
-  color: color-mix(in srgb, var(--contact-color) 10%, #505062ab);
+  color: color-mix(in srgb, var(--contact-color) 10%, #505e62ab);
   /* color: #4d4d58ab; */
   z-index: 2;
 }
