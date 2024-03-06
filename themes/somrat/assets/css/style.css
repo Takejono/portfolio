@@ -3,7 +3,9 @@
 ----------------------------------*/
 :root {
   --divide-bg-color: #25252f;
-  --hvr-color: #501c24;
+  --hvr-color: #704e26;
+  --contact-bg-color: #093d4a;
+  --contact-color: #726c5f; 
 }
 html {
   height: 100%;
@@ -1204,15 +1206,14 @@ h4 { /* categorie name */
    Start Contact
 ----------------------------------*/
 .contact .divider svg {
-  fill: var(--divide-bg-color);
+  fill: var(--contact-bg-color);
   position: absolute;
   transform: scaleX(-1);
   bottom: -1px;
 }
 
 .contact {
- --contact-color: #726c5f;
-  background: var(--divide-bg-color);
+  background: var(--contact-bg-color);
   /* background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
@@ -1236,7 +1237,7 @@ h4 { /* categorie name */
   top: 0;
   left: 0;
   bottom: 0;
-  background: radial-gradient(at 70% bottom, #282827f0, var(--divide-bg-color) 80%);
+  background: radial-gradient(at 70% bottom, #fffff515, var(--contact-bg-color) 80%);
   z-index: 0;
 }
 .contact-holder {
@@ -1249,9 +1250,7 @@ h4 { /* categorie name */
   position: absolute;
   top: calc(-5px - 7.7vw);
   right: 0;
-  /* color: color-mix(in srgb, var(--contact-color) 50%, var(--divide-bg-color)); */
-  color: color-mix(in srgb, var(--contact-color) 10%, #505e62ab);
-  /* color: #4d4d58ab; */
+  color: color-mix(in srgb, var(--contact-color) 55%, var(--contact-bg-color));
   z-index: 2;
 }
 
@@ -1307,7 +1306,7 @@ h4 { /* categorie name */
   font-size: 1rem;
 }
 .form-container .form-control:focus {
-  background: #25252f;
+  background: var(--contact-bg-color);
   border: none;
 }
 
