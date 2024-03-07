@@ -3,7 +3,7 @@
 ----------------------------------*/
 :root {
   --divide-bg-color: #25252f;
-  --hvr-color: #b66f1f;
+  --hvr-color: #bc7729;
   --contact-bg-color: #09234a;
   --contact-color: #726c5f; 
 }
@@ -842,9 +842,10 @@ h1:lang(jp) {
 
 .about-me h1 {
   position: absolute;
-  top: -10px;
+  top: calc(-4px - 1vw);
   right: 0;
-  color: #bdb9afab;
+  color: #bcbcbc;
+  opacity: 0.5;
 }
 .about-me h1:lang(jp) {
   top: 0px;
@@ -927,10 +928,11 @@ h1:lang(jp) {
   }
   h1 {
     z-index: 2;
-    color: #e2e2e2ab;
-    top: calc(-135px - 7.7vw);
+    color: #e2e2e2;
+    top: calc(-125px - 7.7vw);
     right: 0;
     position: absolute;
+    opacity: 0.65;
     }  
 }
 
@@ -1247,10 +1249,11 @@ h4 { /* categorie name */
 
 .contact h1 {
   position: absolute;
-  top: calc(-5px - 7.7vw);
+  top: calc(5px - 7.7vw);
   right: 0;
   color: color-mix(in srgb, var(--contact-color) 55%, var(--contact-bg-color));
   z-index: 2;
+  opacity: 0.65;
 }
 
 .form-container {
@@ -1260,6 +1263,7 @@ h4 { /* categorie name */
   opacity: 1;
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
+  border: 1px dotted var(--hvr-color);
 }
 
 .form-container .form-control {
@@ -1270,7 +1274,7 @@ h4 { /* categorie name */
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 2px solid var(--contact-color);
+  border-bottom: 2px dotted var(--contact-color);
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
 }
@@ -1297,8 +1301,8 @@ h4 { /* categorie name */
 .contact-holder:hover .form-container,
 .form-container:has(.form-control:focus) {
   opacity: 1;
-  background: color-mix(in srgb, var(--hvr-color) 50%, var(--contact-bg-color));
-  /* background: var(--hvr-color); */
+  background: color-mix(in srgb, var(--hvr-color) 40%, var(--contact-bg-color));
+  border: 1px dotted var(--hvr-color);
 }
 
 .form-container .form-control::placeholder {
