@@ -3,9 +3,9 @@
 ----------------------------------*/
 :root {
   --divide-bg-color: #25252f;
-  --hvr-color: #bc7729;
+  --hvr-color: #faca09;
   --contact-bg-color: #09234a;
-  --contact-color: #888172; 
+  --contact-color: #625d53; 
 }
 html {
   height: 100%;
