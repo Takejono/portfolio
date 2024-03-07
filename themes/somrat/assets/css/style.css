@@ -684,6 +684,8 @@ h1:lang(jp) {
   backdrop-filter: blur(60px);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  transition-delay: 300ms, 0ms;
+  transition-property: width, opacity;
 }
 .open {
   -webkit-transition: opacity 0.3s ease-in-out;
