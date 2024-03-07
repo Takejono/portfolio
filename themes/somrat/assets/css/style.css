@@ -1084,7 +1084,7 @@ h1:lang(jp) {
   transition: all .2s ease-in-out;
 }
 .item-caption a:hover {
-  color: #cfb890!important;
+  color: var(--hvr-color);
 }
 .item-caption p {
   color: #999!important;
