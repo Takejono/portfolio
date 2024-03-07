@@ -3,8 +3,8 @@
 ----------------------------------*/
 :root {
   --divide-bg-color: #25252f;
-  --hvr-color: #704e26;
-  --contact-bg-color: #093d4a;
+  --hvr-color: #b66f1f;
+  --contact-bg-color: #09234a;
   --contact-color: #726c5f; 
 }
 html {
@@ -601,8 +601,8 @@ h1:lang(jp) {
 
 .mobile-menu a {
   text-decoration: none;
-  color: white;
-  font-size: 29px;
+  /* color: white; */
+  /* font-size: 29px; */
 }
 
 .mobile-menu-nav {
@@ -717,7 +717,8 @@ h1:lang(jp) {
   transition: transform 0.3s;
 }
 .menu-slider li a {
-  color: var(--divide-bg-color);
+  /* color: var(--divide-bg-color); */
+  color: #3d3a33;
   font-size: clamp(0.8rem, 4vh, 1.4rem);
   font-family: 'Averia Serif Libre', 'Zen Antique Soft';
   letter-spacing: 0.7vw;
@@ -899,7 +900,7 @@ h1:lang(jp) {
 
 .need-service a:hover {
   background: transparent;
-  color: var(--divide-bg-color);
+  color: var(--hvr-color);
 }
 
 /*--------------------------------
@@ -990,38 +991,35 @@ h1:lang(jp) {
 }
 
 .portfolio-navigation label:hover {
-  color: #6f6f6f;
+  color: var(--divide-bg-color);
   background-color: transparent !important;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active:focus,
+/* .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
   box-shadow: none !important;
   color: #6f6f6F;
-  border-color: #efdbb5 !important;
-}
+} */
 
-.btn-primary.focus,
+/* .btn-primary.focus,
 .btn-primary:focus {
   background-color: transparent;
-  border-color: #efdbb5;
   box-shadow: none;
-}
+} */
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-  color: #6F6f6f;
-  background-color: #efdbb5 !important;
-  border-color: #efdbb5 !important;
+  color: var(--contact-bg-color);
+  background-color: var(--hvr-color) !important;
 }
-.portfolio .hvr-radial-out.active:before {
+/* .portfolio .hvr-radial-out.active:before {
   background: #efdbb5;
-}
+} */
 
 .portfolio .hvr-radial-out:before {
-  background: #efdbb5;
+  background: var(--hvr-color);
   -webkit-transition: all .4s ease-out;
   transition: all .4s ease-out;
 }
@@ -1298,7 +1296,8 @@ h4 { /* categorie name */
 .contact-holder:hover .form-container,
 .form-container:has(.form-control:focus) {
   opacity: 1;
-  background: var(--hvr-color);
+  background: color-mix(in srgb, var(--hvr-color) 50%, var(--contact-bg-color));
+  /* background: var(--hvr-color); */
 }
 
 .form-container .form-control::placeholder {
@@ -1396,9 +1395,9 @@ h4 { /* categorie name */
 .btn-primary.active,
 .btn-primary:focus,
 .btn-primary.focus {
-  background: #efdbb5 !important;
-  border-color: #efdbb5 !important;
-  color: #313131;
+  background: var(--hvr-color) !important;
+  border-color: var(--hvr-color) !important;
+  color: var(--divide-bg-color);
 }
 
 .btn-outline-primary {
