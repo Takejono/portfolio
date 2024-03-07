@@ -1044,8 +1044,9 @@ h1:lang(jp) {
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
   overflow: hidden;
-  filter: drop-shadow(0 0 3px #0000001f);
+  filter: drop-shadow(0 0 4px #0000001f);
   border-radius: 4px;
+  height: auto;
   img {
     object-fit: cover;
   }
