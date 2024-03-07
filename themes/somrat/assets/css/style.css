@@ -5,7 +5,7 @@
   --divide-bg-color: #25252f;
   --hvr-color: #bc7729;
   --contact-bg-color: #09234a;
-  --contact-color: #726c5f; 
+  --contact-color: #888172; 
 }
 html {
   height: 100%;
@@ -40,10 +40,12 @@ h1:lang(jp) {
 .content a {
   color: inherit;
   border-bottom: 1px dashed #212121;
+  transition: all 0.5s;
 }
 
 .content a:hover {
   border-bottom: 2px solid var(--hvr-color);
+  color: var(--hvr-color);
   text-decoration: none;
 }
 
@@ -1081,8 +1083,8 @@ h1:lang(jp) {
   font-family: 'Zen Antique Soft';
 }
 .item-caption a {
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 .item-caption a:hover {
   color: var(--hvr-color);
@@ -1260,18 +1262,18 @@ h4 { /* categorie name */
   opacity: 1;
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
-  border: 1px dotted var(--hvr-color);
+  /* border: 1px dotted var(--hvr-color); */
 }
 
 .form-container .form-control {
   height: 47px;
   font-weight: 300;
   background: none;
-  color: #999;
+  color: #ccc;
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 2px dotted var(--contact-color);
+  border-bottom: 2px solid var(--contact-color);
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
 }
@@ -1286,20 +1288,21 @@ h4 { /* categorie name */
 }
 
 .submit {
-  color: var(--divide-bg-color)!important;
-  font-weight: 300;
+  color: var(--divide-bg-color);
   width: 120px;
+  height: 47px;
+  border: none;
   margin: auto;
   display: block;
-  background: #999!important;
-  border-radius: 2rem!important;
+  background: var(--contact-color);
+  border-radius: 2rem;
 }
 
 .contact-holder:hover .form-container,
 .form-container:has(.form-control:focus) {
   opacity: 1;
-  background: color-mix(in srgb, var(--hvr-color) 40%, var(--contact-bg-color));
-  border: 1px dotted var(--hvr-color);
+  background: color-mix(in srgb, var(--hvr-color) 60%, var(--contact-bg-color));
+  /* border: 1px dotted var(--hvr-color); */
 }
 
 .form-container .form-control::placeholder {
