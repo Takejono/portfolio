@@ -839,7 +839,7 @@ h1:lang(jp) {
 }
 
 .about-me .about-me-text {
-  background: linear-gradient(50deg, #f5c84c75, #fef9e175);
+  background: linear-gradient(50deg, #f5d66675, #fef9e175);
   -webkit-backdrop-filter: blur(18px);
   backdrop-filter: blur(18px);
   padding: 1.5rem;
