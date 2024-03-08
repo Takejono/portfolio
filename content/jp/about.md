@@ -1,6 +1,6 @@
 ---
 title : "絵描き紹介"
-image : "images/backgrounds/portrait03.jpg"
+image : "images/backgrounds/portrait05.jpg"
 # button
 button:
   enable : false

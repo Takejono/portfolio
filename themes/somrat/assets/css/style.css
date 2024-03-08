@@ -5,7 +5,7 @@
   --divide-bg-color: #25252f;
   --hvr-color: #faca09;
   --contact-bg-color: #09234a;
-  --contact-color: #625d53; 
+  --contact-color: #787164; 
 }
 html {
   height: 100%;
@@ -25,7 +25,6 @@ body {
 
 h1 {
   font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif;
-  /* font-size: calc(1.4rem + 4vw); */
   font-size: clamp(2.3rem, 10vw, 8rem);
   font-weight: 400;
   letter-spacing: 0.4rem!important;
@@ -33,7 +32,6 @@ h1 {
   color: #25252f;
 }
 h1:lang(jp) {
-  /* font-weight: 500; */
   word-break:keep-all;
 }
 
@@ -821,17 +819,18 @@ h1:lang(jp) {
 
 .about-me {
   background: var(--divide-bg-color);
-  padding: 120px 0px 150px;
+  padding: 130px 0px 150px;
   z-index: 0;
   position: relative;
   background-size: cover;
-  background-position: 35%;
+  background-position: center;
   min-height: calc(100vh + 90px);
 }
 
 .about-me::before {
   content: "";
-  background: radial-gradient(at left 90%, #ffffff8a, #ffffff00 60%, #4a46464b);
+  /* background: radial-gradient(at left 90%, #ffffff8a, #ffffff00 60%, #4a46464b); */
+  backdrop-filter: sepia(25%) hue-rotate(-5deg);
   top: 0;
   left: 0;
   width: 100%;
@@ -840,7 +839,7 @@ h1:lang(jp) {
 }
 
 .about-me .about-me-text {
-  background: linear-gradient(50deg, #fff7dd75, #bcbcbc53);
+  background: linear-gradient(50deg, #f5c84c75, #fef9e175);
   -webkit-backdrop-filter: blur(18px);
   backdrop-filter: blur(18px);
   padding: 1.5rem;
@@ -852,7 +851,7 @@ h1:lang(jp) {
   position: absolute;
   top: calc(-4px - 1vw);
   right: 0;
-  color: #bcbcbc89;
+  color: #eeca6875;
 }
 .about-me h1:lang(jp) {
   top: 0px;

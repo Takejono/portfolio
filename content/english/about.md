@@ -1,6 +1,6 @@
 ---
 title : "PRESENTATION"
-image : "images/backgrounds/portrait.png"
+image : "images/backgrounds/portrait04.jpg"
 # button
 button:
   enable : false
