@@ -1,7 +1,7 @@
 ---
 title: "A la recherche d'un lion noir"
 date: 2021-07-12T12:14:34+06:00
-image: "images/backgrounds/full-nav-bg.jpg"
+image: "images/portfolio/lionnoir-1.jpg"
 img_title: "« Bienvenu à la forêt » - 32cm x 40cm"
 categories: ["Exhibition"]
 description: "This is meta description."
