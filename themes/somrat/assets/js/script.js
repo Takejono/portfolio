@@ -160,17 +160,17 @@
 	Start Menu
 		----------------------------------*/
 	// Highlighting Menu on Scroll Through Sections
-	$(window).on('scroll', function () {
-		$('section').each(function () {
-			if ($(window).scrollTop() + 50 >= $(this).offset().top) {
-				var id = $(this).attr('id');
-				$('.menu-item').removeClass('active');
-				$(".menu-item." + id).addClass("active");
-				$(".mobile-menu-item").removeClass("active");
-				$(".mobile-menu-item." + id).addClass("active");
-			}
-		});
-	});
+	// $(window).on('scroll', function () {
+	// 	$('section').each(function () {
+	// 		if ($(window).scrollTop() + 50 >= $(this).offset().top) {
+	// 			var id = $(this).attr('id');
+	// 			$('.menu-item').removeClass('active');
+	// 			$(".menu-item." + id).addClass("active");
+	// 			$(".mobile-menu-item").removeClass("active");
+	// 			$(".mobile-menu-item." + id).addClass("active");
+	// 		}
+	// 	});
+	// });
 
 	// Styling Menu on Scroll
 	$('.hello').waypoint({
@@ -182,10 +182,10 @@
 			// Toggling Mobile Menu Visibility
 			// $(".mobile-menu").toggleClass("mobile-menu-fix");
 			// Auto-Collapsing Mobile Menu When Left Open
-			var a = $(".menu-link").attr("class");
-			if (direction == "up" && a == "menu-link active") {
-				$(".menu-link").trigger("click");
-			}
+			// var a = $(".menu-link").attr("class");
+			// if (direction == "up" && a == "menu-link active") {
+			// 	$(".menu-link").trigger("click");
+			// }
 		}
 	});
 
