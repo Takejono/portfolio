@@ -385,12 +385,7 @@ h1:lang(jp) {
     right: 0;
     z-index: 11;
 }
-.hello .btn-start {
-    position: relative;
-    text-align: center;
-    padding-top: 6vh;
-    /* bottom: 180px; */
-}
+
 .btn-start svg {
     opacity: 0.6;
     color: #fff1c5;
@@ -729,8 +724,8 @@ h1:lang(jp) {
   position: relative;
   min-height: calc(100vh + 120px);
   .container {
-    padding: 7rem 0rem;
-    height: 100vh;
+    padding: 10vh 0rem;
+    height: 80vh;
     display: flex;
     flex-direction: column;
   }
@@ -740,14 +735,23 @@ h1:lang(jp) {
     display: flex;
     align-items: center;
     flex: auto;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     font-size: calc(1.5rem + 1.3vw);
     font-style: italic;
     letter-spacing: 0.2rem;
    }
+   .container:lang(jp) {
+    flex-direction: row-reverse;
+  }
    .hello-txt:lang(jp) {
     font-size: calc(1rem + 1.3vw);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+   }
+   .btn-start {
+    position: relative;
+    text-align: center;
    }
 }
 #hello::before {
