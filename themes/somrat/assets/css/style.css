@@ -735,16 +735,19 @@ h1:lang(jp) {
     flex-direction: column;
   }
   .hello-txt {
-    font-family: 'Averia Serif Libre', 'Zen Antique Soft';
-    /* font-family: 'Roboto', 'Zen Kaku Gothic Antique'; */
+    /* font-family: 'Averia Serif Libre', 'Zen Antique Soft'; */
+    font-family: 'Mansalva', 'Zen Antique Soft';
     display: flex;
     align-items: center;
     flex: auto;
     justify-content: center;
     text-align: center;
-    font-size: calc(0.7rem + 1vw);
+    font-size: calc(1.5rem + 1.3vw);
     font-style: italic;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
+   }
+   .hello-txt:lang(jp) {
+    font-size: calc(1rem + 1.3vw);
    }
 }
 #hello::before {
@@ -1265,7 +1268,7 @@ h4 { /* categorie name */
 .contact-holder:hover .form-container,
 .form-container:has(.form-control:focus) {
   opacity: 1;
-  background: color-mix(in srgb, var(--hvr-color) 60%, var(--contact-bg-color));
+  /* background: color-mix(in srgb, var(--hvr-color) 60%, var(--contact-bg-color)); */
   /* border: 1px dotted var(--hvr-color); */
 }
 
