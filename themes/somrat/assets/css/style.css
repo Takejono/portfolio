@@ -807,6 +807,9 @@ h1:lang(jp) {
     padding-bottom: 6rem!important;
     border-radius: 0!important;
   }  
+  .about-me::before {
+    background: radial-gradient( at left 40%, #73824f6d, #ffffff12, #57483275);
+  }
 }
 
 .about-me h1 {
