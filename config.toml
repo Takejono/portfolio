@@ -28,7 +28,7 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400&display=swap"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Mansalva&display=swap"
+link = "https://fonts.googleapis.com/css2?family=Fasthand&display=swap"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
 [[params.plugins.css]]

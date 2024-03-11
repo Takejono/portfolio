@@ -731,14 +731,14 @@ h1:lang(jp) {
   }
   .hello-txt {
     /* font-family: 'Averia Serif Libre', 'Zen Antique Soft'; */
-    font-family: 'Mansalva', 'Zen Antique Soft';
+    font-family: 'Fasthand', 'Zen Antique Soft';
     display: flex;
     align-items: center;
     flex: auto;
     justify-content: space-evenly;
     text-align: center;
-    font-size: calc(1.5rem + 1.3vw);
-    font-style: italic;
+    font-size: calc(1.75rem + 1.3vw);
+    /* font-style: italic; */
     letter-spacing: 0.2rem;
    }
    .container:lang(jp) {
