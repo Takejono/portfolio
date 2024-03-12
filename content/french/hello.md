@@ -1,11 +1,11 @@
 ---
 title : "Hello"
 
-txt1: "en esperant"
+txt1: "en ésperant"
 txt2: "que ces taches"
 txt3: "susciteront"
-txt4: "emotions"
-txt5: "et reflexions"
+txt4: "émotions"
+txt5: "et réflexions"
 
 # custom style
 custom_class: ""
