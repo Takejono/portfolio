@@ -26,11 +26,8 @@ unsafe= true
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400&display=swap"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Mansalva&display=swap"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+link = "https://api.fontshare.com/v2/css?f[]=gambetta@600&f[]=dancing-script@400&f[]=supreme@300&display=swap"
+#link = "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400&display=swap"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap"
 [[params.plugins.css]]

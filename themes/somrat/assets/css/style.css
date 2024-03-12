@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', 'Zen Kaku Gothic Antique', sans-serif;
+  font-family: 'Supreme', 'Zen Kaku Gothic Antique', sans-serif;
   font-weight: 300;
   height: 100%;
   color: #3d3a33;
@@ -24,10 +24,11 @@ body {
 }
 
 h1 {
-  font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif;
+  /* font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif; */
+  font-family: 'Gambetta', 'Zen Antique Soft', serif;
   font-size: clamp(2.3rem, 10vw, 8rem);
   font-weight: 400;
-  letter-spacing: 0.4rem!important;
+  letter-spacing: 0.2rem!important;
   margin-bottom: 1rem;
   color: #25252f;
 }
@@ -323,7 +324,7 @@ h1:lang(jp) {
   height: 100%;
   color: white;
   font-size: 30px;
-  font-family: 'Roboto', 'Zen Kaku Gothic Antique', sans-serif !important;
+  font-family: 'Supreme', 'Zen Kaku Gothic Antique', sans-serif !important;
   font-weight: 300;
   z-index: 10;
 }
@@ -662,7 +663,7 @@ h1:lang(jp) {
   /* color: var(--divide-bg-color); */
   color: #3d3a33;
   font-size: clamp(0.8rem, 4vh, 1.4rem);
-  font-family: 'Averia Serif Libre', 'Zen Antique Soft';
+  font-family: 'Gambetta', 'Zen Antique Soft';
   letter-spacing: 0.7vw;
   transition: all 0.3s linear;
 }
@@ -730,8 +731,7 @@ h1:lang(jp) {
     flex-direction: column;
   }
   .hello-txt {
-    /* font-family: 'Averia Serif Libre', 'Zen Antique Soft'; */
-    font-family: 'Mansalva', 'Zen Antique Soft';
+    font-family: 'Dancing Script', 'Zen Antique Soft';
     display: flex;
     align-items: center;
     flex: auto;
@@ -1043,7 +1043,8 @@ h1:lang(jp) {
 }
 
 .item-caption h2 {
-  font-family: 'Averia Serif Libre';
+  /* font-family: 'Averia Serif Libre'; */
+  font-family: 'Gambetta';
   font-size: 0.9rem;
   font-weight: 300;
   margin: 0;
@@ -1107,7 +1108,7 @@ h1:lang(jp) {
   margin-top: 25px;
   text-decoration: none;
   color: #6f6f6f;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Supreme', sans-serif;
   font-size: 17px;
   font-weight: 500;
   border: 2px solid #6f6f6f;
@@ -1157,7 +1158,7 @@ h1:lang(jp) {
 }
 
 .single-text h3 {
-  font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif;
+  font-family: 'Gambetta', 'Zen Antique Soft', serif;
   font-size: 1.5rem;
   /* font-weight: 300; */
 }
@@ -1166,7 +1167,7 @@ h1:lang(jp) {
   /* margin-left: 1rem; */
 }
 h4 { /* categorie name */
-  font-family: 'Averia Serif Libre', 'Zen Antique Soft';
+  font-family: 'Gambetta', 'Zen Antique Soft';
   font-size: 1.1rem;
   margin-bottom: 2px;
 }
