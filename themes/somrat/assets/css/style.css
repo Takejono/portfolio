@@ -25,10 +25,9 @@ body {
 
 h1 {
   /* font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif; */
-  font-family: 'Tanker', 'Zen Antique Soft', serif;
-  font-size: clamp(2rem, 17vw, 8rem);
+  font-family: 'Asap', 'Zen Antique Soft', serif;
+  font-size: clamp(3rem, 14vw, 8rem);
   font-weight: 400;
-  letter-spacing: 0.3rem!important;
   margin-bottom: 1rem;
   color: #25252f;
 }
@@ -343,11 +342,7 @@ h1:lang(jp) {
 }
 
 .animated-text {
-  letter-spacing: 0.8rem;
   text-align: right;
-  /* font-weight: 400; */
-  color: #fff1c5;
-  font-size: 1rem;
 }
 @media screen and (max-width: 900px) {
   .head-holder {
@@ -359,8 +354,11 @@ h1:lang(jp) {
   display: block;
   position: absolute;
   width: 100%;
+  letter-spacing: 0.8rem;
+  font-size: 1rem;
+  color: #fff1c5;
   right: 15px;
-  bottom: -18px;
+  bottom: -30px;
   opacity: 0;
   animation-duration: 9s;
   animation-iteration-count: infinite;
@@ -665,8 +663,8 @@ h1:lang(jp) {
   /* color: var(--divide-bg-color); */
   color: #3d3a33;
   font-size: clamp(0.8rem, 4vh, 1.4rem);
-  font-family: 'Tanker', 'Zen Antique Soft';
-  letter-spacing: 1vw;
+  font-family: 'Asap', 'Zen Antique Soft';
+  letter-spacing: 0.8vw;
   transition: all 0.3s linear;
 }
 .menu-slider nav {
@@ -733,14 +731,14 @@ h1:lang(jp) {
     flex-direction: column;
   }
   .hello-txt {
-    font-family: 'Dancing Script', 'Zen Antique Soft';
+    font-family: 'Asap', 'Zen Antique Soft';
     display: flex;
     align-items: center;
     flex: auto;
     justify-content: space-evenly;
     text-align: center;
-    font-size: calc(1.75rem + 1.3vw);
-    /* font-style: italic; */
+    font-size: calc(1.2rem + 1.3vw);
+    font-style: italic;
     letter-spacing: 0.2rem;
    }
    .container:lang(jp) {
@@ -1068,7 +1066,7 @@ h1:lang(jp) {
 }
 .item-caption p {
   color: #999!important;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 0.7rem;
   display: inline-block;
   padding: 0 5px 0 0;}
