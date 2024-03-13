@@ -18,6 +18,7 @@ html {
 body {
   font-family: 'Supreme', 'Zen Kaku Gothic Antique', sans-serif;
   font-weight: 300;
+  letter-spacing: 0.04rem;
   height: 100%;
   color: #3d3a33;
   fill: #3d3a33;
@@ -26,14 +27,14 @@ body {
 h1 {
   /* font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif; */
   font-family: 'Asap', 'Zen Antique Soft', serif;
-  font-size: clamp(3rem, 14vw, 8rem);
+  font-size: clamp(3rem, 14vw, 10rem);
   font-weight: 400;
   margin-bottom: 1rem;
   color: #25252f;
 }
 h1:lang(jp) {
   word-break:keep-all;
-  font-size: clamp(2rem, 14vw, 7rem);
+  font-size: clamp(2rem, 14vw, 8.2rem);
   letter-spacing: -0.4rem!important;
 }
 
@@ -182,7 +183,7 @@ h1:lang(jp) {
   right: 20px;
   bottom: 40px;
   text-decoration: none;
-  color: #fff;
+  color: var(--divide-bg-color);
   cursor: pointer;
   opacity: 0;
   transform: translateY(100px);
@@ -203,8 +204,8 @@ h1:lang(jp) {
   left: -0.3rem;
   top: -0.3rem;
   border-radius: 50%;
-  background: #999;
-  opacity: 0.6;
+  background: #fff1c5;
+  /* opacity: 0.6; */
   z-index: -1;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -454,17 +455,14 @@ h1:lang(jp) {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  /* left: 0; */
   right: 0;
   width: 100%;
-  /* height: 55px; */
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  /* font-weight: bold; */
   -webkit-transition: background 1s;
   transition: background 1s;
 }
@@ -499,7 +497,7 @@ h1:lang(jp) {
    border: none;
    padding: 2px 15px;
    margin-right: .5rem;
-   background: rgba(255, 255, 255, .6)!important;
+   background: #fff1c582;
    -webkit-transition: all 0.3s ease-out;
    transition: all 0.3s ease-out;
    display: block;
@@ -532,16 +530,14 @@ h1:lang(jp) {
   width: 50%;
 }
 
-.mobile-menu-logo {
+/* .mobile-menu-logo {
   position: absolute;
   left: 15px;
   top: 7px;
-}
+} */
 
 .mobile-menu a {
   text-decoration: none;
-  /* color: white; */
-  /* font-size: 29px; */
 }
 
 .mobile-menu-nav {
@@ -559,7 +555,7 @@ h1:lang(jp) {
   width: 100%;
   height: 3px;
   border-radius: 1rem;
-  background: #c0c0c0;
+  background: #fff1c5;
   position: relative;
   top: 4px;
   -webkit-transition: .5s;
@@ -587,14 +583,14 @@ h1:lang(jp) {
 }
 .menu-link.active span:first-child {
   opacity: 1;
-  background: #fff;
+  background: #fff1c5;
   -webkit-transform: rotate(225deg);
   transform: rotate(225deg);
   top: 5px;
 }
 .menu-link.active span:last-child {
   opacity: 1;
-  background: #fff;
+  background: #fff1c5;
   -webkit-transform: rotate(-225deg);
   transform: rotate(-225deg);
   top: -1px;
@@ -744,6 +740,7 @@ h1:lang(jp) {
     font-size: calc(1rem + 1.3vw);
     writing-mode: vertical-rl;
     text-orientation: upright;
+    font-style: normal;
    }
    .btn-start {
     position: relative;
@@ -768,7 +765,7 @@ h1:lang(jp) {
 
 .about-me {
   background: var(--divide-bg-color);
-  padding: 130px 0px 150px;
+  padding: 140px 0px 150px;
   z-index: 0;
   position: relative;
   background-size: cover;
