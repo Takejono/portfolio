@@ -109,26 +109,22 @@ weight = 1
 
 [[Languages.fr.menu.main]]
 name = "Portfolio"
-pre = "#"
-url = "#portfolio"
+url = "#portfolio-h1"
 weight = 2
 
 [[Languages.fr.menu.main]]
 name = "Portfolio List"
-pre = "/"
 url = "portfolio"
 weight = 3
 
 [[Languages.fr.menu.main]]
 name = "Presentation"
-pre = "#"
 url = "#about"
 weight = 4
 
 [[Languages.fr.menu.main]]
 name = "Contact"
-pre = "#"
-url = "#contact"
+url = "#contact-h1"
 weight = 5
 
 ################################### jp language #####################################
@@ -152,24 +148,20 @@ weight = 1
 
 [[Languages.jp.menu.main]]
 name = "ポートフォリオ"
-pre = "#"
-url = "#portfolio"
+url = "#portfolio-h1"
 weight = 2
 
 [[Languages.jp.menu.main]]
 name = "全ポートフォリオ"
-pre = "/"
 url = "portfolio"
 weight = 3
 
 [[Languages.jp.menu.main]]
 name = "絵描き紹介"
-pre = "#"
 url = "#about"
 weight = 4
 
 [[Languages.jp.menu.main]]
 name = "お問い合わせ"
-pre = "#"
-url = "#contact"
+url = "#contact-h1"
 weight = 5
