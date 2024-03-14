@@ -605,7 +605,7 @@ h1:lang(jp) {
   overflow: auto;
   opacity: 0;
   /* background: linear-gradient(70deg, #fff7dd46 30%, #bcbcbc46); */
-  background: #c3ff4345;
+  background: #b1ff6345;
   backdrop-filter: blur(60px);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -637,15 +637,14 @@ h1:lang(jp) {
  display: flex;
  flex-wrap: wrap;
  flex-direction: column;
- align-items: center;
- /* height: calc(100vh - 60px); */
+ flex-wrap: wrap;
  height: 85vh;
 }
 
 .menu-slider li, .footer-icons li {
   display: flex;
   align-items: center;
-  flex: auto;
+  flex: 1 1 50px;
   justify-content: center;
   -webkit-transition: transform 0.3s;
   transition: transform 0.3s;
