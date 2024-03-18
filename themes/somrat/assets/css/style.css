@@ -17,7 +17,7 @@ html {
 
 body {
   font-family: 'Supreme', 'Zen Kaku Gothic Antique', sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   letter-spacing: 0.04rem;
   height: 100%;
   color: #3d3a33;
@@ -28,7 +28,7 @@ h1 {
   /* font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif; */
   font-family: 'Asap', 'Zen Antique Soft', serif;
   font-size: clamp(3rem, 14vw, 10rem);
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 1rem;
   color: #25252f;
 }
@@ -42,6 +42,7 @@ h1:lang(jp) {
   color: inherit;
   border-bottom: 1px dashed #212121;
   transition: all 0.5s;
+  font-weight: 500;
 }
 
 .content a:hover {
@@ -654,6 +655,7 @@ h1:lang(jp) {
   color: #3d3a33;
   font-size: clamp(0.8rem, 4vh, 1.4rem);
   font-family: 'Asap', 'Zen Antique Soft';
+  font-weight: 600;
   letter-spacing: 0.8vw;
   transition: all 0.3s linear;
 }
