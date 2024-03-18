@@ -653,10 +653,10 @@ h1:lang(jp) {
 .menu-slider li a {
   /* color: var(--divide-bg-color); */
   color: #3d3a33;
-  font-size: clamp(0.8rem, 4vh, 1.4rem);
+  font-size: clamp(1.5rem, 5vh, 2.5rem);
   font-family: 'Asap', 'Zen Antique Soft';
   font-weight: 600;
-  letter-spacing: 0.8vw;
+  letter-spacing: 0.4vw;
   transition: all 0.3s linear;
 }
 .menu-slider nav {
