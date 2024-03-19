@@ -36,6 +36,7 @@ h1:lang(jp) {
   word-break:keep-all;
   font-size: clamp(2rem, 14vw, 8.2rem);
   letter-spacing: -0.4rem!important;
+  font-weight: 400;
 }
 
 .content a {
@@ -659,6 +660,10 @@ h1:lang(jp) {
   letter-spacing: 0.4vw;
   transition: all 0.3s linear;
 }
+.menu-slider li a:lang(jp) {
+  font-weight: 400;
+}
+
 .menu-slider nav {
  opacity: 0;
  -webkit-transition: all 0.1s linear;
@@ -678,13 +683,13 @@ h1:lang(jp) {
   transition-delay: 300ms;
 }
 
-.back-arrow {
+/* .back-arrow {
   color: #25252f!important;
   position: absolute;
   top: 2px;
   right: 15px;
   z-index: 1002;
-}
+} */
 
 /* .menu-container {
   justify-content: flex-end;
