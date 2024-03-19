@@ -652,7 +652,6 @@ h1:lang(jp) {
   transition: transform 0.3s;
 }
 .menu-slider li a {
-  /* color: var(--divide-bg-color); */
   color: #3d3a33;
   font-size: clamp(1.5rem, 5vh, 2.5rem);
   font-family: 'Asap', 'Zen Antique Soft';
@@ -672,10 +671,11 @@ h1:lang(jp) {
 .menu-slider li:hover, .footer-icons li:hover {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
-  a {
-    color: var(--hvr-color);
-  }
 }
+.menu-slider li a:hover {
+  color: var(--hvr-color);
+}
+
 .menu-slider.open nav {
   opacity: 1;
   -webkit-transition: all 0.4s ease-out;
