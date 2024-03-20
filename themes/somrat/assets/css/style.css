@@ -564,11 +564,12 @@ h1:lang(jp) {
 }
 
 .menu-slider li, .footer-icons li {
-  flex: 1 1 40px;
+  flex: 1 0 40px;
 }
+
 .menu-slider li a {
   color: #3d3a33;
-  font-size: clamp(1.5rem, 5vh, 2.5rem);
+  font-size: clamp(1.3rem, 4vh, 2.3rem);
   font-family: 'Asap', 'Zen Antique Soft';
   font-weight: 600;
   letter-spacing: 0.4vw;
