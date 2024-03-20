@@ -200,7 +200,7 @@
 	});
 
 	// Toggle Mobile Menu
-	$('.mobile-menu a.menu-link, .menu-list a').on("click", function () {
+	$('a.menu-link, .menu-list a').on("click", function () {
 		$(".menu-link").toggleClass("active");
 //		$(".menu-slider").slideToggle(300);
 		$(".menu-slider").toggleClass("open");
