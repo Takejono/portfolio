@@ -1,10 +1,8 @@
 <nav>
-    <!-- Language List -->
   <div class="menu-container">
-    <!-- mobile-menu -->
     <div class="mobile-menu">
       <a class="menu-link">
-        <div class="mobile-menu-nav">
+        <div class="menu-nav">
           <span></span>
           <span></span>
           <span></span>
@@ -17,7 +15,7 @@
         </a> -->
       <div class="menu-slider">
         <nav>
-          <ul class="mobile-menu-list">
+          <ul class="menu-list">
             {{ range site.Menus.main }}
             <li class="text-uppercase mobile-menu-item 1">
               <a href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a>

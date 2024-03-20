@@ -146,12 +146,12 @@
 //	$('#burger').on("click", function () {
 //		$(".fullscreen-nav-container").slideToggle(300);
 //	});
-	$('#burger').on("click", function () {
-		$(".fullscreen-nav-container").toggleClass("open-nav");
-	});
-	$(".fullscreen-nav-holder a, .turn-home").on("click", function () {
-		$("#burger").trigger("click");
-	});
+	// $('#burger').on("click", function () {
+	// 	$(".fullscreen-nav-container").toggleClass("open-nav");
+	// });
+	// $(".fullscreen-nav-holder a, .turn-home").on("click", function () {
+	// 	$("#burger").trigger("click");
+	// });
 	/*--------------------------------
 		 End Header
 	----------------------------------*/
@@ -200,7 +200,7 @@
 	});
 
 	// Toggle Mobile Menu
-	$('.mobile-menu a.menu-link, .mobile-menu-list a').on("click", function () {
+	$('.mobile-menu a.menu-link, .menu-list a').on("click", function () {
 		$(".menu-link").toggleClass("active");
 //		$(".menu-slider").slideToggle(300);
 		$(".menu-slider").toggleClass("open");
