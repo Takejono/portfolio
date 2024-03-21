@@ -695,7 +695,7 @@ h1:lang(jp) {
   -webkit-backdrop-filter: blur(18px);
   backdrop-filter: blur(18px);
   padding: 2rem 1.5rem;
-  border-radius: 4px;
+  border-radius: 0.3rem;
 }
 
 @media screen and (max-width: 575px) {
@@ -903,7 +903,7 @@ h1:lang(jp) {
   background: transparent;
 }
 .filtr-item {
-  padding: 6px 6px 9px;
+  padding: 7px;
 }
 .filtr-item img {
   width: 100%;
@@ -914,16 +914,20 @@ h1:lang(jp) {
 
 .item-holder {
   position: relative;
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
+  transition: all 0.5s ease-in-out;
+  /* -webkit-transition: -webkit-transform 0.5s; */
+  /* transition: -webkit-transform 0.5s; */
+  /* transition: transform 0.5s, -webkit-transform 0.5s; */
   overflow: hidden;
-  filter: drop-shadow(0 0 4px #0000001f);
-  border-radius: 4px;
+  filter: drop-shadow(0 -3px 3px #41351529);
+  border-radius: 0.3rem;
   height: auto;
   img {
     object-fit: cover;
+  }
+  a {
+    text-decoration: none;
+    color: #25252f;
   }
 }
 .portfolio-index img {
@@ -942,7 +946,6 @@ h1:lang(jp) {
 }
 
 .item-caption h2 {
-  /* font-family: 'Averia Serif Libre'; */
   font-family: 'Supreme';
   font-size: 0.9rem;
   font-weight: 500;
@@ -951,8 +954,9 @@ h1:lang(jp) {
   word-break:keep-all;
   padding: 0;
 }
-.item-caption:lang(jp) h2 {
+.item-caption h2:lang(jp) {
   font-size: 0.8rem;
+  font-weight: 400;
   letter-spacing: 0;
   font-family: 'Zen Antique Soft';
 }
@@ -965,7 +969,6 @@ h1:lang(jp) {
 }
 .item-caption p {
   color: #999!important;
-  /* font-weight: 400; */
   font-size: 0.7rem;
   display: inline-block;
   padding: 0 5px 0 0;}
@@ -986,16 +989,11 @@ h1:lang(jp) {
   opacity: 1;
 }
 
-.item-holder a {
-  text-decoration: none;
-  color: #25252f;
-}
-
-.item-holder a:focus {
+/* .item-holder a:focus {
   outline: none;
-}
+} */
 
-.mfp-zoom-out-cur,
+/* .mfp-zoom-out-cur,
 .mfp-zoom-out-cur .mfp-image-holder,
 .mfp-close {
   cursor: crosshair;
@@ -1021,7 +1019,7 @@ h1:lang(jp) {
   color: #fff;
   border: 2px solid #6f6f6f;
   text-decoration: none;
-}
+} */
 
 .portfolio .btn:only-of-type {
   padding: 9px 23px;
@@ -1063,20 +1061,17 @@ h1:lang(jp) {
 }
 .single-text h3:lang(jp) {
   font-family: 'Zen Antique Soft', serif;
-  /* font-weight: 500; */
+  font-weight: 400;
 }
 .sticky-top {
   z-index: 1;
-  /* margin-left: 1rem; */
 }
 h4 { /* categorie name */
   font-family: 'Supreme', 'Zen Antique Soft';
   font-size: 1.1rem;
   margin-bottom: 2px;
 }
-/* li.media + * {
- vertical-align: middle;
-} */
+
 /*--------------------------------
  End Portfolio
 ----------------------------------*/
