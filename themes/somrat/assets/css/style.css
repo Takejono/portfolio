@@ -670,7 +670,8 @@ h1:lang(jp) {
 ----------------------------------*/
 
 .about-me {
-  background: var(--divide-bg-color);
+  /* background: var(--divide-bg-color); */
+  background: #686868;
   padding: 140px 0px 150px;
   z-index: 0;
   position: relative;
@@ -1088,10 +1089,6 @@ h4 { /* categorie name */
 
 .contact {
   background: var(--contact-bg-color);
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom right;
-  background-attachment: scroll; */
   position: relative;
   padding-top: 0;
   svg.bi-pencil {
@@ -1169,13 +1166,6 @@ h4 { /* categorie name */
   display: block;
   background: var(--contact-color);
   border-radius: 2rem;
-}
-
-.contact-holder:hover .form-container,
-.form-container:has(.form-control:focus) {
-  opacity: 1;
-  /* background: color-mix(in srgb, var(--hvr-color) 60%, var(--contact-bg-color)); */
-  /* border: 1px dotted var(--hvr-color); */
 }
 
 .form-container .form-control::placeholder {
