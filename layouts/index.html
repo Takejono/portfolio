@@ -188,15 +188,9 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} style="background-image: url('{{ .Params.image | absURL}}');" id="about">
   <h1 class="wow blurIn" data-wow-duration="0.6s">{{ .Title | markdownify}}</h1>
-  <div class="container">
-    <div class="row about-me-holder">
-      <div class="col-lg-6 offset-lg-6 col-md-7 offset-md-5 col-sm-9 offset-sm-3 col-12 about-me-text d-flex align-self-center wow fadeInUp" data-wow-duration="1s">
-        <div class="text-holder">
+      <div class="about-me-text wow fadeInUp" data-wow-duration="1s">
           <div class="content">{{ .Content | markdownify | emojify }}</div>
-        </div>
       </div>
-    </div>
-  </div>
 </section>
 {{ end }}
 <!-- End About Me -->
