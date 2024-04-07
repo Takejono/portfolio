@@ -444,34 +444,6 @@ h1:lang(jp) {
   display: block;
   z-index: 999;
   position: fixed;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-
-.menu-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  right: 0;
-  width: 100%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition: background 1s;
-  transition: background 1s;
-}
-
-.menu-item a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 500;
-  -webkit-transition: color 1s;
-  transition: color 1s;
 }
 
 #select-language {
@@ -493,15 +465,6 @@ h1:lang(jp) {
   cursor: pointer;
   background: var(--hvr-color)!important;
   color: #fff;
-}
-
-.mobile-menu {
-  display: none;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  transition: all 0.5s;
 }
 
 .menu-nav {
@@ -571,7 +534,6 @@ h1:lang(jp) {
   width: 0;
   overflow: auto;
   opacity: 0;
-  /* background: linear-gradient(70deg, #fff7dd46 30%, #bcbcbc46); */
   background: #b1ff6345;
   backdrop-filter: blur(60px);
   -webkit-transition: all 0.3s ease-in-out;
@@ -591,13 +553,6 @@ h1:lang(jp) {
   margin-bottom: 0;
 }
 
-.mobile-menu {
-  background: none;
-  box-shadow: none;
-  right: 0px;
-  transition: all 0.3s;
-  display: block;
-}
 .menu-list {
  padding-top: 45px!important;
  padding-left: 0;
@@ -605,21 +560,21 @@ h1:lang(jp) {
  flex-wrap: wrap;
  flex-direction: column;
  flex-wrap: wrap;
- height: 85vh;
+ height: calc(100vh - 70px);
 }
 
 .menu-slider li, .footer-icons li {
-  flex: 1 1 40px;
+  flex: 1 0 40px;
 }
+
 .menu-slider li a {
   color: #3d3a33;
-  font-size: clamp(1.5rem, 5vh, 2.5rem);
+  font-size: clamp(1.3rem, 4vh, 2.3rem);
   font-family: 'Asap', 'Zen Antique Soft';
   font-weight: 600;
   letter-spacing: 0.4vw;
   transition: all 0.3s linear;
   /* border: 1px solid #fff; */
-  /* width: 100%; */
   height: 100%;
   display: flex;
   align-items: center;
@@ -648,20 +603,6 @@ h1:lang(jp) {
   transition-delay: 300ms;
 }
 
-/* .back-arrow {
-  color: #25252f!important;
-  position: absolute;
-  top: 2px;
-  right: 15px;
-  z-index: 1002;
-} */
-
-/* .menu-container {
-  justify-content: flex-end;
-  padding: 0px 20px;
-  height: 0px;
-  background: #fff;
-}
 
 /*--------------------------------
    End Menu
@@ -729,7 +670,8 @@ h1:lang(jp) {
 ----------------------------------*/
 
 .about-me {
-  background: var(--divide-bg-color);
+  /* background: var(--divide-bg-color); */
+  background: #686868;
   padding: 140px 0px 150px;
   z-index: 0;
   position: relative;
@@ -964,7 +906,7 @@ h1:lang(jp) {
   background: transparent;
 }
 .filtr-item {
-  padding: 6px 6px 9px;
+  padding: 7px;
 }
 .filtr-item img {
   width: 100%;
@@ -975,16 +917,20 @@ h1:lang(jp) {
 
 .item-holder {
   position: relative;
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
+  transition: all 0.5s ease-in-out;
+  /* -webkit-transition: -webkit-transform 0.5s; */
+  /* transition: -webkit-transform 0.5s; */
+  /* transition: transform 0.5s, -webkit-transform 0.5s; */
   overflow: hidden;
-  filter: drop-shadow(0 0 4px #0000001f);
-  border-radius: 4px;
+  filter: drop-shadow(0 -3px 3px #41351529);
+  border-radius: 0.3rem;
   height: auto;
   img {
     object-fit: cover;
+  }
+  a {
+    text-decoration: none;
+    color: #25252f;
   }
 }
 .portfolio-index img {
@@ -1003,7 +949,6 @@ h1:lang(jp) {
 }
 
 .item-caption h2 {
-  /* font-family: 'Averia Serif Libre'; */
   font-family: 'Supreme';
   font-size: 0.9rem;
   font-weight: 500;
@@ -1012,8 +957,9 @@ h1:lang(jp) {
   word-break:keep-all;
   padding: 0;
 }
-.item-caption:lang(jp) h2 {
+.item-caption h2:lang(jp) {
   font-size: 0.8rem;
+  font-weight: 400;
   letter-spacing: 0;
   font-family: 'Zen Antique Soft';
 }
@@ -1026,7 +972,6 @@ h1:lang(jp) {
 }
 .item-caption p {
   color: #999!important;
-  /* font-weight: 400; */
   font-size: 0.7rem;
   display: inline-block;
   padding: 0 5px 0 0;}
@@ -1047,16 +992,11 @@ h1:lang(jp) {
   opacity: 1;
 }
 
-.item-holder a {
-  text-decoration: none;
-  color: #25252f;
-}
-
-.item-holder a:focus {
+/* .item-holder a:focus {
   outline: none;
-}
+} */
 
-.mfp-zoom-out-cur,
+/* .mfp-zoom-out-cur,
 .mfp-zoom-out-cur .mfp-image-holder,
 .mfp-close {
   cursor: crosshair;
@@ -1082,7 +1022,7 @@ h1:lang(jp) {
   color: #fff;
   border: 2px solid #6f6f6f;
   text-decoration: none;
-}
+} */
 
 .portfolio .btn:only-of-type {
   padding: 9px 23px;
@@ -1124,20 +1064,17 @@ h1:lang(jp) {
 }
 .single-text h3:lang(jp) {
   font-family: 'Zen Antique Soft', serif;
-  /* font-weight: 500; */
+  font-weight: 400;
 }
 .sticky-top {
   z-index: 1;
-  /* margin-left: 1rem; */
 }
 h4 { /* categorie name */
   font-family: 'Supreme', 'Zen Antique Soft';
   font-size: 1.1rem;
   margin-bottom: 2px;
 }
-/* li.media + * {
- vertical-align: middle;
-} */
+
 /*--------------------------------
  End Portfolio
 ----------------------------------*/
@@ -1154,10 +1091,6 @@ h4 { /* categorie name */
 
 .contact {
   background: var(--contact-bg-color);
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom right;
-  background-attachment: scroll; */
   position: relative;
   padding-top: 0;
   svg.bi-pencil {
@@ -1237,13 +1170,6 @@ h4 { /* categorie name */
   border-radius: 2rem;
 }
 
-.contact-holder:hover .form-container,
-.form-container:has(.form-control:focus) {
-  opacity: 1;
-  /* background: color-mix(in srgb, var(--hvr-color) 60%, var(--contact-bg-color)); */
-  /* border: 1px dotted var(--hvr-color); */
-}
-
 .form-container .form-control::placeholder {
   color: var(--contact-color);
   font-size: 1rem;
@@ -1298,7 +1224,7 @@ h4 { /* categorie name */
   fill: var(--contact-color);
 }
 
-.menu-container .footer-icons .svg-icon {
+.menu .footer-icons .svg-icon {
   fill: #3d3a33;
 }
 
@@ -1321,7 +1247,7 @@ h4 { /* categorie name */
 .btn {
   padding: 10px 15px;
   border-radius: 25px;
-  border: 2px solid;
+  /* border: 2px solid; */
   position: relative;
   z-index: 1;
   transition: .2s ease;

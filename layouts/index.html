@@ -132,7 +132,7 @@
         </div> -->
       </div>
       <div class="col-12 mx-auto">
-        <div class="row flex-nowrap filtr-wrapper list">
+        <div class="row filtr-wrapper list">
           {{ range first 6 .Data.Pages }}
           <div class="col-lg-2 col-md-4 col-sm-4 col-6 filtr-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder wow fadeInUp" data-wow-duration="1s">
