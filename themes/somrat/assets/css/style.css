@@ -1113,10 +1113,12 @@ h4 { /* categorie name */
   background: radial-gradient(at 70% bottom, #fffff515, var(--contact-bg-color) 80%);
   z-index: 0;
 }
-.contact-holder {
+.contact-form {
   margin-top: 100px;
-  position: relative;
+  width: 90%;
+  max-width: 46rem;
   z-index: 2;
+  margin-inline: auto;
 }
 
 .contact h1 {
@@ -1188,6 +1190,9 @@ h4 { /* categorie name */
   padding-bottom: 10px;
   position: relative;
   z-index: 1;
+  width: 100%;
+  max-width: 60rem;
+  margin-inline: auto;
 }
 
 .footer-icons {
