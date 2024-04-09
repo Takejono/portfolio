@@ -1090,7 +1090,7 @@ h4 { /* categorie name */
 }
 
 .contact {
-  background: var(--contact-bg-color);
+  background: radial-gradient(at 70% bottom, #1c2c4d, var(--contact-bg-color) 60%);
   position: relative;
   padding-top: 0;
   svg.bi-pencil {
@@ -1101,23 +1101,10 @@ h4 { /* categorie name */
   }
 }
 
-.contact::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  right: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  background: radial-gradient(at 70% bottom, #fffff515, var(--contact-bg-color) 80%);
-  z-index: 0;
-}
 .contact-form {
-  margin-top: 100px;
+  padding-top: 120px;
   width: 90%;
-  max-width: 46rem;
-  z-index: 2;
+  max-width: 43rem;
   margin-inline: auto;
 }
 
@@ -1236,6 +1223,7 @@ h4 { /* categorie name */
 .credit {
   text-align: center;
   font-size: 0.75rem;
+  margin-inline: auto;
 }
 
 .z-index-9 {
