@@ -706,8 +706,8 @@ h1:lang(jp) {
   backdrop-filter: blur(18px);
   padding: 2rem 1.5rem;
   border-radius: 4px;
-  width: clamp(26rem, 55vw, 40rem);
-  margin-inline: auto clamp(5%, 7vw, 20%);
+  width: clamp(26rem, 40vw, 590px);
+  margin-inline: auto clamp(0%, 12%, 40%);
   p {
     color: var(--divide-bg-color);
   }
