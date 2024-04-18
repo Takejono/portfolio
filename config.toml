@@ -28,7 +28,7 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "https://api.fontshare.com/v2/css?f[]=asap@1&f[]=supreme@1&display=swap"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@400&display=swap"
+link = "https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=Kaisei+Tokumin:wght@800&family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap"
 [[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]

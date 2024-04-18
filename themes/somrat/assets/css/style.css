@@ -25,8 +25,7 @@ body {
 }
 
 h1 {
-  /* font-family: 'Averia Serif Libre', 'Zen Antique Soft', serif; */
-  font-family: 'Asap', 'Zen Antique Soft', serif;
+  font-family: 'Asap', 'Kaisei Tokumin', serif;
   font-size: clamp(3rem, 14vw, 10rem);
   font-weight: 700;
   margin-bottom: 1rem;
@@ -570,7 +569,7 @@ h1:lang(jp) {
 .menu-slider li a {
   color: #3d3a33;
   font-size: clamp(1.3rem, 4vh, 2.3rem);
-  font-family: 'Asap', 'Zen Antique Soft';
+  font-family: 'Asap', 'Kaisei Tokumin';
   font-weight: 600;
   letter-spacing: 0.4vw;
   transition: all 0.3s linear;
@@ -629,7 +628,7 @@ h1:lang(jp) {
     flex-direction: column;
   }
   .hello-txt {
-    font-family: 'Asap', 'Zen Antique Soft';
+    font-family: 'Asap', 'Kaisei Tokumin';
     display: flex;
     align-items: center;
     flex: auto;
@@ -959,9 +958,9 @@ h1:lang(jp) {
 }
 .item-caption h2:lang(jp) {
   font-size: 0.8rem;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0;
-  font-family: 'Zen Antique Soft';
+  font-family: 'Zen Kaku Gothic Antique';
 }
 .item-caption a {
   -webkit-transition: all .5s ease-in-out;
@@ -1063,14 +1062,14 @@ h1:lang(jp) {
   font-weight: 500;
 }
 .single-text h3:lang(jp) {
-  font-family: 'Zen Antique Soft', serif;
-  font-weight: 400;
+  font-family: 'Zen Kaku Gothic Antique', serif;
+  font-weight: 500;
 }
 .sticky-top {
   z-index: 1;
 }
 h4 { /* categorie name */
-  font-family: 'Supreme', 'Zen Antique Soft';
+  font-family: 'Supreme', 'Kaisei Tokumin';
   font-size: 1.1rem;
   margin-bottom: 2px;
 }
