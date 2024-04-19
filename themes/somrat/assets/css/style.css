@@ -749,7 +749,7 @@ h1:lang(jp) {
 .need-service {
   position: relative;
   background: #fff;
-  padding-bottom: 100px;
+  padding: 100px 0;
   width: 100%;
   text-align: center;
   z-index: 2;
@@ -1079,6 +1079,41 @@ h4 { /* categorie name */
 ----------------------------------*/
 
 /*--------------------------------
+   Start News
+----------------------------------*/
+.news {
+  position: relative;
+  background: var(--divide-bg-color);
+  min-height: 100px;
+  z-index: 3;
+  .divider svg {
+    transform-box: fill-box;
+    position: absolute;
+    fill: var(--divide-bg-color);
+    bottom: -1px;
+  }
+  .divider-bas svg {
+    transform-box: fill-box;
+    position: absolute;
+    fill: var(--divide-bg-color);
+    background: #fff;
+    bottom: calc(0px - 3.6vw);
+    transform: scaleX(-1);
+  }
+  h1 {
+    color: #87878794;
+    position: relative;
+    top: calc(-6px - 8vw);
+    z-index: 2;
+  }
+}
+
+
+/*--------------------------------
+ End News
+----------------------------------*/
+
+/*--------------------------------
    Start Contact
 ----------------------------------*/
 .contact .divider svg {
@@ -1213,6 +1248,10 @@ h4 { /* categorie name */
   width: 25px;
   height: 25px;
   fill: var(--contact-color);
+  transition: all 0.3s linear;
+}
+.footer-icons .svg-icon:hover {
+  fill: var(--hvr-color);
 }
 
 .menu .footer-icons .svg-icon {
