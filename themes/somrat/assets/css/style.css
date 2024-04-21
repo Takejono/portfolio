@@ -741,14 +741,14 @@ h1:lang(jp) {
 .need-service {
   position: relative;
   background: #fff;
-  padding: 100px 0;
+  padding: 150px 0;
   width: 100%;
   text-align: center;
   z-index: 2;
   .divider-bas svg {
     fill: #fff;
     position: absolute;
-    top: 300px;
+    top: 400px;
     left: 0;
     filter: drop-shadow(0px 5px 3px rgba(38, 32, 15, 0.2));
   }
@@ -1101,8 +1101,8 @@ h4 { /* categorie name */
     transform: scaleX(-1);
   }
   .post-container {
-    width: max(70vw, 330px);
-    margin-inline: 4vw auto;
+    max-width: 730px;
+    margin-inline: 4vw 4vw;
     padding: 100px 0 50px;
   }
   .post {
