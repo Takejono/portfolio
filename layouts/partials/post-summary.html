@@ -1,0 +1,13 @@
+<article class="post">
+  <h2 class="post-title">{{ .Title | markdownify }}</h1>
+  <!-- {{ if not .Site.Params.disableSummary }} -->
+  <div class="post-summary">
+   {{ .Summary | markdownify }}
+  </div>
+  <!-- {{ end }} -->
+   <!-- {{ if and (.Truncated) (.Site.Params.readMore) }}
+  <div class="read-more">
+   <a class="u-url" href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a>
+  </div>
+    {{ end }} -->
+</article>

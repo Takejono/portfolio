@@ -1,5 +1,5 @@
 ---
-title: "NEWS"
+title: "お知らせ"
 description: "This is meta description."
 draft: false
 

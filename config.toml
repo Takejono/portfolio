@@ -117,14 +117,19 @@ url = "portfolio"
 weight = 3
 
 [[Languages.fr.menu.main]]
+name = "News"
+url = "#news-h1"
+weight = 4
+
+[[Languages.fr.menu.main]]
 name = "Presentation"
 url = "#about"
-weight = 4
+weight = 5
 
 [[Languages.fr.menu.main]]
 name = "Contact"
 url = "#contact-h1"
-weight = 5
+weight = 6
 
 ################################### jp language #####################################
 [Languages.jp]
@@ -156,11 +161,16 @@ url = "portfolio"
 weight = 3
 
 [[Languages.jp.menu.main]]
+name = "お知らせ"
+url = "#news-h1"
+weight = 4
+
+[[Languages.jp.menu.main]]
 name = "絵描き紹介"
 url = "#about"
-weight = 4
+weight = 5
 
 [[Languages.jp.menu.main]]
 name = "お問い合わせ"
 url = "#contact-h1"
-weight = 5
+weight = 6
