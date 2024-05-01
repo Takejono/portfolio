@@ -1101,7 +1101,7 @@ h4 { /* categorie name */
     transform: scaleX(-1);
   }
   .post-container {
-    max-width: 730px;
+    max-width: 900px;
     margin-inline: 4vw 4vw;
     padding: 100px 0 50px;
   }
