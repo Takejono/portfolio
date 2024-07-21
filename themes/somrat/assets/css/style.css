@@ -941,7 +941,7 @@ h1:lang(jp) {
   width: 100%;
   padding: 8px 3px 0;
   opacity: 0;
-  padding-top: 1rem;
+  padding-top: 2rem;
   background: linear-gradient(#fff0, #ffffffd4, #fff 70%);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
