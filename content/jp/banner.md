@@ -12,12 +12,12 @@ occupations:
 
 # slider background image loop
 slider_images:
-# - "images/slider/slider-1.jpg"
+- "images/slider/slider-1.jpg"
 - "images/slider/slider-2.jpg"
 - "images/slider/slider-3.jpg"
 - "images/slider/slider-4.jpg"
 - "images/slider/slider-5.jpg"
-- "images/portfolio/tache-2.jpg"
+- "images/slider/slider-6.jpg"
 
 # button
 button:
