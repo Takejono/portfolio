@@ -806,7 +806,7 @@ a {
   h1 {
     z-index: 2;
     color: #e2e2e294;
-    top: calc(-150px - 7.5vw);
+    top: calc(-7px - 7.5vw);
     right: 0;
     position: absolute;
     }  
