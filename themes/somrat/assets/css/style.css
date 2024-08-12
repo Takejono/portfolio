@@ -37,6 +37,9 @@ h1:lang(jp) {
   letter-spacing: -0.4rem!important;
   font-weight: 400;
 }
+a {
+  text-decoration: none;
+}
 
 .content a {
   color: inherit;
@@ -202,11 +205,10 @@ h1:lang(jp) {
   position: absolute;
   height: 40px;
   width: 40px;
-  left: -0.23rem;
-  top: -0.2rem;
+  left: -0.3rem;
+  top: -0.3rem;
   border-radius: 50%;
   background: #fff1c5;
-  /* opacity: 0.6; */
   z-index: -1;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1034,7 +1036,7 @@ h1:lang(jp) {
   background: #25252f;
 }
 
-#carouselExampleControls {
+#carousel-folio {
   padding: 2rem 0rem 2rem;
   /* overflow: hidden; */
 }
@@ -1045,18 +1047,12 @@ h1:lang(jp) {
     height: 100%;
   }
 }
-.carousel-control-prev {
-  left: -20px;
-  width: 0%;
-}
-.carousel-control-next {
-  width: 0%;
-}
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  color: #25252f;
+  color: #000000;
   background: none;
   svg {
-    filter: drop-shadow(0px 0px 2px #fff);
+    filter: drop-shadow(0px 0px 3px #fff);
   }
 }
 
