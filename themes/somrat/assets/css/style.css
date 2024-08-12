@@ -1222,7 +1222,7 @@ h4 { /* categorie name */
 }
 
 .submit {
-  color: var(--divide-bg-color);
+  color: var(--contact-bg-color);
   width: 120px;
   height: 47px;
   border: none;
