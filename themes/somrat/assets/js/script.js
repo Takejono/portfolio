@@ -74,7 +74,7 @@
 						event.preventDefault();
 						$('html, body').animate({
 							scrollTop: target.offset().top
-						}, 1000, "easeInOutExpo", function () {
+						}, 200, "easeInOutExpo", function () {
 							// Callback after animation
 							// Must change focus!
 							var $target = $(target);
@@ -213,22 +213,22 @@
 			Start About Me
 	----------------------------------*/
 	// Initializing Skillbar Animation
-	$('.skill h3').waypoint({
-		handler: function (direction) {
-			if (direction == "up") {
-				$('.skillbar').each(function () {
-					$(this).find('.skillbar-bar').css("width", "0");
-				});
-			} else if (direction == "down") {
-				$('.skillbar').each(function () {
-					$(this).find('.skillbar-bar').animate({
-						width: jQuery(this).attr('data-percent')
-					}, 2000);
-				});
-			}
-		},
-		offset: 'bottom-in-view'
-	});
+	// $('.skill h3').waypoint({
+	// 	handler: function (direction) {
+	// 		if (direction == "up") {
+	// 			$('.skillbar').each(function () {
+	// 				$(this).find('.skillbar-bar').css("width", "0");
+	// 			});
+	// 		} else if (direction == "down") {
+	// 			$('.skillbar').each(function () {
+	// 				$(this).find('.skillbar-bar').animate({
+	// 					width: jQuery(this).attr('data-percent')
+	// 				}, 2000);
+	// 			});
+	// 		}
+	// 	},
+	// 	offset: 'bottom-in-view'
+	// });
 	/*--------------------------------
 			End About Me
 	----------------------------------*/
