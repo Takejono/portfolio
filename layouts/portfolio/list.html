@@ -18,8 +18,8 @@
             {{ end }}
             {{ end }}
             {{ range ( $categories | uniq ) }}
-            <label class="btn btn-sm btn-primary hvr-radial-out">
-              <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
+            <label class="btn btn-primary hvr-radial-out">
+              <input type="radio" name="shuffle-filter" autocomplete="off" value="{{ . | urlize }}" />{{ . | humanize }}
             </label>
             {{ end }}
           </div>

@@ -869,6 +869,12 @@ a {
   border-radius: .4rem!important;
   background-color: transparent;
   border: none;
+  input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
 }
 
 .portfolio-navigation label:hover {
@@ -1353,13 +1359,13 @@ h4 { /* categorie name */
   color: var(--divide-bg-color);
 }
 
-.btn-outline-primary {
+/* .btn-outline-primary {
   background: transparent;
   color: #313131;
   border-color: #313131;
-}
+} */
 
-.btn-outline-primary:hover,
+/* .btn-outline-primary:hover,
 .btn-outline-primary:active,
 .btn-outline-primary.active,
 .btn-outline-primary:focus,
@@ -1367,7 +1373,7 @@ h4 { /* categorie name */
   background: #313131 !important;
   border-color: #313131 !important;
   color: #fff;
-}
+} */
 
 /* blog */
 
