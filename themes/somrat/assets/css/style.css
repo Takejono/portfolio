@@ -1124,7 +1124,7 @@ h4 { /* categorie name */
     border-bottom: 1px solid #a3ae95;
   }
     h1 {
-    color: #8b978294;
+    color: #9ba89294;
     /* position: absolute; */
     /* top: calc(-6px - 8vw); */
     z-index: 2;
@@ -1133,7 +1133,7 @@ h4 { /* categorie name */
     font-size: 1.3rem;
     padding-bottom: 0.5rem;
     line-height: 1.5rem;
-    color: #3d3a33;
+    color: #fff59f;
   }
   a {
     color: #3d3a33;
