@@ -31,6 +31,8 @@ h1 {
   font-weight: 700;
   margin-bottom: 1rem;
   color: #25252f;
+  top: calc(-8px - 7vw);
+  position: absolute;
 }
 h1:lang(jp) {
   word-break:keep-all;
@@ -807,9 +809,9 @@ a {
   h1 {
     z-index: 2;
     color: #e2e2e294;
-    top: calc(-7px - 7.5vw);
+    /* top: calc(-6px - 8vw); */
     right: 0;
-    position: absolute;
+    /* position: absolute; */
     }  
 }
 
@@ -1114,8 +1116,8 @@ h4 { /* categorie name */
   }
     h1 {
     color: #8b978294;
-    position: absolute;
-    top: calc(-6px - 8vw);
+    /* position: absolute; */
+    /* top: calc(-6px - 8vw); */
     z-index: 2;
   }
   h2 {
@@ -1183,8 +1185,8 @@ h4 { /* categorie name */
 }
 
 .contact h1 {
-  position: absolute;
-  top: calc(-10px - 7.5vw);
+  /* position: absolute; */
+  /* top: calc(-6px - 8vw); */
   right: 0;
   color: color-mix(in srgb, var(--contact-color) 50%, #1430696f);
   z-index: 2;
