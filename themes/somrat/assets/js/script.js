@@ -254,42 +254,42 @@
 	}
 
 	// Initialize MagnificPopup Plugin
-	$('.filtr-wrapper').magnificPopup({
-		type: 'image',
-		delegate: '.image-pop',
-		gallery: {
-			enabled: true
-		},
-		zoom: {
-			enabled: true,
-			duration: 300,
-			easing: 'ease-in-out'
-		}
-	});
-	$('.gallery').magnificPopup({
-		type: 'image',
-		delegate: '.image-pop',
-		gallery: {
-			enabled: true
-		},
-		zoom: {
-			enabled: true,
-			duration: 300,
-			easing: 'ease-in-out'
-		}
-	});
-	$('.wow').magnificPopup({
-		type: 'image',
-		delegate: '.image-pop',
-		gallery: {
-			enabled: true
-		},
-		zoom: {
-			enabled: true,
-			duration: 300,
-			easing: 'ease-in-out'
-		}
-	});
+	// $('.filtr-wrapper').magnificPopup({
+	// 	type: 'image',
+	// 	delegate: '.image-pop',
+	// 	gallery: {
+	// 		enabled: true
+	// 	},
+	// 	zoom: {
+	// 		enabled: true,
+	// 		duration: 300,
+	// 		easing: 'ease-in-out'
+	// 	}
+	// });
+	// $('.gallery').magnificPopup({
+	// 	type: 'image',
+	// 	delegate: '.image-pop',
+	// 	gallery: {
+	// 		enabled: true
+	// 	},
+	// 	zoom: {
+	// 		enabled: true,
+	// 		duration: 300,
+	// 		easing: 'ease-in-out'
+	// 	}
+	// });
+	// $('.wow').magnificPopup({
+	// 	type: 'image',
+	// 	delegate: '.image-pop',
+	// 	gallery: {
+	// 		enabled: true
+	// 	},
+	// 	zoom: {
+	// 		enabled: true,
+	// 		duration: 300,
+	// 		easing: 'ease-in-out'
+	// 	}
+	// });
 	/*--------------------------------
 			 End Portfolio
 	----------------------------------*/

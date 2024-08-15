@@ -1219,6 +1219,9 @@ h4 { /* categorie name */
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
   }
+  .form-control:focus {
+    border-width: 1px;
+  }
   svg.bi-pencil {
     color: var(--contact-color);
     display:block;
