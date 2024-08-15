@@ -857,61 +857,26 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 0;
-}
-
-.no-flexbox .portfolio-navigation {
-  display: inherit;
-}
-
-.portfolio-navigation label {
-  cursor: pointer;
-  padding: 7px 14px;
-  color: #999;
-  margin: 5px 5px;
-  border-radius: .4rem!important;
-  background-color: transparent;
-  border: none;
-  input {
-  position: absolute;
-  opacity: 0;
-  height: 0;
-  width: 0;
+  label {
+    cursor: pointer;
+    padding: 7px 14px;
+    color: #999;
+    margin: 5px 5px;
+    border-radius: .4rem!important;
+    background-color: transparent;
+    border: none;
+    input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    }
+  }
+  label:hover, label:has(input:checked) {
+    color: #fff;
+    background-color: var(--hvr-color);
   }
 }
-
-.portfolio-navigation label:hover, input:active, input:focus, input:checked {
-  color: var(--news-bg-color);
-  background-color: var(--hvr-color);
-}
-
-/* .btn-primary:not(:disabled):not(.disabled).active:focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: none !important;
-  color: #6f6f6F;
-} */
-
-/* .btn-primary.focus,
-.btn-primary:focus {
-  background-color: transparent;
-  box-shadow: none;
-} */
-
-/* .btn:not(.disabled).active,
-.btn:not(.disabled):active {
-  color: var(--contact-bg-color);
-  background-color: var(--hvr-color);
-} */
-
-/* .portfolio .btn:before {
-  background: var(--hvr-color);
-  -webkit-transition: all .4s ease-out;
-  transition: all .4s ease-out;
-} */
-
-/* .portfolio .btn.active:before {
-  background: transparent;
-} */
 
 .filtr-item {
   padding: 7px;
