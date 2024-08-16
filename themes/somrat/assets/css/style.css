@@ -794,28 +794,37 @@ a {
 /*--------------------------------
    Start Portfolio
 ----------------------------------*/
-.portfolio .divider svg {
-  fill: #fff;
-  position: absolute;
-  transform: scaleX(-1);
-  bottom: 49px;
-}
 
 .portfolio {
   background: radial-gradient(at 20%,#e5e5e5, #fff 30%);
   padding: 50px 0 200px;
   position: relative;
   z-index: 1;
-  .container-fluid {
-    padding-top: 5rem;
+  .divider svg {
+    fill: #fff;
+    position: absolute;
+    transform: scaleX(-1);
+    bottom: 49px;
   }
-  h1 {
+    h1 {
     z-index: 2;
     color: #e2e2e294;
-    /* top: calc(-6px - 8vw); */
     right: 0;
-    /* position: absolute; */
+    text-align: right;
+    margin: 0;
     }  
+}
+
+.recentworks-wrapper {
+  padding-top: 4rem;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: .5rem;
 }
 
 .portfolio-list {
@@ -838,10 +847,6 @@ a {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.no-js .filtering {
-  display: none;
 }
 
 .portfolio-navigation {
@@ -879,9 +884,9 @@ a {
   }
 }
 
-.filtr-item {
+/* .filtr-item {
   padding: 7px;
-}
+} */
 .filtr-item img {
   width: 100%;
 }
@@ -930,7 +935,7 @@ a {
 
 .item-caption h2 {
   font-family: 'Supreme';
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 500;
   margin: 0;
   overflow-wrap: break-word;
@@ -955,7 +960,8 @@ a {
   font-size: 0.7rem;
   /* display: inline-block; */
   padding: 0 5px 0 0;
-  text-align: left;
+  margin: 0;
+  /* text-align: left; */
 }
 
 .item-created {
@@ -1006,8 +1012,9 @@ a {
   text-decoration: none;
 } */
 
-div:has(.btn-more) {
+div:has(> .btn-more) {
   padding-top: 2rem;
+  text-align: center;
   .btn-more {
     padding: 13px 23px;
     border-radius: 50%;
@@ -1105,7 +1112,7 @@ h4 { /* categorie name */
     font-size: 1.3rem;
     padding-bottom: 0.5rem;
     line-height: 1.5rem;
-    color:  #fff59f;
+    color:  #fff1c5;
   }
   a {
     color: #3d3a33;
