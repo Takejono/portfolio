@@ -203,6 +203,7 @@ a {
 .scroll-up::before {
   content: "";
   position: absolute;
+  opacity: .7;
   height: 40px;
   width: 40px;
   left: -0.275rem;
