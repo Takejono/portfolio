@@ -191,10 +191,6 @@
 
 	$('.hello').waypoint({
 		handler: function (direction) {
-			// Changing Menu background after leaving Header Section
-			// $(".menu-container").toggleClass("menu-normal");
-		//	$(".desktop-menu .hvr-underline-from-left").toggleClass("dark");
-			// Slider croucel fade off
 			$(".owl-carousel").toggleClass("owl-off");
 		}
 	});
@@ -237,59 +233,22 @@
 			 Start Portfolio
 	----------------------------------*/
 	// Shuffle js filter
-	var containerEl = document.querySelector('.filtr-wrapper');
-	if (containerEl) {
-		var Shuffle = window.Shuffle;
-		var myShuffle = new Shuffle(document.querySelector('.filtr-wrapper'), {
-			itemSelector: '.filtr-item',
-			buffer: 1
-		});
+	// var containerEl = document.querySelector('.pf-wrapper');
+	// if (containerEl) {
+	// 	var Shuffle = window.Shuffle;
+	// 	var myShuffle = new Shuffle(document.querySelector('.pf-wrapper'), {
+	// 		itemSelector: '.filtr-item',
+	// 		buffer: 1
+	// 	});
 
-		jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
-			var input = evt.currentTarget;
-			if (input.checked) {
-				myShuffle.filter(input.value);
-			}
-		});
-	}
+	// 	jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
+	// 		var input = evt.currentTarget;
+	// 		if (input.checked) {
+	// 			myShuffle.filter(input.value);
+	// 		}
+	// 	});
+	// }
 
-	// Initialize MagnificPopup Plugin
-	// $('.filtr-wrapper').magnificPopup({
-	// 	type: 'image',
-	// 	delegate: '.image-pop',
-	// 	gallery: {
-	// 		enabled: true
-	// 	},
-	// 	zoom: {
-	// 		enabled: true,
-	// 		duration: 300,
-	// 		easing: 'ease-in-out'
-	// 	}
-	// });
-	// $('.gallery').magnificPopup({
-	// 	type: 'image',
-	// 	delegate: '.image-pop',
-	// 	gallery: {
-	// 		enabled: true
-	// 	},
-	// 	zoom: {
-	// 		enabled: true,
-	// 		duration: 300,
-	// 		easing: 'ease-in-out'
-	// 	}
-	// });
-	// $('.wow').magnificPopup({
-	// 	type: 'image',
-	// 	delegate: '.image-pop',
-	// 	gallery: {
-	// 		enabled: true
-	// 	},
-	// 	zoom: {
-	// 		enabled: true,
-	// 		duration: 300,
-	// 		easing: 'ease-in-out'
-	// 	}
-	// });
 	/*--------------------------------
 			 End Portfolio
 	----------------------------------*/
@@ -298,13 +257,8 @@
 			 Start Testimonials
 	----------------------------------*/
 	// Configure and Initialize Owl Carousel
-	$(".owl-carousel").owlCarousel({
-		items: 1,
-		loop: true,
-		dots: true,
-		autoplay: true,
-		autoplayTimeout: 3000
-	});
+
+	
 	/*--------------------------------
 			End Testimonials
 	----------------------------------*/

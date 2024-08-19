@@ -816,52 +816,33 @@ a {
 }
 
 .recentworks-wrapper {
-  padding-top: 4rem;
+  position: relative;
+  padding: 5rem .7rem 0;
   display: grid;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  grid-column: 1;
-  grid-auto-flow: row;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: .5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .7rem;
 }
 
 .portfolio-list {
   h1 {
   position: relative;
   top: 1rem;
-  }
-  .container-fluid {
-    padding-top: 0;
+  text-align: center;
   }
 }
 .filtering {
-  width: 100%;
-  padding: 4rem 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  display: -moz-box;
-  display: -webkit-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  /* width: 100%; */
+  /* padding: 4rem 0px;
+  justify-content: center; */
 }
 
 .portfolio-navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: inherit;
+  display: flex;
   list-style: none;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
+  padding: 4rem 0px;
   align-items: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   padding-left: 0;
   label {
     cursor: pointer;
@@ -884,9 +865,14 @@ a {
   }
 }
 
-/* .filtr-item {
-  padding: 7px;
-} */
+.pf-wrapper {
+  position: relative;
+  padding: 4rem .7rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: .7rem;
+}
+
 .filtr-item img {
   width: 100%;
 }
@@ -897,9 +883,6 @@ a {
 .item-holder {
   position: relative;
   transition: all 0.5s ease-in-out;
-  /* -webkit-transition: -webkit-transform 0.5s; */
-  /* transition: -webkit-transform 0.5s; */
-  /* transition: transform 0.5s, -webkit-transform 0.5s; */
   overflow: hidden;
   filter: drop-shadow(0 -3px 3px #41351529);
   border-radius: 0.3rem;
@@ -1104,7 +1087,10 @@ h4 { /* categorie name */
     padding-bottom: 1rem;
     border-bottom: 1px solid #a3ae95;
   }
-    h1 {
+  .post:last-child {
+    border-bottom: 0;
+  }
+  h1 {
     color: #9ba89294;
     z-index: 2;
   }

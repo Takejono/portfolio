@@ -2,12 +2,8 @@
 
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
-  <div class="container-fluid text-center">
-    <div class="row portfolio-holder">
-      <div class="col-12">
         <h1 class="wow fadeInUp" data-wow-duration="1s">{{ .Title }}</h1>
-        <div class="filtering wow fadeInUp" data-wow-duration="1.2s">
-          <div class="btn-group btn-group-toggle portfolio-navigation" data-toggle="buttons">
+          <!-- <div class="portfolio-navigation wow fadeInUp" data-wow-duration="1.2s" data-toggle="buttons">
             <label class="btn">
               <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
             </label>
@@ -22,21 +18,19 @@
               <input type="radio" name="shuffle-filter" autocomplete="off" value="{{ . | urlize }}" />{{ . | humanize }}
             </label>
             {{ end }}
-          </div>
-        </div>
-      </div>
-      <div class="col-12 mx-auto">
-        <div class="row filtr-wrapper wow fadeInUp list" data-wow-duration="1.5s">
+          </div> -->
+    
+        <div class="pf-wrapper wow fadeInUp" data-wow-duration="1.5s">
           {{ range .Data.Pages }}
-          <div class="col-lg-3 col-md-4 col-sm-6 col-6 filtr-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+          <div class="filtr-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
                 <a href="{{.Permalink}}">
-                  <h2 class="mt-2">{{ .Title | markdownify }}</h2>
+                  <h2>{{ .Title | markdownify }}</h2>
                 </a>
                 {{ range .Params.categories }}
-                <p class="mb-0">{{ . | title }}</p>
+                <p>{{ . | title }}</p>
                 {{ end }}
                <div class="item-created">{{ .PublishDate.Format "2006" }}</div>
               </div>
@@ -44,9 +38,6 @@
           </div>
           {{ end }}
         </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 {{ end }}
