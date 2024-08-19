@@ -819,7 +819,7 @@ a {
   position: relative;
   padding: 5rem .7rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: .7rem;
 }
 
@@ -867,10 +867,11 @@ a {
 
 .pf-wrapper {
   position: relative;
-  padding: 4rem .7rem;
+  padding: 7rem .7rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: .7rem;
+  grid-template-rows: masonry;
+  gap: 1rem;
 }
 
 .filtr-item img {
@@ -895,7 +896,7 @@ a {
     color: #25252f;
   }
 }
-.portfolio-index img {
+.portfolio img {
   height: 350px;
 }
 
