@@ -2,7 +2,7 @@
 
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
-        <h1 class="wow fadeInUp" data-wow-duration="1s">{{ .Title }}</h1>
+        <h1 class="wow blurIn" data-wow-duration=".6s">{{ .Title }}</h1>
           <!-- <div class="portfolio-navigation wow fadeInUp" data-wow-duration="1.2s" data-toggle="buttons">
             <label class="btn">
               <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
@@ -20,9 +20,9 @@
             {{ end }}
           </div> -->
     
-        <div class="pf-wrapper wow fadeInUp" data-wow-duration="1.5s">
+        <div class="pf-wrapper">
           {{ range .Data.Pages }}
-          <div class="filtr-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+          <div class="filtr-item wow fadeInUp" data-wow-duration="1.5s" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
