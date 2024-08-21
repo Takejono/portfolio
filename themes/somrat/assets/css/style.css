@@ -552,18 +552,12 @@ a {
   width: 100%;
   opacity: 1;
 }
-.menu-slider ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 0;
-}
 
 .menu-list {
- padding-top: 45px!important;
- padding-left: 0;
+ list-style: none;
+ padding: 45px 0 0;
  display: flex;
  justify-content: space-evenly;
- flex-wrap: wrap;
  flex-direction: column;
  flex-wrap: wrap;
  height: calc(100vh - 70px);
