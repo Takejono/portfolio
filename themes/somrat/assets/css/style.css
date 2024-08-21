@@ -699,7 +699,7 @@ a {
 
 .about-me-text {
   position: relative;
-  background: linear-gradient(0deg, #ffe5881e, #fef9e199);
+  background: linear-gradient(180deg, #ffe5881e, #fdf6d2a0);
   -webkit-backdrop-filter: blur(18px);
   backdrop-filter: blur(18px);
   padding: 12rem 1.5rem;
