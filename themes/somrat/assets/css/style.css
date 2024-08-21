@@ -535,7 +535,6 @@ a {
   z-index: 999;
   top: 0;
   right: 0;
-  height: 100vh;
   width: 0;
   overflow: auto;
   opacity: 0;
@@ -560,7 +559,7 @@ a {
  justify-content: space-evenly;
  flex-direction: column;
  flex-wrap: wrap;
- height: calc(100vh - 70px);
+ height: 100vh;
 }
 
 .menu-slider li a {
@@ -575,7 +574,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-    text-decoration: none;
+  text-decoration: none;
 }
 .menu-slider li a:lang(jp) {
   font-weight: 400;
@@ -586,10 +585,11 @@ a {
  -webkit-transition: all 0.1s linear;
  transition: all 0.1s linear;
 }
-.menu-slider li a:hover, .footer-icons li a:hover {
+.menu-slider li a:hover, .footer-icons li a:hover .svg-icon {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   color: var(--hvr-color);
+  fill: var(--hvr-color);
 }
 
 .menu-slider.open nav {
