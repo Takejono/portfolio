@@ -1103,19 +1103,23 @@ h4 { /* categorie name */
     bottom: -1px;
   }
   h1 {
-    left: 0;
     color: color-mix(in srgb, var(--contact-color) 50%, #1430696f);
     z-index: 2;
+    width: 100%;
+    text-align: center;
   }
   p {
     text-align: center;
     padding-top: 7rem;
+    font-weight: 700;
+    font-size: 1.4rem;
     a {
       color: var(--contact-color);
       -webkit-transition: all 0.3s;
       transition: all 0.3s;    
       &:hover {
         color: var(--hvr-color);
+        letter-spacing: .1rem;
       }  
     }
   }
@@ -1159,7 +1163,7 @@ h4 { /* categorie name */
 } */
 
 
-.form-container .help-block,
+/* .form-container .help-block,
 .form-container .with-errors {
   color: #fff;
 }
@@ -1175,7 +1179,7 @@ h4 { /* categorie name */
 .form-container .form-control:focus {
   background: var(--contact-bg-color);
   border: none;
-}
+} */
 
 .submit {
   color: var(--contact-bg-color);
