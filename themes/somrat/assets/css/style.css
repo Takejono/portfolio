@@ -562,14 +562,11 @@ a {
  padding-top: 45px!important;
  padding-left: 0;
  display: flex;
+ justify-content: space-evenly;
  flex-wrap: wrap;
  flex-direction: column;
  flex-wrap: wrap;
  height: calc(100vh - 70px);
-}
-
-.menu-slider li, .footer-icons li {
-  flex: 1 0 40px;
 }
 
 .menu-slider li a {
@@ -1100,24 +1097,36 @@ h4 { /* categorie name */
 /*--------------------------------
    Start Contact
 ----------------------------------*/
-.contact .divider svg {
-  fill: var(--contact-bg-color);
-  position: absolute;
-  transform: scaleX(-1);
-  bottom: -1px;
-}
 
 .contact {
   background: radial-gradient(at 70% bottom, #1c2c4d, var(--contact-bg-color) 60%);
   position: relative;
   padding-top: 0;
+  .divider svg {
+    fill: var(--contact-bg-color);
+    position: absolute;
+    transform: scaleX(-1);
+    bottom: -1px;
+  }
   h1 {
     left: 0;
     color: color-mix(in srgb, var(--contact-color) 50%, #1430696f);
     z-index: 2;
   }
+  p {
+    text-align: center;
+    padding-top: 7rem;
+    a {
+      color: var(--contact-color);
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;    
+      &:hover {
+        color: var(--hvr-color);
+      }  
+    }
+  }
 }
-.contact-form {
+/* .contact-form {
   padding-top: 120px;
   width: 90%;
   max-width: 43rem;
@@ -1131,7 +1140,6 @@ h4 { /* categorie name */
   opacity: 1;
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
-  /* border: 1px dotted var(--hvr-color); */
   .form-control {
     height: 47px;
     font-weight: 300;
@@ -1154,7 +1162,7 @@ h4 { /* categorie name */
     display:block;
     margin-inline: auto;
   }
-}
+} */
 
 
 .form-container .help-block,
@@ -1198,7 +1206,7 @@ h4 { /* categorie name */
 ----------------------------------*/
 
 .footer {
-  padding-top: 50px;
+  padding-top: 5rem;
   padding-bottom: 10px;
   position: relative;
   z-index: 1;
@@ -1208,24 +1216,12 @@ h4 { /* categorie name */
 }
 
 .footer-icons {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: 100%;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  display: flex;
+  margin-inline: auto;
+  max-width: 16rem;
+  justify-content: space-around;
   padding: 0!important;
-  li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  list-style: none;
   a {
     transition: all 0.3s linear;
   }

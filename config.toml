@@ -73,10 +73,10 @@ enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
-[[params.social]]
-icon = "fa-regular fa-envelope fa-xl"
-iconName = "envelope"
-link = "mailto:takeshi.jonoo@gmail.com"
+# [[params.social]]
+# icon = "fa-regular fa-envelope fa-xl"
+# iconName = "envelope"
+# link = "mailto:takeshi.jonoo@gmail.com"
 
 [[params.social]]
 icon = "fa-brands fa-facebook fa-xl"
