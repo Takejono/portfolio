@@ -1017,7 +1017,7 @@ h4 { /* categorie name */
    Start News
 ----------------------------------*/
 .news {
-  --news-bg-color: #448f55;
+  --news-bg-color: #50a046;
   position: relative;
   background: var(--news-bg-color);
   z-index: 3;
