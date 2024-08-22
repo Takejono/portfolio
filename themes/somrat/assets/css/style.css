@@ -808,8 +808,6 @@ a {
     text-align: right;
     margin: 0;
   }
-  .portfolio-index {
-  }
 }
 
 .recentworks-wrapper {
@@ -956,8 +954,13 @@ a {
   opacity: 1;
 }
 
+.carousel-cell {
+  margin-right: 10px;
+  /* width: 50%; */
+}
+
 div:has(> .btn-more) {
-  padding-top: 2rem;
+  padding-top: 4rem;
   text-align: center;
   .btn-more {
     padding: 13px 23px;

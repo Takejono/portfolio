@@ -101,9 +101,9 @@
 <section class="portfolio portfolio-index {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="portfolio">
   {{ partial "divider" }}
         <h1 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h1">{{ .Title }}</h1>
-        <div class="recentworks-wrapper">
+        <div class="recentworks-wrapper main-carousel">
           {{ range first 6 .Data.Pages }}
-          <div class="filtr-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+          <div class="filtr-item carousel-cell" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder wow fadeInUp" data-wow-duration="1s">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" loading="lazy" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
