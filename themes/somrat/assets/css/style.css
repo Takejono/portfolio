@@ -682,7 +682,7 @@ a {
     z-index: 1;
   }
   h1:lang(jp) {
-    top: 0px;
+    top: -12px;
   }
 }
 
