@@ -1,9 +1,9 @@
 <article class="post">
-  <h2 class="post-title">{{ .Title | markdownify }}</h1>
   <div class="post-summary">
    <img src="{{ .Params.Image | absURL }}" alt="image" class="img-fluid">
    <div class="summary-txt">
-   {{ .Summary | markdownify }}
+    <h2 class="post-title">{{ .Title | markdownify }}</h2>
+    {{ .Summary | markdownify }}
    </div>
   </div>
 </article>
