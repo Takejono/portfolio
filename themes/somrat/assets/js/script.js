@@ -252,9 +252,9 @@
 	var elem = document.querySelector('.main-carousel');
 	var flkty = new Flickity( elem, {
 	  // options
-	  cellAlign: 'center',
+	//   cellAlign: 'center',
 	  wrapAround: true,
-	  contain: true
+	//   contain: true
 	});
 	
 	// element argument can be a selector string
