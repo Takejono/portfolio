@@ -48,64 +48,7 @@
 		counter();
 	});
 
-
-
-	/*--------------------------------
-	 Start Smooth Scrolling
-	----------------------------------*/
-	// function smoothScroll() {
-	// 	// Select all links with hashes
-	// 	$('a[href*="#"]')
-	// 		// Remove links that don't actually link to anything
-	// 		.not('[href="#"]')
-	// 		.not('[href="#0"]')
-	// 		.on("click", function (event) {
-	// 			// On-page links
-	// 			if (
-	// 				location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
-	// 				location.hostname == this.hostname
-	// 			) {
-	// 				// Figure out element to scroll to
-	// 				var target = $(this.hash);
-	// 				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-	// 				// Does a scroll target exist?
-	// 				if (target.length) {
-	// 					// Only prevent default if animation is actually gonna happen
-	// 					event.preventDefault();
-	// 					$('html, body').animate({
-	// 						scrollTop: target.offset().top
-	// 					}, 200, "easeInOutExpo", function () {
-	// 						// Callback after animation
-	// 						// Must change focus!
-	// 						var $target = $(target);
-	// 						$target.focus();
-	// 						if ($target.is(":focus")) { // Checking if the target was focused
-	// 							return false;
-	// 						} else {
-	// 							$target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-	// 							$target.focus(); // Set focus again
-	// 						}
-	// 					});
-	// 				}
-	// 			}
-	// 		});
-	// 	jQuery.extend(jQuery.easing, {
-	// 		easeInOutExpo: function (x, t, b, c, d) {
-	// 			if (t == 0) return b;
-	// 			if (t == d) return b + c;
-	// 			if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
-	// 			return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
-	// 		}
-	// 	});
-	// }
-	// // Applying Smooth Scroll When The Browser Is Not Opera Mini Or UC Browser
-	// if (navigator.userAgent.indexOf('Opera Mini') == -1 || navigator.userAgent.indexOf('UCBrowser') != -1) {
-	// 	smoothScroll();
-	// }
-	/*--------------------------------
-			End Smooth Scrolling
-	----------------------------------*/
-
+	
 	/*--------------------------------
 	 Start Header
 		----------------------------------*/
@@ -142,16 +85,7 @@
 	}
 	// Initializing Background Setting Function
 	SliderBackground();
-	// Toggle Fullscreen Navigation
-//	$('#burger').on("click", function () {
-//		$(".fullscreen-nav-container").slideToggle(300);
-//	});
-	// $('#burger').on("click", function () {
-	// 	$(".fullscreen-nav-container").toggleClass("open-nav");
-	// });
-	// $(".fullscreen-nav-holder a, .turn-home").on("click", function () {
-	// 	$("#burger").trigger("click");
-	// });
+
 	/*--------------------------------
 		 End Header
 	----------------------------------*/
@@ -173,21 +107,21 @@
 	// });
 
 	// Styling Menu on Scroll
-	$('.hello').waypoint({
-		handler: function (direction) {
-			// Fixing Menu after leaving Header Section
-			// $(".menu").toggleClass("menu-fix");
-			// Changing Menu background after leaving Header Section
-			// $(".menu-item").toggleClass("menu-item-transparent");
-			// Toggling Mobile Menu Visibility
-			// $(".mobile-menu").toggleClass("mobile-menu-fix");
-			// Auto-Collapsing Mobile Menu When Left Open
-			// var a = $(".menu-link").attr("class");
-			// if (direction == "up" && a == "menu-link active") {
-			// 	$(".menu-link").trigger("click");
-			// }
-		}
-	});
+	// $('.hello').waypoint({
+	// 	handler: function (direction) {
+	// 		// Fixing Menu after leaving Header Section
+	// 		// $(".menu").toggleClass("menu-fix");
+	// 		// Changing Menu background after leaving Header Section
+	// 		// $(".menu-item").toggleClass("menu-item-transparent");
+	// 		// Toggling Mobile Menu Visibility
+	// 		// $(".mobile-menu").toggleClass("mobile-menu-fix");
+	// 		// Auto-Collapsing Mobile Menu When Left Open
+	// 		// var a = $(".menu-link").attr("class");
+	// 		// if (direction == "up" && a == "menu-link active") {
+	// 		// 	$(".menu-link").trigger("click");
+	// 		// }
+	// 	}
+	// });
 
 	$('.hello').waypoint({
 		handler: function (direction) {
@@ -206,52 +140,13 @@
 		----------------------------------*/
 
 	/*--------------------------------
-			Start About Me
-	----------------------------------*/
-	// Initializing Skillbar Animation
-	// $('.skill h3').waypoint({
-	// 	handler: function (direction) {
-	// 		if (direction == "up") {
-	// 			$('.skillbar').each(function () {
-	// 				$(this).find('.skillbar-bar').css("width", "0");
-	// 			});
-	// 		} else if (direction == "down") {
-	// 			$('.skillbar').each(function () {
-	// 				$(this).find('.skillbar-bar').animate({
-	// 					width: jQuery(this).attr('data-percent')
-	// 				}, 2000);
-	// 			});
-	// 		}
-	// 	},
-	// 	offset: 'bottom-in-view'
-	// });
-	/*--------------------------------
-			End About Me
-	----------------------------------*/
-
-	/*--------------------------------
 			 Start Portfolio
 	----------------------------------*/
-	// Shuffle js filter
-	// var containerEl = document.querySelector('.pf-wrapper');
-	// if (containerEl) {
-	// 	var Shuffle = window.Shuffle;
-	// 	var myShuffle = new Shuffle(document.querySelector('.pf-wrapper'), {
-	// 		itemSelector: '.filtr-item',
-	// 		buffer: 1
-	// 	});
 
-	// 	jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
-	// 		var input = evt.currentTarget;
-	// 		if (input.checked) {
-	// 			myShuffle.filter(input.value);
-	// 		}
-	// 	});
-	// }
-
+    // Carousel recent works
 	var elem = document.querySelector('.main-carousel');
 	var flkty = new Flickity( elem, {
-	  // options
+	// options
 	//   cellAlign: 'center',
 	//   contain: true
 	wrapAround: true,
@@ -263,12 +158,29 @@
 	  }
 	});
 	
-	// element argument can be a selector string
-	//   for an individual element
-	var flkty = new Flickity( '.main-carousel', {
-	  // options
-	});
 
+    // Filtering Portfolio
+	var elem = document.querySelector('.pf-wrapper');
+    var iso = new Isotope( elem, {
+    // options
+    itemSelector: '.filtr-item',
+    layoutMode: 'masonry',
+	percentPosition: true,
+	// masonry: {
+	// 	columnWidth: 100
+	//   },
+	transitionDuration: '0.3s'
+    });
+
+
+    // $('.portfolio-navigation').on( 'click', 'input', function() {
+	// 	// get filter value from input value
+	// 	var filterValue = this.value;
+	// 	// use filterFn if matches value
+	// 	filterValue = filterFns[ filterValue ] || filterValue;
+	// 	$grid.isotope({ filter: filterValue });
+	// });
+	  
 
 	/*--------------------------------
 			 End Portfolio
