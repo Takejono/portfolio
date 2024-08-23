@@ -253,8 +253,14 @@
 	var flkty = new Flickity( elem, {
 	  // options
 	//   cellAlign: 'center',
-	  wrapAround: true,
 	//   contain: true
+	wrapAround: true,
+	arrowShape: { 
+		x0: 25,
+		x1: 60, y1: 50,
+		x2: 65, y2: 50,
+		x3: 40
+	  }
 	});
 	
 	// element argument can be a selector string

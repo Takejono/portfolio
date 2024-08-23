@@ -100,11 +100,11 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="portfolio portfolio-index {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="portfolio">
   {{ partial "divider" }}
-        <h1 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h1">{{ .Title }}</h1>
-        <div class="recentworks-wrapper main-carousel">
+        <h1 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h1">{{ .LinkTitle }}</h1>
+        <div class="recentworks-wrapper main-carousel wow fadeInUp" data-wow-duration="1s">
           {{ range first 6 .Data.Pages }}
-          <div class="carousel-cell" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
-            <div class="item-holder wow fadeInUp" data-wow-duration="1s">
+          <div class="carousel-cell">
+            <div class="item-holder">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" loading="lazy" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
                 <a href="{{.Permalink}}">
@@ -180,30 +180,6 @@
 {{ partial "divider" }}
     <h1 class="wow blurIn" data-wow-duration="0.6s" id="contact-h1">{{ .Title | markdownify}}</h1>
     <p class="wow fadeInUp" data-wow-duration="1s"><a href="mailto:takeshi.jonoo@gmail.com">takeshi.jonoo@gmail.com</a></p>
-     <!-- <form method="POST" data-netlify="true" data-toggle="validator" class="contact-form">
-      <div class="form-container wow fadeInUp" data-wow-duration="1s">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
-          <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
-         </svg>
-         </div>
-        <div class="form-group">
-          <input class="form-control" type="text" name="username" id="username" placeholder="{{.Params.name}}" required>
-          <div class="help-block with-errors"></div>
-        </div>
-        <div class="form-group">
-          <input class="form-control" type="email" id="email" name="email" placeholder="{{.Params.email}}" required>
-          <div class="help-block with-errors"></div>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" name="message" id="message" rows="12" placeholder="{{.Params.message}}"></textarea>
-          <div class="help-block with-errors"></div>
-        </div>
-        <div class="form-group">
-          <button class="submit" type="submit" value="send"> {{.Params.submit}} </button>
-        </div>
-      </div>
-     </form> -->
       <div class="footer fadeIn wow" data-wow-duration="1.5s">
           {{ partial "social-icon" }}
         <div class="credit content">
@@ -215,7 +191,7 @@
 <!-- End Contact -->
 
 <a href="#home" class="scroll-up">
-  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/>
   </svg>
 </a>

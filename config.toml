@@ -110,12 +110,12 @@ url = "#home"
 weight = 1
 
 [[Languages.fr.menu.main]]
-name = "Portfolio"
+name = "Recent works"
 url = "#portfolio-h1"
 weight = 2
 
 [[Languages.fr.menu.main]]
-name = "Portfolio List"
+name = "Portfolio"
 url = "portfolio"
 weight = 3
 
@@ -154,12 +154,12 @@ url = "#home"
 weight = 1
 
 [[Languages.jp.menu.main]]
-name = "ポートフォリオ"
+name = "最近のお仕事"
 url = "#portfolio-h1"
 weight = 2
 
 [[Languages.jp.menu.main]]
-name = "全ポートフォリオ"
+name = "ポートフォリオ"
 url = "portfolio"
 weight = 3
 
