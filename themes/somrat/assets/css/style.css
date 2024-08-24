@@ -934,7 +934,7 @@ a {
   text-align: left;
   padding: .8rem .3rem 0;
   opacity: 0;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), #ffffff, #fffdf6);
+  background: linear-gradient(rgba(255, 255, 255, 0.84), #fffef8);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -946,7 +946,7 @@ a {
   margin: 0;
   overflow-wrap: break-word;
   word-break:keep-all;
-  padding: 0;
+  padding-bottom: .5rem;
 }
 .item-caption h2:lang(jp) {
   font-size: 0.9rem;
@@ -965,10 +965,8 @@ a {
 .item-caption p {
   color: #999!important;
   font-size: 0.7rem;
-  /* display: inline-block; */
-  padding: 0 5px 0 0;
+  padding: 0;
   margin: 0;
-  /* text-align: left; */
 }
 
 .item-created {
@@ -979,7 +977,7 @@ a {
   right: 0;
   bottom: 0;
   padding: 0 3px 0 0;
-  font-size: 0.7rem;
+  font-size: .9rem;
   color: #999!important;
 }
 
