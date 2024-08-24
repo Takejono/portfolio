@@ -261,70 +261,20 @@ a {
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  transition: opacity 1s ease-in-out;
+  /* transition: opacity 1s ease-in-out; */
 }
 
-#background-slide.owl-off {
+/* #background-slide.owl-off {
   opacity: 0;
-}
+} */
 
-#background-slide .slider {
-  /* position: relative; */
+#background-slide img {
+  object-fit: cover;
   min-height: 100lvh;
   width: 100%;
   height: 100vh;
 }
 
-#background-slide .slider img {
-  display: none;
-}
-
-.owl-full-width div {
-  height: 100%;
-}
-
-/* .header::after {
-  background-image: url("/images/backgrounds/contact-bg.jpg");
-  background-size: cover;
-  background-position: top;
-  position: fixed;
-  transform: rotateX(180deg);
-  opacity: .1;
-  z-index: 1;
-} */
-
-.slider-button {
-  position: absolute;
-  top: 49%;
-  height: 35px;
-  width: 35px;
-  z-index: 11;
-  text-align: center;
-  /* font-size: 29px; */
-  color: #999;
-  opacity: 0;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-
-.slider-prev-button {
-  left: 40px;
-  transform: translateX(15px);
-}
-
-.slider-next-button {
-  right: 40px;
-  transform: translateX(-15px);
-}
-
-.slider-button:hover {
-  color: #fff;
-}
-
-.header:hover .slider-button {
-  opacity: 1;
-  transform: translateX(0px);
-}
 
 .head-container {
   display: table;

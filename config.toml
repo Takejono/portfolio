@@ -30,12 +30,9 @@ link = "https://api.fontshare.com/v2/css?f[]=asap@1&f[]=supreme@1&display=swap"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@800&family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap"
 [[params.plugins.css]]
-link = "plugins/owl-carousel/owl.carousel.min.css"
-[[params.plugins.css]]
-link = "plugins/owl-carousel/owl.theme.default.min.css"
-[[params.plugins.css]]
 link = "plugins/flickity/flickity.css"
-
+[[params.plugins.css]]
+link = "plugins/flickity/flickity-fade.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -47,9 +44,9 @@ link = "plugins/wow.min.js"
 [[params.plugins.js]]
 link = "plugins/jquery.waypoints.min.js"
 [[params.plugins.js]]
-link = "plugins/owl-carousel/owl.carousel.min.js"
-[[params.plugins.js]]
 link = "plugins/flickity/flickity.pkgd.min.js"
+[[params.plugins.js]]
+link = "plugins/flickity/flickity-fade.js"
 [[params.plugins.js]]
 link = "plugins/isotope.pkgd.min.js"
 

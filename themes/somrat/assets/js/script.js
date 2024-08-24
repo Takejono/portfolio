@@ -52,39 +52,60 @@
 	/*--------------------------------
 	 Start Header
 		----------------------------------*/
+    // Background Slider Head
+	var elem = document.querySelector('#background-slide');
+	var flkty = new Flickity( elem, {
+	// options
+	//   cellAlign: 'center',
+	  prevNextButtons: false,
+	  pageDots: false,
+	  autoPlay: 3000,
+	  draggable: false,
+	  pauseAutoPlayOnHover: false,
+	  fade: true,
+	  wrapAround: true
+	//   arrowShape: { 
+	// 	x0: 25,
+	// 	x1: 60, y1: 50,
+	// 	x2: 65, y2: 50,
+	// 	x3: 40
+	//   }
+	});
+
+		
 	// Initiating Background Slider
-	var backgroundSlide = $('#background-slide');
-	backgroundSlide.owlCarousel({
-		loop: true,
-		items: 1,
-		dots: false,
-		autoplay: true,
-		autoplayTimeout: 5000,
-		animateOut: 'fadeOut'
-	});
-	$('.slider-prev-button').on("click", function () {
-		backgroundSlide.trigger('prev.owl.carousel');
-	});
-	$('.slider-next-button').on("click", function () {
-		backgroundSlide.trigger('next.owl.carousel');
-	});
-	// Setting Up Background Images
-	function SliderBackground() {
-		if ($(".owl-full-width .slider").length) {
-			$(".owl-full-width .slider").each(function () {
-				var $this = $(this);
-				var img = $this.children(img);
-				var imgSrc = img.attr("src");
-				$this.css({
-					backgroundImage: "url(" + imgSrc + ")",
-					backgroundSize: "cover",
-					backgroundPosition: "center center"
-				});
-			});
-		}
-	}
-	// Initializing Background Setting Function
-	SliderBackground();
+	// var backgroundSlide = $('#background-slide');
+	// backgroundSlide.owlCarousel({
+	// 	loop: true,
+	// 	items: 1,
+	// 	dots: false,
+	// 	autoplay: true,
+	// 	autoplayTimeout: 5000,
+	// 	animateOut: 'fadeOut'
+	// });
+	// $('.slider-prev-button').on("click", function () {
+	// 	backgroundSlide.trigger('prev.owl.carousel');
+	// });
+	// $('.slider-next-button').on("click", function () {
+	// 	backgroundSlide.trigger('next.owl.carousel');
+	// });
+	// // Setting Up Background Images
+	// function SliderBackground() {
+	// 	if ($(".owl-full-width .slider").length) {
+	// 		$(".owl-full-width .slider").each(function () {
+	// 			var $this = $(this);
+	// 			var img = $this.children(img);
+	// 			var imgSrc = img.attr("src");
+	// 			$this.css({
+	// 				backgroundImage: "url(" + imgSrc + ")",
+	// 				backgroundSize: "cover",
+	// 				backgroundPosition: "center center"
+	// 			});
+	// 		});
+	// 	}
+	// }
+	// // Initializing Background Setting Function
+	// SliderBackground();
 
 	/*--------------------------------
 		 End Header

@@ -1,7 +1,7 @@
 <section class="menu" id="menu">
     <!-- Language List -->
     {{- if .IsTranslated }}
-    <select class="ml-4" id="select-language" onchange="location = this.value;">
+    <select id="select-language" onchange="location = this.value;">
                   {{ $siteLanguages := site.Languages}}
                   {{ $pageLang := .Page.Lang}}
                   {{ range .Page.AllTranslations }}
