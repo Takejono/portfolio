@@ -59,10 +59,10 @@
 	  fade: true,
 	  prevNextButtons: false,
 	  pageDots: false,
-	  autoPlay: 2500,
+	  autoPlay: 3500,
 	  draggable: false,
-	  pauseAutoPlayOnHover: false,
-	  wrapAround: true
+	  pauseAutoPlayOnHover: false
+	//   wrapAround: true
 	});
 
 

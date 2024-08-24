@@ -46,7 +46,7 @@ link = "plugins/jquery.waypoints.min.js"
 [[params.plugins.js]]
 link = "plugins/flickity/flickity.pkgd.min.js"
 [[params.plugins.js]]
-link = "plugins/flickity/flickity-fade.js"
+link = "https://unpkg.com/flickity-fade@1/flickity-fade.js"
 [[params.plugins.js]]
 link = "plugins/isotope.pkgd.min.js"
 
