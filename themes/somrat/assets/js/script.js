@@ -56,7 +56,6 @@
 	var elem = document.querySelector('#background-slide');
 	var flkty = new Flickity( elem, {
 	// options
-	//   cellAlign: 'center',
 	  prevNextButtons: false,
 	  pageDots: false,
 	  autoPlay: 3000,
@@ -64,48 +63,8 @@
 	  pauseAutoPlayOnHover: false,
 	  fade: true,
 	  wrapAround: true
-	//   arrowShape: { 
-	// 	x0: 25,
-	// 	x1: 60, y1: 50,
-	// 	x2: 65, y2: 50,
-	// 	x3: 40
-	//   }
 	});
 
-		
-	// Initiating Background Slider
-	// var backgroundSlide = $('#background-slide');
-	// backgroundSlide.owlCarousel({
-	// 	loop: true,
-	// 	items: 1,
-	// 	dots: false,
-	// 	autoplay: true,
-	// 	autoplayTimeout: 5000,
-	// 	animateOut: 'fadeOut'
-	// });
-	// $('.slider-prev-button').on("click", function () {
-	// 	backgroundSlide.trigger('prev.owl.carousel');
-	// });
-	// $('.slider-next-button').on("click", function () {
-	// 	backgroundSlide.trigger('next.owl.carousel');
-	// });
-	// // Setting Up Background Images
-	// function SliderBackground() {
-	// 	if ($(".owl-full-width .slider").length) {
-	// 		$(".owl-full-width .slider").each(function () {
-	// 			var $this = $(this);
-	// 			var img = $this.children(img);
-	// 			var imgSrc = img.attr("src");
-	// 			$this.css({
-	// 				backgroundImage: "url(" + imgSrc + ")",
-	// 				backgroundSize: "cover",
-	// 				backgroundPosition: "center center"
-	// 			});
-	// 		});
-	// 	}
-	// }
-	// // Initializing Background Setting Function
-	// SliderBackground();
 
 	/*--------------------------------
 		 End Header
@@ -114,35 +73,6 @@
 	/*--------------------------------
 	Start Menu
 		----------------------------------*/
-	// Highlighting Menu on Scroll Through Sections
-	// $(window).on('scroll', function () {
-	// 	$('section').each(function () {
-	// 		if ($(window).scrollTop() + 50 >= $(this).offset().top) {
-	// 			var id = $(this).attr('id');
-	// 			$('.menu-item').removeClass('active');
-	// 			$(".menu-item." + id).addClass("active");
-	// 			$(".mobile-menu-item").removeClass("active");
-	// 			$(".mobile-menu-item." + id).addClass("active");
-	// 		}
-	// 	});
-	// });
-
-	// Styling Menu on Scroll
-	// $('.hello').waypoint({
-	// 	handler: function (direction) {
-	// 		// Fixing Menu after leaving Header Section
-	// 		// $(".menu").toggleClass("menu-fix");
-	// 		// Changing Menu background after leaving Header Section
-	// 		// $(".menu-item").toggleClass("menu-item-transparent");
-	// 		// Toggling Mobile Menu Visibility
-	// 		// $(".mobile-menu").toggleClass("mobile-menu-fix");
-	// 		// Auto-Collapsing Mobile Menu When Left Open
-	// 		// var a = $(".menu-link").attr("class");
-	// 		// if (direction == "up" && a == "menu-link active") {
-	// 		// 	$(".menu-link").trigger("click");
-	// 		// }
-	// 	}
-	// });
 
 	$('.hello').waypoint({
 		handler: function (direction) {
