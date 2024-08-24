@@ -56,12 +56,12 @@
 	var elem = document.querySelector('#background-slide');
 	var flkty = new Flickity( elem, {
 	// options
+	  fade: true,
 	  prevNextButtons: false,
 	  pageDots: false,
-	  autoPlay: 3000,
+	  autoPlay: 2500,
 	  draggable: false,
 	  pauseAutoPlayOnHover: false,
-	  fade: true,
 	  wrapAround: true
 	});
 
