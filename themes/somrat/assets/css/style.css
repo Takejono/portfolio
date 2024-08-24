@@ -828,6 +828,11 @@ a {
   .carousel-cell { width: 70%; }
 } */
 
+.recentworks-wrapper:not(:hover) .flickity-prev-next-button {
+  transition: all 0.4s;
+  opacity: 0;
+}
+
 .flickity-prev-next-button {
   top: 60%;
 }
@@ -1085,7 +1090,7 @@ h4 { /* categorie name */
     flex-grow: 1;
     flex-basis: 150px;
     width: 150px;
-    max-height: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 4px;
     }
