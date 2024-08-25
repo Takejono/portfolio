@@ -917,7 +917,7 @@ div:has(> .btn-more) {
   font-weight: 500;
 }
 .infos-gallery {
-  z-index: 1;
+  padding-top: 2rem;
   ul {
     margin-inline: auto 0;
     width: fit-content;
