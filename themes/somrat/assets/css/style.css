@@ -894,7 +894,7 @@ div:has(> .btn-more) {
 .folio-wrapper {
   padding: 4rem 2rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   justify-items: center;
   #carousel-folio {
