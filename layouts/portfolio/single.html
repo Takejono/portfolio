@@ -5,7 +5,7 @@
   <div class="folio-wrapper">
       <div id="carousel-folio" class="carousel slide" data-bs-ride="carousel">
 
-        <div class="wow fadeInUp carousel-inner" data-wow-duration="1s">
+        <div class="carousel-inner wow fadeInUp" data-wow-duration=".6s">
           <div class="carousel-item active" href="{{ .Params.Image | absURL }}" title="{{ .Params.img_title | markdownify }}">
             <img src="{{.Params.Image | absURL}}" alt="image" class="d-block img-fluid w-100">
           </div>
@@ -18,7 +18,7 @@
 
       </div>
 
-      <div class="single-text">
+      <div class="single-text wow fadeInUp" data-wow-duration=".8s">
       <h3>{{.Title | markdownify}}</h3>
       <div class="content">{{.Content}}</div>
 

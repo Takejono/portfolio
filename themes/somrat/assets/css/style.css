@@ -208,7 +208,7 @@ a {
 .scroll-up::before {
   content: "";
   position: absolute;
-  opacity: .7;
+  opacity: .5;
   height: 40px;
   width: 40px;
   left: 0rem;
@@ -892,29 +892,31 @@ div:has(> .btn-more) {
 
 
 .folio-wrapper {
-  padding: 4rem 2rem 0;
+  padding: 4rem 1.5rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   justify-items: center;
-  #carousel-folio {
-  }
   .carousel-item {
-    img {
+    /* height: 500px; */
+    max-height: 80svh;
+      img {
       object-fit: contain;
-      max-height: 80svh;
+      height: 100%;
     }
   }
 }
 
-.single-text h3 {
+.single-text {
+  h3 {
   font-family: 'Supreme', serif;
   font-size: 1.5rem;
   font-weight: 500;
-}
-.single-text h3:lang(jp) {
+  }
+  h3:lang(jp) {
   font-family: 'Zen Kaku Gothic Antique', serif;
   font-weight: 500;
+  }
 }
 .infos-gallery {
   padding-top: 2rem;
