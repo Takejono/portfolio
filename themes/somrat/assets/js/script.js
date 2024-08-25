@@ -132,6 +132,21 @@
 	// 	$grid.isotope({ filter: filterValue });
 	// });
 	  
+    // Carousel folio
+	var elem = document.querySelector('#carousel-folio');
+	var flkty = new Flickity( elem, {
+	// options
+	  cellAlign: 'center',
+	//   contain: true
+	wrapAround: true,
+	arrowShape: { 
+		x0: 25,
+		x1: 60, y1: 50,
+		x2: 65, y2: 50,
+		x3: 40
+	  }
+	});
+
 
 	/*--------------------------------
 			 End Portfolio

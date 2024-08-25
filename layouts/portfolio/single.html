@@ -3,19 +3,12 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="section-single {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
   <div class="folio-wrapper">
-      <div id="carousel-folio" class="carousel slide" data-bs-ride="carousel">
 
-        <div class="carousel-inner wow fadeInUp" data-wow-duration=".6s">
-          <div class="carousel-item active" href="{{ .Params.Image | absURL }}" title="{{ .Params.img_title | markdownify }}">
-            <img src="{{.Params.Image | absURL}}" alt="image" class="d-block img-fluid w-100">
-          </div>
+      <div id="carousel-folio">
+            <img src="{{.Params.Image | absURL}}" alt="image" class="folio-item">
             {{ range .Params.resources }}
-          <div class="carousel-item" href="{{ .src | absURL }}" title="{{ .title | markdownify }}">
-            <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}" class="d-block img-fluid w-100">
-          </div>
+            <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}" class="folio-item">
           {{ end }}
-        </div>
-
       </div>
 
       <div class="single-text wow fadeInUp" data-wow-duration=".8s">

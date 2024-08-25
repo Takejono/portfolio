@@ -897,13 +897,14 @@ div:has(> .btn-more) {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   justify-items: center;
-  .carousel-item {
-    /* height: 500px; */
-    max-height: 80svh;
-      img {
-      object-fit: contain;
-      height: 100%;
-    }
+  #carousel-folio {
+    width: 100%;
+  }
+  .folio-item {
+    height: 500px;
+    object-fit: contain;
+     /* height: 100%; */
+    width: 100%;
   }
 }
 
