@@ -189,8 +189,8 @@ a {
 
 .scroll-up {
   position: fixed;
-  right: 20px;
-  bottom: 40px;
+  right: 15px;
+  bottom: 15px;
   text-decoration: none;
   color: var(--divide-bg-color);
   cursor: pointer;
