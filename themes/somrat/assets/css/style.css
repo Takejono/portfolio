@@ -805,7 +805,7 @@ a {
 }
 
 .carousel-cell:not(.is-selected) .item-holder {
-  opacity: .4;
+  opacity: .3;
   &:hover {
     opacity: 1;
   }
