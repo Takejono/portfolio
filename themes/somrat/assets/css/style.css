@@ -6,6 +6,8 @@
   --hvr-color: #faca09;
   --contact-bg-color: #09234a;
   --contact-color: #787164; 
+  --news-bg-color: #699c62;
+  --hello-end-color: #454138;
 }
 html {
   height: 100%;
@@ -31,7 +33,7 @@ h1 {
   font-weight: 700;
   margin-bottom: 1rem;
   color: #25252f;
-  top: calc(-5px - 7vw);
+  top: calc(-3px - 7vw);
   position: absolute;
 }
 h1:lang(jp) {
@@ -261,19 +263,28 @@ a {
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  /* transition: opacity 1s ease-in-out; */
+  &::after {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    z-index: 1;
+  }
+  img {
+    object-fit: cover;
+    min-height: 100lvh;
+    width: 100%;
+    height: 100vh;
+    transition: opacity .8s ease-in-out;
+  }
 }
 
 /* #background-slide.owl-off {
   opacity: 0;
 } */
-
-#background-slide img {
-  object-fit: cover;
-  min-height: 100lvh;
-  width: 100%;
-  height: 100vh;
-}
 
 
 .head-container {
@@ -604,87 +615,13 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(var(--divide-bg-color) 5%, #4541387f);
+  background: linear-gradient(var(--divide-bg-color) 5%, color-mix(in srgb, var(--hello-end-color), transparent 30%) 80%, var(--hello-end-color) 95%);
   height: 100%;
   width: 100%;
   z-index: -1;
   overflow: hidden;
 } 
 
-/*--------------------------------
-   Start About Me
-----------------------------------*/
-
-.about-me {
-  /* background: var(--divide-bg-color); */
-  background: #686868;
-  padding: 0;
-  z-index: 0;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  /* height: 100%; */
-  h1 {
-    position: absolute;
-    top: calc(-0px - 3vw);
-    right: 0;
-    color: #eeca6875;
-    z-index: 1;
-  }
-  h1:lang(jp) {
-    top: -12px;
-  }
-}
-
-.about-me::before {
-  content: "";
-  background: radial-gradient( at left bottom, #73824f6d, #ffffff12, #57483275);
-  backdrop-filter: sepia(25%);
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-
-.about-me-text {
-  position: relative;
-  background: linear-gradient(180deg, #ffe5881e, #fdf6d2a0);
-  -webkit-backdrop-filter: blur(18px);
-  backdrop-filter: blur(18px);
-  padding: 12rem 1.5rem;
-  border-radius: 4px;
-  width: clamp(26rem, 40vw, 590px);
-  /* height: fit-content; */
-  /* margin-inline: auto 0; */
-  margin-inline: auto clamp(0%, 2%, 40%);
-  p {
-    color: var(--divide-bg-color);
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .about-me {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    padding: 70vw 0 0;
-    min-height: 100%;
-  }
-  .about-me-text {
-    padding: 4rem 1.5rem 6rem!important;
-    border-radius: 0!important;
-    width: 100%;
-    margin-inline: auto;
-  }  
-  .about-me::before {
-    background: radial-gradient( at left 40%, #73824f6d, #ffffff12, #57483275);
-  }
-}
-
-/*--------------------------------
-   End About Me
-----------------------------------*/
 
 /*--------------------------------
   Start Services
@@ -754,7 +691,8 @@ a {
   h1 {
     font-size: clamp(1rem, 13vw, 9rem);
     z-index: 2;
-    color: #e2e2e294;
+    color: color-mix(in srgb, #454138, transparent 30%);
+    /* color: #e2e2e294; */
     right: 0;
     text-align: right;
     margin: 0;
@@ -952,23 +890,20 @@ div:has(> .btn-more) {
   }
 }
 
-#carousel-folio {
-  padding: 2rem 0rem 2rem;
-  /* overflow: hidden; */
-}
-.carousel-item {
-  height: calc(100vh - 6rem);
-  img {
-    object-fit: contain;
-    height: 100%;
-  }
-}
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  color: #000000;
-  background: none;
-  svg {
-    filter: drop-shadow(0px 0px 3px #fff);
+.folio-wrapper {
+  padding: 4rem 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  #carousel-folio {
+  }
+  .carousel-item {
+    img {
+      object-fit: contain;
+      max-height: 80svh;
+    }
   }
 }
 
@@ -981,13 +916,26 @@ div:has(> .btn-more) {
   font-family: 'Zen Kaku Gothic Antique', serif;
   font-weight: 500;
 }
-.sticky-top {
+.infos-gallery {
   z-index: 1;
-}
-h4 { /* categorie name */
-  font-family: 'Supreme', 'Kaisei Tokumin';
-  font-size: 1.1rem;
-  margin-bottom: 2px;
+  ul {
+    margin-inline: auto 0;
+    width: fit-content;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    font-size: .8rem;
+    h4 { /* categorie name */
+      font-family: 'Supreme', 'Kaisei Tokumin';
+      font-size: .9rem;
+      margin-bottom: 2px;
+    }
+    li > div {
+      display: inline-block;
+      vertical-align: text-top;
+      padding: 0 0 1rem 3px;
+    }
+  }
 }
 
 /*--------------------------------
@@ -998,7 +946,6 @@ h4 { /* categorie name */
    Start News
 ----------------------------------*/
 .news {
-  --news-bg-color: #699c62;
   position: relative;
   background: var(--news-bg-color);
   z-index: 3;
@@ -1052,7 +999,8 @@ h4 { /* categorie name */
     border-bottom: 0;
   }
   h1 {
-    color: #9ba89294;
+    color: color-mix(in srgb, #fff, transparent 30%);
+    /* color: #9ba89294; */
     z-index: 2;
   }
   h2 {
@@ -1071,6 +1019,81 @@ h4 { /* categorie name */
 ----------------------------------*/
 
 /*--------------------------------
+   Start About Me
+----------------------------------*/
+
+.about-me {
+  /* background: var(--divide-bg-color); */
+  background: #686868;
+  padding: 0;
+  z-index: 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  /* height: 100%; */
+  h1 {
+    position: absolute;
+    top: calc(-0px - 3vw);
+    right: 0;
+    color: color-mix(in srgb, var(--news-bg-color), transparent 30%);
+    /* color: #eeca6875; */
+    z-index: 1;
+  }
+  h1:lang(jp) {
+    top: -12px;
+  }
+  &::before {
+    content: "";
+    background: radial-gradient( at left bottom, #73824f6d, #ffffff12, #57483275);
+    backdrop-filter: sepia(5%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }  
+}
+
+.about-me-text {
+  position: relative;
+  background: linear-gradient(180deg, #ffe5881e, #fdf6d2a0);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+  padding: 12rem 1.5rem;
+  border-radius: 4px;
+  width: clamp(26rem, 40vw, 590px);
+  /* height: fit-content; */
+  /* margin-inline: auto 0; */
+  margin-inline: auto clamp(0%, 2%, 40%);
+  p {
+    color: var(--divide-bg-color);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about-me {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 70vw 0 0;
+    min-height: 100%;
+  }
+  .about-me-text {
+    padding: 4rem 1.5rem 6rem!important;
+    border-radius: 0!important;
+    width: 100%;
+    margin-inline: auto;
+  }  
+  .about-me::before {
+    background: radial-gradient( at left 40%, #73824f6d, #ffffff12, #57483275);
+  }
+}
+
+/*--------------------------------
+   End About Me
+----------------------------------*/
+
+/*--------------------------------
    Start Contact
 ----------------------------------*/
 
@@ -1085,7 +1108,7 @@ h4 { /* categorie name */
     bottom: -1px;
   }
   h1 {
-    color: color-mix(in srgb, var(--contact-color) 50%, #1430696f);
+    color: color-mix(in srgb, var(--contact-color) 50%, #fdf6d2a0);
     z-index: 2;
     width: 100%;
     text-align: center;
