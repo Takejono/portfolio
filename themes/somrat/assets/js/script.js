@@ -109,7 +109,6 @@
 	  }
 	});
 	
-
     // Filtering Portfolio
 	var elem = document.querySelector('.pf-wrapper');
     var iso = new Isotope( elem, {
@@ -122,16 +121,22 @@
 	//   },
 	transitionDuration: '0.3s'
     });
-
-
-    // $('.portfolio-navigation').on( 'click', 'input', function() {
-	// 	// get filter value from input value
-	// 	var filterValue = this.value;
-	// 	// use filterFn if matches value
-	// 	filterValue = filterFns[ filterValue ] || filterValue;
-	// 	$grid.isotope({ filter: filterValue });
-	// });
-	  
+ 
+    // Carousel portfolio item
+	var elem = document.querySelector('#carousel-folio');
+	var flkty = new Flickity( elem, {
+	// options
+	  cellAlign: 'center',
+	//   contain: true
+	wrapAround: true,
+	arrowShape: { 
+		x0: 25,
+		x1: 60, y1: 50,
+		x2: 65, y2: 50,
+		x3: 40
+	  }
+	});
+	
 
 	/*--------------------------------
 			 End Portfolio
