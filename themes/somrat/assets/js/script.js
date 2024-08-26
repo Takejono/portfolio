@@ -59,7 +59,7 @@
 	  fade: true,
 	  prevNextButtons: false,
 	  pageDots: false,
-	  autoPlay: 3500,
+	  autoPlay: 3000,
 	  draggable: false,
 	  pauseAutoPlayOnHover: false
 	//   wrapAround: true
@@ -121,8 +121,17 @@
 	//   },
 	transitionDuration: '0.3s'
     });
- 
-    // Carousel portfolio item
+
+
+    // $('.portfolio-navigation').on( 'click', 'input', function() {
+	// 	// get filter value from input value
+	// 	var filterValue = this.value;
+	// 	// use filterFn if matches value
+	// 	filterValue = filterFns[ filterValue ] || filterValue;
+	// 	$grid.isotope({ filter: filterValue });
+	// });
+	  
+    // Carousel folio
 	var elem = document.querySelector('#carousel-folio');
 	var flkty = new Flickity( elem, {
 	// options
@@ -136,7 +145,7 @@
 		x3: 40
 	  }
 	});
-	
+
 
 	/*--------------------------------
 			 End Portfolio
