@@ -117,29 +117,27 @@
     itemSelector: '.filtr-item',
     layoutMode: 'masonry',
 	// percentPosition: true,
-	selectedAttraction: 0.01,
-    friction: 0.2,
 	// masonry: {
 	// 	columnWidth: 100
 	//   },
 	transitionDuration: '0.3s'
     });
 
-
-    $('.portfolio-navigation').on( 'click', 'input', function() {
-		// get filter value from input value
-		var filterValue = this.value;
-		// use filterFn if matches value
-		filterValue = filterFns[ filterValue ] || filterValue;
-		$grid.isotope({ filter: filterValue });
-	});
-	  
+    // $('portfolio-navigation').on( 'click', 'input', function() {
+	// 	// get filter value from input value
+	// 	var filterValue = this.value;
+	// 	// use filterFn if matches value
+	// 	filterValue = filterFns[ filterValue ] || filterValue;
+	// 	$grid.isotope({ filter: filterValue });
+	// });
+ 
     // Carousel folio
 	var elem = document.querySelector('#carousel-folio');
 	var flkty = new Flickity( elem, {
 	// options
-	  cellAlign: 'center',
-	//   contain: true
+	cellAlign: 'center',
+	selectedAttraction: 0.01,
+	friction: 0.2,
 	wrapAround: true,
 	arrowShape: { 
 		x0: 25,
@@ -148,7 +146,6 @@
 		x3: 40
 	  }
 	});
-
 
 	/*--------------------------------
 			 End Portfolio
