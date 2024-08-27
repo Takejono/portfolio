@@ -350,12 +350,10 @@ a {
 
 .btn-start {
     text-align: center;
-    /* margin-inline: auto 0; */
     position: absolute;
     bottom: 20px;
     width: 100%;
-    /* left: 0; */
-    /* right: 20px; */
+    /* margin-inline: auto 0; */
     z-index: 11;
     svg {
       opacity: 0.6;
