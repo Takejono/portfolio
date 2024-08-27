@@ -28,8 +28,8 @@ body {
 }
 
 h1 {
-  font-family: 'Asap', 'Kaisei Tokumin', serif;
-  font-size: clamp(3rem, 14vw, 10rem);
+  font-family: 'Gambetta', 'Kaisei Tokumin', serif;
+  font-size: clamp(1rem, 13vw, 10rem);
   font-weight: 200;
   margin-bottom: 1rem;
   color: #25252f;
