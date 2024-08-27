@@ -30,10 +30,11 @@ body {
 h1 {
   font-family: 'Gambetta', 'Kaisei Tokumin', serif;
   font-size: clamp(1rem, 12vw, 10rem);
+  line-height: 3px;
   font-weight: 200;
   margin-bottom: 1rem;
   color: #25252f;
-  top: calc(-3px - 7vw);
+  top: calc(0px - 7vw);
   position: absolute;
 }
 h1:lang(jp) {
