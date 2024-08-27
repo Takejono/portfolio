@@ -29,7 +29,7 @@ body {
 
 h1 {
   font-family: 'Gambetta', 'Kaisei Tokumin', serif;
-  font-size: clamp(1rem, 13vw, 10rem);
+  font-size: clamp(1rem, 12vw, 10rem);
   font-weight: 200;
   margin-bottom: 1rem;
   color: #25252f;
