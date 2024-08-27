@@ -30,11 +30,12 @@ body {
 h1 {
   font-family: 'Gambetta', 'Kaisei Tokumin', serif;
   font-size: clamp(0rem, 12vw, 11rem);
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 1rem;
   color: #25252f;
-  top: calc(3px - 7vw);
-  position: absolute
+  top: calc(5px - 7vw);
+  position: absolute;
+  z-index: 2;
 }
 h1:lang(jp) {
   word-break:keep-all;
@@ -689,12 +690,9 @@ a {
     bottom: 49px;
   }
   h1 {
-    z-index: 2;
     color: color-mix(in srgb, #454138, transparent 30%);
-    /* color: #e2e2e294; */
     right: 0;
-    text-align: right;
-    margin: 0;
+
   }
 }
 
@@ -729,10 +727,10 @@ a {
 }
 
 .portfolio-list {
-  padding: 50px 0 0;
+  /* padding: 50px 0 0; */
   h1 {
-  position: relative;
   top: 1rem;
+  position: relative;
   text-align: center;
   }
 }
@@ -1008,7 +1006,6 @@ div:has(> .btn-more) {
   h1 {
     color: color-mix(in srgb, #fff, transparent 30%);
     /* color: #9ba89294; */
-    z-index: 2;
   }
   h2 {
     font-size: 1.3rem;
@@ -1114,7 +1111,6 @@ div:has(> .btn-more) {
   }
   h1 {
     color: color-mix(in srgb, var(--contact-color) 50%, #fdf6d2a0);
-    z-index: 2;
     width: 100%;
     text-align: center;
   }
