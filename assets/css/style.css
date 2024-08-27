@@ -29,13 +29,12 @@ body {
 
 h1 {
   font-family: 'Gambetta', 'Kaisei Tokumin', serif;
-  font-size: clamp(1rem, 12vw, 10rem);
-  line-height: 3px;
+  font-size: clamp(0rem, 12vw, 11rem);
   font-weight: 200;
   margin-bottom: 1rem;
   color: #25252f;
-  top: calc(0px - 7vw);
-  position: absolute;
+  top: calc(3px - 7vw);
+  position: absolute
 }
 h1:lang(jp) {
   word-break:keep-all;
@@ -690,7 +689,6 @@ a {
     bottom: 49px;
   }
   h1 {
-    font-size: clamp(1rem, 13vw, 9rem);
     z-index: 2;
     color: color-mix(in srgb, #454138, transparent 30%);
     /* color: #e2e2e294; */
