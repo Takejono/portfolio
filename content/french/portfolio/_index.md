@@ -1,6 +1,6 @@
 ---
 title: "PORTFOLIO"
-description: "This is meta description."
+description: "Takeshi JONOO : Artiste | Illustrateur | Graphiste"
 draft: false
 link_list: "&#43;"
 linkTitle: "RECENT WORKS"

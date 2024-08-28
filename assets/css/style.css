@@ -750,9 +750,19 @@ div:has(> .btn-more) {
 .portfolio-list {
   padding-bottom: 0 !important;
   h1 {
-  top: 1rem;
+  top: .1rem;
   position: relative;
   text-align: center;
+  margin: 0;
+  }
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: clamp(.1rem, 2.8vw, 2rem);
+    font-weight: 300;
+    letter-spacing: .05rem;
+    color: #9a9a9a;
   }
 }
 
