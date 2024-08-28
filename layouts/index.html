@@ -92,10 +92,9 @@
 <section class="portfolio portfolio-index {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="portfolio">
   {{ partial "divider" }}
         <h1 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h1">{{ .LinkTitle }}</h1>
-        <div class="recentworks-wrapper main-carousel wow fadeInUp" data-wow-duration="1s">
+        <div class="rw-wrapper wow fadeInUp" data-wow-duration="1s">
           {{ range first 6 .Data.Pages }}
           <div class="carousel-cell">
-            <div class="item-holder">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" loading="lazy" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
                 <a href="{{.Permalink}}">
@@ -109,7 +108,6 @@
                   {{ .Params.Date_show }}{{else}}{{ .Params.Date.Format "2006"}}{{ end }}
                 </div>
               </div>
-            </div>
           </div>
           {{ end }}
         </div>

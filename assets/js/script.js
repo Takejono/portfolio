@@ -95,7 +95,7 @@
 	----------------------------------*/
 
     // Carousel recent works
-	var elem = document.querySelector('.main-carousel');
+	var elem = document.querySelector('.rw-wrapper');
 	var flkty = new Flickity( elem, {
 	// options
 	//   cellAlign: 'center',

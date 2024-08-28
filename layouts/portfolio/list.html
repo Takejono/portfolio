@@ -24,7 +24,6 @@
         <div class="pf-wrapper">
           {{ range .Data.Pages }}
           <div class="filtr-item wow fadeInUp" data-wow-duration=".8s" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
-            <div class="item-holder">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
                 <a href="{{.Permalink}}">
@@ -35,7 +34,6 @@
                 {{ end }}
                <div class="item-created">{{ .PublishDate.Format "2006" }}</div>
               </div>
-            </div>
           </div>
           {{ end }}
         </div>
