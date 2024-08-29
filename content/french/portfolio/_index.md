@@ -1,6 +1,6 @@
 ---
 title: "PORTFOLIO"
-description: "Takeshi JONOO : Artiste | Illustrateur | Graphiste"
+description: " Artiste | Peintre | Illustrateur | Graphiste"
 draft: false
 link_list: "&#43;"
 linkTitle: "RECENT WORKS"

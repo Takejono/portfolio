@@ -756,18 +756,39 @@ div:has(> .btn-more) {
   h1 {
   top: .1rem;
   position: relative;
-  text-align: center;
   margin: 0;
+  font-weight: 400;
+  &::first-letter {
+  font-size: clamp(0rem, 19vw, 14rem);
+  font-weight: 200;
+  letter-spacing: -0.05ch;
   }
-  .description {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    font-size: clamp(.1rem, 2.8vw, 2rem);
-    font-weight: 300;
-    letter-spacing: .05rem;
+  }
+}
+
+.portfolio-typo {
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+  .desc-nom {
+    position: absolute;
+    top: clamp(0px, 2vw, 40px);
+    right: 6px;
+    font-size: clamp(0rem, 4.3vw, 3rem);
     color: #9a9a9a;
   }
+    .desc-domain {
+      /* position: absolute; */
+      top: clamp(65px, 16.5vw, 240px);
+      width: fit-content;
+      margin-inline: auto 6px;
+      margin-top: clamp(-10px, -10vw, -90px);
+      margin-inline: auto;
+      font-size: clamp(0rem, 2.8vw, 2rem);
+      font-weight: 200;
+      letter-spacing: clamp(0rem, .5vw, 0.4rem);
+      color: #9a9a9a;
+    }
 }
 
 .pf-wrapper {

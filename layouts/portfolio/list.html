@@ -2,9 +2,11 @@
 
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
+  <div class="portfolio-typo">
+  <span class="desc-nom wow blurIn" data-wow-duration=".6s">Takeshi JONOO</span>
   <h1 class="wow blurIn" data-wow-duration=".6s">{{ .Title }}</h1>
-  <h2 class="description wow blurIn" data-wow-duration=".6s">{{ .Description }}</h2>
-
+  <h2 class="desc-domain wow blurIn" data-wow-duration=".6s">{{ .Description }}</h2>
+  </div>
         <!-- <div class="portfolio-navigation wow fadeInUp" data-wow-duration=".7s" data-toggle="buttons">
             <label class="btn">
               <input class="tag" type="radio" name="shuffle-filter" value="all" checked="checked" />All
