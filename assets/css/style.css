@@ -28,9 +28,9 @@ body {
 }
 
 h1 {
-  font-family: 'Boska', 'Kaisei Tokumin', serif;
-  font-size: clamp(0rem, 12vw, 11rem);
-  font-weight: 500;
+  font-family: 'Zodiak', 'Kaisei Tokumin', serif;
+  font-size: clamp(0rem, 11vw, 9rem);
+  font-weight: 200;
   margin-bottom: 1rem;
   color: #25252f;
   top: calc(5px - 7vw);
@@ -752,28 +752,28 @@ div:has(> .btn-more) {
 
 .portfolio-list {
   padding-bottom: 0 !important;
-  h1 {
-  top: .1rem;
-  position: relative;
-  margin: 0;
-  font-weight: 400;
-  &::first-letter {
-  font-size: clamp(0rem, 19vw, 14rem);
-  font-weight: 300;
-  letter-spacing: -0.05ch;
-  }
-  }
 }
 
 .portfolio-typo {
   position: relative;
   width: fit-content;
   margin-inline: auto;
-  .desc-nom {
+  h1 {
+    top: .1rem;
+    position: relative;
+    margin: 0;
+    font-weight: 400;
+    &::first-letter {
+    font-size: clamp(0rem, 17vw, 16rem);
+    font-weight: 300;
+    letter-spacing: -0.1ch;
+    }
+    }
+    .desc-nom {
     position: absolute;
-    top: clamp(0px, 2vw, 40px);
+    top: clamp(0px, 3vw, 60px);
     right: 6px;
-    font-size: clamp(0rem, 4.3vw, 3rem);
+    font-size: clamp(0rem, 4.3vw, 3.5rem);
     color: #9a9a9a;
   }
     .desc-domain {
@@ -781,11 +781,11 @@ div:has(> .btn-more) {
       top: clamp(65px, 16.5vw, 240px);
       width: fit-content;
       margin-inline: auto 6px;
-      margin-top: clamp(-10px, -10vw, -90px);
-      margin-inline: auto;
+      margin-top: -10px;
+      margin-inline: auto 6px;
       font-size: clamp(0rem, 2.8vw, 2rem);
       font-weight: 200;
-      letter-spacing: clamp(0rem, .5vw, 0.4rem);
+      letter-spacing: clamp(0rem, .45vw, 10rem);
       color: #9a9a9a;
     }
 }
