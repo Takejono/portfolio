@@ -28,9 +28,9 @@ body {
 }
 
 h1 {
-  font-family: 'Gambetta', 'Kaisei Tokumin', serif;
+  font-family: 'Boska', 'Kaisei Tokumin', serif;
   font-size: clamp(0rem, 12vw, 11rem);
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 1rem;
   color: #25252f;
   top: calc(5px - 7vw);
@@ -759,7 +759,7 @@ div:has(> .btn-more) {
   font-weight: 400;
   &::first-letter {
   font-size: clamp(0rem, 19vw, 14rem);
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: -0.05ch;
   }
   }
