@@ -574,15 +574,14 @@ a {
   background-image: url("/images/backgrounds/atelier02.jpg");
   background-size: cover;
   background-position: center;
-  padding: 0;
+  padding-bottom: 120px;
   z-index: 1;
   position: relative;
   color: #fff1c5;
-  position: relative;
-  min-height: calc(100vh + 120px);
+  /* min-height: calc(100vh + 120px); */
   .container {
     padding: 10vh 0rem;
-    height: 800px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
   }
