@@ -30,10 +30,10 @@ body {
 h1 {
   font-family: 'Zodiak', 'Kaisei Tokumin', serif;
   font-size: clamp(0rem, 11vw, 9rem);
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 1rem;
   color: #25252f;
-  top: calc(5px - 7vw);
+  top: calc(0px - 4vw);
   position: absolute;
   z-index: 2;
 }
@@ -876,8 +876,8 @@ div:has(> .btn-more) {
   a {
     text-decoration: none;
     color: #25252f;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
     &:hover {
       color: var(--hvr-color);
     }
