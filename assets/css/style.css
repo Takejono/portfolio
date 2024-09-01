@@ -33,7 +33,7 @@ h1 {
   font-weight: 300;
   margin-bottom: 1rem;
   color: #25252f;
-  top: calc(0px - 4vw);
+  top: calc(1rem - 4vw);
   position: absolute;
   z-index: 2;
 }
