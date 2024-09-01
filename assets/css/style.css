@@ -1032,6 +1032,10 @@ div:has(> .btn-more) {
   a {
     color: #3d3a33;
   }
+  strong {
+    font-weight: 450;
+    color: #fff;
+  }
 }
 
 /*--------------------------------
