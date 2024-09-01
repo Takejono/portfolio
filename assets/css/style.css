@@ -19,18 +19,18 @@ html {
 }
 
 body {
-  font-family: 'Supreme', 'Zen Kaku Gothic Antique', sans-serif;
+  font-family: 'General Sans', 'Zen Kaku Gothic Antique', sans-serif;
   font-weight: 350;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.02rem;
   height: 100%;
   color: #3d3a33;
   fill: #3d3a33;
 }
 
 h1 {
-  font-family: 'Zodiak', 'Kaisei Tokumin', serif;
+  font-family: 'Rowan', 'Kaisei Tokumin', serif;
   font-size: clamp(0rem, 11vw, 9rem);
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 1rem;
   color: #25252f;
   top: calc(0px - 4vw);
@@ -527,7 +527,7 @@ a {
 .menu-slider li a {
   color: #3d3a33;
   font-size: clamp(1.3rem, 4vh, 2.3rem);
-  font-family: 'Asap', 'Kaisei Tokumin';
+  font-family: 'General Sans', 'Kaisei Tokumin';
   font-weight: 600;
   letter-spacing: 0.4vw;
   transition: all 0.3s linear;
@@ -586,14 +586,14 @@ a {
     flex-direction: column;
   }
   .hello-txt {
-    font-family: 'Asap', 'Kaisei Tokumin';
+    font-family: 'Rowan', 'Kaisei Tokumin';
     display: flex;
     align-items: center;
     flex: auto;
     justify-content: space-evenly;
     text-align: center;
     font-size: calc(1.2rem + 1.3vw);
-    font-style: italic;
+    /* font-style: italic; */
     letter-spacing: 0.2rem;
    }
    .container:lang(jp) {
@@ -757,10 +757,11 @@ div:has(> .btn-more) {
 .portfolio-typo {
   position: relative;
   width: fit-content;
+  height: fit-content;
   margin-inline: auto;
   h1 {
-    top: .1rem;
     position: relative;
+    top: 0;
     margin: 0;
     font-weight: 400;
     &::first-letter {
@@ -769,29 +770,28 @@ div:has(> .btn-more) {
     letter-spacing: -0.1ch;
     }
     }
-    .desc-nom {
+  .desc-nom {
     position: absolute;
-    top: clamp(0px, 3vw, 60px);
-    right: 6px;
+    top: clamp(-30px, 2.5vw, 60px);
+    right: clamp(-6px, .9vw, 15px);
     font-size: clamp(0rem, 4.3vw, 3.5rem);
+    font-weight: 600;
     color: #9a9a9a;
   }
     .desc-domain {
-      /* position: absolute; */
-      top: clamp(65px, 16.5vw, 240px);
-      width: fit-content;
-      margin-inline: auto 6px;
-      margin-top: -10px;
-      margin-inline: auto 6px;
-      font-size: clamp(0rem, 2.8vw, 2rem);
-      font-weight: 200;
-      letter-spacing: clamp(0rem, .45vw, 10rem);
+      position: relative;
+      top: clamp(-15px, -10vw, 0px);
+      text-align: center;
+      margin-inline: auto;
+      font-size: clamp(0rem, 2.5vw, 2rem);
+      font-weight: 300;
+      letter-spacing: clamp(0rem, .4vw, 10rem);
       color: #9a9a9a;
     }
 }
 
 .pf-wrapper {
-  margin: 7rem .7rem 0;
+  margin: 3rem .7rem 0;
 }
 
 .portfolio-navigation {
