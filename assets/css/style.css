@@ -780,12 +780,12 @@ div:has(> .btn-more) {
   }
     .desc-domain {
       position: relative;
-      top: clamp(-15px, -10vw, 0px);
+      top: clamp(-15px, -10vw, -90px);
       text-align: center;
       margin-inline: auto;
-      font-size: clamp(0rem, 2.5vw, 2rem);
+      font-size: clamp(0rem, 2.5vw, 1.8rem);
       font-weight: 300;
-      letter-spacing: clamp(0rem, .4vw, 10rem);
+      letter-spacing: clamp(0rem, .39vw, 4rem);
       color: #9a9a9a;
     }
 }
