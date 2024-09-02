@@ -6,7 +6,7 @@
   --hvr-color: #faca09;
   --contact-bg-color: #09234a;
   --contact-color: #787164; 
-  --news-bg-color: #df9e42;
+  --news-bg-color: #c68c3a;
   --hello-end-color: #454138;
 }
 html {
@@ -970,7 +970,7 @@ div:has(> .btn-more) {
   position: relative;
   background: var(--news-bg-color);
   z-index: 3;
-  color: color-mix(in srgb, var(--news-bg-color), #fff 70%);
+  color: color-mix(in srgb, var(--news-bg-color), #fff 80%);
   .divider svg {
     transform-box: fill-box;
     position: absolute;
@@ -1127,7 +1127,7 @@ div:has(> .btn-more) {
     bottom: -1px;
   }
   h1 {
-    color: color-mix(in srgb, var(--contact-color) 50%, var(--contact-bg-color));
+    color: color-mix(in srgb, var(--contact-color) 70%, var(--contact-bg-color));
     width: 100%;
     text-align: center;
   }
