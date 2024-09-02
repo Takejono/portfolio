@@ -827,7 +827,7 @@ div:has(> .btn-more) {
 
 .filtr-item {
   width: 25%;
-  min-width: 350px;
+  min-width: 340px;
   overflow: hidden;
   margin: 0rem .3rem 0.8rem;
   transition: filter 0.4s;
@@ -849,7 +849,7 @@ div:has(> .btn-more) {
   }
 }
 
-@media screen and ( max-width: 742px ) {
+@media screen and ( max-width: 750px ) {
   .filtr-item { width: 100%; }
 }
 
