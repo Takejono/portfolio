@@ -9,7 +9,7 @@
   </div>
         <!-- <div class="portfolio-navigation wow fadeInUp" data-wow-duration=".7s" data-toggle="buttons">
             <label class="btn">
-              <input class="tag" type="radio" name="shuffle-filter" value="all" checked="checked" />All
+              <input class="tag" type="radio" name="shuffle-filter" data-sort-value="all" checked="checked" />All
             </label>
             {{ $categories := slice }}
             {{ range .Data.Pages }}
@@ -19,11 +19,11 @@
             {{ end }}
             {{ range ( $categories | uniq ) }}
             <label class="btn">
-              <input type="radio" name="shuffle-filter" autocomplete="off" value="{{ . | urlize }}" />{{ . | humanize }}
+              <input class="tag" type="radio" name="shuffle-filter" autocomplete="off" data-sort-value="{{ . | urlize }}" />{{ . | humanize }}
             </label>
             {{ end }}
-        </div>
-     -->
+        </div> -->
+    
         <div class="pf-wrapper">
           {{ range .Data.Pages }}
           <div class="filtr-item wow fadeInUp" data-wow-duration=".8s" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">

@@ -30,10 +30,10 @@ body {
 h1 {
   font-family: 'Rowan', 'Kaisei Tokumin', serif;
   font-size: clamp(0rem, 11vw, 9rem);
-  font-weight: 300;
+  font-weight: 200;
   margin-bottom: 1rem;
   color: #25252f;
-  top: calc(1rem - 4vw);
+  top: calc(2rem - 4vw);
   position: absolute;
   z-index: 2;
 }
@@ -41,7 +41,7 @@ h1:lang(jp) {
   word-break:keep-all;
   font-size: clamp(2rem, 14vw, 8.2rem);
   letter-spacing: -0.4rem!important;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 a {
   text-decoration: none;
@@ -1130,7 +1130,7 @@ div:has(> .btn-more) {
   p {
     text-align: center;
     padding-top: 9rem;
-    font-weight: 700;
+    font-weight: 550;
     font-size: 1.4rem;
     a {
       color: var(--contact-color);
@@ -1200,7 +1200,7 @@ div:has(> .btn-more) {
   border: none;
 } */
 
-.submit {
+/* .submit {
   color: var(--contact-bg-color);
   width: 120px;
   height: 47px;
@@ -1216,7 +1216,7 @@ div:has(> .btn-more) {
     color: #fff;
     background: var(--hvr-color);
   }
-}
+} */
 
 /*--------------------------------
    footer

@@ -117,20 +117,24 @@
     itemSelector: '.filtr-item',
     layoutMode: 'masonry',
 	// percentPosition: true,
-	// masonry: {
-	// 	columnWidth: 100
-	//   },
 	transitionDuration: '0.3s'
     });
 
-    // $('portfolio-navigation').on( 'click', 'input', function() {
-	// 	// get filter value from input value
-	// 	var filterValue = this.value;
-	// 	// use filterFn if matches value
-	// 	filterValue = filterFns[ filterValue ] || filterValue;
-	// 	$grid.isotope({ filter: filterValue });
-	// });
- 
+
+// 	// bind sort button click
+// var sortByGroup = document.querySelector('.portfolio-navigation');
+// sortByGroup.addEventListener( 'click', function( event ) {
+//   // only button clicks
+//   if ( !matchesSelector( event.target, 'input' ) ) {
+//     return;
+//   }
+//   var filterValue = event.target.getAttribute('data-sort-value');
+//   filterValue = filterFns[ filterValue ] || filterValue;
+//   iso.arrange({ filter: filterValue });
+// });
+
+
+
     // Carousel folio
 	var elem = document.querySelector('#carousel-folio');
 	var flkty = new Flickity( elem, {
