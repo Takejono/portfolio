@@ -528,7 +528,7 @@ a {
   color: #3d3a33;
   font-size: clamp(1.3rem, 4vh, 2.3rem);
   font-family: 'General Sans', 'Kaisei Tokumin';
-  font-weight: 600;
+  font-weight: 550;
   letter-spacing: 0.4vw;
   transition: all 0.3s linear;
   /* border: 1px solid #fff; */
@@ -539,7 +539,7 @@ a {
   text-decoration: none;
 }
 .menu-slider li a:lang(jp) {
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 .menu-slider nav {
@@ -678,12 +678,14 @@ a {
 ----------------------------------*/
 
 .portfolio {
-  background: radial-gradient(at 20%,#ebebeb, #fff 30%);
+  /* background: radial-gradient(at 20%,#ebebeb, #fff 30%); */
+  --pf-bg-color: #fffdf5;
+  background-color: var(--pf-bg-color);
   position: relative;
   padding: 100px 0 200px;
   z-index: 1;
   .divider svg {
-    fill: #fff;
+    fill: var(--pf-bg-color);
     position: absolute;
     transform: scaleX(-1);
     bottom: 99px;
@@ -737,7 +739,7 @@ a {
 div:has(> .btn-more) {
   text-align: center;
   .btn-more {
-    padding: 13px 23px;
+    padding: 13px 21px;
     border-radius: 50%;
     font-size: 30px;
     background: #25252f;
