@@ -99,8 +99,8 @@
 	var flkty = new Flickity( elem, {
 	// options
 	//   cellAlign: 'center',
-	selectedAttraction: 0.01,
-    friction: 0.2,
+	selectedAttraction: 0.005,
+    friction: 0.1,
 	wrapAround: true,
 	arrowShape: { 
 		x0: 25,
@@ -136,8 +136,8 @@
 	var flkty = new Flickity( elem, {
 	// options
 	cellAlign: 'center',
-	selectedAttraction: 0.01,
-	friction: 0.2,
+	selectedAttraction: 0.005,
+	friction: 0.1,
 	wrapAround: true,
 	arrowShape: { 
 		x0: 25,
