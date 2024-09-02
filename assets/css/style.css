@@ -905,12 +905,15 @@ div:has(> .btn-more) {
 
 .folio-wrapper {
   padding: 4rem 1.5rem 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
   justify-items: center;
+  justify-content: center;
   #carousel-folio {
-    width: 100%;
+    margin-inline: auto;
+    flex-basis: 600px;
+    height: fit-content;
   }
   .folio-item {
     height: calc(100vh - 8rem);
@@ -921,11 +924,12 @@ div:has(> .btn-more) {
   }
 }
 
-.single-text {
+.desc-text {
+  flex-basis: 500px;
   h3 {
-  font-family: 'Supreme', serif;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-family: 'Rowan', serif;
+  font-size: 2.4rem;
+  font-weight: 400;
   }
   h3:lang(jp) {
   font-family: 'Zen Kaku Gothic Antique', serif;
@@ -934,6 +938,7 @@ div:has(> .btn-more) {
 }
 .infos-gallery {
   padding-top: 2rem;
+  /* flex-basis: 200px; */
   ul {
     margin-inline: auto 0;
     width: fit-content;
@@ -942,14 +947,14 @@ div:has(> .btn-more) {
     padding: 0;
     font-size: .8rem;
     h4 { /* categorie name */
-      font-family: 'Supreme', 'Kaisei Tokumin';
+      font-family: 'Rowan', 'Kaisei Tokumin';
       font-size: .9rem;
-      margin-bottom: 2px;
+      margin-bottom: 0;
     }
     li > div {
       display: inline-block;
       vertical-align: text-top;
-      padding: 0 0 1rem 3px;
+      padding: 0 0 .5rem 3px;
     }
   }
 }
