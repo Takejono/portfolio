@@ -989,7 +989,7 @@ div:has(> .btn-more) {
   .post {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #a3ae95;
+    border-bottom: 1px solid #e1f2cb;
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
@@ -1007,6 +1007,10 @@ div:has(> .btn-more) {
     flex-basis: 400px;
     flex-shrink: 1;
     flex-grow: 1;
+    }
+    strong {
+      font-weight: 500;
+      color: #fff;
     }
   }
   .post:last-child {
