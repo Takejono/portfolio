@@ -6,7 +6,7 @@ link_list: "&#43;"
 linkTitle: "最近のお仕事"
 
 # custom style
-custom_class: "portfolio-list"
+custom_class: ""
 custom_attributes: ""
 custom_css: ""
 ---

@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <style>{{.Params.custom_css | safeCSS}}</style>
-<section class="portfolio {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
+<section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
   <div class="portfolio-typo">
   <span class="desc-nom wow blurIn" data-wow-duration=".6s">Takeshi JONOO</span>
   <h1 class="wow blurIn" data-wow-duration=".6s">{{ .Title }}</h1>
