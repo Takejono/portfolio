@@ -18,9 +18,9 @@
             {{ range ( $categories | uniq ) }}
             <button class="button" data-filter=".{{ . | urlize }}">{{ . | humanize }}</button>
             {{ end }} -->
-            <button class="button is-checked" data-filter="*">Artiste</button>
-            <button class="button" data-filter=".exhibition, .personal-works">Peintre</button>
-            <button class="button" data-filter=".book-illustration, .design, .game">Ilustrateur</button>
+            <button class="button is-checked" data-filter="*">Artiste</button>|
+            <button class="button" data-filter=".exhibition, .personal-works">Peintre</button>|
+            <button class="button" data-filter=".book-illustration, .design, .game">Ilustrateur</button>|
             <button class="button" data-filter=".design">Graphiste</button>
         </div>
     

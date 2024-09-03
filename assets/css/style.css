@@ -730,6 +730,7 @@ div:has(> .btn-more) {
   width: fit-content;
   height: fit-content;
   margin-inline: auto;
+  /* line-height: 4rem; */
   h1 {
     position: relative;
     top: 0;
@@ -743,19 +744,19 @@ div:has(> .btn-more) {
     }
   .desc-nom {
     position: absolute;
-    top: clamp(-30px, 2.5vw, 60px);
+    top: clamp(-35px, 4vw, 60px);
     right: clamp(-6px, .9vw, 15px);
     font-size: clamp(0rem, 4.3vw, 3.5rem);
-    font-weight: 550;
+    font-weight: 500;
     color: #9a9a9a;
   }
     .desc-domain {
       position: relative;
-      top: clamp(-15px, -10vw, -90px);
       text-align: center;
       margin-inline: auto;
-      font-size: clamp(0rem, 2.5vw, 1.8rem);
       font-weight: 300;
+      top: clamp(-15px, -10vw, -90px);
+      font-size: clamp(0rem, 2.5vw, 1.8rem);
       letter-spacing: clamp(0rem, .39vw, 4rem);
       color: #9a9a9a;
     }
@@ -768,17 +769,22 @@ div:has(> .btn-more) {
 .portfolio-filters {
   display: flex;
   list-style: none;
-  margin-top: 2rem;
   align-items: center;
   flex-wrap: wrap;
-  gap: .7rem;
+  gap: clamp(0rem, 2vw, 3rem);
   justify-content: center;
+  color: #9a9a9a;
   .button {
+    font-family: 'General Sans', serif;
+    font-weight: 300;
+    /* top: clamp(-15px, -20vw, -90px); */
+    font-size: clamp(.8rem, 2vw, 2rem);
+    letter-spacing: clamp(0rem, .39vw, 5rem);
     padding: 0rem;
     color: #9a9a9a;
     border: solid 2px #fff;
     background-color: transparent;
-    transition: all .4s;
+    transition: all .3s;
     &.is-checked {
       border-bottom: solid 2px var(--hvr-color);
       }
@@ -909,10 +915,15 @@ div:has(> .btn-more) {
     list-style: none;
     padding: 0;
     font-size: .8rem;
+    svg, img { 
+      top: 5px;
+      position: relative;
+    }
     h4 { /* categorie name */
       font-family: 'Rowan', 'Kaisei Tokumin';
       font-size: .9rem;
-      margin-bottom: 0;
+      font-weight: 500;
+      margin: 0;
     }
     li > div {
       display: inline-block;
