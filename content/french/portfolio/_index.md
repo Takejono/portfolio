@@ -7,7 +7,7 @@ linkTitle: "RECENT WORKS"
 
 
 # custom style
-custom_class: ""
+custom_class: "portfolio-list"
 custom_attributes: ""
 custom_css: ""
 ---

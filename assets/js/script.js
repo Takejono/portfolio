@@ -90,80 +90,6 @@
 			 End Menu
 		----------------------------------*/
 
-	/*--------------------------------
-			 Start Portfolio
-	----------------------------------*/
-
-    // Carousel recent works
-	var elem = document.querySelector('.rw-wrapper');
-	var flkty = new Flickity( elem, {
-	// options
-	//   cellAlign: 'center',
-	selectedAttraction: 0.005,
-    friction: 0.1,
-	wrapAround: true,
-	arrowShape: { 
-		x0: 25,
-		x1: 60, y1: 50,
-		x2: 65, y2: 50,
-		x3: 40
-	  }
-	});
-	
-    // Filtering Portfolio
-	var elem = document.querySelector('.pf-wrapper');
-    var iso = new Isotope( elem, {
-    // options
-    itemSelector: '.filtr-item',
-    layoutMode: 'masonry',
-	// percentPosition: true,
-	transitionDuration: '0.3s'
-    });
-
-
-// 	// bind sort button click
-// var sortByGroup = document.querySelector('.portfolio-navigation');
-// sortByGroup.addEventListener( 'click', function( event ) {
-//   // only button clicks
-//   if ( !matchesSelector( event.target, 'input' ) ) {
-//     return;
-//   }
-//   var filterValue = event.target.getAttribute('data-sort-value');
-//   filterValue = filterFns[ filterValue ] || filterValue;
-//   iso.arrange({ filter: filterValue });
-// });
-
-
-
-    // Carousel folio
-	var elem = document.querySelector('#carousel-folio');
-	var flkty = new Flickity( elem, {
-	// options
-	cellAlign: 'center',
-	selectedAttraction: 0.005,
-	friction: 0.1,
-	wrapAround: true,
-	arrowShape: { 
-		x0: 25,
-		x1: 60, y1: 50,
-		x2: 65, y2: 50,
-		x3: 40
-	  }
-	});
-
-	/*--------------------------------
-			 End Portfolio
-	----------------------------------*/
-
-	/*--------------------------------
-			 Start Testimonials
-	----------------------------------*/
-	// Configure and Initialize Owl Carousel
-
-	
-	/*--------------------------------
-			End Testimonials
-	----------------------------------*/
 
 	/*--------------------------------
 			Start Code for Mobile Devices
@@ -251,3 +177,86 @@
 			Others
 	----------------------------------*/
 }(jQuery));
+
+/*--------------------------------
+			 Start Portfolio
+	----------------------------------*/
+
+    // Carousel recent works
+	var elem = document.querySelector('.rw-wrapper');
+	var flkty = new Flickity( elem, {
+	// options
+	selectedAttraction: 0.005,
+    friction: 0.1,
+	wrapAround: true,
+	arrowShape: { 
+		x0: 25,
+		x1: 60, y1: 50,
+		x2: 65, y2: 50,
+		x3: 40
+	  }
+	});
+	
+    // Filtering Portfolio
+	var elem = document.querySelector('.pf-wrapper');
+    var iso = new Isotope( elem, {
+    // options
+    itemSelector: '.filtr-item',
+    layoutMode: 'masonry',
+	transitionDuration: '0.3s'
+    });
+
+
+// filter functions
+// var filterFns = {
+//   };
+  // bind filter button click
+  var filtersElem = document.querySelector('.portfolio-filters');
+  filtersElem.addEventListener( 'click', function( event ) {
+	// only work with buttons
+	if ( !matchesSelector( event.target, 'button' ) ) {
+	  return;
+	}
+	var filterValue = event.target.getAttribute('data-filter');
+	// use matching filter function
+	// filterValue = filterFns[ filterValue ] || filterValue;
+	iso.arrange({ filter: filterValue });
+  });
+  
+  // change is-checked class on buttons
+  var buttonGroups = document.querySelectorAll('.portfolio-filters');
+  for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+	var buttonGroup = buttonGroups[i];
+	radioButtonGroup( buttonGroup );
+  }
+  
+  function radioButtonGroup( buttonGroup ) {
+	buttonGroup.addEventListener( 'click', function( event ) {
+	  // only work with buttons
+	  if ( !matchesSelector( event.target, 'button' ) ) {
+		return;
+	  }
+	  buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+	  event.target.classList.add('is-checked');
+	});
+  }
+
+    // Carousel folio
+	var elem = document.querySelector('#carousel-folio');
+	var flkty = new Flickity( elem, {
+	// options
+	cellAlign: 'center',
+	selectedAttraction: 0.005,
+	friction: 0.1,
+	wrapAround: true,
+	arrowShape: { 
+		x0: 25,
+		x1: 60, y1: 50,
+		x2: 65, y2: 50,
+		x3: 40
+	  }
+	});
+
+	/*--------------------------------
+			 End Portfolio
+	----------------------------------*/

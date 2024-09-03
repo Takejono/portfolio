@@ -777,7 +777,7 @@ div:has(> .btn-more) {
     top: clamp(-30px, 2.5vw, 60px);
     right: clamp(-6px, .9vw, 15px);
     font-size: clamp(0rem, 4.3vw, 3.5rem);
-    font-weight: 600;
+    font-weight: 550;
     color: #9a9a9a;
   }
     .desc-domain {
@@ -796,32 +796,26 @@ div:has(> .btn-more) {
   margin: 3rem .7rem 0;
 }
 
-.portfolio-navigation {
+.portfolio-filters {
   display: flex;
   list-style: none;
-  padding: 4rem 0 0;
+  margin-top: 2rem;
   align-items: center;
   flex-wrap: wrap;
+  gap: .7rem;
   justify-content: center;
-  padding-left: 0;
-  label {
-    cursor: pointer;
-    padding: 7px 14px;
-    color: #999;
-    margin: 5px 5px;
-    border-radius: .4rem!important;
+  .button {
+    padding: 0rem;
+    color: #9a9a9a;
+    border: solid 2px #fff;
     background-color: transparent;
-    border: none;
-    input {
-    position: absolute;
-    opacity: 0;
-    height: 0;
-    width: 0;
+    transition: all .4s;
+    &.is-checked {
+      border-bottom: solid 2px var(--hvr-color);
+      }
+    &:hover {
+        border-bottom: solid 2px #e2e2e2;
     }
-  }
-  label:hover, label:has(input:checked) {
-    color: #fff;
-    background-color: var(--hvr-color);
   }
 }
 

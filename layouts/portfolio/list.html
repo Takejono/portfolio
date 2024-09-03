@@ -1,16 +1,14 @@
 {{ define "main" }}
 
 <style>{{.Params.custom_css | safeCSS}}</style>
-<section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
+<section class="portfolio {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
   <div class="portfolio-typo">
   <span class="desc-nom wow blurIn" data-wow-duration=".6s">Takeshi JONOO</span>
   <h1 class="wow blurIn" data-wow-duration=".6s">{{ .Title }}</h1>
-  <h2 class="desc-domain wow blurIn" data-wow-duration=".6s">{{ .Description }}</h2>
+  <!-- <h2 class="desc-domain wow blurIn" data-wow-duration=".6s">{{ .Description }}</h2> -->
   </div>
-        <!-- <div class="portfolio-navigation wow fadeInUp" data-wow-duration=".7s" data-toggle="buttons">
-            <label class="btn">
-              <input class="tag" type="radio" name="shuffle-filter" data-sort-value="all" checked="checked" />All
-            </label>
+        <div class="portfolio-filters wow fadeInUp" data-wow-duration=".7s">
+            <!-- <button class="button is-checked" data-filter="*">All</button>
             {{ $categories := slice }}
             {{ range .Data.Pages }}
             {{ range .Params.categories }}
@@ -18,15 +16,17 @@
             {{ end }}
             {{ end }}
             {{ range ( $categories | uniq ) }}
-            <label class="btn">
-              <input class="tag" type="radio" name="shuffle-filter" autocomplete="off" data-sort-value="{{ . | urlize }}" />{{ . | humanize }}
-            </label>
-            {{ end }}
-        </div> -->
+            <button class="button" data-filter=".{{ . | urlize }}">{{ . | humanize }}</button>
+            {{ end }} -->
+            <button class="button is-checked" data-filter="*">Artiste</button>
+            <button class="button" data-filter=".exhibition, .personal-works">Peintre</button>
+            <button class="button" data-filter=".book-illustration, .design, .game">Ilustrateur</button>
+            <button class="button" data-filter=".design">Graphiste</button>
+        </div>
     
         <div class="pf-wrapper">
           {{ range .Data.Pages }}
-          <div class="filtr-item wow fadeInUp" data-wow-duration=".8s" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+          <div class="filtr-item {{range $index, $element:= .Params.categories }}{{if ne $index 0}}{{end}} {{. | urlize}}{{ end }}">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
                 <a href="{{.Permalink}}">
