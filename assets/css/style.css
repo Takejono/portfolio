@@ -8,6 +8,7 @@
   --contact-color: #787164; 
   --news-bg-color: #c68c3a;
   --hello-end-color: #454138;
+  --pf-bg-color: #fffdf5;
 }
 html {
   height: 100%;
@@ -648,7 +649,6 @@ a {
 
 .portfolio {
   /* background: radial-gradient(at 20%,#ebebeb, #fff 30%); */
-  --pf-bg-color: #fffdf5;
   background-color: var(--pf-bg-color);
   position: relative;
   padding: 100px 0 200px;
@@ -663,6 +663,10 @@ a {
     color: color-mix(in srgb, #454138, transparent 30%);
     right: 0;
   }
+}
+
+.pf-single {
+  background-color: var(--pf-bg-color); 
 }
 
 .rw-wrapper {
@@ -1123,93 +1127,23 @@ div:has(> .btn-more) {
     }
   }
 }
-/* .contact-form {
-  padding-top: 120px;
-  width: 90%;
-  max-width: 43rem;
-  margin-inline: auto;
-}
-
-.form-container {
-  border-radius: 4px 4px 1rem 1rem;
-  padding: 0.7rem;
-  margin-top: 0;
-  opacity: 1;
-  transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
-  .form-control {
-    height: 47px;
-    font-weight: 300;
-    background: none;
-    color: #ccc;
-    margin-top: .5rem;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 2px solid var(--contact-color);
-    border-radius: 0;
-    transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-  }
-  .form-control:focus {
-    border-width: 1px;
-  }
-  svg.bi-pencil {
-    color: var(--contact-color);
-    display:block;
-    margin-inline: auto;
-  }
-} */
-
-
-/* .form-container .help-block,
-.form-container .with-errors {
-  color: #fff;
-}
-
-.form-container textarea.form-control {
-  height: auto;
-}
-
-.form-container .form-control::placeholder {
-  color: var(--contact-color);
-  font-size: 1rem;
-}
-.form-container .form-control:focus {
-  background: var(--contact-bg-color);
-  border: none;
-} */
-
-/* .submit {
-  color: var(--contact-bg-color);
-  width: 120px;
-  height: 47px;
-  border: none;
-  margin-top: 1rem;
-  margin-inline: auto;
-  display: block;
-  background: var(--contact-color);
-  border-radius: 2rem;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  &:hover {
-    color: #fff;
-    background: var(--hvr-color);
-  }
-} */
 
 /*--------------------------------
    footer
 ----------------------------------*/
 
 .footer {
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 10px;
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 60rem;
   margin-inline: auto;
+  background-color: var(--pf-bg-color);
+}
+
+.footer-index {
+  padding-top: 3rem;
 }
 
 .footer-icons {
