@@ -8,7 +8,7 @@
   --contact-color: #787164; 
   --news-bg-color: #c68c3a;
   --hello-end-color: #454138;
-  --pf-bg-color: #fffdf5;
+  --base-bg-color: #fffdf5;
 }
 html {
   height: 100%;
@@ -21,25 +21,27 @@ body {
   font-weight: 350;
   letter-spacing: 0.02rem;
   height: 100%;
+  background: var(--base-bg-color);
   color: #3d3a33;
   fill: #3d3a33;
 }
 
 h1 {
   font-family: 'Rowan', 'Kaisei Tokumin', serif;
-  font-size: clamp(0rem, 11vw, 9rem);
+  font-size: clamp(0rem, 12vw, 8.2rem);
+  /* font-size: clamp(0rem, 11vw, 9rem); */
   font-weight: 200;
-  margin-bottom: 1rem;
+  margin: 0;
   color: #25252f;
-  top: calc(0rem - 10vw);
-  position: absolute;
+  /* top: calc(0rem - 8vw); */
+  /* position: absolute; */
   z-index: 2;
+  /* line-height: 1rem; */
 }
 h1:lang(jp) {
   word-break:keep-all;
   font-size: clamp(2rem, 14vw, 8.2rem);
   letter-spacing: -0.4rem!important;
-  /* font-weight: 400; */
 }
 a {
   text-decoration: none;
@@ -649,19 +651,19 @@ a {
 
 .portfolio {
   /* background: radial-gradient(at 20%,#ebebeb, #fff 30%); */
-  background-color: var(--pf-bg-color);
+  background-color: var(--base-bg-color);
   position: relative;
-  padding: 100px 0 200px;
+  padding: 0 0 200px;
   z-index: 1;
   .divider svg {
-    fill: var(--pf-bg-color);
+    fill: var(--base-bg-color);
     position: absolute;
     transform: scaleX(-1);
-    bottom: 99px;
+    bottom: -1px;
   }
   h1 {
     color: color-mix(in srgb, #454138, transparent 30%);
-    right: 0;
+    text-align: right;
   }
 }
 
@@ -730,25 +732,26 @@ div:has(> .btn-more) {
 }
 
 .portfolio-typo {
+  margin-top: 70px;
   position: relative;
   width: fit-content;
   height: fit-content;
   margin-inline: auto;
-  /* line-height: 4rem; */
+  /* line-height: auto; */
   h1 {
     position: relative;
     top: 0;
     margin: 0;
     font-weight: 400;
     &::first-letter {
-    font-size: clamp(0rem, 17vw, 16rem);
+    font-size: clamp(0rem, 17vw, 14rem);
     font-weight: 300;
     letter-spacing: -0.1ch;
     }
     }
   .desc-nom {
     position: absolute;
-    top: clamp(-35px, 4vw, 60px);
+    top: clamp(-20px, 4vw, 90px);
     right: clamp(-6px, .9vw, 15px);
     font-size: clamp(0rem, 4.3vw, 3.5rem);
     font-weight: 500;
@@ -766,24 +769,19 @@ div:has(> .btn-more) {
     }
 }
 
-.pf-wrapper {
-  margin: 3rem .7rem 0;
-}
-
 .portfolio-filters {
   display: flex;
   list-style: none;
   align-items: center;
   flex-wrap: wrap;
-  gap: clamp(0rem, 2vw, 3rem);
+  gap: clamp(0rem, 2vw, 1rem);
   justify-content: center;
   color: #9a9a9a;
   .button {
     font-family: 'General Sans', serif;
     font-weight: 300;
-    /* top: clamp(-15px, -20vw, -90px); */
-    font-size: clamp(.8rem, 2vw, 2rem);
-    letter-spacing: clamp(0rem, .39vw, 5rem);
+    font-size: clamp(.8rem, 2vw, 1.6rem);
+    letter-spacing: clamp(0rem, .39vw, 1rem);
     padding: 0rem;
     color: #9a9a9a;
     border: solid 2px #fff;
@@ -798,9 +796,13 @@ div:has(> .btn-more) {
   }
 }
 
+.pf-wrapper {
+  margin: 5rem .7rem 0;
+}
+
 .filtr-item {
-  width: 25%;
-  min-width: 340px;
+  width: 24.4%;
+  min-width: 330px;
   overflow: hidden;
   margin: 0rem .3rem 0.8rem;
   transition: filter 0.4s;
@@ -1033,14 +1035,14 @@ div:has(> .btn-more) {
   /* height: 100%; */
   h1 {
     position: absolute;
-    top: calc(0px - 12vw);
+    top: -20px;
     right: 0;
     color: color-mix(in srgb, #ede2aa, transparent 30%);
     /* color: #eeca6875; */
     z-index: 1;
   }
   h1:lang(jp) {
-    top: -12px;
+    /* top: -16px; */
   }
   &::before {
     content: "";
@@ -1076,7 +1078,6 @@ div:has(> .btn-more) {
     background-repeat: no-repeat;
     background-position: top;
     padding: 72vw 0 0;
-    min-height: 100%;
   }
   .about-me-text {
     background:  #fdf6d298;
@@ -1113,7 +1114,7 @@ div:has(> .btn-more) {
   }
   p {
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 3rem;
     font-weight: 550;
     font-size: 1.4rem;
     a {
@@ -1139,7 +1140,6 @@ div:has(> .btn-more) {
   z-index: 1;
   width: 100%;
   margin-inline: auto;
-  background-color: var(--pf-bg-color);
 }
 
 .footer-index {
