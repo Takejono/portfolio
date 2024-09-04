@@ -4,7 +4,7 @@ date: 2019-05-12T12:14:34+06:00
 date_show: "制作年いろいろ"
 image: "images/portfolio/tache-1.jpg"
 img_title: "«  » - "
-categories: ["個人プロジェクト"]
+categories: ["Art"]
 description: "This is meta description."
 order: "05"
 draft: false

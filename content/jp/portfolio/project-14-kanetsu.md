@@ -3,7 +3,7 @@ title: "関越会 パンフレット"
 date: 2016-10-12T12:14:34+06:00
 image: "images/portfolio/kanetsu-1.jpg"
 img_title: "«  » - "
-categories: ["仕事", "挿絵"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "09"
 draft: false

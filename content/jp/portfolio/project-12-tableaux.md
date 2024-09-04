@@ -4,7 +4,7 @@ date: 2023-01-12T12:14:34+06:00
 date_show: "制作年いろいろ"
 image: "images/portfolio/tableaux-10.jpg"
 img_title: "«  » - "
-categories: ["仕事"]
+categories: ["Art"]
 description: "This is meta description."
 order: "07"
 draft: false

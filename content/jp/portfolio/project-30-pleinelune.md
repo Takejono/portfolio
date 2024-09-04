@@ -1,9 +1,9 @@
 ---
-title: "La lune pleine ワインラベルデザイン"
+title: "La lune pleine ワインラベル"
 date: 2023-12-01T12:14:34+06:00
 image: "images/portfolio/pl-1.jpg"
 img_title: "« Etiquettes du vin Pleine lune »"
-categories: ["仕事", "デザイン"]
+categories: ["Illustration", "Design"]
 description: "This is meta description."
 order: "26"
 draft: false

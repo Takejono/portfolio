@@ -3,7 +3,7 @@ title: "さよならまたね"
 date: 2015-05-12T12:14:34+06:00
 image: "images/portfolio/aurevoir-1.jpg"
 img_title: "«  » - "
-categories: ["個人プロジェクト"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "12"
 draft: false

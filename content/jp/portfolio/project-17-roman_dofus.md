@@ -4,7 +4,7 @@ date: 2015-12-12T12:14:34+06:00
 date_show: "2010 ~ 2016"
 image: "images/portfolio/r_dofus-1.jpg"
 img_title: "«  » - A5"
-categories: ["仕事", "ゲーム", "挿絵"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "18"
 draft: false

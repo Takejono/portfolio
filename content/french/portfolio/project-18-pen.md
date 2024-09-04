@@ -4,7 +4,7 @@ date: 2011-12-12T12:14:34+06:00
 date_show: "Date variée"
 image: "images/portfolio/pen-1.jpg"
 img_title: "«  » - "
-categories: ["Personal works"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "16"
 draft: false

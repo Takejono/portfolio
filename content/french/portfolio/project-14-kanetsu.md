@@ -3,7 +3,7 @@ title: "Kanetsu-kai"
 date: 2016-10-12T12:14:34+06:00
 image: "images/portfolio/kanetsu-1.jpg"
 img_title: "«  » - "
-categories: ["Works", "Book Illustration"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "09"
 draft: false

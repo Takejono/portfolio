@@ -1,10 +1,10 @@
 ---
-title: "ピアノ曲集 表紙デザイン"
+title: "ピアノ曲集 表紙"
 date: 2020-07-12T12:14:34+06:00
 date_show: "制作年いろいろ"
 image: "images/portfolio/kawai-1.jpg"
 img_title: "«  » - 24cm x 32cm"
-categories: ["仕事", "挿絵"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "10"
 draft: false

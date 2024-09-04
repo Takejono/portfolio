@@ -3,7 +3,7 @@ title: "黒いライオンを探して"
 date: 2021-07-12T12:14:34+06:00
 image: "images/portfolio/lionnoir-1.jpg"
 img_title: "« Bienvenu à la forêt » - 32cm x 40cm"
-categories: ["展示"]
+categories: ["Art"]
 description: "This is meta description."
 order: "02"
 draft: false

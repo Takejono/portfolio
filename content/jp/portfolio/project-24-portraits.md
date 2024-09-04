@@ -3,7 +3,7 @@ title: "あるシリア人の肖像"
 date: 2012-08-12T12:14:34+06:00
 image: "images/portfolio/portrait-1.jpg"
 img_title: "« Portrait d'un syrien à l'aéroport » - 23cm x 16cm"
-categories: ["個人プロジェクト"]
+categories: ["Art"]
 description: "This is meta description."
 order: "06"
 draft: false

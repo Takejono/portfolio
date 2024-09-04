@@ -1,9 +1,9 @@
 ---
-title: "Etiquettes du vin la lune pleine"
+title: "Etiquettes du vin : la lune pleine"
 date: 2023-12-01T12:14:34+06:00
 image: "images/portfolio/pl-1.jpg"
 img_title: "« Etiquettes du vin la lune pleine »"
-categories: ["Works", "Design"]
+categories: ["Illustration", "Design"]
 description: "This is meta description."
 order: "26"
 draft: false

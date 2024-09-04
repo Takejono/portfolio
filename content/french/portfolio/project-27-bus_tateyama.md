@@ -1,9 +1,9 @@
 ---
-title: "Illustrations pour le car à Tateyama"
+title: "le car à Tateyama"
 date: 2023-04-01T12:14:34+06:00
 image: "images/portfolio/bus-6.jpg"
 img_title: "« Illustrations pour le car Tateyama »"
-categories: ["Works"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "24"
 draft: false

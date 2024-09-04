@@ -4,7 +4,7 @@ date: 2019-05-12T12:14:34+06:00
 date_show: "Date variée"
 image: "images/portfolio/tache-1.jpg"
 img_title: "«  » - "
-categories: ["Personal works"]
+categories: ["Art"]
 description: "This is meta description."
 order: "05"
 draft: false

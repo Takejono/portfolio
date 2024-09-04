@@ -1,9 +1,9 @@
 ---
-title: "Etiquette for Savon Licorne"
+title: "Savon Licorne Japon"
 date: 2022-12-12T12:14:34+06:00
 image: "images/portfolio/licorne-4.jpg"
 img_title: "«  » - "
-categories: ["Works","Design"]
+categories: ["Illustration","Design"]
 description: "This is meta description."
 order: "20"
 draft: false

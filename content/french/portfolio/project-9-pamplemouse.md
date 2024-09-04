@@ -3,7 +3,7 @@ title: "Très bien!"
 date: 2016-11-12T12:14:34+06:00
 image: "images/portfolio/pamplemousse-2.jpg"
 img_title: "«  » - 15cm x 18cm"
-categories: ["Works", "Book Illustration"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "13"
 draft: false

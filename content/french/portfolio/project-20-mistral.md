@@ -3,7 +3,7 @@ title: "Mistral"
 date: 2017-05-12T12:14:34+06:00
 image: "images/portfolio/mistral.jpg"
 img_title: "« Mistral » - 50cm x 60cm"
-categories: ["Exhibition"]
+categories: ["Art"]
 description: "This is meta description."
 order: "06"
 draft: false

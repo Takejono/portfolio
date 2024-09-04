@@ -4,7 +4,7 @@ date: 2015-12-12T12:14:34+06:00
 date_show: "制作年いろいろ"
 image: "images/portfolio/comte-2.jpg"
 img_title: "«  » - "
-categories: ["個人プロジェクト"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "11"
 draft: false

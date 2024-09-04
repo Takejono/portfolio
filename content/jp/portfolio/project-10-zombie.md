@@ -3,7 +3,7 @@ title: "Culture Zombie"
 date: 2013-10-12T12:14:34+06:00
 image: "images/portfolio/zombie-1.jpg"
 img_title: "«  » - "
-categories: ["仕事", "挿絵"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "19"
 draft: false

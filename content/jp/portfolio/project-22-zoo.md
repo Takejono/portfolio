@@ -3,7 +3,7 @@ title: "Zoo"
 date: 2008-04-12T12:14:34+06:00
 image: "images/portfolio/zoo-1.jpg"
 img_title: "«  » - "
-categories: ["展示"]
+categories: ["Art"]
 description: "This is meta description."
 order: "04"
 draft: false

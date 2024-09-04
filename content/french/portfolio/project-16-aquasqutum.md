@@ -3,7 +3,7 @@ title: "Aqua Pieces"
 date: 2020-03-12T12:14:34+06:00
 image: "images/portfolio/aquasqutum-1.jpg"
 img_title: "«  » - 18cm x 15cm"
-categories: ["Exhibition"]
+categories: ["Art"]
 description: "This is meta description."
 order: "04"
 draft: false

@@ -3,7 +3,7 @@ title: "線と体"
 date: 2007-04-12T12:14:34+06:00
 image: "images/portfolio/pataques-1.jpg"
 img_title: "« Homme ouvert » - 30cm x 30cm"
-categories: ["展示"]
+categories: ["Art"]
 description: "This is meta description."
 order: "04"
 draft: false
