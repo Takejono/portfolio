@@ -52,12 +52,11 @@ a {
   border-bottom: 1px dashed #212121;
   transition: all 0.5s;
   font-weight: 500;
-}
-
-.content a:hover {
-  border-bottom: 1px solid var(--hvr-color);
-  color: var(--hvr-color);
-  text-decoration: none;
+  &:hover {
+    border-bottom: 1px solid var(--hvr-color);
+    color: var(--hvr-color);
+    text-decoration: none;
+  }
 }
 
 .no-js body {
@@ -560,11 +559,12 @@ a {
   .hello-txt {
     font-family: 'Rowan', 'Kaisei Tokumin';
     display: flex;
+    padding: .3rem;
     align-items: center;
     flex: auto;
     justify-content: space-evenly;
     text-align: center;
-    font-size: calc(1.2rem + 1.3vw);
+    font-size: calc(1rem + 1.3vw);
     /* font-style: italic; */
     letter-spacing: 0.2rem;
    }
@@ -836,7 +836,7 @@ div:has(> .btn-more) {
   transition: all 0.4s ease-in-out;
   h2 {
     font-family: 'General Sans';
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 450;
     margin: 0;
     overflow-wrap: break-word;
@@ -1005,7 +1005,7 @@ div:has(> .btn-more) {
     color: color-mix(in srgb, var(--news-bg-color), #fff 65%);
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 550;
     padding-bottom: 0.5rem;
     line-height: 1.5rem;
@@ -1116,7 +1116,7 @@ div:has(> .btn-more) {
     text-align: center;
     padding-top: 3rem;
     font-weight: 550;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     a {
       color: var(--contact-color);
       -webkit-transition: all 0.3s;
@@ -1149,27 +1149,26 @@ div:has(> .btn-more) {
 .footer-icons {
   display: flex;
   margin-inline: auto;
-  max-width: 16rem;
-  justify-content: space-around;
-  padding: 0!important;
+  max-width: 8rem;
+  justify-content: space-between;
+  padding: 0;
   list-style: none;
   a {
     transition: all 0.3s linear;
+  }
+  .svg-icon {
+    width: 30px;
+    height: 30px;
+    fill: var(--contact-color);
+    transition: all 0.3s linear;
+    &:hover {
+      fill: var(--hvr-color);
+    }
   }
 }
 
 .footer-icons a, .to-top a, .credit {
   color: var(--contact-color);
-}
-
-.footer-icons .svg-icon {
-  width: 25px;
-  height: 25px;
-  fill: var(--contact-color);
-  transition: all 0.3s linear;
-  &:hover {
-    fill: var(--hvr-color);
-  }
 }
 
 .menu .footer-icons .svg-icon {
@@ -1178,8 +1177,9 @@ div:has(> .btn-more) {
 
 .credit {
   text-align: center;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   margin-inline: auto;
+  padding-bottom: 1rem;
 }
 
 .z-index-9 {
