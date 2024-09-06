@@ -1046,7 +1046,7 @@ div:has(> .btn-more) {
   background: linear-gradient(180deg, #acacac0f, #fdf6d2b6);
   -webkit-backdrop-filter: blur(18px);
   backdrop-filter: blur(18px);
-  padding: 12rem 1.5rem;
+  padding: 9rem 1.5rem 6rem;
   border-radius: 4px;
   width: clamp(24rem, 40vw, 590px);
   margin-inline: auto 0;
