@@ -1,5 +1,5 @@
 ---
-title: "Illustrations pour le site web 'in3 Inc.'"
+title: "le site web 'in3 Inc.'"
 date: 2023-11-01T12:14:34+06:00
 image: "images/portfolio/in3-01.jpg"
 img_title: "Illustrations pour le site web 'in3 Inc.'"
