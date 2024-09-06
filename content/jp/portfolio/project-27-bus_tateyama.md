@@ -1,5 +1,5 @@
 ---
-title: "館山高速バス ラッピングイラスト"
+title: "館山高速バス <wbr>ラッピングイラスト"
 date: 2023-04-01T12:14:34+06:00
 image: "images/portfolio/bus-6.jpg"
 img_title: "« Illustrations pour le car Tateyama »"
