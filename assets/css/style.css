@@ -91,14 +91,9 @@ a {
   display: none;
 }
 
-.square-spin>div {
+/* .square-spin>div {
   width: 80px;
   height: 80px;
-}
-
-/* .section {
-  padding-top: 0px;
-  padding-bottom: 100px;
 } */
 
 @-webkit-keyframes fadeInUp {
@@ -178,7 +173,7 @@ a {
   animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.scroll-up {
+/* .scroll-up {
   position: fixed;
   right: 15px;
   bottom: 15px;
@@ -189,34 +184,33 @@ a {
   transform: translateY(100px);
   transition: all 0.5s;
   z-index: 10;
+  &::before {
+    content: "";
+    position: absolute;
+    opacity: .5;
+    height: 40px;
+    width: 40px;
+    left: 0rem;
+    top: 0rem;
+    border-radius: 50%;
+    background: #fff1c5;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  &:hover {
+    color: #fff;
+  }
+  &:hover::before {
+    background: var(--hvr-color);
+    opacity: 1;
+  }
 }
 
 .scroll-up-show {
   opacity: 1;
   transform: translateY(0px);
-}
-
-.scroll-up::before {
-  content: "";
-  position: absolute;
-  opacity: .5;
-  height: 40px;
-  width: 40px;
-  left: 0rem;
-  top: 0rem;
-  border-radius: 50%;
-  background: #fff1c5;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.scroll-up:hover {
-  color: #fff;
-}
-.scroll-up:hover::before {
-  background: var(--hvr-color);
-  opacity: 1;
-}
+} */
 
 /*--------------------------------
    End Preloader & General Styling
@@ -681,17 +675,17 @@ div:has(> .btn-more) {
     margin: 0;
     font-weight: 400;
     &::first-letter {
-    font-size: clamp(0rem, 17vw, 14rem);
-    font-weight: 300;
+    font-size: clamp(0rem, 19vw, 14rem);
+    font-weight: 100;
     letter-spacing: -0.1ch;
     }
     }
   .desc-nom {
     position: absolute;
-    top: clamp(-20px, 4vw, 90px);
-    right: clamp(-6px, .9vw, 15px);
-    font-size: clamp(0rem, 4.3vw, 3.5rem);
-    font-weight: 500;
+    top: clamp(-20px, 5vw, 60px);
+    right: clamp(-6px, .9vw, 9px);
+    font-size: clamp(0rem, 5vw, 3.5rem);
+    font-weight: 600;
     color: #9a9a9a;
   }
     .desc-domain {

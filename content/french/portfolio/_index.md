@@ -1,5 +1,5 @@
 ---
-title: "PORTFOLIO"
+title: "Portfolio"
 description: " Artiste | Peintre | Illustrateur | Graphiste"
 draft: false
 link_list: "&#43;"
