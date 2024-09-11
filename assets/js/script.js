@@ -268,14 +268,26 @@
 // 	const h = getRandomNumber(360);
 // 	return `hsl(${h}deg, 100%, 70%)`;
 //   };
+
 // const setBackgroundColor = () => {
 //   const randomColor = getRandomNewsColor();
 //   background.style.backgroundColor = randomColor;
 // };
-// setBackgroundColor();
-// setInterval(() => {
-// 	setBackgroundColor();
-//   }, 1500);
+// window.onload = () => {
+// 	setBackgroundColor()
+//   };
+
+  function randomColor(name){
+	document.addEventListener('DOMContentLoaded', function(){
+	  let result = "#";
+	  for(let i = 0; i < 6; i++) {
+		result += (16 * Math.random() | 0).toString(16);
+	  }
+	  document.documentElement.style.setProperty(name, result);
+	});  
+  }
+
+  randomColor('--random-color');
 
 	/*--------------------------------
 			 End News
