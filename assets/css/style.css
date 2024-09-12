@@ -894,6 +894,7 @@ color: #9a9a9a;
 .news {
   position: relative;
   background: var(--news-bg-color);
+  /* background: var(--random-color); */
   z-index: 3;
   color: color-mix(in srgb, var(--news-bg-color), #fff 80%);
   .divider svg {
