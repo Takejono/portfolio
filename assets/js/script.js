@@ -260,6 +260,7 @@
 			 End News
 	----------------------------------*/
 
+// function randomBgColor() {
 // const background = document.getElementById("news");
 // const getRandomNumber = (maxNum) => {
 //   return Math.floor(Math.random() * maxNum);
@@ -267,15 +268,11 @@
 // const getRandomNewsColor = () => {
 // 	const h = getRandomNumber(360);
 // 	return `hsl(${h}deg, 100%, 70%)`;
-//   };
-// const setBackgroundColor = () => {
-//   const randomColor = getRandomNewsColor();
-//   background.style.backgroundColor = randomColor;
 // };
-// setBackgroundColor();
-// setInterval(() => {
-// 	setBackgroundColor();
-//   }, 1500);
+// const randomColor = getRandomNewsColor();
+// background.style.setProperty('--news-bg-color', randomColor);
+// }
+// randomBgColor();
 
 	/*--------------------------------
 			 End News
