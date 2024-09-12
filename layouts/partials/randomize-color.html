@@ -1,0 +1,14 @@
+<script>
+function randomBgColor() {
+    const background = document.getElementById("news");
+    
+    const getRandomNewsColor = () => {
+        const h = Math.random() * 360;
+        return `hsl(${h}deg, 35%, 55%)`;
+    };
+    const randomColor = getRandomNewsColor();
+    background.style.setProperty('--news-bg-color', randomColor);
+    
+    }
+    randomBgColor();
+</script>
