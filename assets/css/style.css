@@ -544,7 +544,7 @@ a {
   .hello-txt {
     font-family: 'Rowan', 'Kaisei Tokumin';
     display: flex;
-    padding: .3rem;
+    padding: .7rem;
     align-items: center;
     flex: auto;
     justify-content: space-evenly;
