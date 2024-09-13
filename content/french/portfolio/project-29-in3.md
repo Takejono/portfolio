@@ -5,7 +5,7 @@ image: "images/portfolio/in3-01.jpg"
 img_title: "Illustrations pour le site web 'in3 Inc.'"
 categories: ["Illustration"]
 description: "This is meta description."
-order: "25"
+order: "29"
 draft: false
 project_info:
 - name: "Format"

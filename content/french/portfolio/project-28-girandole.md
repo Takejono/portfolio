@@ -5,7 +5,7 @@ image: "images/portfolio/girandole-1.jpg"
 img_title: "«  »"
 categories: ["Art"]
 description: "This is meta description."
-order: "24"
+order: "28"
 draft: false
 project_info:
 - name: "Format"

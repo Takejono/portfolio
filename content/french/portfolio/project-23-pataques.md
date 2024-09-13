@@ -5,7 +5,7 @@ image: "images/portfolio/pataques-1.jpg"
 img_title: "« Homme ouvert » - 30cm x 30cm"
 categories: ["Art"]
 description: "This is meta description."
-order: "04"
+order: "23"
 draft: false
 project_info:
 - name: "Format"

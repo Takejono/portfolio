@@ -5,7 +5,7 @@ image: "images/portfolio/bus-6.jpg"
 img_title: "« Illustrations pour le car Tateyama »"
 categories: ["Illustration"]
 description: "This is meta description."
-order: "24"
+order: "27"
 draft: false
 project_info:
 - name: "Format"

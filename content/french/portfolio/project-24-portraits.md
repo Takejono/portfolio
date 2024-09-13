@@ -5,7 +5,7 @@ image: "images/portfolio/portrait-1.jpg"
 img_title: "« Portrait d'un syrien à l'aéroport » - 23cm x 16cm"
 categories: ["Art"]
 description: "This is meta description."
-order: "06"
+order: "24"
 draft: false
 project_info:
 - name: "Format"

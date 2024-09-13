@@ -5,7 +5,7 @@ image: "images/portfolio/pl-1.jpg"
 img_title: "« Etiquettes du vin la lune pleine »"
 categories: ["Illustration", "Design"]
 description: "This is meta description."
-order: "26"
+order: "30"
 draft: false
 project_info:
 - name: "Format"

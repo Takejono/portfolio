@@ -6,7 +6,7 @@ image: "images/portfolio/koishi-3.jpg"
 img_title: "« Affiche Ramen Koishi »"
 categories: ["Illustration"]
 description: "This is meta description."
-order: "23"
+order: "26"
 draft: falce
 project_info:
 - name: "Format"
