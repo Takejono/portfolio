@@ -971,7 +971,7 @@ color: #9a9a9a;
 ----------------------------------*/
 
 .about-me {
-  background: #686868;
+  background: #b9b49c;
   padding: 0;
   z-index: 0;
   position: relative;
@@ -1015,11 +1015,13 @@ color: #9a9a9a;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
-    padding: 72vw 0 0;
+    padding: 73vw 0 0;
   }
   .about-me-text {
-    background:  #fdf6d298;
-    width: inherit;
+    background:  none;
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+      width: inherit;
     padding: 4rem 1.5rem 6rem;
     border-radius: 0;
     margin-inline: 0;
