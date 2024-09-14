@@ -14,9 +14,9 @@ project_info:
 - name: "Support"
   icon: "brush-fill"
   content: "Digital"
-- name: "Link"
-  icon: "link-45deg"
-  content: "[aguije](https://aguije.jp)"
+# - name: "Link"
+#   icon: "link-45deg"
+#   content: "[aguije](https://aguije.jp)"
 resources:
 - src: images/portfolio/pl-2.jpg
 - src: images/portfolio/pl-3.jpg
