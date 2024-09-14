@@ -955,7 +955,7 @@ color: #9a9a9a;
     font-weight: 500;
     padding-bottom: 0.5rem;
     line-height: 1.5rem;
-    color: color-mix(in srgb, var(--news-bg-color), #ffefbb 85%);
+    color:  #fff1c5;
   }
   a {
     color: #3d3a33;
