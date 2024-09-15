@@ -1,134 +1,27 @@
 (function ($) {
 	'use strict';
 
-	/*--------------------------------
-	 Start Preloader Animation
-	----------------------------------*/
+	// Start Preloader Animation
 	$(window).on('load', function () {
 		$('.preloader').fadeOut(100);
 	});
 
-	/*--------------------------------
-			End Preloader Animation
-		----------------------------------*/
-
-	// -----------------------------
-	//  Count Up
-	// -----------------------------
-	// function counter() {
-	// 	var oTop;
-	// 	if ($('.count').length !== 0) {
-	// 		oTop = $('.count').offset().top - window.innerHeight;
-	// 	}
-	// 	if ($(window).scrollTop() > oTop) {
-	// 		$('.count').each(function () {
-	// 			var $this = $(this),
-	// 				countTo = $this.attr('data-count');
-	// 			$({
-	// 				countNum: $this.text()
-	// 			}).animate({
-	// 				countNum: countTo
-	// 			}, {
-	// 				duration: 1000,
-	// 				easing: 'swing',
-	// 				step: function () {
-	// 					$this.text(Math.floor(this.countNum));
-	// 				},
-	// 				complete: function () {
-	// 					$this.text(this.countNum);
-	// 				}
-	// 			});
-	// 		});
-	// 	}
-	// }
-	// -----------------------------
-	//  On Scroll
-	// -----------------------------
-	// $(window).on('scroll', function () {
-	// 	counter();
-	// });
-
-
-	/*--------------------------------
-	Start Menu
-		----------------------------------*/
-
-	// $('.hello').waypoint({
-	// 	handler: function (direction) {
-	// 		$(".owl-carousel").toggleClass("owl-off");
-	// 	}
-	// });
 
 	// Toggle Mobile Menu
 	$('a.menu-link, .menu-list a').on("click", function () {
 		$(".menu-link").toggleClass("active");
 		$(".menu-slider").toggleClass("open");
 	});
-	/*--------------------------------
-			 End Menu
-		----------------------------------*/
 
+}(jQuery));
 
-	/*--------------------------------
-			Start Code for Mobile Devices
-	----------------------------------*/
-	// // Code for Opera Mini
-	// var vh = $(window).height();
-	// if (navigator.userAgent.indexOf('Opera Mini') != -1) {
-	// 	// Setting Fun Facts Value Immediately
-	// 	work.start();
-	// 	happyClient.start();
-	// 	projects.start();
-	// 	coffee.start();
-	// 	// Setting Skillbar Value Immediately
-	// 	$('.skillbar').each(function () {
-	// 		$(this).find('.skillbar-bar').animate({
-	// 			width: jQuery(this).attr('data-percent')
-	// 		}, 0);
-	// 	});
-	// 	// Removing Bootstrap Class and Re-Style Input
-	// 	$("input").removeClass("form-control");
-	// 	$("input").css({
-	// 		"width": "100%",
-	// 		"height": "50px",
-	// 		"background": "#fff"
-	// 	});
-	// 	// Removing Full-Screen Nav
-	// 	$(".navigation-icon").css("display", "none");
-	// }
+// window.addEventListener('load', function() {
+// 	let ele = document.querySelector('.menu-link')
+// 	ele.addEventListener('click', function() {
+// 	  ele.classList.toggle('active');
+// 	})
+//   })
 
-	// Code For UC Browser
-	// if (navigator.userAgent.indexOf('UCBrowser') != -1) {
-	// 	// Removing Full-Screen Nav
-	// 	$(".navigation-icon").css("display", "none");
-	// 	$(".fun-facts").css({
-	// 		"display": "table",
-	// 		"margin": "auto"
-	// 	});
-	// 	// Setting Fun Facts Value Immediately
-	// 	work.start();
-	// 	happyClient.start();
-	// 	projects.start();
-	// 	coffee.start();
-	// 	// Setting Skillbar Value Immediately
-	// 	$('.skillbar').each(function () {
-	// 		$(this).find('.skillbar-bar').animate({
-	// 			width: jQuery(this).attr('data-percent')
-	// 		}, 0);
-	// 	});
-	// }
-	/*--------------------------------
-			End Code for Mobile Devices
-	----------------------------------*/
-
-	/*--------------------------------
-			Others
-	----------------------------------*/
-	// // Code for Internet Explorer
-	// if (navigator.appName == 'Microsoft Internet Explorer' || !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)) {
-	// 	$(".header, .fullscreen-nav-container, .like-me, .contact").css("background-attachment", "scroll");
-	// 	$(".fullscreen-nav-holder").css("width", "100vw");
-	// }
 
 	// Wow Plugin Initialization
 	var wow = new WOW({
@@ -137,24 +30,6 @@
 		mobile: true
 	});
 	wow.init();
-
-	// Toggling Visibility of Scroll Up Button
-	// $(".hello").waypoint({
-	// 	handler: function (direction) {
-	// 		$(".scroll-up").toggleClass("scroll-up-show");
-	// 	},
-	// 	// offset: "bottom-in-view"
-	// });
-	// $(".sub-button").waypoint({
-	// 	handler: function (direction) {
-	// 		$(".scroll-up").toggleClass("scroll-up-show");
-	// 	},
-	// 	// offset: "bottom-in-view"
-	// });
-	/*--------------------------------
-			Others
-	----------------------------------*/
-}(jQuery));
 
 	/*--------------------------------
 	 Start Header
