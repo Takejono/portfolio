@@ -1,26 +1,28 @@
-(function ($) {
-	'use strict';
+// (function ($) {
+// 	'use strict';
 
 	// Toggle Mobile Menu
-	$('a.menu-link, .menu-list a').on("click", function () {
-		$(".menu-link").toggleClass("active");
-	});
+	// $('a.menu-link, .menu-list a').on("click", function () {
+	// 	$(".menu-link").toggleClass("active");
+	// });
 
-}(jQuery));
+// }(jQuery));
 
 window.addEventListener('load',function(){
-	document.querySelector('body').classList.add("loaded")
-  });
+	document.querySelector('body').classList.add("loaded");
 
-// window.addEventListener('load', function() {
-// 	document.querySelector('a.menu-link, a.menu-list-link').addEventListener('click', function() {
-// 		document.querySelector('.menu-link').classList.toggle('active');
-// 		})
-//   })
+	const el = document.querySelector('.menu-link')
+	const list = document.querySelectorAll('.menu-link, .menu-list a')
+	for (let i = 0; i < list.length; i++) {
+	list[i].addEventListener('click', function() {
+		el.classList.toggle('active');
+		})
+	  }
+  });
 
 
 	// Wow Plugin Initialization
-	var wow = new WOW({
+	const wow = new WOW({
 		animateClass: 'animated',
 		offset: 70,
 		mobile: true
