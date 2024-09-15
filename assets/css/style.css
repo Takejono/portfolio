@@ -572,7 +572,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(var(--divide-bg-color) 5%, color-mix(in srgb, var(--hello-end-color), transparent 30%) 80%, var(--hello-end-color) 95%);
+  background: linear-gradient(var(--divide-bg-color) 15%, color-mix(in srgb, var(--hello-end-color), transparent 50%));
   height: 100%;
   width: 100%;
   z-index: -1;
