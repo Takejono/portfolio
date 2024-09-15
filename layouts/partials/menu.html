@@ -10,7 +10,7 @@
           <ul class="menu-list">
             {{ range site.Menus.main }}
             <li>
-              <a href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a>
+              <a class="menu-list-link" href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a>
             </li>
             {{ end }}
             <li>{{ partial "social-icon" }}</li>

@@ -2,10 +2,9 @@
 	'use strict';
 
 	// Start Preloader Animation
-	$(window).on('load', function () {
-		$('.preloader').fadeOut(100);
-	});
-
+	// $(window).on('load', function () {
+	// 	$('.preloader').fadeOut(100);
+	// });
 
 	// Toggle Mobile Menu
 	$('a.menu-link, .menu-list a').on("click", function () {
@@ -15,11 +14,15 @@
 
 }(jQuery));
 
+window.addEventListener('load',function(){
+	document.querySelector('body').classList.add("loaded")
+  });
+
 // window.addEventListener('load', function() {
-// 	let ele = document.querySelector('.menu-link')
-// 	ele.addEventListener('click', function() {
-// 	  ele.classList.toggle('active');
-// 	})
+// 	document.querySelector('a.menu-link, a.menu-list-link').addEventListener('click', function() {
+// 		document.querySelector('.menu-link').classList.toggle('active');
+// 		document.querySelector('.menu-slider').classList.toggle('open');
+// 		})
 //   })
 
 

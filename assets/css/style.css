@@ -87,6 +87,12 @@ a {
   justify-content: center;
 }
 
+.loaded .preloader {
+  opacity: 0;
+  display: none;
+  transition: all 0.3s ease-out;
+}
+
 .no-js #preloader {
   display: none;
 }
