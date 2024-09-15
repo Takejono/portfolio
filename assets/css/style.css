@@ -97,10 +97,6 @@ a {
   display: none;
 }
 
-/* .square-spin>div {
-  width: 80px;
-  height: 80px;
-} */
 
 @-webkit-keyframes fadeInUp {
   0% {
@@ -437,14 +433,8 @@ a {
   }  
 }
 
-.menu-nav:hover span,
-.menu-link.active:hover span:first-child,
-.menu-link.active:hover span:last-child {
-  background: var(--hvr-color);
-}
-
 .menu-link.active {
-  span {
+  span:nth-child(2) {
   opacity: 0;
   -webkit-transform: rotateY(90deg);
   transform: rotateY(90deg);
@@ -463,6 +453,11 @@ a {
     transform: rotate(-225deg);
     top: -1px;
   }
+}
+
+.menu-nav:hover span,
+.menu-link.active:hover span {
+  background: var(--hvr-color);
 }
 
 .menu-slider {
@@ -513,7 +508,7 @@ a {
   fill: var(--hvr-color);
 }
 
-.open {
+.active + .menu-slider {
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
   width: 100%;

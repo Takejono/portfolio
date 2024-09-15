@@ -1,15 +1,9 @@
 (function ($) {
 	'use strict';
 
-	// Start Preloader Animation
-	// $(window).on('load', function () {
-	// 	$('.preloader').fadeOut(100);
-	// });
-
 	// Toggle Mobile Menu
 	$('a.menu-link, .menu-list a').on("click", function () {
 		$(".menu-link").toggleClass("active");
-		$(".menu-slider").toggleClass("open");
 	});
 
 }(jQuery));
@@ -21,7 +15,6 @@ window.addEventListener('load',function(){
 // window.addEventListener('load', function() {
 // 	document.querySelector('a.menu-link, a.menu-list-link').addEventListener('click', function() {
 // 		document.querySelector('.menu-link').classList.toggle('active');
-// 		document.querySelector('.menu-slider').classList.toggle('open');
 // 		})
 //   })
 
