@@ -1,13 +1,3 @@
-// (function ($) {
-// 	'use strict';
-
-	// Toggle Mobile Menu
-	// $('a.menu-link, .menu-list a').on("click", function () {
-	// 	$(".menu-link").toggleClass("active");
-	// });
-
-// }(jQuery));
-
 window.addEventListener('load',function(){
 	document.querySelector('body').classList.add("loaded");
 
