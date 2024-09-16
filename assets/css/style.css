@@ -701,10 +701,10 @@ div:has(> .btn-more) {
     position: relative;
     top: 0;
     margin: 0;
-    font-weight: 400;
-    font-size: 3.5rem;
+    font-weight: 500;
+    font-size: 3rem;
     &::first-letter {
-    font-size: 5.6rem;
+    font-size: 6rem;
     font-weight: 100;
     letter-spacing: -0.2ch;
     }
@@ -715,11 +715,11 @@ div:has(> .btn-more) {
     }
   .desc-nom {
     position: absolute;
-    top: 30px;
+    top: 28px;
     right: 4px;
-    font-size: 1.41rem;
+    font-size: 1.24rem;
     font-weight: 550;
-    color: #b7b7b7;
+    color: #8a8a8a;
   }
 }
 
@@ -730,17 +730,17 @@ div:has(> .btn-more) {
   flex-wrap: wrap;
   gap: clamp(0rem, 2vw, 1rem);
   justify-content: center;
-  --font-clamp :clamp(.7rem, 1.7vw, 2rem);
+  --font-clamp :clamp(1rem, 1.7vw, 2rem);
   font-size: var(--font-clamp);
   letter-spacing: clamp(0rem, .39vw, 1rem);
-color: #9a9a9a;
+color: #303030e;
   .button {
     font-family: 'General Sans', serif;
     font-weight: 300;
     font-size: var(--font-clamp);
     letter-spacing: clamp(0rem, .39vw, 1rem);
     padding: 0rem;
-    color: #9a9a9a;
+    color: #303030;
     border: solid 2px #fff;
     background-color: transparent;
     transition: all .3s;
