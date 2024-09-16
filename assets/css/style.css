@@ -74,7 +74,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #25252fed;
+  background-color: #25252fef;
   z-index: 99999;
   display: flex;
   align-items: center;
@@ -84,7 +84,7 @@ a {
 .loaded .preloader {
   opacity: 0;
   visibility: hidden;
-  transition: all 0.8s ease-out;
+  transition: all .9s ease-out;
 }
 
 .no-js #preloader {
@@ -97,7 +97,7 @@ a {
   width: 2.5em;
   height: 2.5em;
   animation-fill-mode: both;
-  animation: bblFadInOut 1.5s infinite ease-in-out;
+  animation: bblFadInOut 1.8s infinite ease-in-out;
 }
 .loader {
   color: var(--news-bg-color);
@@ -129,8 +129,8 @@ a {
 @-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(60px);
-    transform: translateY(60px);
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
   }
 
   100% {
@@ -143,9 +143,9 @@ a {
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(60px);
-    -ms-transform: translateY(60px);
-    transform: translateY(60px);
+    -webkit-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    transform: translateY(40px);
   }
   100% {
     opacity: 1;
@@ -155,12 +155,12 @@ a {
   }
 }
 
-@keyframes fadeInDown {
+/* @keyframes fadeInDown {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-60px);
-    -ms-transform: translateY(-60px);
-    transform: translateY(-60px);
+    -webkit-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    transform: translateY(-40px);
   }
   100% {
     opacity: 1;
@@ -168,16 +168,16 @@ a {
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
-}
+} */
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
-}
+} */
 
 @keyframes blurIn {
   from {filter: blur(10px)}
@@ -188,14 +188,14 @@ a {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
-.fadeInDown {
+/* .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-}
-.fadeIn {
+} */
+/* .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-}
+} */
 .blurIn {
   animation-name: blurIn;
   animation-duration: 1s;
@@ -264,12 +264,12 @@ a {
   z-index: 0;
 }
 
-#particles-js {
+/* #particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-}
+} */
 
 #background-slide {
   position: fixed;
