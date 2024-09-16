@@ -697,36 +697,42 @@ div:has(> .btn-more) {
   width: fit-content;
   height: fit-content;
   margin-inline: auto;
-  /* line-height: auto; */
   h1 {
     position: relative;
     top: 0;
     margin: 0;
     font-weight: 400;
-    &::first-letter {
-    font-size: clamp(0rem, 19vw, 14rem);
+    &:lang(fr) {
+      font-size: clamp(0rem, 19vw, 14rem);
+    }
+    &:lang(fr)::first-letter {
+    font-size: clamp(3rem, 30vw, 21rem);
     font-weight: 100;
     letter-spacing: -0.1ch;
     }
     }
   .desc-nom {
     position: absolute;
-    top: clamp(-20px, 5vw, 60px);
+    top: clamp(0px, 8vw, 100px);
     right: clamp(-6px, .9vw, 9px);
-    font-size: clamp(0rem, 5vw, 3.5rem);
-    font-weight: 600;
-    color: #9a9a9a;
+    font-size: clamp(0rem, 8vw, 6rem);
+    font-weight: 550;
+    color: #b7b7b7;
+    &:lang(jp) {
+      top: clamp(-20px, 10vw, -100px);
+      font-size: clamp(0rem, 7vw, 3rem);
+    }
   }
-    .desc-domain {
+    /* .desc-domain {
       position: relative;
       text-align: center;
       margin-inline: auto;
       font-weight: 300;
       top: clamp(-15px, -10vw, -90px);
-      font-size: clamp(0rem, 2.5vw, 1.8rem);
-      letter-spacing: clamp(0rem, .39vw, 4rem);
+      font-size: clamp(0rem, 7vw, 15rem);
+      letter-spacing: clamp(0rem, 1.39vw, 4rem);
       color: #9a9a9a;
-    }
+    } */
 }
 
 .portfolio-filters {
@@ -736,13 +742,14 @@ div:has(> .btn-more) {
   flex-wrap: wrap;
   gap: clamp(0rem, 2vw, 1rem);
   justify-content: center;
-  font-size: clamp(.8rem, 2vw, 1.6rem);
+  --font-clamp :clamp(.6rem, 3vw, 2rem);
+  font-size: var(--font-clamp);
   letter-spacing: clamp(0rem, .39vw, 1rem);
 color: #9a9a9a;
   .button {
     font-family: 'General Sans', serif;
     font-weight: 300;
-    font-size: clamp(.8rem, 2vw, 1.6rem);
+    font-size: var(--font-clamp);
     letter-spacing: clamp(0rem, .39vw, 1rem);
     padding: 0rem;
     color: #9a9a9a;
