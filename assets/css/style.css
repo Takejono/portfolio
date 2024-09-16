@@ -74,29 +74,57 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #99999A;
+  background-color: #25252fed;
   z-index: 99999;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .loaded .preloader {
   opacity: 0;
-  display: none;
-  transition: all 0.3s ease-out;
+  visibility: hidden;
+  transition: all 0.8s ease-out;
 }
 
 .no-js #preloader {
   display: none;
 }
 
+
+.loader, .loader:before, .loader:after {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  animation-fill-mode: both;
+  animation: bblFadInOut 1.5s infinite ease-in-out;
+}
+.loader {
+  color: var(--news-bg-color);
+  font-size: 9px;
+  position: relative;
+  text-indent: -9999em;
+  transform: translateZ(0);
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.loader:before {
+  left: -12em;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 12em;
+}
+
+@keyframes bblFadInOut {
+  0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em }
+  40% { box-shadow: 0 2.5em 0 0 }
+}
 
 @-webkit-keyframes fadeInUp {
   0% {

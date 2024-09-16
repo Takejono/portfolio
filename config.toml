@@ -56,7 +56,7 @@ author = "takeshi jonoo"
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
 # [[params.social]]
