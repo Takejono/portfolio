@@ -692,7 +692,7 @@ div:has(> .btn-more) {
 }
 
 .portfolio-typo {
-  margin: 2rem;
+  /* margin: 0; */
   position: relative;
   width: fit-content;
   height: fit-content;
@@ -728,6 +728,7 @@ div:has(> .btn-more) {
 
 .portfolio-filters {
   display: flex;
+  vertical-align: super;
   list-style: none;
   align-items: center;
   flex-wrap: wrap;
