@@ -37,7 +37,7 @@ h1 {
 h1:lang(jp) {
   word-break:keep-all;
   font-size: clamp(2rem, 14vw, 8.2rem);
-  letter-spacing: -0.4rem!important;
+  letter-spacing: -0.4rem;
 }
 a {
   text-decoration: none;
@@ -692,7 +692,7 @@ div:has(> .btn-more) {
 }
 
 .portfolio-typo {
-  margin-top: 70px;
+  margin-top: 50px;
   position: relative;
   width: fit-content;
   height: fit-content;
@@ -702,37 +702,25 @@ div:has(> .btn-more) {
     top: 0;
     margin: 0;
     font-weight: 400;
-    &:lang(fr) {
-      font-size: clamp(0rem, 19vw, 14rem);
-    }
-    &:lang(fr)::first-letter {
-    font-size: clamp(3rem, 30vw, 21rem);
+    font-size: 3.5rem;
+    &::first-letter {
+    font-size: 5.6rem;
     font-weight: 100;
-    letter-spacing: -0.1ch;
+    letter-spacing: -0.2ch;
+    }
+    &:lang(jp) {
+      font-size: 3.5rem;
+      letter-spacing: 0;
     }
     }
   .desc-nom {
     position: absolute;
-    top: clamp(0px, 8vw, 100px);
-    right: clamp(-6px, .9vw, 9px);
-    font-size: clamp(0rem, 8vw, 6rem);
+    top: 30px;
+    right: 4px;
+    font-size: 1.41rem;
     font-weight: 550;
     color: #b7b7b7;
-    &:lang(jp) {
-      top: clamp(-20px, 10vw, -100px);
-      font-size: clamp(0rem, 7vw, 3rem);
-    }
   }
-    /* .desc-domain {
-      position: relative;
-      text-align: center;
-      margin-inline: auto;
-      font-weight: 300;
-      top: clamp(-15px, -10vw, -90px);
-      font-size: clamp(0rem, 7vw, 15rem);
-      letter-spacing: clamp(0rem, 1.39vw, 4rem);
-      color: #9a9a9a;
-    } */
 }
 
 .portfolio-filters {
@@ -742,7 +730,7 @@ div:has(> .btn-more) {
   flex-wrap: wrap;
   gap: clamp(0rem, 2vw, 1rem);
   justify-content: center;
-  --font-clamp :clamp(.6rem, 3vw, 2rem);
+  --font-clamp :clamp(.7rem, 1.7vw, 2rem);
   font-size: var(--font-clamp);
   letter-spacing: clamp(0rem, .39vw, 1rem);
 color: #9a9a9a;
@@ -762,6 +750,17 @@ color: #9a9a9a;
     &:hover {
         border-bottom: solid 2px #e2e2e2;
     }
+  }
+}
+
+@media screen and ( min-width: 750px ) {
+  .portfolio-typo {
+    margin-inline: 1.7rem auto;
+    display: inline-block;
+  }
+  .portfolio-filters {
+    display: inline-block;
+    margin-left: 1rem;
   }
 }
 
