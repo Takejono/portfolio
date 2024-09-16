@@ -26,7 +26,7 @@ unsafe= true
 [[params.plugins.css]]
 link = "https://api.fontshare.com/v2/css?f[]=general-sans@1&display=swap"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@800&family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap"
+link = "https://fonts.googleapis.com/css2?family=Square+Peg&family=Kaisei+Tokumin:wght@800&family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap"
 [[params.plugins.css]]
 link = "plugins/flickity/flickity.css"
 [[params.plugins.css]]

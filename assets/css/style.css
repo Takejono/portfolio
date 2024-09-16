@@ -37,7 +37,6 @@ h1 {
 h1:lang(jp) {
   word-break:keep-all;
   font-size: clamp(2rem, 14vw, 8.2rem);
-  letter-spacing: -0.4rem;
 }
 a {
   text-decoration: none;
@@ -571,14 +570,14 @@ a {
     flex-direction: column;
   }
   .hello-txt {
-    font-family: 'Rowan', 'Kaisei Tokumin';
+    font-family: 'Square Peg', 'Kaisei Tokumin';
     display: flex;
     padding: .7rem;
     align-items: center;
     flex: auto;
     justify-content: space-evenly;
     text-align: center;
-    font-size: calc(1rem + 1.3vw);
+    font-size: calc(1.3rem + 1.3vw);
     /* font-style: italic; */
     letter-spacing: 0.2rem;
    }
@@ -586,7 +585,7 @@ a {
     flex-direction: row-reverse;
   }
    .hello-txt:lang(jp) {
-    font-size: calc(1rem + 1.3vw);
+    font-size: calc(.8rem + 1.3vw);
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-style: normal;
@@ -624,7 +623,7 @@ a {
     bottom: -1px;
   }
   h1 {
-    color: color-mix(in srgb, #454138, transparent 30%);
+    color: #afaa9f;
     text-align: right;
   }
 }
@@ -697,48 +696,47 @@ div:has(> .btn-more) {
   width: fit-content;
   height: fit-content;
   margin-inline: auto;
-  /* border: 1px solid #dadada;
-  border-radius: .2rem; */
-  /* background: #5e5e5e; */
   h1 {
     position: relative;
     top: 0;
     margin: 0;
     font-weight: 410;
     font-size: 3.4rem;
+    letter-spacing: -0.05ch;
     &::first-letter {
     font-size: 8rem;
     font-weight: 100;
-    letter-spacing: -0.7ch;
+    letter-spacing: -0.76ch;
     }
     }
     &:lang(jp) {
       font-size: 3.5rem;
-      letter-spacing: 0;
     }
     }
   .desc-nom {
     position: absolute;
-    top: 63px;
+    top: 78px;
     right: 4px;
-    font-size: 1rem;
+    font-size: .87rem;
     font-weight: 600;
-    color: #8a8a8a;
+    color: #9d988f;
   }
 
 .portfolio-filters {
   display: flex;
+  /* flex-flow: column; */
   vertical-align: super;
   list-style: none;
   align-items: center;
   flex-wrap: wrap;
   gap: clamp(0rem, 2vw, 1rem);
   justify-content: center;
-  --font-clamp :clamp(1rem, 1.7vw, 2rem);
+  --font-clamp :clamp(.9rem, 1.7vw, 2rem);
   font-size: var(--font-clamp);
   letter-spacing: clamp(0rem, .39vw, 1rem);
-color: #303030e;
+color: #303030;
   .button {
+    cursor: pointer;
     font-family: 'General Sans', serif;
     font-weight: 300;
     font-size: var(--font-clamp);
@@ -752,14 +750,14 @@ color: #303030e;
       border-bottom: solid 2px var(--hvr-color);
       }
     &:hover {
-        border-bottom: solid 2px #e2e2e2;
+        border-bottom: solid 2px var(--hvr-color);
     }
   }
 }
 
-@media screen and ( min-width: 816px ) {
+@media screen and ( min-width: 900px ) {
   .portfolio-typo {
-    margin-inline: 1.7rem auto;
+    margin-inline: 1.4rem auto;
     display: inline-block;
   }
   .portfolio-filters {
