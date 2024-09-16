@@ -27,9 +27,9 @@ body {
 }
 
 h1 {
-  font-family: 'Rowan', 'Kaisei Tokumin', serif;
+  font-family: 'General Sans', 'Kaisei Tokumin', serif;
   font-size: clamp(0rem, 12vw, 8.2rem);
-  font-weight: 200;
+  font-weight: 300;
   margin: 0;
   color: #25252f;
   z-index: 2;
@@ -692,21 +692,25 @@ div:has(> .btn-more) {
 }
 
 .portfolio-typo {
-  margin-top: 50px;
+  margin: 2rem;
   position: relative;
   width: fit-content;
   height: fit-content;
   margin-inline: auto;
+  /* border: 1px solid #dadada;
+  border-radius: .2rem; */
+  /* background: #5e5e5e; */
   h1 {
     position: relative;
     top: 0;
     margin: 0;
-    font-weight: 500;
-    font-size: 3rem;
+    font-weight: 410;
+    font-size: 3.4rem;
     &::first-letter {
-    font-size: 6rem;
+    font-size: 8rem;
     font-weight: 100;
-    letter-spacing: -0.2ch;
+    letter-spacing: -0.7ch;
+    }
     }
     &:lang(jp) {
       font-size: 3.5rem;
@@ -715,13 +719,12 @@ div:has(> .btn-more) {
     }
   .desc-nom {
     position: absolute;
-    top: 28px;
+    top: 63px;
     right: 4px;
-    font-size: 1.24rem;
-    font-weight: 550;
+    font-size: 1rem;
+    font-weight: 600;
     color: #8a8a8a;
   }
-}
 
 .portfolio-filters {
   display: flex;
