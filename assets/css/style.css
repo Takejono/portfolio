@@ -24,6 +24,9 @@ body {
   background: var(--base-bg-color);
   color: #3d3a33;
   fill: #3d3a33;
+  &:lang(jp) {
+    font-size: .9rem;
+  }
 }
 
 h2 {
@@ -154,30 +157,6 @@ a {
   }
 }
 
-/* @keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-40px);
-    -ms-transform: translateY(-40px);
-    transform: translateY(-40px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-} */
-
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-
 @keyframes blurIn {
   from {filter: blur(10px)}
   to {filter: blur(0px)}
@@ -187,59 +166,12 @@ a {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
-/* .fadeInDown {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-} */
-/* .fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-} */
 .blurIn {
   animation-name: blurIn;
   animation-duration: 1s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
-
-/* .scroll-up {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  text-decoration: none;
-  color: var(--divide-bg-color);
-  cursor: pointer;
-  opacity: 0;
-  transform: translateY(100px);
-  transition: all 0.5s;
-  z-index: 10;
-  &::before {
-    content: "";
-    position: absolute;
-    opacity: .5;
-    height: 40px;
-    width: 40px;
-    left: 0rem;
-    top: 0rem;
-    border-radius: 50%;
-    background: #fff1c5;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  &:hover {
-    color: #fff;
-  }
-  &:hover::before {
-    background: var(--hvr-color);
-    opacity: 1;
-  }
-}
-
-.scroll-up-show {
-  opacity: 1;
-  transform: translateY(0px);
-} */
 
 /*--------------------------------
    End Preloader & General Styling
@@ -521,7 +453,7 @@ a {
     color: #3d3a33;
     font-size: clamp(1rem, 4vh, 2.3rem);
     font-family: 'General Sans', 'Kaisei Tokumin';
-    font-weight: 550;
+    font-weight: 450;
     letter-spacing: 0.3vw;
     transition: all 0.3s linear;
     text-decoration: none;
