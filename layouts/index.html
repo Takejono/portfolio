@@ -54,7 +54,7 @@
     {{ end }}
   </div>
   <div class="btn-start">
-    <a href="#portfolio-h1">
+    <a href="#portfolio-h2">
       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
       </svg>
@@ -69,14 +69,14 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="portfolio portfolio-index {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="portfolio">
   {{ partial "divider" }}
-        <h1 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h1">{{ .LinkTitle }}</h1>
+        <h2 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h2">{{ .LinkTitle }}</h2>
         <div class="rw-wrapper wow fadeInUp" data-wow-duration="1s">
           {{ range first 6 .Data.Pages }}
           <div class="carousel-cell">
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" loading="lazy" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
                 <a href="{{.Permalink}}">
-                  <h2>{{ .Title | markdownify }}</h2>
+                  <h3>{{ .Title | markdownify }}</h3>
                 </a>
                 {{ range .Params.categories }}
                 <p>{{ . | title }}</p>
@@ -104,7 +104,7 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="news {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="news">
     {{ partial "divider" }}
-  <h1 class="wow blurIn" data-wow-duration="0.6s" id="news-h1">{{ .Title }}</h1>
+  <h2 class="wow blurIn" data-wow-duration="0.6s" id="news-h2">{{ .Title }}</h2>
   <div class="post-container content wow fadeInUp" data-wow-duration="1s">
     {{ range .Pages.ByDate.Reverse }}
     {{ partial "post-summary.html" . }}
@@ -133,7 +133,7 @@
 {{ with .GetPage "about" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} style="background-image: url('{{ .Params.image | absURL}}');" id="about">
-  <h1 class="wow blurIn" data-wow-duration="0.6s">{{ .Title | markdownify}}</h1>
+  <h2 class="wow blurIn" data-wow-duration="0.6s">{{ .Title | markdownify}}</h2>
       <div class="about-me-text wow fadeInUp" data-wow-duration="1s">
           <div class="content">{{ .Content | markdownify | emojify }}</div>
       </div>
@@ -146,7 +146,7 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="contact {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="contact">
 {{ partial "divider" }}
-    <h1 class="wow blurIn" data-wow-duration="0.6s" id="contact-h1">{{ .Title | markdownify}}</h1>
+    <h2 class="wow blurIn" data-wow-duration="0.6s" id="contact-h2">{{ .Title | markdownify}}</h2>
     <p class="wow fadeInUp" data-wow-duration="1s"><a href="mailto:takeshi.jonoo@gmail.com">takeshi.jonoo@gmail.com</a></p>
       <div class="footer-index blurIn wow" data-wow-duration="1s">
           {{ partial "social-icon" }}

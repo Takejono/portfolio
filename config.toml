@@ -96,7 +96,7 @@ weight = 1
 
 [[Languages.fr.menu.main]]
 name = "Recent works"
-url = "#portfolio-h1"
+url = "#portfolio"
 weight = 2
 
 [[Languages.fr.menu.main]]
@@ -106,7 +106,7 @@ weight = 3
 
 [[Languages.fr.menu.main]]
 name = "News"
-url = "#news-h1"
+url = "#news"
 weight = 4
 
 [[Languages.fr.menu.main]]
@@ -116,7 +116,7 @@ weight = 5
 
 [[Languages.fr.menu.main]]
 name = "Contact"
-url = "#contact-h1"
+url = "#contact"
 weight = 6
 
 ################################### jp language #####################################
@@ -140,7 +140,7 @@ weight = 1
 
 [[Languages.jp.menu.main]]
 name = "最近のお仕事"
-url = "#portfolio-h1"
+url = "#portfolio"
 weight = 2
 
 [[Languages.jp.menu.main]]
@@ -150,7 +150,7 @@ weight = 3
 
 [[Languages.jp.menu.main]]
 name = "お知らせ"
-url = "#news-h1"
+url = "#news"
 weight = 4
 
 [[Languages.jp.menu.main]]
@@ -160,5 +160,5 @@ weight = 5
 
 [[Languages.jp.menu.main]]
 name = "お問い合わせ"
-url = "#contact-h1"
+url = "#contact"
 weight = 6

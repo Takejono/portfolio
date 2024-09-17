@@ -4,7 +4,7 @@
 <section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
   <div class="portfolio-typo">
   <span class="desc-nom wow blurIn" data-wow-duration=".6s">Takeshi JONOO</span>
-  <h1 class="wow blurIn" data-wow-duration=".6s">Portfolio</h1>
+  <h2 class="wow blurIn" data-wow-duration=".6s">Portfolio</h2>
   </div>
   <div class="portfolio-filters wow fadeInUp" data-wow-duration=".7s">
      <button class="button is-checked" data-filter="*">Artiste</button>|
@@ -19,7 +19,7 @@
               <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}"></a>
               <div class="item-caption">
                 <a href="{{.Permalink}}">
-                  <h2>{{ .Title | markdownify }}</h2>
+                  <h3>{{ .Title | markdownify }}</h3>
                 </a>
                 {{ range .Params.categories }}
                 <p>{{ . | title }}</p>

@@ -26,7 +26,7 @@ body {
   fill: #3d3a33;
 }
 
-h1 {
+h2 {
   font-family: 'General Sans', 'Kaisei Tokumin', serif;
   font-size: clamp(0rem, 12vw, 8.2rem);
   font-weight: 300;
@@ -34,7 +34,7 @@ h1 {
   color: #25252f;
   z-index: 2;
 }
-h1:lang(jp) {
+h2:lang(jp) {
   word-break:keep-all;
   font-size: clamp(2rem, 14vw, 8.2rem);
 }
@@ -622,7 +622,7 @@ a {
     transform: scaleX(-1);
     bottom: -1px;
   }
-  h1 {
+  h2 {
     color: #afaa9f;
     text-align: right;
   }
@@ -696,7 +696,7 @@ div:has(> .btn-more) {
   width: fit-content;
   height: fit-content;
   margin-inline: auto;
-  h1 {
+  h2 {
     position: relative;
     top: 0;
     margin: 0;
@@ -815,7 +815,7 @@ color: #303030;
   opacity: .1;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  h2 {
+  h3 {
     font-family: 'General Sans';
     font-size: 1.2rem;
     font-weight: 450;
@@ -824,7 +824,7 @@ color: #303030;
     overflow-wrap: break-word;
     word-break:keep-all;
   }
-  h2:lang(jp) {
+  h3:lang(jp) {
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0;
@@ -884,9 +884,9 @@ color: #303030;
 .desc-text {
   flex-basis: 500px;
   h3 {
-  font-family: 'Rowan', serif;
+  /* font-family: 'Rowan', serif; */
   font-size: 2.4rem;
-  font-weight: 400;
+  font-weight: 300;
   }
   h3:lang(jp) {
   font-family: 'Zen Kaku Gothic Antique', serif;
@@ -908,7 +908,7 @@ color: #303030;
       position: relative;
     }
     h4 { /* categorie name */
-      font-family: 'Rowan', 'Kaisei Tokumin';
+      /* font-family: 'Rowan', 'Kaisei Tokumin'; */
       font-size: .9rem;
       font-weight: 500;
       margin: 0;
@@ -981,14 +981,14 @@ color: #303030;
       color: color-mix(in srgb, var(--news-color), var(--base-bg-color) 98%);
     }
   }
-  h1 {
+  h2 {
     color: color-mix(in srgb, var(--news-color), var(--base-bg-color) 65%);
   }
-  h2 {
-    font-size: 1.5rem;
-    font-weight: 500;
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
     margin: 0;
-    line-height: 1.5rem;
+    line-height: 2rem;
     color: var(--news-color);
   }
   a {
@@ -1011,7 +1011,7 @@ color: #303030;
   position: relative;
   background-size: cover;
   background-position: center;
-  h1 {
+  h2 {
     position: absolute;
     top: -20px;
     right: 0;
@@ -1081,7 +1081,7 @@ color: #303030;
     transform: scaleX(-1);
     bottom: -1px;
   }
-  h1 {
+  h2 {
     color: color-mix(in srgb, var(--contact-color) 70%, var(--contact-bg-color));
     width: 100%;
     text-align: center;
