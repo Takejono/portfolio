@@ -562,6 +562,7 @@ a {
 
 .rw-wrapper {
   margin: 5rem 0 4rem;
+  padding: 1rem;
   overflow: hidden;
   &:not(:hover) .flickity-prev-next-button {
     opacity: 0;
