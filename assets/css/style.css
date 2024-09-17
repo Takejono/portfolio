@@ -652,7 +652,7 @@ div:has(> .btn-more) {
     }
   .desc-nom {
     position: absolute;
-    top: 55px;
+    top: 40px;
     right: 1px;
     font-size: 1.8rem;
     font-weight: 550;
