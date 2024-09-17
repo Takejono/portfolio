@@ -48,6 +48,7 @@ window.addEventListener('load',function(){
 	var elem = document.querySelector('.rw-wrapper');
 	var flkty = new Flickity( elem, {
 	// options
+	pageDots: false,
 	selectedAttraction: 0.005,
     friction: 0.14,
 	wrapAround: true,
