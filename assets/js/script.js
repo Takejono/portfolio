@@ -1,5 +1,5 @@
 window.addEventListener('load',function(){
-	document.querySelector('body').classList.add("loaded");
+	document.querySelector('.preloader').classList.add("loaded");
 
 	const el = document.querySelector('.menu-link')
 	const list = document.querySelectorAll('.menu-link, .menu-list a')

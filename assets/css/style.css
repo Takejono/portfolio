@@ -57,19 +57,6 @@ a {
   }
 }
 
-/* .no-js body {
-  overflow: visible;
-} */
-
-/* .all-container {
-  opacity: 0;
-  height: 100%;
-}
-
-.no-js .all-container {
-  opacity: 1;
-} */
-
 .preloader {
   position: fixed;
   top: 0;
@@ -83,16 +70,16 @@ a {
   justify-content: center;
 }
 
-.loaded .preloader {
+.loaded {
+  animation: loaded .9s forwards;
+}
+
+@keyframes loaded {
+100% {
   opacity: 0;
-  visibility: hidden;
-  transition: all .9s ease-out;
-}
-
-.no-js #preloader {
   display: none;
+}  
 }
-
 
 .loader, .loader:before, .loader:after {
   border-radius: 50%;
@@ -131,13 +118,11 @@ a {
 @-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(40px);
     transform: translateY(40px);
   }
 
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
@@ -145,14 +130,10 @@ a {
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(40px);
-    -ms-transform: translateY(40px);
     transform: translateY(40px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
     transform: translateY(0);
   }
 }
@@ -163,7 +144,6 @@ a {
 }
 
 .fadeInUp {
-  -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 .blurIn {
@@ -562,7 +542,7 @@ a {
 
 .rw-wrapper {
   margin: 5rem 0 4rem;
-  padding: 1rem;
+  padding: 1rem 0;
   overflow: hidden;
   &:not(:hover) .flickity-prev-next-button {
     opacity: 0;
@@ -575,14 +555,14 @@ a {
     }  
   }
 
-.flickity-button {
+.flickity-button { /* button global */
   background: hsla(0, 0%, 100%, 0.4);
   transition: all .5s;
   top: 50%;
 }
 
 .carousel-cell {
-  margin-right: .5rem;
+  margin: .8rem;
   width: 70%;
   max-width: 600px;
   &:hover {
@@ -599,9 +579,13 @@ a {
   img {
   transition: all 0.3s ease-in-out;
   object-fit: cover;
-    width: 100%;
-    height: 400px;
-    }
+  width: 100%;
+  height: 400px;
+  margin-inline: 1rem;
+  &:hover {
+    filter: drop-shadow(0 20px 17px #29221169);
+  }
+  }
 }
 @media screen and ( max-width: 500px ) {
   .carousel-cell { width: 84%; }
@@ -706,17 +690,14 @@ color: #303030;
 
 .pf-wrapper {
   margin: 5rem 1rem 0;
-  /* width: 100%; */
 }
 
 .filtr-item {
   width: calc(25% - .25rem);
-  /* min-width: 330px; */
   overflow: hidden;
   margin: 0rem;
   transition: filter 0.4s;
   img {
-    /* border-radius: 0.3rem; */
     object-fit: cover;
     width: 100%;
     margin-inline: 1rem;
