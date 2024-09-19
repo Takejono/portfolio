@@ -1,12 +1,12 @@
 ---
 title: "Green House"
-date: 2024-04-01T12:14:34+06:00
-image: "images/portfolio/pl-1.jpg"
+date: 2024-04-15T12:14:34+06:00
+image: "images/portfolio/gh-01.jpg"
 img_title: "« Green House cover illustration »"
 categories: ["Illustration"]
 description: "This is meta description."
 order: "32"
-draft: true
+draft: false
 project_info:
 - name: "Format"
   icon: "rulers"
@@ -18,7 +18,7 @@ project_info:
 #   icon: "link-45deg"
 #   content: "[aguije](https://aguije.jp)"
 resources:
-- src: images/portfolio/pl-2.jpg
-- src: images/portfolio/pl-3.jpg
-- src: images/portfolio/pl-4.jpg
 ---
+Illustration pour un livret interne de une société de restauration et la santé. Design final est legèrement changé de disposition.
+
+Direction artistique : [Mioko takano](https://www.miokotakano.com)
