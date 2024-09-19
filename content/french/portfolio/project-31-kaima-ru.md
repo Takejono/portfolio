@@ -19,6 +19,8 @@ project_info:
   content: "[aguije](https://aguije.jp)"
 resources:
 - src: images/portfolio/kaimaru-02.jpg
+- src: images/portfolio/kaimaru-03.jpg
+- src: images/portfolio/kaimaru-04.jpg
 ---
 Illustrations pour le wrapping d'un mini-bus pour la ville Tateyama au Japon. Ce bus illustré est bien agréable à l'oœil.
 
