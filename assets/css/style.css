@@ -789,6 +789,7 @@ color: #303030;
   justify-content: center;
   #carousel-folio {
     margin-inline: auto;
+    padding: 1rem;
     flex-basis: 600px;
     height: fit-content;
   }
@@ -804,13 +805,15 @@ color: #303030;
 .desc-text {
   flex-basis: 500px;
   h3 {
-  /* font-family: 'Rowan', serif; */
   font-size: 3rem;
   font-weight: 300;
+  line-height: 3rem;
+  margin: 0;
   }
   h3:lang(jp) {
   font-family: 'Zen Kaku Gothic Antique', serif;
   font-weight: 500;
+  font-size: 2rem;
   }
 }
 .infos-gallery {
