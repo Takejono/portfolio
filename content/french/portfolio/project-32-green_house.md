@@ -19,6 +19,6 @@ project_info:
 #   content: "[aguije](https://aguije.jp)"
 resources:
 ---
-Illustration pour un livret interne de une société de restauration et la santé. Design final est legèrement changé de disposition.
+Illustration pour un livret interne d'une entreprise de restauration et la santé. Design final est legèrement changé de disposition et coloré.
 
 Direction artistique : [Mioko takano](https://www.miokotakano.com)
