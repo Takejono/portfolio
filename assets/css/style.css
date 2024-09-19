@@ -544,15 +544,16 @@ a {
   margin: 5rem 0 4rem;
   padding: 1rem 0;
   overflow: hidden;
-  &:not(:hover) .flickity-prev-next-button {
-    opacity: 0;
-  }
   .flickity-button {
     top: 40%;
   }
   .flickity-viewport {
     transform: rotate(-1deg);
     }  
+  }
+
+  *:not(:hover) .flickity-button {
+    opacity: 0;
   }
 
 .flickity-button { /* button global */
