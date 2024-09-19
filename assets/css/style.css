@@ -935,7 +935,7 @@ color: #303030;
     position: absolute;
     top: -20px;
     right: 0;
-    color: color-mix(in srgb, #ede2aa, transparent 30%);
+    color: color-mix(in srgb, #534e36, transparent 30%);
     z-index: 1;
   }
   &::before {
