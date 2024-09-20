@@ -63,7 +63,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #25252fef;
+  background-color: var(--base-bg-color);
   z-index: 99999;
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@ a {
   animation: bblFadInOut 1.8s infinite ease-in-out;
 }
 .loader {
-  color: var(--news-bg-color);
+  color: var(--news-color);
   font-size: 7px;
   position: relative;
   text-indent: -9999em;
@@ -407,8 +407,8 @@ a {
   width: 0;
   overflow: auto;
   opacity: 0;
-  background: #b1ff6345;
-  backdrop-filter: blur(60px);
+  background: #a7eff753;
+  backdrop-filter: blur(40px);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   transition-delay: 300ms, 0ms;
@@ -418,14 +418,14 @@ a {
 .menu-list {
  list-style: none;
  padding: 0;
- margin: 20px 0 0;
+ margin: 40px 0 0;
  display: flex;
  justify-content: space-evenly;
  flex-direction: column;
  flex-wrap: wrap;
  gap: .5rem;
  align-items: center;
- height: calc(100vh - 20px);
+ height: calc(100vh - 40px);
  opacity: 0;
  -webkit-transition: all 0.1s linear;
  transition: all 0.1s linear;
@@ -789,6 +789,7 @@ color: #303030;
   justify-content: center;
   #carousel-folio {
     margin-inline: auto;
+    padding: 1rem;
     flex-basis: 600px;
     height: fit-content;
   }
@@ -804,13 +805,15 @@ color: #303030;
 .desc-text {
   flex-basis: 500px;
   h3 {
-  /* font-family: 'Rowan', serif; */
   font-size: 3rem;
   font-weight: 300;
+  line-height: 3rem;
+  margin: 0;
   }
   h3:lang(jp) {
   font-family: 'Zen Kaku Gothic Antique', serif;
   font-weight: 500;
+  font-size: 2rem;
   }
 }
 .infos-gallery {
