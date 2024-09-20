@@ -666,14 +666,13 @@ color: #303030;
     letter-spacing: clamp(0rem, .39vw, 1rem);
     padding: 0rem;
     color: #303030;
-    border: solid 2px #fff;
+    border: none;
+    text-decoration: underline 2px transparent;
+    text-underline-offset: 5px;
     background-color: transparent;
     transition: all .3s;
-    &.is-checked {
-      border-bottom: solid 2px var(--hvr-color);
-      }
-    &:hover {
-        border-bottom: solid 2px var(--hvr-color);
+    &.is-checked, &:hover {
+      text-decoration: underline 2px var(--hvr-color);
     }
   }
 }
