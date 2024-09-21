@@ -14,7 +14,7 @@ window.addEventListener('load',function(){
 	// Wow Plugin Initialization
 	const wow = new WOW({
 		animateClass: 'animated',
-		offset: 20,
+		offset: 60,
 		mobile: true
 	});
 	wow.init();
