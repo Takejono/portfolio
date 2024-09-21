@@ -469,7 +469,7 @@ a {
 ----------------------------------*/
 #hello {
   background: var(--divide-bg-color);
-  background-image: url("/images/backgrounds/atelier02.jpg");
+  background-image: url("/images/backgrounds/atelier01.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom: 120px;
