@@ -90,13 +90,13 @@ a {
 }
 .loader {
   color: var(--news-color);
-  font-size: 7px;
+  font-size: 10px;
   position: relative;
   text-indent: -9999em;
   transform: translateZ(0);
   animation-delay: -0.25s;
 }
-.loader:before,
+/* .loader:before,
 .loader:after {
   content: '';
   position: absolute;
@@ -108,7 +108,7 @@ a {
 }
 .loader:after {
   left: 6em;
-}
+} */
 
 @keyframes bblFadInOut {
   0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em }
@@ -421,9 +421,9 @@ a {
  transition: all 0.1s linear;
   a {
     color: #3d3a33;
-    font-size: clamp(1rem, 4vh, 2.3rem);
+    font-size: clamp(2rem, 4vh, 3rem);
     font-family: 'General Sans', 'Kaisei Tokumin';
-    font-weight: 450;
+    font-weight: 350;
     letter-spacing: 0.3vw;
     transition: all 0.3s linear;
     text-decoration: none;
