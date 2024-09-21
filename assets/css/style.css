@@ -680,7 +680,7 @@ color: #303030;
 }
 
 .pf-wrapper {
-  margin: 5rem 1rem 0;
+  margin: 5rem 1rem 0 0;
 }
 
 .filtr-item {
@@ -690,8 +690,8 @@ color: #303030;
   transition: filter 0.4s;
   img {
     object-fit: cover;
-    width: 100%;
-    margin-inline: 1rem;
+    width: calc(100% - 2rem);
+    margin-inline: 2rem;
     height: 300px;
     transition: transform 0.4s;
   }
@@ -721,7 +721,7 @@ color: #303030;
 
 .item-caption {
   width: 100%;
-  margin: .3rem 1rem 1.5rem;
+  margin: .3rem 2rem 1.5rem;
   opacity: .1;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
