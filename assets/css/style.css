@@ -475,7 +475,6 @@ a {
   z-index: 1;
   position: relative;
   color: #fff1c5;
-  /* min-height: calc(100vh + 120px); */
   .container {
     padding: 10vh 0rem;
     height: fit-content;
@@ -492,7 +491,6 @@ a {
     justify-content: space-evenly;
     text-align: center;
     font-size: calc(1.3rem + 1.3vw);
-    /* font-style: italic; */
     letter-spacing: 0.2rem;
    }
    .container:lang(jp) {
@@ -514,7 +512,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(var(--divide-bg-color) 15%, color-mix(in srgb, var(--hello-end-color), transparent 50%));
+  background: linear-gradient(177deg, var(--divide-bg-color) 20%, color-mix(in srgb, var(--hello-end-color), transparent 60%));
   height: 100%;
   width: 100%;
   z-index: -1;
