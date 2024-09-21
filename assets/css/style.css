@@ -525,6 +525,7 @@ a {
 ----------------------------------*/
 
 .portfolio {
+  /* background: linear-gradient(var(--base-bg-color), transparent), url("/images/backgrounds/noise.svg"); */
   background-color: var(--base-bg-color);
   position: relative;
   padding: 0 0 7rem;
