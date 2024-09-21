@@ -165,13 +165,13 @@ a {
 
 .header {
   background: var(--divide-bg-color);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   position: relative;
   height: 100%;
-  min-height: 420px;
+  /* min-height: 420px; */
   z-index: 0;
 }
 
@@ -197,6 +197,7 @@ a {
     height: 100%;
     width: 100%;
     color: transparent;
+    background: linear-gradient(transparent 60%, var(--divide-bg-color));
     z-index: 1;
   }
   img {
@@ -512,7 +513,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(177deg, var(--divide-bg-color) 20%, color-mix(in srgb, var(--hello-end-color), transparent 60%));
+  background: linear-gradient(177deg, var(--divide-bg-color) 10%, color-mix(in srgb, var(--divide-bg-color), transparent 10%) 40%, color-mix(in srgb, var(--base-bg-color), transparent 80%));
   height: 100%;
   width: 100%;
   z-index: -1;
