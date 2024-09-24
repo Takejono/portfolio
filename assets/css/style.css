@@ -410,14 +410,16 @@ a {
 .menu-list {
  list-style: none;
  padding: 0;
- margin: 1em;
+ margin-inline: auto 1rem;
  display: flex;
+ width: fit-content;
  justify-content: space-evenly;
- flex-direction: column;
- flex-wrap: wrap;
- gap: .5rem;
  align-items: flex-start;
  align-content: flex-end;
+ flex-direction: column;
+ flex-wrap: wrap;
+ /* gap: .5rem; */
+ /* border: #09234a 1px solid; */
  height: calc(100vh - 40px);
  opacity: 0;
  transform: translateX(10rem);
