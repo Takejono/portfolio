@@ -396,6 +396,7 @@ a {
   top: 0;
   right: 0;
   width: 0;
+  height: 100vh;
   overflow: hidden;
   opacity: 0;
   /* background: #a7eff753; */
@@ -703,6 +704,16 @@ color: #303030;
     height: 300px;
     transition: all 0.4s;
   }
+  &:nth-child(2n) {
+    img {
+    border-radius: 40% 50% 30% 50% / 40% 50% 50% 70%;
+  }
+  }
+  &:nth-child(3n) {
+    img {
+      border-radius: 50% 50% 60% 30% / 60% 40% 60% 40%;
+    }
+  }
   &:hover {
     filter: drop-shadow(0 25px 20px #2922118f);
     a {
@@ -717,7 +728,6 @@ color: #303030;
     }
   }
 }
-
 @media ( max-width: 600px ) {
   .filtr-item { width: calc(100% - 1rem); }
 }
