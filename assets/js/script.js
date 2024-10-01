@@ -10,6 +10,9 @@ window.addEventListener('load',function(){
 	  }
   });
 
+  setTimeout(function() {
+	window.addEventListener('load', removePreloader);
+ }, 6000);
 
 	// Wow Plugin Initialization
 	const wow = new WOW({
