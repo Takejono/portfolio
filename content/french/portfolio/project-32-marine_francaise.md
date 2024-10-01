@@ -23,4 +23,4 @@ resources:
 - src: images/portfolio/mf-03.jpg
 - src: images/portfolio/mf-04.jpg
 ---
-3 Illustrations pour T shirts de la marque japonaise [Marine Française](https://lamarinefrancaise.jp/).
+3 Illustrations pour T shirts de la marque japonaise [Marine Française](https://lamarinefrancaise.jp/). C'est 2 émes collaboration avec leux. Merci!
