@@ -1,7 +1,7 @@
 ---
 title: "Marine Française"
 date: 2024-04-01T12:14:34+06:00
-image: "images/portfolio/mf-01.jpg"
+image: "images/portfolio/mf-05.jpg"
 img_title: "« T shirts collaboration illustration »"
 categories: ["Illustration"]
 description: "This is meta description."
@@ -18,7 +18,9 @@ project_info:
 #   icon: "link-45deg"
 #   content: "[aguije](https://aguije.jp)"
 resources:
+- src: images/portfolio/mf-01.jpg
+- src: images/portfolio/mf-02.jpg
+- src: images/portfolio/mf-03.jpg
+- src: images/portfolio/mf-04.jpg
 ---
-Illustration pour un livret interne d'une entreprise de restauration et la santé. Design final est legèrement changé de disposition et coloré.
-
-Direction artistique : [Mioko takano](https://www.miokotakano.com)
+3 Illustrations pour T shirts de la marque japonaise [Marine Française](https://lamarinefrancaise.jp/).
