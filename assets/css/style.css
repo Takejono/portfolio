@@ -64,7 +64,6 @@ a {
   right: 0;
   bottom: 0;
   background-color: var(--base-bg-color);
-  /* background-color: #6e6c6a; */
   z-index: 99999;
   display: flex;
   align-items: center;
@@ -105,19 +104,6 @@ a {
   transform: translateZ(0);
   animation-delay: -0.25s;
 }
-/* .loader:before,
-.loader:after {
-  content: '';
-  position: absolute;
-  top: 0;
-}
-.loader:before {
-  left: -6em;
-  animation-delay: -0.5s;
-}
-.loader:after {
-  left: 6em;
-} */
 
 @keyframes bblFadInOut {
   0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em }
@@ -162,22 +148,10 @@ a {
 
 .header {
   background: var(--divide-bg-color);
-  /* background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed; */
   position: relative;
   height: 100%;
-  /* min-height: 420px; */
   z-index: 0;
 }
-
-/* #particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-} */
 
 #background-slide {
   position: fixed;
@@ -194,7 +168,7 @@ a {
     height: 100%;
     width: 100%;
     color: transparent;
-    background: linear-gradient(transparent 60%, var(--divide-bg-color));
+    background: linear-gradient(transparent 50%, var(--divide-bg-color));
     z-index: 1;
   }
   img {
@@ -215,7 +189,7 @@ a {
   bottom: 110px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  .animated-text {
+    .animated-text {
     text-align: right;
   }
   .rotate {
@@ -292,16 +266,17 @@ a {
 .header .divider {
   position: absolute;
   width: 100%;
-  height: 150px;
+  height: 300px;
   bottom: 0;
   z-index: 2;
-  background: var(--divide-bg-color);
-}
-.header .divider svg {
-  fill: var(--divide-bg-color);
-  position: absolute;
-  bottom: 149px;
-  /* bottom: 90px; */
+  /* background: var(--divide-bg-color); */
+  background: linear-gradient(to top, var(--divide-bg-color) 10%, transparent);
+  svg {
+    /* fill: var(--divide-bg-color); */
+    fill: none;
+    position: absolute;
+    bottom: 149px;
+  }
 }
 
 /*--------------------------------
@@ -408,7 +383,6 @@ a {
   height: 100vh;
   overflow: hidden;
   opacity: 0;
-  /* background: #a7eff753; */
   background: linear-gradient(to left, #52bce9e1, transparent);
   backdrop-filter: blur(20px);
   -webkit-transition: all 0.3s ease-in-out;
