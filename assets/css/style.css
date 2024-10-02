@@ -809,15 +809,26 @@ color: #303030;
     margin-inline: auto;
     padding: 1rem;
     flex-basis: 600px;
-    height: fit-content;
+    height: 600px;
   }
   .folio-item {
-    height: calc(100vh - 8rem);
+    height: 600px;
     object-fit: contain;
     width: 100%;
     margin-right: .5rem;
-    top: 0;
+    /* top: 0; */
   }
+  /* #carousel-nav {
+    height: 80px;
+    width: 600px;
+    background: #aaa;
+    .folio-item {
+      height: 80px;
+      object-fit: contain;
+      width: 50%;
+      margin-right: 0rem;
+    }  
+  } */
 }
 
 .desc-text {

@@ -68,11 +68,12 @@ window.addEventListener('load',function(){
 	// Carousel folio
 	var elem = document.querySelector('#carousel-folio');
 	var flkty = new Flickity( elem, {
-	// options
+	cellselector: 'folio-item',
 	cellAlign: 'center',
 	selectedAttraction: 0.005,
 	friction: 0.14,
 	wrapAround: true,
+	// pageDots: false,
 	arrowShape: { 
 		x0: 25,
 		x1: 60, y1: 50,
@@ -81,11 +82,27 @@ window.addEventListener('load',function(){
 	  }
 	});
 
+	// Carousel folio-nav
+	// var elem = document.querySelector('#carousel-nav');
+	// var flkty = new Flickity( elem, {
+	// cellAlign: 'center',
+	// selectedAttraction: 0.005,
+	// friction: 0.14,
+	// wrapAround: true,
+	// asNavFor: '#carousel-folio',
+	// pageDots: false,
+	// setGallerySize: false,
+	// arrowShape: { 
+	// 	x0: 25,
+	// 	x1: 60, y1: 50,
+	// 	x2: 65, y2: 50,
+	// 	x3: 40
+	//   }
+	// });
 	
     // Filtering Portfolio
 	var elem = document.querySelector('.pf-wrapper');
     var iso = new Isotope( elem, {
-    // options
     itemSelector: '.filtr-item',
     layoutMode: 'masonry',
 	transitionDuration: '0.3s'
