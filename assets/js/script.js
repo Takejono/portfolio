@@ -1,5 +1,10 @@
 window.addEventListener('load',function(){
-	document.querySelector('.preloader').classList.add("loaded");
+	const preloader = document.querySelector('.preloader')
+	preloader.classList.add("loaded");
+	function byeLoader(){
+		preloader.remove();
+	}
+	setTimeout (byeLoader, 1800);
 
 	const el = document.querySelector('.menu-link')
 	const list = document.querySelectorAll('.menu-link, .menu-list a')
@@ -10,9 +15,6 @@ window.addEventListener('load',function(){
 	  }
   });
 
-  setTimeout(function() {
-	window.addEventListener('load', removePreloader);
- }, 6000);
 
 	// Wow Plugin Initialization
 	const wow = new WOW({
