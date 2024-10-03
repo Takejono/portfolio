@@ -27,7 +27,7 @@ window.addEventListener('load',function(){
 	/*--------------------------------
 	 Start Header
 		----------------------------------*/
-    // Background Slider Head
+    // Background Slider Header
 	var elem = document.querySelector('#background-slide');
 	var flkty = new Flickity( elem, {
 	// options
@@ -57,6 +57,7 @@ window.addEventListener('load',function(){
 	selectedAttraction: 0.005,
     friction: 0.14,
 	wrapAround: true,
+	contain: true,
 	arrowShape: { 
 		x0: 25,
 		x1: 60, y1: 50,

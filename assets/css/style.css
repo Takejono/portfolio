@@ -962,9 +962,6 @@ color: #303030;
   border-radius: 4px;
   width: clamp(24rem, 40vw, 590px);
   margin-inline: auto 0;
-  p {
-    color: var(--divide-bg-color);
-  }
 }
 
 @media screen and (max-width: 575px) {
