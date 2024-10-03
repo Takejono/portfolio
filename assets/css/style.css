@@ -2,7 +2,7 @@
    Start Preloader & General Styling
 ----------------------------------*/
 :root {
-  --divide-bg-color: #25252f;
+  /* --divide-bg-color: #25252f; */
   --hvr-color: #faca09;
   --contact-bg-color: #09234a;
   --contact-color: #787164; 
@@ -188,7 +188,7 @@ a {
   position: absolute;
   bottom: 0px;
   /* height: 40%; */
-  background: linear-gradient(transparent, color-mix(in srgb, var(--divide-bg-color), transparent 40%), color-mix(in srgb, var(--divide-bg-color), transparent 15%));
+  background: linear-gradient(transparent, color-mix(in srgb, var(--base-bg-color), transparent 40%), color-mix(in srgb, var(--base-bg-color), transparent 15%));
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   img {
@@ -206,7 +206,7 @@ a {
     width: 100%;
     letter-spacing: 0.8rem;
     font-size: 1rem;
-    color: #fff1c5;
+    color: #605f59;
     right: 5px;
     bottom: -30px;
     opacity: 0;
@@ -249,7 +249,7 @@ a {
     z-index: 11;
     svg {
       opacity: 0.6;
-      color: #fff1c5;
+      color: #605f59;
       -webkit-transition: all 0.3s ease-out;
       transition: all 0.3s ease-out;
       transform: translateY(0px) scale(100%);
@@ -459,7 +459,7 @@ a {
    hello
 ----------------------------------*/
 #hello {
-  background: linear-gradient(color-mix(in srgb, var(--divide-bg-color), transparent 15%), color-mix(in srgb, var(--divide-bg-color), transparent 10%));
+  background: color-mix(in srgb, var(--base-bg-color), transparent 15%);
   /* background: var(--divide-bg-color); */
   /* background-image: url("/images/backgrounds/atelier01.jpg"); */
   /* background-size: cover; */
@@ -467,7 +467,7 @@ a {
   padding-bottom: 120px;
   z-index: 1;
   position: relative;
-  color: #fff1c5;
+  color: #605f59;
   .container {
     padding: 10vh 0rem;
     height: fit-content;
