@@ -2,7 +2,7 @@
    Start Preloader & General Styling
 ----------------------------------*/
 :root {
-  /* --divide-bg-color: #25252f; */
+  --divide-bg-color: #fffdf5;
   --hvr-color: #faca09;
   --contact-bg-color: #09234a;
   --contact-color: #787164; 
@@ -188,12 +188,12 @@ a {
   position: absolute;
   bottom: 0px;
   /* height: 40%; */
-  background: linear-gradient(transparent, color-mix(in srgb, var(--base-bg-color), transparent 40%), color-mix(in srgb, var(--base-bg-color), transparent 15%));
+  background: linear-gradient(transparent, color-mix(in srgb, var(--divide-bg-color), transparent 40%), color-mix(in srgb, var(--divide-bg-color), transparent 10%));
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   img {
     max-width: 700px;
-    filter: drop-shadow(0 0 50px #000);
+    filter: drop-shadow(0 -20px 50px #000);
   }
   .animated-text {
     text-align: right;
@@ -459,7 +459,7 @@ a {
    hello
 ----------------------------------*/
 #hello {
-  background: color-mix(in srgb, var(--base-bg-color), transparent 15%);
+  background: color-mix(in srgb, var(--divide-bg-color), transparent 10%);
   /* background: var(--divide-bg-color); */
   /* background-image: url("/images/backgrounds/atelier01.jpg"); */
   /* background-size: cover; */
