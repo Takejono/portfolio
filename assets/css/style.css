@@ -188,7 +188,7 @@ a {
   position: absolute;
   bottom: 0px;
   /* height: 40%; */
-  background: linear-gradient(transparent, 40%, color-mix(in srgb, var(--divide-bg-color), transparent 15%));
+  background: linear-gradient(transparent, color-mix(in srgb, var(--divide-bg-color), transparent 40%), color-mix(in srgb, var(--divide-bg-color), transparent 15%));
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   img {
