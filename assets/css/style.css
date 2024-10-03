@@ -183,12 +183,9 @@ a {
 .head-holder {
   z-index: 3;
   width: 100%;
-  /* max-width: 700px; */
-  /* display: block; */
   position: absolute;
-  bottom: 0px;
-  /* height: 40%; */
-  background: linear-gradient(transparent, color-mix(in srgb, var(--divide-bg-color), transparent 40%), color-mix(in srgb, var(--divide-bg-color), transparent 10%));
+  bottom: 0;
+  background: linear-gradient(transparent, color-mix(in srgb, var(--divide-bg-color), transparent 20%) 38%, color-mix(in srgb, var(--divide-bg-color), transparent 5%));
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   img {
@@ -221,7 +218,7 @@ a {
       }  
     }
     .btn-start {
-      margin-top: 5rem;
+      margin: 3rem 0;
     }
 }
 
@@ -459,7 +456,7 @@ a {
    hello
 ----------------------------------*/
 #hello {
-  background: color-mix(in srgb, var(--divide-bg-color), transparent 10%);
+  background: color-mix(in srgb, var(--divide-bg-color), transparent 5%);
   /* background: var(--divide-bg-color); */
   /* background-image: url("/images/backgrounds/atelier01.jpg"); */
   /* background-size: cover; */
