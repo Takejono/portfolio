@@ -457,8 +457,8 @@ a {
 ----------------------------------*/
 #hello {
   background: color-mix(in srgb, var(--divide-bg-color), transparent 5%);
-  /* background: var(--divide-bg-color); */
-  /* background-image: url("/images/backgrounds/atelier01.jpg"); */
+  /* background-image: url("/images/backgrounds/Notebook-Paper.jpg"); */
+  /* mix-blend-mode: luminosity; */
   /* background-size: cover; */
   /* background-position: center; */
   padding-bottom: 120px;
