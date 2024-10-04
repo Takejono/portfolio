@@ -401,7 +401,8 @@ a {
 
 .menu-list {
  list-style: none;
- padding: 0;
+ padding-left: 1.5rem;
+ margin-top: -10px;
  margin-inline: auto 1rem;
  display: flex;
  width: fit-content;
@@ -410,14 +411,15 @@ a {
  align-content: flex-end;
  flex-direction: column;
  flex-wrap: wrap;
- /* gap: .5rem; */
- /* border: #09234a 1px solid; */
- height: calc(100vh - 40px);
+ border-left: var(--base-bg-color) 1px dashed;
+ /* background: #aaa; */
+ height: calc(100vh + 20px);
  opacity: 0;
  transform: translateX(10rem);
  transition: all 0.4s ease;
   a {
-    color: #3d3a33;
+    /* color: #3d3a33; */
+    color: var(--base-bg-color);
     font-size: clamp(1rem, 8vh, 2.5rem);
     font-family: 'General Sans', 'Kaisei Tokumin';
     font-weight: 250;
