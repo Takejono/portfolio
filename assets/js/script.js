@@ -70,11 +70,10 @@ window.addEventListener('load',function(){
 	var elem = document.querySelector('#carousel-folio');
 	var flkty = new Flickity( elem, {
 	cellselector: 'folio-item',
-	cellAlign: 'center',
 	selectedAttraction: 0.005,
 	friction: 0.14,
 	wrapAround: true,
-	// pageDots: false,
+	pageDots: false,
 	arrowShape: { 
 		x0: 25,
 		x1: 60, y1: 50,
@@ -84,22 +83,20 @@ window.addEventListener('load',function(){
 	});
 
 	// Carousel folio-nav
-	// var elem = document.querySelector('#carousel-nav');
-	// var flkty = new Flickity( elem, {
-	// cellAlign: 'center',
-	// selectedAttraction: 0.005,
-	// friction: 0.14,
-	// wrapAround: true,
-	// asNavFor: '#carousel-folio',
-	// pageDots: false,
-	// setGallerySize: false,
-	// arrowShape: { 
-	// 	x0: 25,
-	// 	x1: 60, y1: 50,
-	// 	x2: 65, y2: 50,
-	// 	x3: 40
-	//   }
-	// });
+	var elem = document.querySelector('#carousel-nav');
+	var flkty = new Flickity( elem, {
+	selectedAttraction: 0.005,
+	friction: 0.14,
+	contain: true,
+	asNavFor: '#carousel-folio',
+	pageDots: false,
+	arrowShape: { 
+		x0: 25,
+		x1: 60, y1: 50,
+		x2: 65, y2: 50,
+		x3: 40
+	  }
+	});
 	
     // Filtering Portfolio
 	var elem = document.querySelector('.pf-wrapper');

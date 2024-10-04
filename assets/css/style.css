@@ -201,11 +201,11 @@ a {
     /* filter: drop-shadow(0 0 8px #000); */
     position: absolute;
     width: 100%;
-    letter-spacing: 0.8rem;
-    font-size: 1rem;
+    letter-spacing: 0.6rem;
+    font-size: clamp(0.7rem, 3vw, 1.3rem);
     color: #605f59;
     right: 5px;
-    bottom: -30px;
+    bottom: -10px;
     opacity: 0;
     animation-duration: 9s;
     animation-iteration-count: infinite;
@@ -218,7 +218,7 @@ a {
       }  
     }
     .btn-start {
-      margin: 3rem 0 1rem;
+      margin: 2rem 0 1rem;
     }
 }
 
@@ -503,7 +503,6 @@ a {
 ----------------------------------*/
 
 .portfolio {
-  /* background: linear-gradient(var(--base-bg-color), transparent), url("/images/backgrounds/noise.svg"); */
   background-color: var(--base-bg-color);
   position: relative;
   padding: 0 0 7rem;
@@ -771,40 +770,44 @@ color: #303030;
 
 
 .folio-wrapper {
-  padding: 4rem 1.5rem 0;
+  padding: 3rem 1.5rem 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 4rem;
+  gap: 3rem;
   justify-items: center;
   justify-content: center;
-  #carousel-folio {
-    margin-inline: auto;
-    padding: 1rem;
+  .carousel-wrap {
     flex-basis: 600px;
-    height: 600px;
+  }
+  #carousel-folio {
+    height: min-content;
+    max-height: 500px;
   }
   .folio-item {
-    height: 600px;
+    max-height: 500px;
     object-fit: contain;
     width: 100%;
     margin-right: .5rem;
-    /* top: 0; */
   }
-  /* #carousel-nav {
-    height: 80px;
-    width: 600px;
-    background: #aaa;
+  #carousel-nav {
+    margin-top: 2rem;
+    height: 60px;
     .folio-item {
       height: 80px;
       object-fit: contain;
-      width: 50%;
-      margin-right: 0rem;
+      width: auto;
+      margin-right: 2rem;
+      opacity: 0.4;
+      transition: opacity .5s;
+      &.is-selected {
+      opacity: 1;  
+      }
     }  
-  } */
+  }
 }
 
 .desc-text {
-  flex-basis: 500px;
+  flex-basis: 600px;
   h3 {
   font-size: 3rem;
   font-weight: 300;
