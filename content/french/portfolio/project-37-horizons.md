@@ -6,7 +6,7 @@ img_title: "« Les horizons »"
 categories: ["Art"]
 description: "This is meta description."
 order: "37"
-draft: true
+draft: false
 project_info:
 - name: "Format"
   icon: "rulers"
@@ -15,13 +15,16 @@ project_info:
   icon: "brush-fill"
   content: "Encre de chine, Aquarelle métalique, Stylo, Crayon"
 resources:
-- src: images/portfolio/horizons-1.jpg
-- src: images/portfolio/horizons-1.jpg
-- src: images/portfolio/horizons-1.jpg
-- src: images/portfolio/horizons-1.jpg
-- src: images/portfolio/horizons-1.jpg
-- src: images/portfolio/horizons-1.jpg
-- src: images/portfolio/horizons-1.jpg
+- src: images/portfolio/horizons-2.jpg
+- src: images/portfolio/horizons-3.jpg
+- src: images/portfolio/horizons-4.jpg
+- src: images/portfolio/horizons-5.jpg
+- src: images/portfolio/horizons-6.jpg
+- src: images/portfolio/horizons-7.jpg
+- src: images/portfolio/horizons-8.jpg
+- src: images/portfolio/horizons-9.jpg
+- src: images/portfolio/horizons-10.jpg
+- src: images/portfolio/horizons-11.jpg
 ---
 Ma premier exposition solo à [le Couvent](https://le-couvent.org) sur le thème des horizons et les lignes. C'est une transition entre l'univers en couleur et celui en noir et blanc.  
 Ci-dessous est une citation de la préface d'exposition :
