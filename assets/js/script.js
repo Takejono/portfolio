@@ -90,6 +90,7 @@ window.addEventListener('load',function(){
 	contain: true,
 	asNavFor: '#carousel-folio',
 	pageDots: false,
+    imagesLoaded: true,
 	arrowShape: { 
 		x0: 25,
 		x1: 60, y1: 50,
