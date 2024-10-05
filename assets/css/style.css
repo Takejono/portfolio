@@ -622,7 +622,6 @@ div:has(> .btn-more) {
 }
 
 .portfolio-typo {
-  /* margin: 0; */
   position: relative;
   width: fit-content;
   height: fit-content;
@@ -646,8 +645,8 @@ div:has(> .btn-more) {
     }
   .desc-nom {
     position: absolute;
-    top: 42px;
-    right: 1px;
+    top: 2.2rem;
+    right: 0;
     font-size: 1.8rem;
     font-weight: 550;
     line-height: 1.6rem;
@@ -1069,9 +1068,9 @@ color: #303030;
   margin-inline: auto;
 }
 
-.footer-index {
+/* .footer-index {
   padding-top: 3rem;
-}
+} */
 
 .footer-icons {
   display: flex;
@@ -1109,9 +1108,9 @@ color: #303030;
   padding-bottom: 1rem;
 }
 
-.z-index-9 {
+/* .z-index-9 {
   z-index: 9;
-}
+} */
 
 /*--------------------------------
    End Contact
