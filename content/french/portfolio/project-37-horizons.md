@@ -6,7 +6,7 @@ img_title: "« Les horizons »"
 categories: ["Art"]
 description: "This is meta description."
 order: "37"
-draft: false
+draft: true
 project_info:
 - name: "Format"
   icon: "rulers"
@@ -23,7 +23,8 @@ resources:
 - src: images/portfolio/horizons-1.jpg
 - src: images/portfolio/horizons-1.jpg
 ---
-Ma premier exposition solo à [le Couvent](https://le-couvent.org), sur le thème des horizons, les lignes.
+Ma premier exposition solo à [le Couvent](https://le-couvent.org) sur le thème des horizons et les lignes. C'est une transition entre l'univers en couleur et celui en noir et blanc.  
+Ci-dessous est une citation de la préface d'exposition :
 
 >Actuellement, il questionne l'imaginaire avec des dessins en noir et blanc.
 >Son univers se situe entre la figuratif et l'abstrait, la limite entre deux mondes, la terre et l'air, uni à l'horizon. Les lignes évoluent vers des transparences et des contrastes de sensibilité. 
