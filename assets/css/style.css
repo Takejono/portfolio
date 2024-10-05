@@ -411,12 +411,34 @@ a {
  align-content: flex-end;
  flex-direction: column;
  flex-wrap: wrap;
- border-left: var(--base-bg-color) 1px dashed;
- /* background: #aaa; */
+ /* border-left: var(--base-bg-color) 1px dashed; */
  height: calc(100vh + 20px);
  opacity: 0;
  transform: translateX(10rem);
  transition: all 0.4s ease;
+ &::before {
+  content: "";
+  border-left: var(--base-bg-color) 1px dashed;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 500px;
+  background: #488dce15;
+  height: calc(100vh + 20px);
+  transform: rotate(-2deg);
+  transition: left 0.6s;
+ }
+ &::after {
+  content: "";
+  /* background: #51d2e034; */
+  border-left: var(--base-bg-color) 1px dashed;
+  position: absolute;
+  left: 0;
+  width: 10px;
+  height: calc(100vh + 20px);
+  transform: rotate(-3deg);
+  transition: left 0.7s;
+ }
   a {
     /* color: #3d3a33; */
     color: var(--base-bg-color);
@@ -443,6 +465,12 @@ a {
   & .menu-list {
     opacity: 1;
     transform: translateX(0rem) rotate(-2deg);
+    &::before {
+      left: -65px;
+    }
+    &::after {
+      left: -100px;
+    }
   }
   & a {
     filter: blur(0);
@@ -960,8 +988,8 @@ color: #303030;
 
 .about-me-text {
   position: relative;
-  background: linear-gradient(180deg, #acacac0f, #fdf6d2b6);
-  -webkit-backdrop-filter: blur(18px);
+  background: linear-gradient(#acacac00, #f9f5e3b6);
+  /* mix-blend-mode: ; */
   backdrop-filter: blur(18px);
   padding: 9rem 1.5rem 6rem;
   border-radius: 4px;
