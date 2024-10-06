@@ -1074,7 +1074,7 @@ color: #303030;
   .divider svg {
     fill: var(--contact-bg-color);
     position: absolute;
-    transform: scaleX(-1);
+    transform: scaleX(-1) scaleX(-1);
     bottom: -1px;
   }
   h2 {
