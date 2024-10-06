@@ -1006,12 +1006,13 @@ color: #303030;
 @media screen and (max-width: 575px) {
   .about-me {
     background-repeat: no-repeat;
-    background-position: top;
-    padding: 0vw 0 0;
+    background-position: left top;
+    background-size: contain;
+    padding: 0;
     height: 80px;
     &::before {
       content: "";
-      background: linear-gradient(to bottom, transparent, #f9f5e3 40%);
+      background: linear-gradient(to bottom, transparent, #f9f5e3 30%);
       top: 0;
       left: 0;
       width: 100%;
@@ -1019,8 +1020,8 @@ color: #303030;
       position: absolute;
     }
     &:hover {
-    background-size: contain;
-    padding: 73vw 0 0;
+    background-position: top;
+    padding: 70vw 0 0;
     }  
   }
   .about-me-text {
@@ -1028,11 +1029,11 @@ color: #303030;
     -webkit-backdrop-filter: blur(0px);
     backdrop-filter: blur(0px);
     width: inherit;
-    padding: 4rem 1.5rem 6rem;
+    padding: 4rem 1.5rem 4rem;
     /* border-radius: 0; */
     margin-inline: 0;
     text-wrap: wrap;
-    background: linear-gradient(to bottom, #ffffff00, 45%, #f9f5e3 90%);
+    /* background: linear-gradient(to bottom, #ffffff00, 45%, #f9f5e3 90%); */
     /* color: var(--base-bg-color); */
     p {
       background: none;
