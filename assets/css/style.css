@@ -1006,13 +1006,13 @@ color: #303030;
 @media screen and (max-width: 575px) {
   .about-me {
     background-repeat: no-repeat;
-    background-position: left top;
-    background-size: contain;
+    background-position: top;
+    background-size: 100% auto;
     padding: 0;
     height: 80px;
     &::before {
       content: "";
-      background: linear-gradient(to bottom, transparent, #f9f5e3 30%);
+      background: linear-gradient(to bottom, transparent, #f9f5e3 40%);
       top: 0;
       left: 0;
       width: 100%;
