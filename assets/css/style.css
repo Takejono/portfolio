@@ -533,6 +533,10 @@ a {
   position: relative;
   padding: 0 0 7rem;
   z-index: 1;
+  img {
+    width: 100px;
+    display: inline-block;
+  }
   .divider svg {
     fill: var(--base-bg-color);
     position: absolute;
@@ -623,31 +627,35 @@ div:has(> .btn-more) {
   width: fit-content;
   height: fit-content;
   margin-inline: auto;
+  /* background: #787563; */
+  border-radius: 0rem 0rem 0.3rem 0.2rem;
   h2 {
+    /* color: var(--base-bg-color); */
     position: relative;
-    top: 0;
-    margin: 0;
-    font-weight: 410;
-    font-size: 3.4rem;
+    /* top: 0; */
+    /* margin: 0; */
+    font-weight: 500;
+    font-size: 3.5rem;
     letter-spacing: -0.05ch;
-    &::first-letter {
+    /* &::first-letter {
     font-size: 8rem;
     font-weight: 100;
     letter-spacing: -0.76ch;
+    } */
     }
-    }
-    &:lang(jp) {
+    /* &:lang(jp) {
       font-size: 3.5rem;
-    }
+    } */
     }
   .desc-nom {
-    position: absolute;
-    top: 2.2rem;
+    position: relative;
+    top: 1rem;
     right: 0;
-    font-size: 1.8rem;
-    font-weight: 550;
-    line-height: 1.6rem;
-    color: #d7d4c8;
+    font-size: 1.74rem;
+    font-weight: 400;
+    color: #afaa9f;
+    /* line-height: 1.6rem; */
+    /* color: var(--base-bg-color); */
   }
 
 .portfolio-filters {
