@@ -54,10 +54,10 @@ window.addEventListener('load',function(){
 	var flkty = new Flickity( elem, {
 	// options
 	pageDots: false,
-	selectedAttraction: 0.005,
-    friction: 0.14,
+	selectedAttraction: 0.01,
+    friction: 0.24,
 	wrapAround: true,
-	contain: true,
+	// contain: true,
 	arrowShape: { 
 		x0: 25,
 		x1: 60, y1: 50,
@@ -70,8 +70,8 @@ window.addEventListener('load',function(){
 	var elem = document.querySelector('#carousel-folio');
 	var flkty = new Flickity( elem, {
 	cellselector: 'folio-item',
-	selectedAttraction: 0.005,
-	friction: 0.14,
+	selectedAttraction: 0.01,
+	friction: 0.24,
 	wrapAround: true,
 	pageDots: false,
 	arrowShape: { 
@@ -85,11 +85,12 @@ window.addEventListener('load',function(){
 	// Carousel folio-nav
 	var elem = document.querySelector('#carousel-nav');
 	var flkty = new Flickity( elem, {
-	selectedAttraction: 0.005,
-	friction: 0.14,
+	selectedAttraction: 0.015,
+	friction: 0.24,
 	contain: true,
 	asNavFor: '#carousel-folio',
 	pageDots: false,
+	prevNextButtons: false,
     imagesLoaded: true,
 	arrowShape: { 
 		x0: 25,
