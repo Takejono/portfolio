@@ -914,23 +914,20 @@ color: #303030;
   .post-container {
     padding: 0 1.5rem;
     display: grid;
-    grid-template-rows: 0fr;
-    /* grid-template-rows: repeat(auto-fit, minmax(250px, 0fr)); */
-    gap: 1rem;
+    grid-template-rows: 0fr 0fr 0fr;
+    /* gap: 1rem; */
     opacity: 0;
     transition: all 0.5s ease-in-out;
-    transition-delay: all 0.1s;
+    transition-delay: all 0.3s;
   }
     &:hover .post-container {
     padding: 5rem 1.5rem 4rem;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     opacity: 1;
       }
   .post {
     overflow: hidden;
-    /* margin-bottom: 2rem; */
-    /* padding-bottom: 1rem; */
-    display: flex;
+    display: flex block;
     align-content: flex-start;
     flex-wrap: wrap;
     gap: 1rem;
@@ -939,7 +936,8 @@ color: #303030;
     flex-grow: 1;
     flex-basis: 150px;
     width: 150px;
-    height: 200px;
+    /* height: auto; */
+    max-height: 200px;
     object-fit: cover;
     border-radius: 4px;
     }
@@ -984,7 +982,7 @@ color: #303030;
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  height: 150px;
+  height: 180px;
   transition: all 0.6s ease-in-out;
   transition-delay: 0.1s;
   h2 {
