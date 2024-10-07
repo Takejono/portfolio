@@ -975,18 +975,16 @@ color: #303030;
 .about-me {
   background: #f9f5e3;
   padding: 0;
-  z-index: 0;
+  height: fit-content;
+  /* z-index: 0; */
   position: relative;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   overflow: hidden;
-  height: 180px;
-  transition: all 0.6s ease-in-out;
-  transition-delay: 0.1s;
   h2 {
-    position: absolute;
-    top: -20px;
-    right: 0;
+    position: relative;
+    text-align: right;
     color: color-mix(in srgb, #534e36, transparent 30%);
     z-index: 1;
   }
@@ -999,30 +997,31 @@ color: #303030;
     height: 100%;
     position: absolute;
   }
-  &:hover {
-    height: 850px;
+  .about-me-text {
+    position: relative;
+    display: grid;
+    grid-template-rows: 0fr;
+    padding: 0rem 1.5rem;
+    width: clamp(24rem, 40vw, 600px);
+    margin-inline: auto 0;
+    height: 0px;
+    transition: all 0.6s ease-in-out;
+    transition-delay: 0.2s;
+    p {
+      padding-left: 4px;
+      background: #f9f5e35f;
+    }
   }
-}
-
-.about-me-text {
-  position: relative;
-  padding: 9rem 1.5rem 6rem;
-  /* border-radius: 4px; */
-  width: clamp(24rem, 40vw, 600px);
-  margin-inline: auto 0;
-  p {
-    padding-left: 4px;
-    background: #f9f5e35f;
+  &:hover .about-me-text {
+    padding: 2rem 1.5rem;
+    grid-template-rows: 1fr;
+    height: 650px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .about-me {
-    background-repeat: no-repeat;
-    background-position: top;
     background-size: 100% auto;
-    padding: 0;
-    height: 80px;
     &::before {
       content: "";
       background: linear-gradient(to bottom, transparent, #f9f5e3 40%);
@@ -1032,22 +1031,11 @@ color: #303030;
       height: 100%;
       position: absolute;
     }
-    &:hover {
-    background-position: top;
-    padding: 70vw 0 0;
-    }  
   }
   .about-me-text {
-    background:  none;
-    -webkit-backdrop-filter: blur(0px);
-    backdrop-filter: blur(0px);
-    width: inherit;
-    padding: 4rem 1.5rem 4rem;
-    /* border-radius: 0; */
-    margin-inline: 0;
-    text-wrap: wrap;
-    /* background: linear-gradient(to bottom, #ffffff00, 45%, #f9f5e3 90%); */
-    /* color: var(--base-bg-color); */
+    width: 100%;
+    padding: 7rem 1.5rem 4rem;
+    margin-inline: auto;
     p {
       background: none;
     }
