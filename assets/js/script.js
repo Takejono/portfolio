@@ -17,7 +17,6 @@ window.addEventListener('load',function(){
 	  }
   });
 
-
 	// Wow Plugin Initialization
 	const wow = new WOW({
 		animateClass: 'animated',
@@ -25,12 +24,6 @@ window.addEventListener('load',function(){
 		mobile: true
 	});
 	wow.init();
-
-	// accordion sections
-	const accordionSections = document.querySelector('.accordion');
-    accordionSections.addEventListener('click', function() {
-	accordionSections.classList.toggle('is-opened');
-    });
 
 	/*--------------------------------
 	 Start Header
