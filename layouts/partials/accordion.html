@@ -1,8 +1,16 @@
 <script>
+// 	const els = document.getElementsByClassName(".accordion");
+//     // const i;
+
+//     for (i = 0; i < els.length; i++) {
+//     els[i].addEventListener('click', function() {
+// 	this.classList.toggle('is-opened');
+//     });
+// }
 function accordion () {
-	const accordionSections = document.querySelector('.accordion');
-    accordionSections.addEventListener('click', function() {
-	accordionSections.classList.toggle('is-opened');
+	const els = document.querySelector('.accordion');
+    els.addEventListener('click', function() {
+	this.classList.toggle('is-opened');
     });
     }
     accordion();

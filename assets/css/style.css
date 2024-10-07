@@ -976,7 +976,6 @@ color: #303030;
   background: #f9f5e3;
   padding: 0;
   height: fit-content;
-  /* z-index: 0; */
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1001,25 +1000,26 @@ color: #303030;
     position: relative;
     display: grid;
     grid-template-rows: 0fr;
+    justify-content: right;
     padding: 0rem 1.5rem;
-    width: clamp(24rem, 40vw, 600px);
-    margin-inline: auto 0;
-    height: 0px;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.5s ease-in-out;
     transition-delay: 0.2s;
+    .content {
+      overflow: hidden;
+      width: clamp(24rem, 40vw, 600px);
+    }
     p {
       padding-left: 4px;
       background: #f9f5e35f;
     }
   }
   &:hover .about-me-text {
-    padding: 2rem 1.5rem;
+    padding: 1rem 1.5rem 3rem;
     grid-template-rows: 1fr;
-    height: 650px;
   }
 }
 
-@media screen and (max-width: 575px) {
+@media (max-width: 575px) {
   .about-me {
     background-size: 100% auto;
     &::before {
@@ -1031,13 +1031,17 @@ color: #303030;
       height: 100%;
       position: absolute;
     }
-  }
-  .about-me-text {
-    width: 100%;
-    padding: 7rem 1.5rem 4rem;
-    margin-inline: auto;
-    p {
-      background: none;
+    .about-me-text {
+      padding: 0 1.5rem;
+      .content {
+        width: 100%;
+      }
+      p {
+        background: none;
+      }
+    }
+    &:hover .about-me-text {
+      padding: calc(7rem + 30vw) 1.5rem 3rem;
     }
   }
 }
