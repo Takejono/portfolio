@@ -915,16 +915,15 @@ color: #303030;
     padding: 0 1.5rem;
     display: grid;
     grid-template-rows: 0fr 0fr 0fr;
-    /* gap: 1rem; */
     opacity: 0;
     transition: all 0.5s ease-in-out;
     transition-delay: all 0.3s;
   }
-    &:hover .post-container {
+  &.is-opened .post-container {
     padding: 5rem 1.5rem 4rem;
     grid-template-rows: 1fr 1fr 1fr;
     opacity: 1;
-      }
+  }
   .post {
     overflow: hidden;
     display: flex block;
@@ -936,7 +935,6 @@ color: #303030;
     flex-grow: 1;
     flex-basis: 150px;
     width: 150px;
-    /* height: auto; */
     max-height: 200px;
     object-fit: cover;
     border-radius: 4px;

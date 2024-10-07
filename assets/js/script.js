@@ -26,6 +26,12 @@ window.addEventListener('load',function(){
 	});
 	wow.init();
 
+	// accordion sections
+	const accordionSections = document.querySelector('.accordion');
+    accordionSections.addEventListener('click', function() {
+	accordionSections.classList.toggle('is-opened');
+    });
+
 	/*--------------------------------
 	 Start Header
 		----------------------------------*/
