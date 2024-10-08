@@ -1026,7 +1026,7 @@ color: #303030;
     background-size: 100% auto;
     &::before {
       content: "";
-      background: linear-gradient(to bottom, transparent, #f9f5e3 40%);
+      background: linear-gradient(to bottom, transparent, #f9f5e3 calc(13% + 40vw));
       top: 0;
       left: 0;
       width: 100%;
