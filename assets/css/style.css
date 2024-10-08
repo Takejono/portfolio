@@ -917,8 +917,7 @@ color: #303030;
     display: grid;
     grid-template-rows: 0fr 0fr 0fr;
     opacity: 0;
-    transition: all 0.5s ease-in-out;
-    /* transition-delay: all 0.3s; */
+    transition: all 0.5s cubic-bezier(0.2, 0.39, 0.51, 1);
   }
   &.is-opened .post-container {
     padding: 5rem 1.5rem 4rem;
@@ -1004,8 +1003,7 @@ color: #303030;
     grid-template-rows: 0fr;
     justify-content: right;
     padding: 0rem 1.5rem;
-    transition: all 0.5s ease-in-out;
-    /* transition-delay: 0.2s; */
+    transition: all 0.5s cubic-bezier(0.2, 0.39, 0.51, 1);
     .content {
       overflow: hidden;
       width: clamp(24rem, 40vw, 600px);
