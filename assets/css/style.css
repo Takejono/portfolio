@@ -558,12 +558,12 @@ a {
   }
   .flickity-viewport {
     transform: rotate(-1deg);
-    }  
-  }
+  }  
+}
 
-  *:not(:hover) .flickity-button {
-    opacity: 0;
-  }
+*:not(:hover) .flickity-button {
+  opacity: 0;
+}
 
 .flickity-button { /* button global */
   background: hsla(0, 0%, 100%, 0.4);
@@ -598,6 +598,7 @@ a {
   margin-inline: 1rem;
   }
 }
+
 @media screen and ( max-width: 500px ) {
   .carousel-cell { width: 84%; }
 }
