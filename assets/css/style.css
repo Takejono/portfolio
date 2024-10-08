@@ -1042,7 +1042,7 @@ color: #303030;
         background: none;
       }
     }
-    &:hover .about-me-text {
+    &.is-opened .about-me-text {
       padding: calc(7rem + 30vw) 1.5rem 3rem;
     }
   }
