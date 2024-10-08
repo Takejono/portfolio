@@ -898,6 +898,7 @@ color: #303030;
   background: var(--news-bg);
   z-index: 3;
   color: color-mix(in srgb, var(--news-color), var(--base-bg-color) 90%);
+  cursor: pointer;
   .divider svg {
     transform-box: fill-box;
     position: absolute;
@@ -981,6 +982,7 @@ color: #303030;
   background-size: cover;
   background-position: top;
   overflow: hidden;
+  cursor: pointer;
   h2 {
     position: relative;
     text-align: right;
@@ -1013,7 +1015,7 @@ color: #303030;
       background: #f9f5e35f;
     }
   }
-  &:hover .about-me-text {
+  &.is-opened .about-me-text {
     padding: 1rem 1.5rem 3rem;
     grid-template-rows: 1fr;
   }

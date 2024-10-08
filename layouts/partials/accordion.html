@@ -7,11 +7,23 @@
 // 	this.classList.toggle('is-opened');
 //     });
 // }
-function accordion () {
-	const els = document.querySelector('.accordion');
-    els.addEventListener('click', function() {
-	this.classList.toggle('is-opened');
+
+
+// function accordion () {
+// 	const els = document.querySelector('.accordion');
+//     els.addEventListener('click', function() {
+// 	this.classList.toggle('is-opened');
+//     });
+//     }
+//     accordion();
+
+//
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+    this.classList.toggle("is-opened");
     });
-    }
-    accordion();
+} 
 </script>
