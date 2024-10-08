@@ -501,7 +501,7 @@ a {
   .hello-txt {
     font-family: 'Square Peg', 'Kaisei Tokumin';
     display: flex;
-    padding: .7rem;
+    padding: .4rem;
     align-items: center;
     flex: auto;
     justify-content: space-evenly;
@@ -918,7 +918,7 @@ color: #303030;
     grid-template-rows: 0fr 0fr 0fr;
     opacity: 0;
     transition: all 0.5s ease-in-out;
-    transition-delay: all 0.3s;
+    /* transition-delay: all 0.3s; */
   }
   &.is-opened .post-container {
     padding: 5rem 1.5rem 4rem;
@@ -1005,7 +1005,7 @@ color: #303030;
     justify-content: right;
     padding: 0rem 1.5rem;
     transition: all 0.5s ease-in-out;
-    transition-delay: 0.2s;
+    /* transition-delay: 0.2s; */
     .content {
       overflow: hidden;
       width: clamp(24rem, 40vw, 600px);
