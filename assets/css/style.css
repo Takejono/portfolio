@@ -805,7 +805,7 @@ color: #303030;
 
 
 .folio-wrapper {
-  padding: 3rem 1.5rem 0;
+  padding: 3rem 1.5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
