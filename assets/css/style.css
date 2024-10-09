@@ -557,6 +557,7 @@ a {
     top: 40%;
   }
   .flickity-viewport {
+    width: 101vw;
     transform: rotate(-1deg);
   }  
 }
