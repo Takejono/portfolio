@@ -25,6 +25,8 @@ resources:
 - src: images/portfolio/horizons-9.jpg
 - src: images/portfolio/horizons-10.jpg
 - src: images/portfolio/horizons-11.jpg
+- src: images/portfolio/horizons-12.jpg
+- src: images/portfolio/horizons-13.jpg
 ---
 Ma premier exposition solo à [le Couvent](https://le-couvent.org) sur le thème des horizons et les lignes. C'est une transition entre l'univers en couleur et celui en noir et blanc.  
 Ci-dessous est une citation de la préface d'exposition :
