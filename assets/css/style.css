@@ -916,10 +916,12 @@ color: #303030;
   .post-container {
     padding: 4rem 1.5rem;
     display: grid;
+    grid-template-rows: subgrid;
+    gap: 1rem;
   }
   .post {
     overflow: hidden;
-    display: flex block;
+    display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
     gap: 1rem;
