@@ -900,7 +900,6 @@ color: #303030;
   background: var(--news-bg);
   z-index: 3;
   color: color-mix(in srgb, var(--news-color), var(--base-bg-color) 90%);
-  cursor: pointer;
   .divider svg {
     transform-box: fill-box;
     position: absolute;
@@ -915,16 +914,8 @@ color: #303030;
     transform: scaleX(-1) scaleY(1);
   }
   .post-container {
-    padding: 0 1.5rem;
+    padding: 4rem 1.5rem;
     display: grid;
-    grid-template-rows: 0fr 0fr 0fr;
-    opacity: 0;
-    transition: all 0.5s cubic-bezier(0.2, 0.39, 0.51, 1);
-  }
-  &.is-opened .post-container {
-    padding: 5rem 1.5rem 4rem;
-    grid-template-rows: 1fr 1fr 1fr;
-    opacity: 1;
   }
   .post {
     overflow: hidden;
@@ -982,8 +973,6 @@ color: #303030;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  overflow: hidden;
-  cursor: pointer;
   h2 {
     position: relative;
     text-align: right;
@@ -999,26 +988,16 @@ color: #303030;
     height: 100%;
     position: absolute;
   }
-  .about-me-text {
-    position: relative;
-    display: grid;
-    grid-template-rows: 0fr;
-    justify-content: right;
-    padding: 0rem 1.5rem;
-    transition: all 0.5s cubic-bezier(0.2, 0.39, 0.51, 1);
     .content {
-      overflow: hidden;
+      position: relative;
+      padding: 2rem 1.5rem 5rem;
       width: clamp(24rem, 40vw, 600px);
+      margin-inline: auto 0;
+      p {
+        padding-left: 4px;
+        background: #f9f5e35f;
+      }
     }
-    p {
-      padding-left: 4px;
-      background: #f9f5e35f;
-    }
-  }
-  &.is-opened .about-me-text {
-    padding: 1rem 1.5rem 3rem;
-    grid-template-rows: 1fr;
-  }
 }
 
 @media (max-width: 575px) {
@@ -1033,18 +1012,13 @@ color: #303030;
       height: 100%;
       position: absolute;
     }
-    .about-me-text {
-      padding: 0 1.5rem;
       .content {
-        width: 100%;
+        padding-top: calc(7rem + 30vw);
+        width: calc(100% - 3rem);
+        p {
+          background: none;
+        }
       }
-      p {
-        background: none;
-      }
-    }
-    &.is-opened .about-me-text {
-      padding: calc(7rem + 30vw) 1.5rem 3rem;
-    }
   }
 }
 
@@ -1073,7 +1047,7 @@ color: #303030;
   }
   p {
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 1rem;
     font-weight: 550;
     font-size: 1.1rem;
     a {
@@ -1100,10 +1074,6 @@ color: #303030;
   width: 100%;
   margin-inline: auto;
 }
-
-/* .footer-index {
-  padding-top: 3rem;
-} */
 
 .footer-icons {
   display: flex;
@@ -1144,3 +1114,21 @@ color: #303030;
 /*--------------------------------
    End Contact
 ----------------------------------*/
+
+section.accordion {
+  cursor: pointer;
+  .acc {
+    display: grid;
+    grid-template-rows: 0fr;
+    align-content: center;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.2, 0.39, 0.51, 1);
+  }
+  .acc-content {
+    overflow: hidden;
+  }
+  &.is-opened .acc {
+    grid-template-rows: 1fr;
+    opacity: 1;
+  }
+}
