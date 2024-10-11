@@ -1,5 +1,5 @@
 ---
-title: "Carnaval arrive"
+title: "カルナヴァルがやってくる"
 date: 2024-04-29T12:14:34+06:00
 image: "images/portfolio/carnaval-01.jpg"
 img_title: "« Carnaval printanière »"
@@ -24,8 +24,9 @@ resources:
 - src: images/portfolio/carnaval-05.jpg
 - src: images/portfolio/carnaval-06.jpg
 - src: images/portfolio/carnaval-07.jpg
+- src: images/portfolio/carnaval-08.jpg
 ---
-今回で３回目となる、恵比寿のギャラリー [Gallery and Shop Yamagoya](https://galleryyamagoya.com/2024/takeshi-jonoo-exhibition-2/) での個展。テーマは黒い森とカーニバル。今回のテキストは少し歌のように節を付けて、繋がること、続いていくことに想いを寄せてます。
+今回で３回目となる、恵比寿のギャラリー [Gallery and Shop Yamagoya](https://galleryyamagoya.com/2024/takeshi-jonoo-exhibition-2/) での個展。テーマは黒い森とカーニバル。今回のテキストは歌のように少し節を付けて、繋がっていくこと、続いていくことに想いを寄せてます。このテーマはこのあとのマルセイユでの展示に続きます。
 
 ---
 
