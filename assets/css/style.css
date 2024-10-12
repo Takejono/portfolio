@@ -915,9 +915,9 @@ color: #303030;
   }
   .post-container {
     padding: 4rem 1.5rem;
-    /* display: grid; */
+    display: grid;
     /* grid-template-rows: subgrid; */
-    /* gap: 1rem; */
+    gap: 1rem;
   }
   .post {
     overflow: hidden;
