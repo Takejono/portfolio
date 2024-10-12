@@ -1099,12 +1099,8 @@ color: #303030;
   }
 }
 
-.footer-icons a, .to-top a, .credit {
+.footer-icons a, .credit {
   color: var(--contact-color);
-}
-
-.menu .footer-icons .svg-icon {
-  fill: #3d3a33;
 }
 
 .credit {
