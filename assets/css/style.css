@@ -450,6 +450,7 @@ a {
     text-decoration: none;
     &:hover {
       color: var(--hvr-color);
+      font-weight: 500;
     }
   }
 }
