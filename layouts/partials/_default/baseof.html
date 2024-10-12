@@ -8,9 +8,7 @@
 	{{- partial "header.html" . -}}
 	{{ end }}
 	{{- block "main" . }}{{- end }}
-	{{ if not .IsHome}}
 	{{- partialCached "footer.html" . -}}
-	{{ end }}
 	{{- partialCached "script.html" . -}}
 </body>
 
