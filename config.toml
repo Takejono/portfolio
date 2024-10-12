@@ -2,16 +2,17 @@ baseURL = "https://t-jonoo.com"
 title = "Takeshi JONOO Portfolio"
 theme = "somrat"
 # post pagination
-paginate = "6"
+pagination.pagerSize = "6"
 # post excerpt
 summaryLength = "10"
 # disable language
-disableLanguages = [] # disable language from here
+# disableLanguages = [] # disable language from here
 # google analutics
-googleAnalytics = "" # example : UA-123-45
+googleAnalytics = '' # example : UA-123-45
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-defaultContentLanguage = 'fr'
+# [[services.disqus.shortname]]
+# shortname = "" # get your shortname form here : https://disqus.com
+defaultContentLanguage = "fr"
 
 ############################# Outputs ##############################
 [outputs]
@@ -76,89 +77,88 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
 
 
 ################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr"
-contentDir = "content/french"
-weight = 1
-home = "Home"
-# copyright
-copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+[languages]
+    [languages.fr]
+        languageName = 'Fr'
+        languageCode = 'fr'
+        contentDir = 'content/french'
+        weight = 1
+        [languages.fr.params]
+        # copyright
+        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
 
 
 ################# french navigation ##################
-
 # main menu
-[[Languages.fr.menu.main]]
-name = "Home"
-url = "#home"
-weight = 1
+        [[languages.fr.menu.main]]
+        name = "Home"
+        url = "#home"
+        weight = 1
 
-[[Languages.fr.menu.main]]
-name = "Recent works"
-url = "#portfolio"
-weight = 2
+       [[languages.fr.menu.main]]
+        name = "Recent works"
+        url = "#portfolio"
+        weight = 2
 
-[[Languages.fr.menu.main]]
-name = "Portfolio"
-url = "portfolio"
-weight = 3
+       [[languages.fr.menu.main]]
+        name = "Portfolio"
+        url = "portfolio"
+        weight = 3
 
-[[Languages.fr.menu.main]]
-name = "News"
-url = "#news"
-weight = 4
+        [[languages.fr.menu.main]]
+        name = "News"
+        url = "#news"
+        weight = 4
 
-[[Languages.fr.menu.main]]
-name = "Presentation"
-url = "#about"
-weight = 5
+        [[languages.fr.menu.main]]
+        name = "Presentation"
+        url = "#about"
+        weight = 5
 
-[[Languages.fr.menu.main]]
-name = "Contact"
-url = "#contact"
-weight = 6
+        [[languages.fr.menu.main]]
+        name = "Contact"
+        url = "#contact"
+        weight = 6
 
 ################################### jp language #####################################
-[Languages.jp]
-languageName = "Jp"
-languageCode = "jp"
-contentDir = "content/jp"
-weight = 2
-home = "ホーム"
-# copyright
-copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)<br>Atelier photo by [Marion Brun](https://marionbrun.myportfolio.com)"
+    [languages.jp]
+        languageName = "Jp"
+        languageCode = "jp"
+        contentDir = "content/jp"
+        weight = 2
+        [languages.jp.params]
+        # copyright
+        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)<br>Atelier photo by [Marion Brun](https://marionbrun.myportfolio.com)"
 
 
 ################# jp navigation ##################
-
 # main menu
-[[Languages.jp.menu.main]]
-name = "ホーム"
-url = "#home"
-weight = 1
+        [[languages.jp.menu.main]]
+        name = "ホーム"
+        url = "#home"
+        weight = 1
 
-[[Languages.jp.menu.main]]
-name = "最近のお仕事"
-url = "#portfolio"
-weight = 2
+        [[languages.jp.menu.main]]
+        name = "最近のお仕事"
+        url = "#portfolio"
+        weight = 2
 
-[[Languages.jp.menu.main]]
-name = "ポートフォリオ"
-url = "portfolio"
-weight = 3
+        [[languages.jp.menu.main]]
+        name = "ポートフォリオ"
+        url = "portfolio"
+        weight = 3
 
-[[Languages.jp.menu.main]]
-name = "お知らせ"
-url = "#news"
-weight = 4
+        [[languages.jp.menu.main]]
+        name = "お知らせ"
+        url = "#news"
+        weight = 4
 
-[[Languages.jp.menu.main]]
-name = "絵描き紹介"
-url = "#about"
-weight = 5
+        [[languages.jp.menu.main]]
+        name = "絵描き紹介"
+        url = "#about"
+        weight = 5
 
-[[Languages.jp.menu.main]]
-name = "お問い合わせ"
-url = "#contact"
-weight = 6
+        [[languages.jp.menu.main]]
+        name = "お問い合わせ"
+        url = "#contact"
+        weight = 6
