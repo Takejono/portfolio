@@ -915,9 +915,9 @@ color: #303030;
   }
   .post-container {
     padding: 4rem 1.5rem;
-    display: grid;
-    grid-template-rows: subgrid;
-    gap: 1rem;
+    /* display: grid; */
+    /* grid-template-rows: subgrid; */
+    /* gap: 1rem; */
   }
   .post {
     overflow: hidden;
@@ -925,6 +925,7 @@ color: #303030;
     align-content: flex-start;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-bottom: 1.5rem;
     img {
     flex-shrink: 0;
     flex-grow: 1;
