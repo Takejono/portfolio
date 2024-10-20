@@ -139,7 +139,6 @@ window.addEventListener('load',function(){
 	  event.target.classList.add('is-checked');
 	});
   }
-
 	/*--------------------------------
 			 End Portfolio
 	----------------------------------*/
