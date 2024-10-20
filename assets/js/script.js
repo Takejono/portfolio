@@ -74,6 +74,7 @@ window.addEventListener('load',function(){
 	selectedAttraction: 0.01,
 	friction: 0.24,
 	wrapAround: true,
+    imagesLoaded: true,
 	pageDots: false,
 	arrowShape: { 
 		x0: 25,
