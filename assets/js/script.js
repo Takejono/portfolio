@@ -31,7 +31,6 @@ window.addEventListener('load',function(){
     // Background Slider Header
 	var elem = document.querySelector('#background-slide');
 	var flkty = new Flickity( elem, {
-	// options
 	  fade: true,
 	  prevNextButtons: false,
 	  pageDots: false,
@@ -50,15 +49,13 @@ window.addEventListener('load',function(){
 			 Start Portfolio
 	----------------------------------*/
 
-    // Carousel recent works
+// Carousel recent works
 	var elem = document.querySelector('.rw-wrapper');
 	var flkty = new Flickity( elem, {
-	// options
 	pageDots: false,
 	selectedAttraction: 0.01,
     friction: 0.24,
 	wrapAround: true,
-	// contain: true,
 	arrowShape: { 
 		x0: 25,
 		x1: 60, y1: 50,
@@ -67,7 +64,7 @@ window.addEventListener('load',function(){
 	  }
 	});
 
-	// Carousel folio
+// Carousel folio : single page
 	var elem = document.querySelector('#carousel-folio');
 	var flkty = new Flickity( elem, {
 	cellselector: 'folio-item',
@@ -84,7 +81,7 @@ window.addEventListener('load',function(){
 	  }
 	});
 
-	// Carousel folio-nav
+// Carousel folio-nav
 	var elem = document.querySelector('#carousel-nav');
 	var flkty = new Flickity( elem, {
 	selectedAttraction: 0.015,
@@ -102,7 +99,7 @@ window.addEventListener('load',function(){
 	  }
 	});
 	
-    // Filtering Portfolio
+// Filtering Portfolio : folio list page
 	var elem = document.querySelector('.pf-wrapper');
     var iso = new Isotope( elem, {
     itemSelector: '.filtr-item',
@@ -111,8 +108,7 @@ window.addEventListener('load',function(){
     });
 
 
-// filter functions
-// bind filter button click
+// filter functions : sorting item
   var filtersElem = document.querySelector('.portfolio-filters');
   filtersElem.addEventListener( 'click', function( event ) {
 	if ( !matchesSelector( event.target, 'button' ) ) {
@@ -122,7 +118,7 @@ window.addEventListener('load',function(){
 	iso.arrange({ filter: filterValue });
   });
   
- // change is-checked class on buttons
+// change is-checked class on buttons
   var buttonGroups = document.querySelectorAll('.portfolio-filters');
   for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
 	var buttonGroup = buttonGroups[i];
@@ -131,7 +127,6 @@ window.addEventListener('load',function(){
   
   function radioButtonGroup( buttonGroup ) {
 	buttonGroup.addEventListener( 'click', function( event ) {
-	  // only work with buttons
 	  if ( !matchesSelector( event.target, 'button' ) ) {
 		return;
 	  }
