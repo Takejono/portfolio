@@ -411,7 +411,7 @@ a {
  align-content: flex-end;
  flex-direction: column;
  flex-wrap: wrap;
- /* border-left: var(--base-bg-color) 1px dashed; */
+ border-left: var(--base-bg-color) 1px dashed;
  height: calc(100vh + 20px);
  opacity: 0;
  transform: translateX(10rem);
@@ -466,7 +466,7 @@ a {
       left: -25px;
     }
     &::after {
-      left: -60px;
+      left: -70px;
     }
   }
   & a {
