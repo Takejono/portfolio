@@ -3,8 +3,8 @@ function randomBgColor() {
     const background = document.getElementById("news");
     
     const getRandomNewsColor = () => {
-        const h = Math.random() * 360;
-        return `hsl(${h}deg, 50%, 40%)`;
+        const h = Math.random() * 36;
+        return `hsl(${h * 10}deg, 55%, 43%)`;
     };
     const randomColor = getRandomNewsColor();
     background.style.setProperty('--news-color', randomColor);
