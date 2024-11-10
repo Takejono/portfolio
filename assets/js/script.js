@@ -12,7 +12,7 @@ window.addEventListener('load',function(){
 	function titleDraw(){
 		titleLogo.classList.add("drawed");
 	}
-	setTimeout (titleDraw, 600);
+	setTimeout (titleDraw, 750);
 
 	const el = document.querySelector('.menu-link')
 	const list = document.querySelectorAll('.menu-link, .menu-list a')
