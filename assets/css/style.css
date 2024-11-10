@@ -194,14 +194,16 @@ a {
   }
   .title-logo {
     max-width: 700px;
-    stroke: #212121;
+    stroke: #5a3317;
     fill: #ffffff00;
     stroke-width: 1px;
     stroke-dasharray: 0, 300;
-    transition: all 0.7s ease-out;
-    &:hover {
+    transition: all 0.8s ease-out;
+    &.drawed {
+      stroke: #ffffff;
       stroke-dasharray: 300, 0;
-      /* fill: #ffffffda; */
+      fill: #ffffffc5;
+      filter: drop-shadow(0 -10px 10px #756b64);
     }
   }
   .animated-text {
@@ -238,6 +240,17 @@ a {
   .head-holder {
     width: 100%;
     padding: 0;
+  }
+}
+
+@keyframes title-line {
+  from {
+    stroke: #ffffff;
+  }
+  60% {
+    fill: #ffffff00;
+  }
+  to {      
   }
 }
 
