@@ -1049,7 +1049,8 @@ section.pf-single {
   background: var(--contact-bg-color);
   position: relative;
   padding-top: 1px;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
+  padding-bottom: clamp(0rem, 7vw, 7rem);
   .divider svg {
     fill: var(--contact-bg-color);
     position: absolute;
