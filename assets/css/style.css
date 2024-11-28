@@ -414,7 +414,8 @@ a {
   height: 100vh;
   overflow: hidden;
   opacity: 0;
-  background: linear-gradient(to left, #52bce9e1, transparent);
+  /* background: linear-gradient(to left, #52bce9e1, transparent); */
+  background: url("/images/backgrounds/noise.svg") repeat;
   backdrop-filter: blur(20px);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -453,7 +454,7 @@ a {
   left: 0;
   top: -10px;
   width: 500px;
-  background: #488dce15;
+  background: #4899e462;
   height: calc(100vh + 20px);
   transform: rotate(-2deg);
   transition: left 0.6s;
