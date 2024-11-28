@@ -420,13 +420,13 @@ a {
   transition: all 0.3s ease-in-out;
   transition-delay: 300ms, 0ms;
   transition-property: width, opacity;
-  &::before {
+  /* &::before {
     content: "";
     background: url("/images/backgrounds/noise.svg") repeat;
     position: absolute;
     height: 100%;
     width: 100%;
-  }
+  } */
 }
 
 .menu-list {
