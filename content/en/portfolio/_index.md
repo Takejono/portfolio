@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-description: " Artiste | Peintre | Illustrateur | Graphiste"
+description: " Artist | Painter | Illustrator | Graphic Designer "
 draft: false
 link_list: "&#43;"
 linkTitle: "RECENT WORKS"
