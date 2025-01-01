@@ -79,7 +79,7 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
 ################################### French language #####################################
 [languages]
     [languages.fr]
-        languageName = 'Fr'
+        languageName = 'FR'
         languageCode = 'fr'
         contentDir = 'content/french'
         weight = 1
@@ -122,7 +122,7 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
 
 ################################### jp language #####################################
     [languages.jp]
-        languageName = "Jp"
+        languageName = "JP"
         languageCode = "jp"
         contentDir = "content/jp"
         weight = 2
@@ -160,5 +160,48 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
 
         [[languages.jp.menu.main]]
         name = "お問い合わせ"
+        url = "#contact"
+        weight = 6
+
+################################### en language #####################################
+    [languages.en]
+        languageName = 'EN'
+        languageCode = 'en'
+        contentDir = 'content/en'
+        weight = 3
+        [languages.en.params]
+        # copyright
+        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+
+
+################# en navigation ##################
+# main menu
+        [[languages.en.menu.main]]
+        name = "Home"
+        url = "#home"
+        weight = 1
+
+       [[languages.en.menu.main]]
+        name = "Recent works"
+        url = "#portfolio"
+        weight = 2
+
+       [[languages.en.menu.main]]
+        name = "Portfolio"
+        url = "portfolio"
+        weight = 3
+
+        [[languages.en.menu.main]]
+        name = "News"
+        url = "#news"
+        weight = 4
+
+        [[languages.en.menu.main]]
+        name = "About me"
+        url = "#about"
+        weight = 5
+
+        [[languages.en.menu.main]]
+        name = "Contact"
         url = "#contact"
         weight = 6
