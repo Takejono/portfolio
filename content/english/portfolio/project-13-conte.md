@@ -1,9 +1,10 @@
 ---
-title: "Story teller"
-date: 2016-05-12T12:14:34+06:00
-image: "images/slider/slider-1.jpg"
+title: "Dans le Conte"
+date: 2015-12-12T12:14:34+06:00
+date_show: "Date variée"
+image: "images/portfolio/comte-2.jpg"
 img_title: "«  » - "
-categories: ["Personal Project"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "11"
 draft: false
@@ -15,7 +16,6 @@ project_info:
   icon: "brush-fill"
   content: "Watercolor on Paper"
 resources:
-- src: images/portfolio/comte-2.jpg
 - src: images/portfolio/comte-3.jpg
 - src: images/portfolio/comte-4.jpg
 - src: images/portfolio/comte-5.jpg
@@ -24,4 +24,4 @@ resources:
 - src: images/portfolio/comte-8.jpg
 - src: images/portfolio/comte-9.jpg
 ---
-お話の挿絵のような絵たち。
+Comme une scène d'une histoire.

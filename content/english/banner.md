@@ -17,13 +17,14 @@ slider_images:
 - "images/slider/slider-3.jpg"
 - "images/slider/slider-4.jpg"
 - "images/slider/slider-5.jpg"
-- "images/portfolio/tache-2.jpg"
+- "images/slider/slider-6.jpg"
 
 # button
 button:
   enable : false
-  label : "CONTACT"
-  link : "#contact"
+  label : "start"
+  link : "#hello"
+
 
 # custom style
 custom_class: ""

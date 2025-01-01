@@ -1,9 +1,9 @@
 ---
-title: "Looking for a Black Lion"
+title: "A la recherche d'un lion noir"
 date: 2021-07-12T12:14:34+06:00
-image: "images/backgrounds/full-nav-bg.jpg"
+image: "images/portfolio/lionnoir-1.jpg"
 img_title: "« Bienvenu à la forêt » - 32cm x 40cm"
-categories: ["Exhibition"]
+categories: ["Art"]
 description: "This is meta description."
 order: "02"
 draft: false
@@ -26,8 +26,6 @@ resources:
   title:
 - src: images/portfolio/lionnoir-5.jpg
   title:
-- src: images/portfolio/lionnoir-6.jpg
-  title:
 - src: images/portfolio/lionnoir-7.jpg
   title:
 - src: images/portfolio/lionnoir-9.jpg
@@ -36,13 +34,15 @@ resources:
   title:
 - src: images/portfolio/lionnoir-8.jpg
   title:
+- src: images/portfolio/lionnoir-11.jpg
+  title:
 ---
 
-« Looking for a Black Lion » is a series of pictures for my exhibision in Gallery Yamagoya at Ebisu, TOKYO.
-Pictures are based in my text bellow.
+Il s'agit d'une série d'œuvres exposés à la [Gallery and shop Yamagoya](https://galleryyamagoya.com) à Ebisu, TOKYO au JAPON. Ces œuvres sont faits d'après mon texte ci-dessous.
 
 ---
-##### « À la recherche d'un lion noir »
+
+###### À la recherche d'un lion noir
 
 Depuis un moment, je suis à la recherche d'un lion noir.  
 Il m'est apparu soudain, un jour.  
@@ -57,9 +57,9 @@ Parfois j'ai l'impression qu'il disparait,
 mais je fini toujours par le trouver là où je ne l'imagine pas.  
 
 
-sur une colline ventée  
-au coin d'une l'affiche  
-au delà d'une fenêtre au crépuscule  
+  sur une colline ventée  
+  au coin d'une l'affiche  
+  au delà d'une fenêtre au crépuscule  
 
 
 On me dit, ce n'est qu'une illusion.  
@@ -72,10 +72,13 @@ Peut-être, pourrais-je aimer jouer sans fin avec lui?
 Ainsi, je serais heureux de découvrir différents paysages.  
 
 
-dans la rue endormie  
-les herbes sous la lumière à travers les arbres  
-les oiseaux blancs à l'horizon lointain  
+  dans la rue endormie  
+  les herbes sous la lumière à travers les arbres  
+  les oiseaux blancs à l'horizon lointain  
 
 
 Entre la ville, la forêt et la mer,  
+
 ce moment arrive.  
+
+---

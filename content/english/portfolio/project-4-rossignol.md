@@ -3,7 +3,7 @@ title: "Les trois peines d'un Rossignol"
 date: 2015-05-12T12:14:34+06:00
 image: "images/portfolio/rossignol-1.jpg"
 img_title: "« Maitre de chant » - 15cm x 20cm"
-categories: ["Works", "Book Illustration"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "14"
 draft: false
@@ -24,4 +24,4 @@ resources:
 - src: images/portfolio/rossignol-5.jpg
   title:
 ---
-フランスの作家ルネ・バザン短編集の表紙及び挿絵。
+Couverture et une vingtaine d'illustrations pour le recueil de nouvelles de l'écrivain français René Bazin.

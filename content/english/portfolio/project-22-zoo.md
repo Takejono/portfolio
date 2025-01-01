@@ -3,7 +3,7 @@ title: "Zoo"
 date: 2008-04-12T12:14:34+06:00
 image: "images/portfolio/zoo-1.jpg"
 img_title: "«  » - "
-categories: ["Exhibition"]
+categories: ["Art"]
 description: "This is meta description."
 order: "04"
 draft: false
@@ -28,3 +28,4 @@ resources:
 - src: images/portfolio/zoo-7.jpg
   title: "«  » -  cm x  cm"  
 ---
+Une série d'oeuvres sur le thème des animaux pour une exposition personnelle dans un restaurant à Paris.

@@ -1,9 +1,10 @@
 ---
 title: "Pencil Drawings"
-date: 2016-05-12T12:14:34+06:00
-image: "images/slider/slider-5.jpg"
+date: 2015-12-12T12:14:34+06:00
+date_show: "Date variée"
+image: "images/portfolio/pencil-2.jpg"
 img_title: "«  » - "
-categories: ["Personal Project"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "15"
 draft: false
@@ -15,7 +16,6 @@ project_info:
   icon: "brush-fill"
   content: "Pencil on Paper"
 resources:
-- src: images/portfolio/pencil-2.jpg
 - src: images/portfolio/pencil-3.jpg
 - src: images/portfolio/pencil-4.jpg
 - src: images/portfolio/pencil-5.jpg

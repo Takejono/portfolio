@@ -1,9 +1,10 @@
 ---
 title: "Cover Art for music book"
 date: 2020-07-12T12:14:34+06:00
+date_show: "Date variée"
 image: "images/portfolio/kawai-1.jpg"
 img_title: "«  » - 24cm x 32cm"
-categories: ["Works", "Book Illustration"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "10"
 draft: false

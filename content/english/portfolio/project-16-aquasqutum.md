@@ -3,7 +3,7 @@ title: "Aqua Pieces"
 date: 2020-03-12T12:14:34+06:00
 image: "images/portfolio/aquasqutum-1.jpg"
 img_title: "«  » - 18cm x 15cm"
-categories: ["Exhibition"]
+categories: ["Art"]
 description: "This is meta description."
 order: "04"
 draft: false
@@ -21,5 +21,4 @@ resources:
 - src: images/portfolio/aquasqutum-5.jpg
 - src: images/portfolio/aquasqutum-6.jpg
 ---
-渋谷スクランブルスクエアにて行われたAquaqutum x Artists のコラボレーション展示に参加しました。
-「海辺で見つかるかけらたち」をテーマに描いた小作品です。
+J'ai participé à l'exposition collaborative d'Aquaqutum x Artists au Shibuya Scramble Square, dirigée par [MOVE Art management](https://move-art.jp). Le thème de l'exposition était "fragments trouvés sur la plage".

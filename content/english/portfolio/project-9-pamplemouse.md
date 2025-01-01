@@ -3,7 +3,7 @@ title: "Très bien!"
 date: 2016-11-12T12:14:34+06:00
 image: "images/portfolio/pamplemousse-2.jpg"
 img_title: "«  » - 15cm x 18cm"
-categories: ["Works", "Book Illustration"]
+categories: ["Illustration"]
 description: "This is meta description."
 order: "13"
 draft: false
@@ -21,4 +21,4 @@ resources:
 - src: images/portfolio/pamplemousse-5.jpg
 - src: images/portfolio/pamplemousse-6.jpg
 ---
-友人の自費出版の絵本プロジェクト。イラスト全般及びページデザイン担当。
+Un projet de livre d'images auto-édité d'une amie. Je m'occupais de toutes les illustrations et de la mise en page.

@@ -1,7 +1,9 @@
 ---
-title: "PORTFOLIO"
-description: "This is meta description."
+title: "Portfolio"
+description: " Artiste | Peintre | Illustrateur | Graphiste"
 draft: false
+link_list: "&#43;"
+linkTitle: "RECENT WORKS"
 
 
 # custom style
