@@ -44,17 +44,17 @@
   <div class="acc">
     <div class="acc-content">
     <div class="container">
-    {{ if eq .Page.Lang "fr" }}
+    {{ if eq .Page.Lang "JP" }}
     <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt1 }}</div>
     <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt2 }}</div>
     <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt3 }}</div>
     <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt4 }}</div>
-    <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt5 }}</div>
     {{ else }}
     <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt1 }}</div>
     <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt2 }}</div>
     <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt3 }}</div>
     <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt4 }}</div>
+    <div class="hello-txt wow fadeInUp" data-wow-duration="1s">{{ .Params.txt5 }}</div>
     {{ end }}
   </div>
 <div class="btn-start">
