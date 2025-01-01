@@ -192,7 +192,7 @@ a {
   }
   .title-logo {
     max-width: 700px;
-    stroke: #c68c3a;
+    stroke: #e9862f;
     fill: #ffffff00;
     stroke-width: 1px;
     stroke-dasharray: 0, 300;
@@ -201,7 +201,7 @@ a {
       stroke: #ffffff;
       stroke-dasharray: 300, 0;
       fill: #ffffffba;
-      filter: drop-shadow(0 -10px 10px #756b64);
+      filter: drop-shadow(0 -6px 6px #756b64c8);
     }
   }
   .animated-text {
@@ -217,7 +217,7 @@ a {
     font-size: clamp(0.7rem, 3vw, 1.3rem);
     color: #605f59;
     right: 5px;
-    bottom: -10px;
+    bottom: -20px;
     opacity: 0;
     animation-duration: 9s;
     animation-iteration-count: infinite;
@@ -229,9 +229,9 @@ a {
       animation-delay: 6s;
       }  
     }
-    .btn-start {
+  .btn-start {
       margin: 2rem 0 1rem;
-    }
+  }
 }
 
 @media screen and (max-width: 900px) {
