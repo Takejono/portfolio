@@ -32,9 +32,11 @@ body {
 h2 {
   font-family: 'General Sans', 'Kaisei Tokumin', serif;
   font-size: clamp(0rem, 12vw, 8.2rem);
-  font-weight: 300;
+  font-weight: 350;
+  -webkit-text-stroke: 2px #4d4d4d;
   margin: 0;
-  color: #25252f;
+  /* color: #25252f; */
+  color: #fffbe800;
   z-index: 2;
 }
 h2:lang(jp) {
@@ -568,7 +570,8 @@ a {
     bottom: -1px;
   }
   h2 {
-    color: #afaa9f;
+    /* color: #afaa9f; */
+    -webkit-text-stroke-color: #9f9a90;
     text-align: right;
   }
 }
@@ -958,7 +961,8 @@ section.pf-single {
     }
   }
   h2 {
-    color: color-mix(in srgb, var(--news-color), var(--base-bg-color) 65%);
+    /* color: color-mix(in srgb, var(--news-color), var(--base-bg-color) 65%); */
+    -webkit-text-stroke-color: color-mix(in srgb, var(--news-color), var(--base-bg-color) 70%);
   }
   h3 {
     font-size: 1.8rem;
@@ -991,7 +995,8 @@ section.pf-single {
   h2 {
     position: relative;
     text-align: right;
-    color: color-mix(in srgb, #534e36, transparent 30%);
+    /* color: color-mix(in srgb, #534e36, transparent 30%); */
+    -webkit-text-stroke-color: color-mix(in srgb, #534e36, transparent 40%);
     z-index: 1;
   }
   &::before {
@@ -1058,7 +1063,8 @@ section.pf-single {
     bottom: -1px;
   }
   h2 {
-    color: color-mix(in srgb, var(--contact-color) 70%, var(--contact-bg-color));
+    /* color: color-mix(in srgb, var(--contact-color) 70%, var(--contact-bg-color)); */
+    -webkit-text-stroke-color: color-mix(in srgb, var(--contact-color) 80%, var(--contact-bg-color));
     width: 100%;
     text-align: center;
   }
