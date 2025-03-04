@@ -31,7 +31,7 @@ body {
 
 h2 {
   font-family: 'General Sans', 'Kaisei Tokumin', serif;
-  font-size: clamp(0rem, 12vw, 7rem);
+  font-size: clamp(0rem, 12vw, 6rem);
   font-weight: 450;
   -webkit-text-stroke: 1px #4d4d4d;
   margin: 0;
