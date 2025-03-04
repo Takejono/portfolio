@@ -86,6 +86,14 @@ window.addEventListener('load',function(){
 		x3: 40
 	  }
 	});
+	
+	var caption = document.querySelector('.caption');
+    flkty.on( 'select', function() {
+// set image caption using img's alt
+    caption.textContent = flkty.selectedElement.alt;
+    });
+
+
 
 // Carousel folio-nav
 	var elem = document.querySelector('#carousel-nav');

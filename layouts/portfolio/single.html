@@ -7,9 +7,10 @@
       <div id="carousel-folio">
             <img src="{{.Params.Image | absURL}}" alt="image" class="folio-item">
             {{ range .Params.resources }}
-            <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}" class="folio-item">
+            <img src="{{ .src | absURL }}" alt="{{ .caption | markdownify }}" class="folio-item">
           {{ end }}
       </div>
+      <p class="caption">&nbsp;</p>
       <div id="carousel-nav">
         <img src="{{.Params.Image | absURL}}" alt="image" class="folio-item">
         {{ range .Params.resources }}

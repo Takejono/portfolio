@@ -16,18 +16,31 @@ project_info:
   content: "Encre de chine, Aquarelle métalique, Stylo, Crayon"
 resources:
 - src: images/portfolio/horizons-2.jpg
+  caption: "« Forêt noire » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-3.jpg
+  caption: "« Où va le vent » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-4.jpg
+  caption: "« Les strates » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-5.jpg
+  caption: "« le reflet » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-6.jpg
+  caption: "« Ligne nebuleuse » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-7.jpg
+  caption: "« Sur la ligne » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-8.jpg
+  caption: "« Paysage » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-9.jpg
+  caption: "« Travers du vent » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-10.jpg
+  caption: "« Tout le monde à la plage » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-11.jpg
+  caption: "« Travers le vieux tronc » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-12.jpg
+  caption: "« Installation: Eclats du passés » dessins collés sur verre"
 - src: images/portfolio/horizons-13.jpg
+  caption: "« Ambience dans la salle » 50 X 74 cm, encre de chine, stylo sur papier"
 - src: images/portfolio/horizons-14.jpg
+  caption: "« Installation: pousses » 50 X 74 cm, encre de chine, stylo sur papier"
 ---
 Ma premier exposition solo à [le Couvent](https://le-couvent.org) sur le thème des horizons et les lignes. C'est une transition entre l'univers en couleur et celui en noir et blanc.  
 Ci-dessous est une citation de la préface d'exposition :
