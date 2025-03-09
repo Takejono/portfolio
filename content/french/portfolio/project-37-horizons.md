@@ -7,6 +7,7 @@ categories: ["Art"]
 description: "This is meta description."
 order: "37"
 draft: false
+
 project_info:
 - name: "Format"
   icon: "rulers"
@@ -14,6 +15,7 @@ project_info:
 - name: "Support"
   icon: "brush-fill"
   content: "Encre de chine, Aquarelle métalique, Stylo, Crayon"
+
 resources:
 - src: images/portfolio/horizons-2.jpg
   caption: "« Forêt noire » 50 X 74 cm, encre de chine, stylo sur papier"

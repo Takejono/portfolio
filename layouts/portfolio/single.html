@@ -5,12 +5,12 @@
   <div class="folio-wrapper">
 <div class="carousel-wrap">
       <div id="carousel-folio">
-            <img src="{{.Params.Image | absURL}}" alt="image" class="folio-item">
+            <img src="{{.Params.Image | absURL}}" alt="{{ .Params.Description | markdownify }}" class="folio-item">
             {{ range .Params.resources }}
             <img src="{{ .src | absURL }}" alt="{{ .caption | markdownify }}" class="folio-item">
           {{ end }}
       </div>
-      <p class="caption">&nbsp;</p>
+     <!-- <p class="caption"></p> -->
       <div id="carousel-nav">
         <img src="{{.Params.Image | absURL}}" alt="image" class="folio-item">
         {{ range .Params.resources }}

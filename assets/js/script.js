@@ -87,11 +87,11 @@ window.addEventListener('load',function(){
 	  }
 	});
 	
-	var caption = document.querySelector('.caption');
-    flkty.on( 'select', function() {
+//	var caption = document.querySelector('.caption');
+//    flkty.on( 'select', function() {
 // set image caption using img's alt
-    caption.textContent = flkty.selectedElement.alt;
-    });
+//    caption.textContent = flkty.selectedElement.alt;
+//    });
 
 
 
