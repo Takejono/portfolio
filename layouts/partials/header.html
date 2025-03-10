@@ -21,7 +21,7 @@
     </select>
     {{ end }}
   <nav>
-    <a class="menu-link">
+    <a id="menu-link">
       <div class="menu-nav">
         <span></span>
         <span></span>
@@ -29,7 +29,7 @@
       </div>
     </a>
     <div class="menu-slider">
-        <ul class="menu-list">
+        <ul id="menu-list">
           {{ range site.Menus.main }}
           <li>
             <a class="menu-list-link" href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a>

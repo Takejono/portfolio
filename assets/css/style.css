@@ -380,7 +380,7 @@ a {
   }  
 }
 
-.menu-link.active {
+#menu-link.active {
   span:nth-child(2) {
   opacity: 0;
   -webkit-transform: rotateY(90deg);
@@ -403,7 +403,7 @@ a {
 }
 
 .menu-nav:hover span,
-.menu-link.active:hover span {
+#menu-link.active:hover span {
   background: var(--hvr-color);
 }
 
@@ -424,7 +424,8 @@ a {
   transition-property: width, opacity;
 }
 
-.menu-list {
+#menu-list {
+ z-index: 999;
  list-style: none;
  padding: 0 2.5rem 0rem 1.5rem;
  margin-top: -10px;
@@ -487,7 +488,7 @@ a {
   transition: opacity 0.3s ease-in-out;
   width: 100%;
   opacity: 1;
-  & .menu-list {
+  #menu-list {
     opacity: 1;
     transform: translateX(0rem) rotate(-2deg);
     &::before {
@@ -496,9 +497,9 @@ a {
     &::after {
       left: -70px;
     }
-  }
-  & a {
-    filter: blur(0);
+    a {
+      filter: blur(0);
+    }
   }
 }
 
