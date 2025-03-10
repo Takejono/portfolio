@@ -14,8 +14,9 @@ window.addEventListener('load',function(){
 	}
 	setTimeout (titleDraw, 750);
 
-	const el = document.querySelector('#menu-link')
-	const list = document.querySelectorAll('#menu-link, #menu-list a')
+	// const el = document.querySelector('#menu-link')
+	const el = document.getElementById('menu-nav')
+	const list = document.querySelectorAll('.menu-icon, .menu-list-link')
 	for (let i = 0; i < list.length; i++) {
 	list[i].addEventListener('click', function() {
 		el.classList.toggle('active');
@@ -25,9 +26,9 @@ window.addEventListener('load',function(){
 
     // close menu on click out window
 //   document.addEventListener('click', (e) => {
-// 	if(!e.target.closest('div#menu-list')) {
+// 	if(!e.target.closest('#menu-list')) {
 // 	  console.log("外側をクリックしました。");
-// 	   const flWrapper = document.getElementById('menu-list');
+// 	   const flWrapper = document.getElementById('menu-nav');
 // 	flWrapper.classList.toggle('active');
 // 	} else {
 // 	  console.log("内側をクリックしました。")
