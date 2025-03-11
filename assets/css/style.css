@@ -382,21 +382,10 @@ a {
 
 #menu-back {
   position: absolute;
-  z-index: 998;
-  top: 0;
-  right: 0;
-  width: 0;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
-  /* opacity: 0; */
-  /* background: linear-gradient(to left, #bde1f3db, transparent); */
-  background: linear-gradient(to left, #f3e6bddb, transparent);
-  backdrop-filter: blur(0px);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  transition: width 0s ease-in-out;
-  transition-delay: width 300ms;
-  /* transition-property: width, opacity; */
+  cursor: pointer;
 }
 
 #menu-slider {
@@ -407,13 +396,13 @@ a {
   width: 0%;
   height: 100vh;
   overflow: hidden;
-  opacity: 1;
-  /* background: linear-gradient(to left, #f3e6bddb, transparent); */
-  /* backdrop-filter: blur(20px); */
-  /* -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0;
+  background: linear-gradient(to left, #f3e6bddb, transparent);
+  backdrop-filter: blur(20px);
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   transition-delay: 300ms, 0ms;
-  transition-property: width, opacity; */
+  transition-property: width, opacity;
 }
 
 #menu-list {
@@ -435,9 +424,9 @@ a {
  opacity: 0;
  transform: translateX(10rem);
  transition: all 0.4s ease;
- /* &::before {
+&::before {
   content: "";
-  border-left: var(--base-bg-color) 2px dashed;
+  border-left: var(--base-bg-color) 1px dashed;
   position: absolute;
   left: 0;
   top: -10px;
@@ -447,7 +436,7 @@ a {
   transform: rotate(-2deg);
   transition: left 0.6s;
  }
- &::after {
+/* &::after {
   content: "";
   border-left: var(--base-bg-color) 2px dashed;
   position: absolute;
@@ -466,7 +455,7 @@ a {
     filter: blur(30px);
     transition: all 0.3s linear;
     text-decoration: none;
-    border: 1px solid black;
+    /* border: 1px solid rgb(89, 81, 70); */
     background: #ede9c5;
     padding: .2rem .6rem;
     &:hover {
@@ -499,14 +488,10 @@ a {
   }
   #menu-slider {
     width: 100%;
-  }
-  #menu-back {
+    opacity: 1;
     transition: all 0.3s ease-in-out;
     transition: width 0s ease-in-out;
-    width: 100%;
-    opacity: 1;
-    backdrop-filter: blur(20px);
-  }  
+  }
   #menu-list {
     opacity: 1;
     transform: translateX(0rem) rotate(-2deg);

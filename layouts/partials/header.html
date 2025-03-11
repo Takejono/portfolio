@@ -21,16 +21,14 @@
     </select>
     {{ end }}
   <nav id="menu-nav">
-    <div id="menu-back"></div>
-    <!-- <a id="menu-link"> -->
     <div class="menu-icon">
       <span></span>
       <span></span>
       <span></span>
     </div>
-    <!-- </a> -->
     <div id="menu-slider">
-        <ul id="menu-list">
+      <div id="menu-back"></div>
+      <ul id="menu-list">
           {{ range site.Menus.main }}
           <li>
             <a class="menu-list-link" href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a>
