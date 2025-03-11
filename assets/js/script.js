@@ -16,7 +16,7 @@ window.addEventListener('load',function(){
 
 	// const el = document.querySelector('#menu-link')
 	const el = document.getElementById('menu-nav')
-	const list = document.querySelectorAll('.menu-icon, .menu-list-link')
+	const list = document.querySelectorAll('#menu-back, .menu-icon, .menu-list-link')
 	for (let i = 0; i < list.length; i++) {
 	list[i].addEventListener('click', function() {
 		el.classList.toggle('active');

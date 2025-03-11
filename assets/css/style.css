@@ -380,21 +380,40 @@ a {
   }
 }
 
-#menu-slider {
+#menu-back {
   position: absolute;
-  z-index: 999;
+  z-index: 998;
   top: 0;
   right: 0;
   width: 0;
   height: 100vh;
   overflow: hidden;
-  opacity: 0;
+  /* opacity: 0; */
+  /* background: linear-gradient(to left, #bde1f3db, transparent); */
   background: linear-gradient(to left, #f3e6bddb, transparent);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(0px);
   -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transition: width 0s ease-in-out;
+  transition-delay: width 300ms;
+  /* transition-property: width, opacity; */
+}
+
+#menu-slider {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  /* width: 100%; */
+  /* height: 100vh; */
+  overflow: hidden;
+  opacity: 1;
+  /* background: linear-gradient(to left, #f3e6bddb, transparent); */
+  /* backdrop-filter: blur(20px); */
+  /* -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   transition-delay: 300ms, 0ms;
-  transition-property: width, opacity;
+  transition-property: width, opacity; */
 }
 
 #menu-list {
@@ -404,7 +423,7 @@ a {
  margin-top: -10px;
  margin-inline: auto -1.5rem;
  display: flex;
- /* background: #02b3ff47; */
+ background: #02b3ff47;
  width: fit-content;
  justify-content: space-evenly;
  align-items: flex-start;
@@ -478,24 +497,26 @@ a {
       top: -1px;
     }
   }
-  #menu-slider {
-    transition: opacity 0.3s ease-in-out;
+  #menu-back {
+    transition: all 0.3s ease-in-out;
+    transition: width 0s ease-in-out;
     width: 100%;
     opacity: 1;
-    #menu-list {
-      opacity: 1;
-      transform: translateX(0rem) rotate(-2deg);
-      &::before {
-        left: -25px;
-      }
-      &::after {
-        left: -70px;
-      }
-      a {
-        filter: blur(0);
-      }
-    }
+    backdrop-filter: blur(20px);
   }  
+  #menu-list {
+    opacity: 1;
+    transform: translateX(0rem) rotate(-2deg);
+    &::before {
+      left: -25px;
+    }
+    &::after {
+      left: -70px;
+    }
+    a {
+      filter: blur(0);
+    }
+  }
 } 
 
 .menu-icon:hover span,
