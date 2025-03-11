@@ -404,8 +404,8 @@ a {
   z-index: 999;
   top: 0;
   right: 0;
-  /* width: 100%; */
-  /* height: 100vh; */
+  width: 0%;
+  height: 100vh;
   overflow: hidden;
   opacity: 1;
   /* background: linear-gradient(to left, #f3e6bddb, transparent); */
@@ -496,6 +496,9 @@ a {
       transform: rotate(-225deg);
       top: -1px;
     }
+  }
+  #menu-slider {
+    width: 100%;
   }
   #menu-back {
     transition: all 0.3s ease-in-out;
