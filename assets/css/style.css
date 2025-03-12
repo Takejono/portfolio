@@ -411,7 +411,7 @@ a {
  margin-top: -10px;
  margin-inline: auto -1.5rem;
  display: flex;
- background: #02b3ff47;
+ /* background: #02b3ff47; */
  width: fit-content;
  justify-content: space-evenly;
  align-items: flex-start;
@@ -430,7 +430,7 @@ a {
   left: 0;
   top: -10px;
   width: 500px;
-  background: #2a98ff37;
+  background: #2ab1ff55;
   height: calc(100vh + 40px);
   transform: rotate(-2deg);
   transition: left 0.6s;
