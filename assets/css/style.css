@@ -425,7 +425,7 @@ a {
  transition: all 0.4s ease;
 &::before {
   content: "";
-  /* border-left: var(--base-bg-color) 1px dashed; */
+  border-left: #0d8cd555 20px solid;
   position: absolute;
   left: 0;
   top: -10px;
