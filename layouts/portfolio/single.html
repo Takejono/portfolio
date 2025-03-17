@@ -1,68 +1,115 @@
 {{ define "main" }}
 
-<style>{{.Params.custom_css | safeCSS}}</style>
-<section class="pf-single {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
-  <div class="folio-wrapper">
-<div class="carousel-wrap">
-      <div id="carousel-folio">
-            <img src="{{.Params.Image | absURL}}" alt="{{ .Params.Description | markdownify }}" class="folio-item">
-            {{ range .Params.resources }}
-            <img src="{{ .src | absURL }}" alt="{{ .caption | markdownify }}" class="folio-item">
-          {{ end }}
-      </div>
-     <!-- <p class="caption"></p> -->
-      <div id="carousel-nav">
-        <img src="{{.Params.Image | absURL}}" alt="image" class="folio-item">
-        {{ range .Params.resources }}
-        <img src="{{ .src | absURL }}" alt="{{ .title | markdownify }}" class="folio-item">
-      {{ end }}
-      </div>
-</div>
+<style>
+    {{.Params.custom_css | safeCSS}}
+</style>
+<section
+    class="pf-single {{.Params.custom_class}}"
+    {{.Params.custom_attributes
+    |
+    safeHTMLAttr}}
+>
+    <div class="folio-wrapper">
+        <div class="carousel-wrap">
+            <div id="carousel-folio">
+                <img
+                    src="{{.Params.Image | absURL}}"
+                    alt="{{ .Params.Description | markdownify }}"
+                    class="folio-item"
+                />
+                {{ range .Params.resources }}
+                <img
+                    src="{{ .src | absURL }}"
+                    alt="{{ .caption | markdownify }}"
+                    class="folio-item"
+                />
+                {{ end }}
+            </div>
+            <p class="caption"></p>
+            <div id="carousel-nav">
+                <img
+                    src="{{.Params.Image | absURL}}"
+                    alt="image"
+                    class="folio-item"
+                />
+                {{ range .Params.resources }}
+                <img
+                    src="{{ .src | absURL }}"
+                    alt="{{ .title | markdownify }}"
+                    class="folio-item"
+                />
+                {{ end }}
+            </div>
+        </div>
 
-      <div class="desc-text wow fadeInUp" data-wow-duration=".8s">
-      <h3>{{.Title | markdownify}}</h3>
-      <div class="content">{{.Content}}</div>
+        <div class="desc-text wow fadeInUp" data-wow-duration=".8s">
+            <h3>{{.Title | markdownify}}</h3>
+            <div class="content">{{.Content}}</div>
 
             <div class="infos-gallery wow fadeInUp" data-wow-duration="1s">
-        <ul>
-          <li>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-              <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5"/>
-            </svg>
-             <div>
-               <h4>Date</h4>
-               <div class="content">
-                 {{ if .Params.Date_show }}
-                 {{ .Params.Date_show }}{{else}}{{ .PublishDate.Format "Jan, 2006" }}{{ end }}
-                 </div>
-             </div>
-           </li>
-           <li>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags-fill" viewBox="0 0 16 16">
-              <path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
-              <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043z"/>
-            </svg>
-              <div>
-                <h4>Categories</h4>
-                <div class="content">{{range $i,$e:= .Params.categories }}{{if ne $i 0}},{{end}} {{.|title}}{{end}}</div>
-              </div>
-            </li>
-          {{ range .Params.project_info }}
-          <li>
-           {{ with .icon}}
-           <img src="/images/icons/{{.}}.svg">
-           {{ end }}
-            <div>
-              <h4>{{.name | markdownify}}</h4>
-              <div class="content">{{.content | markdownify}}</div>
+                <ul>
+                    <li>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-calendar-fill"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5"
+                            />
+                        </svg>
+                        <div>
+                            <h4>Date</h4>
+                            <div class="content">
+                                {{ if .Params.Date_show }} {{ .Params.Date_show
+                                }}{{else}}{{ .PublishDate.Format "Jan, 2006"
+                                }}{{ end }}
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-tags-fill"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"
+                            />
+                            <path
+                                d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043z"
+                            />
+                        </svg>
+                        <div>
+                            <h4>Categories</h4>
+                            <div class="content">
+                                {{range $i,$e:= .Params.categories }}{{if ne $i
+                                0}},{{end}} {{.|title}}{{end}}
+                            </div>
+                        </div>
+                    </li>
+                    {{ range .Params.project_info }}
+                    <li>
+                        {{ with .icon}}
+                        <img src="/images/icons/{{.}}.svg" />
+                        {{ end }}
+                        <div>
+                            <h4>{{.name | markdownify}}</h4>
+                            <div class="content">
+                                {{.content | markdownify}}
+                            </div>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
             </div>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-
-      </div>
-
-  </div>
+        </div>
+    </div>
 </section>
 {{ end }}

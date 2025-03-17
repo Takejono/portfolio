@@ -25,6 +25,7 @@ button:
   label : "start"
   link : "#hello"
 
+layout: "home"
 
 # custom style
 custom_class: ""
