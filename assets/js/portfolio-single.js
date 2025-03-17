@@ -1,0 +1,45 @@
+// Carousel folio : single page
+var elem = document.querySelector("#carousel-folio");
+var flktyM = new Flickity(elem, {
+  cellSelector: ".folio-item",
+  selectedAttraction: 0.01,
+  friction: 0.24,
+  wrapAround: true,
+  imagesLoaded: true,
+  pageDots: false,
+  arrowShape: {
+    x0: 25,
+    x1: 60,
+    y1: 50,
+    x2: 65,
+    y2: 50,
+    x3: 40,
+  },
+});
+
+// folio single page caption par alt
+var caption = document.querySelector(".caption");
+flktyM.on("select", function () {
+  // set image caption using img's alt
+  caption.textContent = flktyM.selectedElement.alt;
+});
+
+// Carousel folio-nav
+var elem = document.querySelector("#carousel-nav");
+var flktyNav = new Flickity(elem, {
+  selectedAttraction: 0.015,
+  friction: 0.24,
+  contain: true,
+  asNavFor: "#carousel-folio",
+  pageDots: false,
+  prevNextButtons: false,
+  imagesLoaded: true,
+  arrowShape: {
+    x0: 25,
+    x1: 60,
+    y1: 50,
+    x2: 65,
+    y2: 50,
+    x3: 40,
+  },
+});
