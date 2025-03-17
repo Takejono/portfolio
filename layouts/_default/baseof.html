@@ -1,15 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-{{- partial "head.html" . -}}
+    {{- partial "head.html" . -}}
 
-<body>
-	{{- partialCached "preloader.html" . -}}
-	{{ if not .IsHome}}
-	{{- partial "header.html" . -}}
-	{{ end }}
-	{{- block "main" . }}{{- end }}
-	{{- partialCached "footer.html" . -}}
-	{{- partialCached "script.html" . -}}
-</body>
-
+    <body>
+        {{- partialCached "preloader.html" . -}} {{ if not .IsHome}} {{- partial
+        "header.html" . -}} {{ end }} {{- block "main" . }}{{- end }} {{-
+        partialCached "footer.html" . -}} {{- partialCached "script.html" . -}}
+        {{ if .IsHome }} {{ partial "js-home.html" . }} {{ else if eq .Type
+        "portfolio" }} {{ if .IsNode }} {{ partial "js-portfolio-list.html" . }}
+        {{ else }} {{ partial "js-portfolio-single.html" . }} {{ end }} {{ end
+        }}
+    </body>
 </html>

@@ -8,13 +8,6 @@ window.addEventListener("load", function () {
   }
   setTimeout(byeLoader, 1800);
 
-  const titleLogo = document.querySelector(".title-logo");
-  function titleDraw() {
-    titleLogo.classList.add("drawed");
-  }
-  setTimeout(titleDraw, 750);
-
-  // const el = document.querySelector('#menu-link')
   const el = document.getElementById("menu-nav");
   const list = document.querySelectorAll(
     "#menu-back, .menu-icon, .menu-list-link",
