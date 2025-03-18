@@ -469,19 +469,9 @@ a {
         transform: rotate(-2deg);
         transition: left 0.6s;
     }
-    /* &::after {
-  content: "";
-  border-left: var(--base-bg-color) 2px dashed;
-  position: absolute;
-  left: 0;
-  width: 10px;
-  height: calc(100vh + 30px);
-  transform: rotate(-3deg);
-  transition: left 0.7s;
- } */
     a {
         color: #0e5188;
-        font-size: clamp(1rem, 8vh, 2.5rem);
+        font-size: clamp(1rem, 8vh, 2rem);
         font-family: "General Sans", "Kaisei Tokumin";
         font-weight: 550;
         letter-spacing: 0.3vw;
@@ -932,7 +922,7 @@ section.pf-single {
         font-size: 3rem;
         font-weight: 300;
         line-height: 3rem;
-        margin: 0;
+        margin: 0 0 2rem;
     }
     h3:lang(jp) {
         font-family: "Zen Kaku Gothic Antique", serif;
