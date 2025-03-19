@@ -3,12 +3,21 @@
     {{- partial "head.html" . -}}
 
     <body>
-        {{- partialCached "preloader.html" . -}} {{ if not .IsHome}} {{- partial
-        "header.html" . -}} {{ end }} {{- block "main" . }}{{- end }} {{-
-        partialCached "footer.html" . -}} {{- partialCached "script.html" . -}}
-        {{ if .IsHome }} {{ partial "js-home.html" . }} {{ else if eq .Type
-        "portfolio" }} {{ if .IsNode }} {{ partial "js-portfolio-list.html" . }}
-        {{ else }} {{ partial "js-portfolio-single.html" . }} {{ end }} {{ end
-        }}
+        {{- partialCached "preloader.html" . -}}
+        {{ if not .IsHome}}
+        {{- partial "header.html" . -}}
+        {{ end }}
+        {{- block "main" . }}{{- end }}
+        {{- partialCached "footer.html" . -}}
+        {{- partialCached "script.html" . -}}
+        {{ if .IsHome }}
+        {{ partial "js-home.html" . }}
+        {{ else if eq .Type "portfolio" }}
+        {{ if .IsNode }}
+        {{ partial "js-portfolio-list.html" . }}
+        {{ else }}
+        {{ partial "js-portfolio-single.html" . }}
+        {{ end }}
+        {{ end }}
     </body>
 </html>
