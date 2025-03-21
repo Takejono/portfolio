@@ -2,9 +2,9 @@
 title: "le site web 'in3 Inc.'"
 date: 2023-11-01T12:14:34+06:00
 image: "images/portfolio/in3-01.jpg"
-img_title: "Illustrations pour le site web 'in3 Inc.'"
+img_title: "« Illustrations pour le site web 'in3 Inc.' »"
 categories: ["Illustration"]
-description: "This is meta description."
+description: "« Illustrations pour le site web 'in3 Inc.' »"
 order: "29"
 draft: false
 project_info:
@@ -19,9 +19,13 @@ project_info:
   content: "[in3 Inc.](https://in3alignment.com)"
 resources:
 - src: images/portfolio/in3-02.jpg
+  caption : ""
 - src: images/portfolio/in3-03.jpg
+  caption : ""
 - src: images/portfolio/in3-04.jpg
+  caption : ""
 - src: images/portfolio/in3-05.jpg
+  caption : ""
 ---
-Illustrations en trait pour le site web de la société in3 Inc.  
+Illustrations en trait pour le site web de la société in3 Inc.
 Direction artistique par [Mioko takano](https://www.miokotakano.com).

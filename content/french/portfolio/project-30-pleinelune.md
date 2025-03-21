@@ -2,9 +2,9 @@
 title: "Etiquettes du vin : la lune pleine"
 date: 2023-12-01T12:14:34+06:00
 image: "images/portfolio/pl-1.jpg"
-img_title: "« Etiquettes du vin la lune pleine »"
+img_title: "« Etiquettes du vin : la lune pleine »"
 categories: ["Illustration", "Design"]
-description: "This is meta description."
+description: "« Etiquettes du vin : la lune pleine »"
 order: "30"
 draft: false
 project_info:
@@ -22,7 +22,7 @@ resources:
 - src: images/portfolio/pl-3.jpg
 - src: images/portfolio/pl-4.jpg
 ---
-3 Illustrations et le design du Logo pour les etiquettes du vin nature "la lune pleine".  
+3 Illustrations et le design du Logo pour les etiquettes du vin nature "la lune pleine".
 Ce sont ses premières cuvées d'un producteur du vin nature / bio. Ces vins sont très fruités et parfumés, qui changent mieux l'image du vin nature.
 
-Contact à Producteur : M. Colas TOURNEUX --> [e-mail](vinsdelalunepleine@gmail.com) 
+Contact à Producteur : M. Colas TOURNEUX --> [e-mail](vinsdelalunepleine@gmail.com)

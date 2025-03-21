@@ -4,7 +4,7 @@ date: 2024-07-01T12:14:34+06:00
 image: "images/portfolio/dareda-01.jpg"
 img_title: "« DAREDA Jaquet Design »"
 categories: ["Design"]
-description: "This is meta description."
+description: "« DAREDA Jaquet Design »"
 order: "35"
 draft: false
 project_info:

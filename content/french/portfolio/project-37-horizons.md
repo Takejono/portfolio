@@ -4,7 +4,7 @@ date: 2024-08-30T12:14:34+06:00
 image: "images/portfolio/horizons-1.jpg"
 img_title: "« Les horizons »"
 categories: ["Art"]
-description: "« Les horisons »&nbsp;&nbsp;&nbsp;80 X 120 cm, encre de chine, stylo sur papier"
+description: "« Les horisons »&nbsp;&nbsp;&nbsp;80 X 120 cm, encre de chine, crayon, stylo sur papier"
 order: "37"
 draft: false
 
@@ -18,25 +18,25 @@ project_info:
 
 resources:
 - src: images/portfolio/horizons-2.jpg
-  caption: "« Forêt noire »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« Forêt noire »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-3.jpg
-  caption: "« Où va le vent »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« Où va le vent »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-4.jpg
-  caption: "« Les strates »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« Les strates »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-5.jpg
-  caption: "« le reflet »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« le reflet »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-6.jpg
-  caption: "« Ligne nebuleuse »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« Ligne nebuleuse »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-7.jpg
-  caption: "« Sur la ligne »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« Sur la ligne »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-8.jpg
-  caption: "« Paysage »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« Paysage »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-9.jpg
-  caption: "« Travers du vent »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« Travers du vent »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-10.jpg
-  caption: "« Tout le monde à la plage »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« Tout le monde à la plage »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-11.jpg
-  caption: "« Travers le vieux tronc »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, stylo sur papier"
+  caption: "« Travers le vieux tronc »&nbsp;&nbsp;&nbsp;50 X 74 cm, encre de chine, crayon, stylo sur papier"
 - src: images/portfolio/horizons-12.jpg
   caption: "« Installation: Eclats du passés »&nbsp;&nbsp;&nbsp;dessins collés sur verre"
 - src: images/portfolio/horizons-13.jpg

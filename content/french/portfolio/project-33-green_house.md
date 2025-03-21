@@ -4,7 +4,7 @@ date: 2024-04-15T12:14:34+06:00
 image: "images/portfolio/gh-01.jpg"
 img_title: "« Green House cover illustration »"
 categories: ["Illustration"]
-description: "This is meta description."
+description: "« Green House cover illustration »"
 order: "33"
 draft: false
 project_info:

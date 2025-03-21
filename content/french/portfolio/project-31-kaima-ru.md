@@ -4,7 +4,7 @@ date: 2024-02-01T12:14:34+06:00
 image: "images/portfolio/kaimaru-01.jpg"
 img_title: "« Bus : Kaima-ru »"
 categories: ["Illustration"]
-description: "This is meta description."
+description: "« Illustrations pour le Bus : Kaima-ru »"
 order: "31"
 draft: false
 project_info:
@@ -19,6 +19,7 @@ project_info:
   content: "[aguije](https://aguije.jp)"
 resources:
 - src: images/portfolio/kaimaru-02.jpg
+  caption : "« Illustrations pour le Bus : Kaima-ru »"
 - src: images/portfolio/kaimaru-03.jpg
 - src: images/portfolio/kaimaru-04.jpg
 ---
