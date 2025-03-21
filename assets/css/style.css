@@ -1079,6 +1079,7 @@ section.pf-single {
         padding: 2rem 1.5rem 5rem;
         width: clamp(24rem, 40vw, 600px);
         margin-inline: auto 0;
+        text-align: justify;
         p {
             padding-left: 4px;
             background: #f9f5e35f;
