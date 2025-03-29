@@ -42,43 +42,43 @@ Il s'agit d'une série d'œuvres exposés à la [Gallery and shop Yamagoya](http
 
 ---
 
-###### À la recherche d'un lion noir
+#### À la recherche d'un lion noir
 
-Depuis un moment, je suis à la recherche d'un lion noir.
-Il m'est apparu soudain, un jour.
-
-Je ne sais pas d'où il vient, mais, il ne me fait pas peur.
-Il est même charmant.
-
-Je le vois clairement au loin.
-Mais plus il s'approche, plus flou il devient, et il s'enfuit à travers mon corps.
-
-Parfois j'ai l'impression qu'il disparait,
-mais je fini toujours par le trouver là où je ne l'imagine pas.
-
-
-  sur une colline ventée
-  au coin d'une l'affiche
-  au delà d'une fenêtre au crépuscule
-
-
-On me dit, ce n'est qu'une illusion.
-Mais si je tend l'oreille, je pourrai entendre le battement de son coeur.
-
-Si tu aimes jouer à cache-cache comme tel, je vais y jouer aussi.
-Mais qu'importe je ne le trouve pas.
-
-Peut-être, pourrais-je aimer jouer sans fin avec lui?
-Ainsi, je serais heureux de découvrir différents paysages.
-
-
-  dans la rue endormie
-  les herbes sous la lumière à travers les arbres
-  les oiseaux blancs à l'horizon lointain
-
-
-Entre la ville, la forêt et la mer,
-
-ce moment arrive.
+Depuis un moment, je suis à la recherche d'un lion noir.<br>
+Il m'est apparu soudain, un jour.<br>
+<br>
+Je ne sais pas d'où il vient, mais, il ne me fait pas peur.<br>
+Il est même charmant.<br>
+<br>
+Je le vois clairement au loin.<br>
+Mais plus il s'approche, plus flou il devient, et il s'enfuit à travers mon corps.<br>
+<br>
+Parfois j'ai l'impression qu'il disparait,<br>
+mais je fini toujours par le trouver là où je ne l'imagine pas.<br>
+<br>
+<br>
+  sur une colline ventée<br>
+  au coin d'une l'affiche<br>
+  au delà d'une fenêtre au crépuscule<br>
+<br>
+<br>
+On me dit, ce n'est qu'une illusion.<br>
+Mais si je tend l'oreille, je pourrai entendre le battement de son coeur.<br>
+<br>
+Si tu aimes jouer à cache-cache comme tel, je vais y jouer aussi.<br>
+Mais qu'importe je ne le trouve pas.<br>
+<br>
+Peut-être, pourrais-je aimer jouer sans fin avec lui?<br>
+Ainsi, je serais heureux de découvrir différents paysages.<br>
+<br>
+<br>
+  dans la rue endormie<br>
+  les herbes sous la lumière à travers les arbres<br>
+  les oiseaux blancs à l'horizon lointain<br>
+<br>
+<br>
+Entre la ville, la forêt et la mer,<br>
+<br>
+ce moment arrive.<br>
 
 ---
