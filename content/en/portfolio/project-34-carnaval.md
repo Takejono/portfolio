@@ -30,28 +30,28 @@ resources:
 
 ---
 
-Au profond de la forêt calme et silencieuse  
-Carnaval arrive  
-Se faufilant entre les vieux arbres noirs  
-marchant sur les branches sèches et les feuilles mortes  
-
-Ils débarrassent de son lourd manteau  
-Semant des empreintes de couleur  
-Des bourgeons tendres remplissent les vides  
-se nourrissent du bois mort et se grandissent  
-
-Dansons, balançant le corps sous le vent frais  
-Chantons, la joie des bourgeons frais  
-
-Sur la route sans chemin  
-Sur la route de mille chemins    
-
-En sortant d'ici, c'est le printemps
-Là où ils sont passé, c'est le printemps  
-
-Devant nous  
-Derrière nous  
-
-Carnaval continue, et continue  
+Au profond de la forêt calme et silencieuse  <br>
+Carnaval arrive  <br>
+Se faufilant entre les vieux arbres noirs  <br>
+marchant sur les branches sèches et les feuilles mortes<br>
+<br>
+Ils débarrassent de son lourd manteau  <br>
+Semant des empreintes de couleur  <br>
+Des bourgeons tendres remplissent les vides  <br>
+se nourrissent du bois mort et se grandissent  <br>
+<br>
+Dansons, balançant le corps sous le vent frais<br>
+Chantons, la joie des bourgeons frais<br>
+<br>
+Sur la route sans chemin<br>
+Sur la route de mille chemins<br>
+<br>
+En sortant d'ici, c'est le printemps<br>
+Là où ils sont passé, c'est le printemps<br>
+<br>
+Devant nous<br>
+Derrière nous<br>
+<br>
+Carnaval continue, et continue<br>
 
 ---
