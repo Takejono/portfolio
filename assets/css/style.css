@@ -330,6 +330,10 @@ a {
     z-index: 2;
 }
 
+.flickity-viewport {
+   touch-action : pan-y pinch-zoom !important;
+}
+
 /* .header .divider {
   position: absolute;
   width: 100%;
