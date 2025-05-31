@@ -775,7 +775,7 @@ div:has(> .btn-more) {
         object-fit: cover;
         width: calc(100% - 2rem);
         margin-inline: 2rem;
-        height: 300px;
+        height: 400px;
         transition: all 0.4s;
     }
     &:nth-child(2n) {
