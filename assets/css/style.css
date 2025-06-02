@@ -900,21 +900,25 @@ section.pf-single {
         text-align: center;
         font-size: 0.8rem;
     }
-    #carousel-nav {
+    .flickity-page-dots {
+        margin-top: 1rem !important;
+        bottom: -3rem;
+    }
+    /* #carousel-nav {
         margin-top: 2rem;
         height: 60px;
         .folio-item {
             height: 80px;
             object-fit: contain;
             width: auto;
-            margin-right: 2rem;
+            margin-right: 0rem;
             opacity: 0.4;
             transition: opacity 0.5s;
             &.is-selected {
                 opacity: 1;
             }
         }
-    }
+    } */
 }
 
 .desc-text {
