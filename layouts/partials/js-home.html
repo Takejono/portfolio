@@ -11,7 +11,7 @@
         //   wrapAround: true
     });
 
-    const target = document.querySelector('#portfolio');
+    const target = document.querySelector('#portfolio-h2');
     const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -26,7 +26,7 @@
   });
 });
 observer.observe(target);
-    
+
     var titleLogo = document.querySelector(".title-logo");
     function titleDraw() {
         titleLogo.classList.add("drawed");

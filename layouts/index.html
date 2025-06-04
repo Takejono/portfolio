@@ -20,11 +20,11 @@
               {{ end }}
           </div>
           <div class="btn-start">
-            <a href="#hello">
+            <a href="#portfolio-h2">
               <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
                 <path d="M4.066,17.227C4.201,16.984 8.456,17.422 12.589,18.897C15.772,20.033 18.187,21.44 20,22.439C21.837,21.382 24.538,19.722 27.462,18.741C31.616,17.347 35.902,16.781 36.06,17.22C36.153,17.478 31.339,18.785 27.75,20.782C24.182,22.766 22.555,24.611 20.56,26.115C20.215,26.486 19.798,26.475 19.44,26.115C17.559,24.579 15.637,22.829 12.436,21.029C8.605,18.875 3.947,17.442 4.066,17.227Z"/>
             </svg>
-            
+
             </a>
           </div>
   </div>
@@ -38,7 +38,7 @@
 <!-- End Menu -->
 
 <!-- Start Hello -->
-{{ with .GetPage "hello"}}
+<!-- {{ with .GetPage "hello"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="hello {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="hello">
   <div class="acc">
@@ -67,13 +67,13 @@
 </div>
 </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- End Hello -->
 
 <!-- Start Portfolio -->
 {{ with .GetPage "portfolio"}}
 <section class="portfolio portfolio-index {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="portfolio">
-  {{ partial "divider" }}
+  <!-- {{ partial "divider" }} -->
         <h2 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h2">{{ .LinkTitle }}</h2>
         <div class="rw-wrapper wow fadeInUp" data-wow-duration="1s">
           {{ range first 6 .Data.Pages }}
@@ -151,5 +151,5 @@
 {{ end }}
 <!-- End Contact -->
 {{ partial "accordion" }}
- 
+
 {{ end }}
