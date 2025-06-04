@@ -550,10 +550,6 @@ a {
         color-mix(in srgb, var(--divide-bg-color), transparent 10%),
         color-mix(in srgb, var(--divide-bg-color), transparent 0%)
     );
-    /* background-image: url("/images/backgrounds/Notebook-Paper.jpg"); */
-    /* mix-blend-mode: luminosity; */
-    /* background-size: cover; */
-    /* background-position: center; */
     padding-bottom: 120px;
     z-index: 1;
     position: relative;
@@ -598,7 +594,7 @@ a {
 .portfolio {
     background-color: var(--base-bg-color);
     position: relative;
-    padding: 50vh 0 7rem;
+    padding: 0 0 7rem;
     z-index: 1;
     img {
         width: 100px;
@@ -615,6 +611,10 @@ a {
         -webkit-text-stroke-color: #9f9a90;
         text-align: right;
     }
+}
+
+.portfolio-index {
+    padding: 50vh 0 7rem;
 }
 
 .rw-wrapper {
