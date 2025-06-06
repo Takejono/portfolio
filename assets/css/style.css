@@ -195,10 +195,11 @@ a {
     width: 100%;
     position: absolute;
     bottom: 0;
+    padding-bottom: 20vh;
     background: linear-gradient(
         transparent,
         color-mix(in srgb, var(--divide-bg-color), transparent 20%),
-        color-mix(in srgb, var(--divide-bg-color), transparent 0%)
+        color-mix(in srgb, var(--divide-bg-color), transparent 0%)85%
     );
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -254,12 +255,12 @@ a {
     }
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     .head-holder {
         width: 100%;
         padding: 0;
     }
-}
+} */
 
 @keyframes title-line {
     from {
@@ -614,7 +615,7 @@ a {
 }
 
 .portfolio-index {
-    padding: 50vh 0 7rem;
+    padding: 30vh 0 7rem;
 }
 
 .rw-wrapper {
