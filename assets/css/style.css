@@ -159,7 +159,7 @@ a {
 .header {
     /* background: var(--divide-bg-color); */
     position: relative;
-    height: 100%;
+    /* height: 100%; */
     z-index: 0;
 }
 
@@ -193,13 +193,17 @@ a {
 .head-holder {
     z-index: 3;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 20vh;
+    position: relative;
+    /* bottom: 0; */
+    margin-top : calc(100vh - 300px);
+    padding-bottom: 50vh;
     background: linear-gradient(
         transparent,
-        color-mix(in srgb, var(--divide-bg-color), transparent 20%),
-        color-mix(in srgb, var(--divide-bg-color), transparent 0%)85%
+        color-mix(in srgb, var(--divide-bg-color), transparent 11%),
+        color-mix(in srgb, var(--divide-bg-color), transparent 10%),
+        color-mix(in srgb, var(--divide-bg-color), transparent 5%),
+        color-mix(in srgb, var(--divide-bg-color), transparent 1%),
+        color-mix(in srgb, var(--divide-bg-color), transparent 0%)
     );
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -615,7 +619,7 @@ a {
 }
 
 .portfolio-index {
-    padding: 30vh 0 7rem;
+    padding: 1rem 0 7rem;
 }
 
 .rw-wrapper {
