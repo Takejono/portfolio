@@ -1,10 +1,10 @@
 ---
 title: "Patisserie Masaki YAMAMOTO"
-date: 2021-05-12T12:14:34+06:00
-image: "images/portfolio/my-1.jpg"
+date: 2025-07-12T12:14:34+06:00
+image: "images/portfolio/my-5.jpg"
 img_title: "«  » - "
 categories: ["Design"]
-description: "This is meta description."
+description: "« Chocolate's box Gokan packaging design » 2025"
 order: "21"
 draft: false
 project_info:
@@ -12,8 +12,18 @@ project_info:
   icon: "brush-fill"
   content: "Digital"
 resources:
+- src: images/portfolio/my-6.jpg
+  caption: "« Chocolate's box Gokan packaging design » 2025"
+- src: images/portfolio/my-7.jpg
+  caption: "« Chocolate's box Gokan packaging design » 2025"
+- src: images/portfolio/my-1.jpg
+  caption: "« Logo design » 2021"
 - src: images/portfolio/my-2.jpg
+  caption: "« Boîte de gateau de noël »"
 - src: images/portfolio/my-3.jpg
+  caption: "« Chocolate's box packaging design »"
 - src: images/portfolio/my-4.jpg
+  caption: "« Illustrations for the liste of chocolates »"
+
 ---
 Travail de design pour une pâtisserie à Arles. Je m'occupe du logo, des cartes de visite, de design des emballages et de bien d'autres choses.
