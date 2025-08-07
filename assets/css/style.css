@@ -35,7 +35,7 @@ h2 {
     font-weight: 600;
     /* -webkit-text-stroke: 1.5px #4d4d4d; */
     margin: 0;
-    color: #181835;
+    color: #1c1c33;
     /* color: #fffbe800; */
     mix-blend-mode: difference;
     z-index: 2;
@@ -442,7 +442,7 @@ a {
     height: 100vh;
     overflow: hidden;
     opacity: 0;
-    background: linear-gradient(to left, #f3e6bddb, transparent);
+    background: linear-gradient(to left, #bfdbe2db, transparent);
     backdrop-filter: blur(20px);
     transition: all 0.3s ease-in-out;
     transition-delay: 0.3s, 0s;
