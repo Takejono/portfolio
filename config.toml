@@ -128,7 +128,7 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         weight = 2
         [languages.jp.params]
         # copyright
-        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)<br>Atelier photo by [Marion Brun](https://marionbrun.myportfolio.com)"
+        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
 
 
 ################# jp navigation ##################
