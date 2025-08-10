@@ -20,7 +20,7 @@ body {
     font-family: "General Sans", "Zen Kaku Gothic Antique", sans-serif;
     font-weight: 350;
     letter-spacing: 0.02rem;
-    line-height: 2.2;
+    line-height: 2;
     height: 100%;
     background: var(--base-bg-color);
     color: #3d3a33;
