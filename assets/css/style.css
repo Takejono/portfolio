@@ -20,6 +20,7 @@ body {
     font-family: "General Sans", "Zen Kaku Gothic Antique", sans-serif;
     font-weight: 350;
     letter-spacing: 0.02rem;
+    line-height: 2.2;
     height: 100%;
     background: var(--base-bg-color);
     color: #3d3a33;
@@ -33,6 +34,7 @@ h2 {
     font-family: "General Sans", "Kaisei Tokumin", serif;
     font-size: clamp(0rem, 10vw, 8rem);
     font-weight: 600;
+    line-height: 1.5;
     /* -webkit-text-stroke: 1.5px #4d4d4d; */
     margin: 0;
     color: #1c1c33;
