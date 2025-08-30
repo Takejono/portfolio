@@ -29,6 +29,9 @@ body {
         font-size: 0.9rem;
     }
 }
+::selection {
+    background: coral;
+}
 
 h2 {
     font-family: "General Sans", "Kaisei Tokumin", serif;
