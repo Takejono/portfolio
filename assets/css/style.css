@@ -1245,7 +1245,8 @@ section.pf-single {
     cursor: pointer;
     transition: all 0.3s linear;
     &:hover {
-        color: var(--hvr-color);
+        /*color: var(--hvr-color);*/
+        color : color-mix(in srgb, var(--hvr-color), transparent 20%)
     }
 }
 .acc {
