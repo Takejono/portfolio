@@ -139,7 +139,7 @@
 
 <!-- Start Contact -->
 {{ with .GetPage "contact"}}
-<section class="contact {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="contact">
+<section class="contact is-opened {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="contact">
 {{ partial "divider" }}
     <h2 class="wow blurIn accordion-trigger" data-wow-duration="0.6s" id="contact-h2">{{ .Title | markdownify}}</h2>
     <div class="acc">
