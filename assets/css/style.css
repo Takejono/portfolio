@@ -1115,7 +1115,7 @@ section.pf-single {
             background: linear-gradient(
                 to bottom,
                 transparent,
-                #f9f5e3 calc(13% + 40vw)
+                #f9f5e3 calc(9rem + 30vw)
             );
             top: 0;
             left: 0;
@@ -1124,7 +1124,7 @@ section.pf-single {
             position: absolute;
         }
         .content {
-            padding-top: calc(7rem + 30vw);
+            padding-top: calc(5rem + 30vw);
             width: calc(100% - 3rem);
             p {
                 background: none;
