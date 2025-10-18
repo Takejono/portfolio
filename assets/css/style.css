@@ -1254,7 +1254,7 @@ section.pf-single {
     grid-template-rows: 0fr;
     align-content: center;
     opacity: 0;
-    transition: all 0.3s cubic-bezier(0.2, 0.39, 0.51, 1);
+    transition: all 0.8s cubic-bezier(0.2, 0.39, 0.51, 1);
 }
 .acc-content {
     overflow: hidden;
