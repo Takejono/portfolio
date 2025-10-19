@@ -202,11 +202,11 @@ a {
     position: relative;
     /* bottom: 0; */
     margin-top : calc(100vh - 215px);
-    padding-bottom: 50vh;
+    padding-bottom: 30vh;
     background: linear-gradient(
         transparent,
         color-mix(in srgb, var(--divide-bg-color), transparent),
-        color-mix(in srgb, var(--divide-bg-color), transparent 16.2%)10%,
+        color-mix(in srgb, var(--divide-bg-color), transparent 14.3%)10%,
         color-mix(in srgb, var(--divide-bg-color), transparent 14%)11%,
         color-mix(in srgb, var(--divide-bg-color), transparent 10%) 14%,
         color-mix(in srgb, var(--divide-bg-color), transparent 2%),
