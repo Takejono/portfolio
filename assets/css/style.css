@@ -167,6 +167,17 @@ a {
     position: relative;
     /* height: 100%; */
     z-index: 0;
+    /*.divider {
+        display: flex;
+        align-items: bottom;
+        height: auto;
+    }
+    .divider svg {
+        transform-box: fill-box;
+        position: absolute;
+        transform: scaleX(-1);
+        fill: var(--base-bg-color);
+    }*/
 }
 
 #background-slide {
@@ -200,16 +211,14 @@ a {
     z-index: 3;
     width: 100%;
     position: relative;
-    /* bottom: 0; */
-    margin-top : calc(100vh - 215px);
+    margin-top : calc(100vh - 240px);
     padding-bottom: 30vh;
     background: linear-gradient(
         transparent,
-        color-mix(in srgb, var(--divide-bg-color), transparent),
-        color-mix(in srgb, var(--divide-bg-color), transparent 14.3%)10%,
-        color-mix(in srgb, var(--divide-bg-color), transparent 14%)11%,
-        color-mix(in srgb, var(--divide-bg-color), transparent 10%) 14%,
-        color-mix(in srgb, var(--divide-bg-color), transparent 2%),
+        /*color-mix(in srgb, var(--divide-bg-color), transparent 14.3%)10%,*/
+        /*color-mix(in srgb, var(--divide-bg-color), transparent 14%)11%,*/
+        /*color-mix(in srgb, var(--divide-bg-color), transparent 10%) 14%,*/
+        color-mix(in srgb, var(--divide-bg-color), transparent 10%) 22%,
         color-mix(in srgb, var(--divide-bg-color), transparent 0%)
     );
     -webkit-transition: all 0.3s ease-out;
@@ -242,7 +251,6 @@ a {
         max-width: 700px;
     }
     .rotate {
-        /* filter: drop-shadow(0 0 8px #000); */
         position: absolute;
         width: 100%;
         letter-spacing: 0.6rem;
@@ -265,13 +273,6 @@ a {
         margin: 2rem 0 1rem;
     }
 }
-
-/* @media screen and (max-width: 900px) {
-    .head-holder {
-        width: 100%;
-        padding: 0;
-    }
-} */
 
 @keyframes title-line {
     from {
@@ -339,7 +340,7 @@ a {
     position: relative;
     width: 100%;
     bottom: 0px;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 .flickity-viewport {
