@@ -228,7 +228,7 @@ a {
         filter: drop-shadow(0 -10px 50px #000);
     }
     .title-logo {
-        max-width: 700px;
+        max-width: 1000px;
         stroke: #e9862f;
         fill: #ffffff00;
         stroke-width: 1px;
@@ -248,7 +248,7 @@ a {
     .animated-text {
         text-align: right;
         position: relative;
-        max-width: 700px;
+        max-width: 1000px;
     }
     .rotate {
         position: absolute;
