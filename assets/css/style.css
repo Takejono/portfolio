@@ -211,7 +211,7 @@ a {
     z-index: 3;
     width: 100%;
     position: relative;
-    margin-top : calc(100vh - 240px);
+    margin-top : calc(100vh - 270px);
     padding-bottom: 30vh;
     background: linear-gradient(
         transparent,
