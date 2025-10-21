@@ -164,6 +164,7 @@ a {
 
 .header {
     /* background: var(--divide-bg-color); */
+    height: 100vh;
     position: relative;
     /* height: 100%; */
     z-index: 0;
@@ -210,16 +211,19 @@ a {
 .head-holder {
     z-index: 3;
     width: 100%;
-    position: relative;
-    margin-top : calc(100vh - 270px);
-    padding-bottom: 30vh;
+    position: absolute;
+    bottom: 0;
+    /*height: 100vh;*/
+    /*margin-top : calc(100vh - 270px);*/
+    /*padding-bottom: 30vh;*/
+    /*background: linear-gradient(
+        transparent,
+        color-mix(in srgb, var(--divide-bg-color), transparent 10%) 22%,
+        color-mix(in srgb, var(--divide-bg-color), transparent 0%)*/
     background: linear-gradient(
         transparent,
-        /*color-mix(in srgb, var(--divide-bg-color), transparent 14.3%)10%,*/
-        /*color-mix(in srgb, var(--divide-bg-color), transparent 14%)11%,*/
-        /*color-mix(in srgb, var(--divide-bg-color), transparent 10%) 14%,*/
-        color-mix(in srgb, var(--divide-bg-color), transparent 10%) 22%,
-        color-mix(in srgb, var(--divide-bg-color), transparent 0%)
+        color-mix(in srgb, var(--divide-bg-color), transparent 40%) 30%,
+        color-mix(in srgb, var(--divide-bg-color), transparent 8%)
     );
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -255,7 +259,8 @@ a {
         width: 100%;
         letter-spacing: 0.6rem;
         font-size: clamp(0.7rem, 3vw, 1.3rem);
-        color: #605f59;
+        color: var(--base-bg-color);
+                    filter: drop-shadow(0 0px 3px #756b64c8);
         right: 5px;
         bottom: -20px;
         opacity: 0;
@@ -270,7 +275,7 @@ a {
         }
     }
     .btn-start {
-        margin: 2rem 0 1rem;
+        padding: 2rem 0 2rem;
     }
 }
 
@@ -308,7 +313,7 @@ a {
     /* position: relative; */
     bottom: 0px;
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     z-index: 11;
     svg {
         opacity: 0.6;
@@ -558,7 +563,7 @@ a {
 /*--------------------------------
    hello
 ----------------------------------*/
-#hello {
+/*#hello {
     background: linear-gradient(
         color-mix(in srgb, var(--divide-bg-color), transparent 10%),
         color-mix(in srgb, var(--divide-bg-color), transparent 0%)
@@ -598,14 +603,18 @@ a {
         position: relative;
         text-align: center;
     }
-}
+}*/
 
 /*--------------------------------
    Start Portfolio
 ----------------------------------*/
 
 .portfolio {
-    background-color: var(--base-bg-color);
+    /*background-color: var(--base-bg-color);*/
+    background: linear-gradient(
+    color-mix(in srgb, var(--divide-bg-color), transparent 8%),
+    color-mix(in srgb, var(--divide-bg-color), transparent 0%) 17%
+    );
     position: relative;
     padding: 0 0 7rem;
     z-index: 1;
@@ -627,7 +636,7 @@ a {
 }
 
 .portfolio-index {
-    padding: 1rem 0 7rem;
+    padding: 20rem 0 7rem;
 }
 
 .rw-wrapper {
