@@ -254,7 +254,7 @@ a {
             stroke-width: 1px;
             stroke-dasharray: 0, 300;
             transition:
-                stroke 01s ease-out,
+                stroke 1s ease-out,
                 stroke-dasharray 0.5s ease-out,
                 fill 0.2s ease-in,
                 filter 0.2s ease-in;
