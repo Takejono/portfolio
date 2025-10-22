@@ -805,14 +805,14 @@ div:has(> .btn-more) {
     margin: 0rem;
     transition: filter 0.4s;
     img {
-        border-radius: 50%;
+        /* border-radius: 50%; */
         object-fit: cover;
         width: calc(100% - 2rem);
         margin-inline: 2rem;
         height: 400px;
         transition: all 0.4s;
     }
-    &:nth-child(2n) {
+    /* &:nth-child(2n) {
         img {
             border-radius: 40% 50% 30% 50% / 40% 50% 50% 70%;
         }
@@ -820,8 +820,8 @@ div:has(> .btn-more) {
     &:nth-child(3n) {
         img {
             border-radius: 50% 50% 60% 30% / 60% 40% 60% 40%;
-        }
-    }
+        } 
+    }*/
     &:hover {
         filter: drop-shadow(0 25px 20px #2922118f);
         a {
@@ -831,8 +831,8 @@ div:has(> .btn-more) {
             color: #3d3a33;
         }
         img {
-            transform: scale(1.02);
-            border-radius: 3%;
+            /* transform: scale(1.02); */
+            border-radius: 5%;
         }
     }
 }
