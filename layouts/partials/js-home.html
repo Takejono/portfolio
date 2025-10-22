@@ -11,16 +11,16 @@
         //   wrapAround: true
     });
 
-    const target = document.querySelector('#portfolio-h2');
+    const target = document.querySelector('.title-logo');
     const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
     if (entry.isIntersecting) {
       // console.log('要素が画面内に入りました');
-      flkty.pausePlayer();
+      flkty.unpausePlayer();
       // 画面内に入ったときの処理をここに書く
     } else {
       // console.log('要素が画面外に出ました');
-      flkty.unpausePlayer();
+      flkty.pausePlayer();
       // 画面外に出たときの処理をここに書く
     }
   });
