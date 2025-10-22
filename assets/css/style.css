@@ -166,19 +166,19 @@ a {
     /* background: var(--divide-bg-color); */
     height: 100vh;
     position: relative;
-    /* height: 100%; */
     z-index: 0;
-    /*.divider {
-        display: flex;
+    /* .divider {
+        position: relative;
+        bottom: 0;
+        display: flexbox;
         align-items: bottom;
-        height: auto;
+        width: 100%;
     }
     .divider svg {
-        transform-box: fill-box;
-        position: absolute;
         transform: scaleX(-1);
         fill: var(--base-bg-color);
-    }*/
+        opacity: 0.7;
+    } */
 }
 
 #background-slide {
@@ -222,7 +222,7 @@ a {
         color-mix(in srgb, var(--divide-bg-color), transparent 0%)*/
     background: linear-gradient(
         transparent,
-        color-mix(in srgb, var(--divide-bg-color), transparent 40%) 30%,
+        color-mix(in srgb, var(--divide-bg-color), transparent 30%) 30%,
         color-mix(in srgb, var(--divide-bg-color), transparent 8%)
     );
     -webkit-transition: all 0.3s ease-out;
@@ -249,15 +249,15 @@ a {
             filter: drop-shadow(0 -6px 6px #756b64c8);
         }
         &:hover {
-            stroke: #e9862f;
+            /* stroke: #e9862f; */
             fill: #ffffff00;
-            stroke-width: 1px;
-            stroke-dasharray: 0, 300;
+            /* stroke-width: 1px; */
+            /* stroke-dasharray: 0, 300; */
             transition:
                 stroke 1s ease-out,
-                stroke-dasharray 0.5s ease-out,
-                fill 0.2s ease-in,
-                filter 0.2s ease-in;
+                /* stroke-dasharray 0.5s ease-out, */
+                fill 0.3s ease-in,
+                filter 0.3s ease-in;
         }
 
     }
@@ -271,8 +271,8 @@ a {
         width: 100%;
         letter-spacing: 0.6rem;
         font-size: clamp(0.7rem, 3vw, 1.3rem);
-        color: var(--base-bg-color);
-                    filter: drop-shadow(0 0px 3px #756b64c8);
+        color: var(--contact-color);
+        filter: drop-shadow(0 0px 2px var(--base-bg-color));
         right: 5px;
         bottom: -20px;
         opacity: 0;
