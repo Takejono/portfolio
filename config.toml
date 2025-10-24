@@ -25,7 +25,7 @@ unsafe= true
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "https://api.fontshare.com/v2/css?f[]=general-sans@1&display=swap"
+link = "https://api.fontshare.com/v2/css?f[]=stardom@400&f[]=general-sans@1&display=swap"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Square+Peg&family=Kaisei+Tokumin:wght@800&family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap"
 [[params.plugins.css]]
@@ -96,29 +96,10 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         weight = 1
 
        [[languages.fr.menu.main]]
-        name = "Recent works"
-        url = "#portfolio"
-        weight = 2
-
-       [[languages.fr.menu.main]]
         name = "Portfolio"
         url = "portfolio"
         weight = 3
 
-        [[languages.fr.menu.main]]
-        name = "News"
-        url = "#news"
-        weight = 4
-
-        [[languages.fr.menu.main]]
-        name = "Presentation"
-        url = "#about"
-        weight = 5
-
-        [[languages.fr.menu.main]]
-        name = "Contact"
-        url = "#contact"
-        weight = 6
 
 ################################### jp language #####################################
     [languages.jp]
@@ -139,29 +120,9 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         weight = 1
 
         [[languages.jp.menu.main]]
-        name = "最近のお仕事"
-        url = "#portfolio"
-        weight = 2
-
-        [[languages.jp.menu.main]]
         name = "ポートフォリオ"
         url = "portfolio"
         weight = 3
-
-        [[languages.jp.menu.main]]
-        name = "お知らせ"
-        url = "#news"
-        weight = 4
-
-        [[languages.jp.menu.main]]
-        name = "絵描き紹介"
-        url = "#about"
-        weight = 5
-
-        [[languages.jp.menu.main]]
-        name = "お問い合わせ"
-        url = "#contact"
-        weight = 6
 
 ################################### en language #####################################
     [languages.en]
@@ -182,26 +143,6 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         weight = 1
 
        [[languages.en.menu.main]]
-        name = "Recent works"
-        url = "#portfolio"
-        weight = 2
-
-       [[languages.en.menu.main]]
         name = "Portfolio"
         url = "portfolio"
         weight = 3
-
-        [[languages.en.menu.main]]
-        name = "News"
-        url = "#news"
-        weight = 4
-
-        [[languages.en.menu.main]]
-        name = "About me"
-        url = "#about"
-        weight = 5
-
-        [[languages.en.menu.main]]
-        name = "Contact"
-        url = "#contact"
-        weight = 6

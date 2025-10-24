@@ -3,7 +3,7 @@ title: "Portfolio"
 description: " Artist | Painter | Illustrator | Graphic Designer "
 draft: false
 link_list: "&#43;"
-linkTitle: "RECENT WORKS"
+linkTitle: "PORTFOLIO"
 
 
 # custom style
