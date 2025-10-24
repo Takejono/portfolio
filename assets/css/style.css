@@ -177,8 +177,7 @@ hr {
     top: 0;
     padding-top: 1rem;
     background: linear-gradient(
-        color-mix(in srgb, var(--divide-bg-color), transparent 8%),
-        color-mix(in srgb, var(--divide-bg-color), transparent 40%) 30%,
+        color-mix(in srgb, var(--divide-bg-color), transparent 0%) 80%,
         transparent
     );
     -webkit-transition: all 0.3s ease-out;
@@ -230,7 +229,7 @@ hr {
         color: var(--contact-color);
         filter: drop-shadow(0 0px 2px var(--base-bg-color));
         right: 5px;
-        bottom: -20px;
+        bottom: 0px;
         opacity: 0;
         animation-duration: 9s;
         animation-iteration-count: infinite;
@@ -529,51 +528,6 @@ hr {
 ----------------------------------*/
 
 /*--------------------------------
-   hello
-----------------------------------*/
-/*#hello {
-    background: linear-gradient(
-        color-mix(in srgb, var(--divide-bg-color), transparent 10%),
-        color-mix(in srgb, var(--divide-bg-color), transparent 0%)
-    );
-    padding-bottom: 120px;
-    z-index: 1;
-    position: relative;
-    color: #605f59;
-    .container {
-        padding: 10vh 0rem;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        max-width: 700px;
-    }
-    .hello-txt {
-        font-family: "Square Peg", "Kaisei Tokumin";
-        display: flex;
-        padding: 0.4rem;
-        align-items: center;
-        flex: auto;
-        justify-content: space-evenly;
-        text-align: center;
-        font-size: calc(1.3rem + 1.3vw);
-        letter-spacing: 0.2rem;
-    }
-    .container:lang(jp) {
-        flex-direction: row-reverse;
-    }
-    .hello-txt:lang(jp) {
-        font-size: calc(0.8rem + 1.3vw);
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        font-style: normal;
-    }
-    .btn-start {
-        position: relative;
-        text-align: center;
-    }
-}*/
-
-/*--------------------------------
    Start Portfolio
 ----------------------------------*/
 
@@ -598,7 +552,7 @@ hr {
     }
     h2 {
         /* color: #afaa9f; */
-        -webkit-text-stroke-color: #9f9a90;
+        /* -webkit-text-stroke-color: #9f9a90; */
         text-align: right;
     }
 }
@@ -608,7 +562,7 @@ hr {
 }
 
 .rw-wrapper {
-    padding: 0.5rem;
+    padding: 0 0.5rem 2rem;
 }
 
 *:not(:hover) .flickity-button {
@@ -623,8 +577,8 @@ hr {
 }
 
 .carousel-cell {
-    margin-top: 7rem;
-    border-radius: 1rem;
+    margin-top: 8rem;
+    border-radius: 50% 50% 1rem 1rem;
     aspect-ratio: 4/3;
     z-index: 0;
     overflow: hidden;
@@ -644,6 +598,7 @@ hr {
     }
     .item-caption {
         margin-left: 0;
+        padding-left: 1rem;
     }
 }
 
@@ -785,18 +740,18 @@ div:has(> .btn-more) {
 
 .item-caption {
     width: 100%;
-    padding-left: 1rem;
-    margin: 0.3rem 2rem 1.5rem;
+    /* padding-left: 0rem; */
+    margin: 0.3rem 0rem 1.5rem 2rem;
     opacity: 0.1;
     position: absolute;
     bottom: 0;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 450;
         margin: 0;
-        line-height: 1.2rem;
+        line-height: 1rem;
         overflow-wrap: break-word;
         word-break: keep-all;
     }
@@ -816,18 +771,19 @@ div:has(> .btn-more) {
         }
     }
     p {
-        color: #999 !important;
+        color: #999;
         font-size: 0.7rem;
         padding-right: 0.4rem;
         margin: 0;
-        display: inline-block;
+        display: inline;
     }
     .item-created {
         line-height: 0.6rem;
         background: none;
         padding: 0 3px 0 0;
         font-size: 0.7rem;
-        color: #999 !important;
+        display: inline;
+        color: #999;
     }
 }
 
