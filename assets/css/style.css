@@ -10,6 +10,7 @@
     --hello-end-color: #454138;
     --base-bg-color: #fffdf5;
     --margin-bord: 1rem;
+    --news-color: #af7c2a;
 }
 html {
     height: 100%;
@@ -36,7 +37,7 @@ body {
 
 h2 {
     font-family: "Stardom", "Kaisei Tokumin", serif;
-    font-size: clamp(0rem, 8vw, 8rem);
+    font-size: clamp(0rem, 8vw, 6rem);
     font-weight: 600;
     line-height: 1.5;
     margin: 0 var(--margin-bord) 0;
@@ -568,9 +569,17 @@ hr {
     }
     .head-holder {
         margin-top: 33vh;
-        width: 50lvw;
+        width: 41lvw;
         right: 0;
         background: none;
+        .animated-text {
+            margin-top: 1.5rem;
+        }
+        .title-logo.drawed {
+            fill: #3d3a33;
+            stroke-width: 2px;
+            stroke: var(--base-bg-color);
+        }
     }
 }
 
