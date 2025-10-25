@@ -217,7 +217,7 @@ hr {
         position: absolute;
         width: 100%;
         letter-spacing: 0.6rem;
-        font-size: clamp(0.7rem, 3vw, 1.3rem);
+        font-size: clamp(0rem, 2vw, 1.3rem);
         color: var(--contact-color);
         filter: drop-shadow(0 0px 2px var(--base-bg-color));
         right: 5px;
@@ -564,7 +564,7 @@ hr {
         width: 60lvw;
         text-align: left;
             img {
-        border-radius: 0 2% 10% 0% / 0 40% 60% 0%;
+        border-radius: 0 2% 7% 0% / 0 45% 55% 0%;
         }
     }
     .head-holder {
@@ -579,6 +579,10 @@ hr {
             fill: #3d3a33;
             stroke-width: 2px;
             stroke: var(--base-bg-color);
+        }
+        .animated-text {
+            text-align: center;
+            margin: 2.5rem 0 0 3rem;
         }
     }
 }
@@ -945,7 +949,7 @@ section.pf-single {
 ----------------------------------*/
 
 .about-me {
-    background: #f9f5e3;
+    background: var(--base-bg-color);
     padding: 0;
     margin-inline: var(--margin-bord);
     height: fit-content;
@@ -961,7 +965,7 @@ section.pf-single {
     }
     &::before {
         content: "";
-        background: linear-gradient(to right, transparent, #f9f5e3 70%);
+        background: linear-gradient(to right, transparent, var(--base-bg-color));
         top: 0;
         left: 0;
         width: 100%;
@@ -976,7 +980,7 @@ section.pf-single {
         text-align: justify;
         p {
             padding-left: 4px;
-            background: #f9f5e35f;
+            background: var(--base-bg-color);
         }
     }
 }
@@ -989,7 +993,7 @@ section.pf-single {
             background: linear-gradient(
                 to bottom,
                 transparent,
-                #f9f5e3 calc(9rem + 30vw)
+                var(--base-bg-color) calc(9rem + 30vw)
             );
             top: 0;
             left: 0;
