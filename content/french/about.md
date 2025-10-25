@@ -1,5 +1,5 @@
 ---
-title : "PRESENTATION"
+title : "Presentation"
 image : "images/backgrounds/portrait04.jpg"
 # button
 button:

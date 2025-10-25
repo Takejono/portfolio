@@ -38,7 +38,8 @@ h2 {
     font-size: clamp(0rem, 10vw, 8rem);
     font-weight: 600;
     line-height: 1.5;
-    margin: 0 .5rem 0 0;
+    margin: 0 .5rem 0;
+    padding-top: 1rem;
     color: var(--hello-end-color);
     z-index: 2;
 }
@@ -51,7 +52,7 @@ a {
 }
 hr {
     margin: 0 .5rem;
-    border: solid 3px var(--contact-color);
+    border: solid 2px coral;
 }
 
 .content a {
@@ -508,10 +509,10 @@ hr {
 
 .portfolio {
     /*background-color: var(--base-bg-color);*/
-    background: linear-gradient(
+    /* background: linear-gradient(
     color-mix(in srgb, var(--divide-bg-color), transparent 8%),
     color-mix(in srgb, var(--divide-bg-color), transparent 0%) 17%
-    );
+    ); */
     position: relative;
     padding: 0 0 7rem;
     z-index: 1;
@@ -519,12 +520,12 @@ hr {
         width: 100px;
         display: inline-block;
     }
-    .divider svg {
+    /* .divider svg {
         fill: var(--base-bg-color);
         position: absolute;
         transform: scaleX(-1);
         bottom: -1px;
-    }
+    } */
     h2 {
         /* color: #afaa9f; */
         /* -webkit-text-stroke-color: #9f9a90; */
@@ -565,7 +566,7 @@ hr {
     &:hover {
         a {
             /* color: var(--hvr-color); */
-            color: #fff;
+            /* color: #fff; */
         }
     }
     img {
@@ -578,8 +579,13 @@ hr {
     .item-caption {
         position: absolute;
         bottom: 0;
-        margin-left: 0;
-        padding-left: 1rem;
+        margin: 0;
+        padding: 5rem 1rem 0;
+        background: linear-gradient(to top, var(--base-bg-color), transparent);
+        h3 {
+            font-size: 0.9rem;
+            line-height: 0.3;
+        }
     }
 }
 
@@ -725,7 +731,7 @@ div:has(> .btn-more) {
         font-size: 1rem;
         font-weight: 450;
         margin: 0;
-        line-height: 0rem;
+        line-height: 1rem;
         overflow-wrap: break-word;
         word-break: keep-all;
     }
@@ -745,7 +751,7 @@ div:has(> .btn-more) {
         }
     }
     p {
-        color: #999;
+        /* color: #999; */
         font-size: 0.7rem;
         padding-right: 0.4rem;
         margin: 0;
@@ -757,7 +763,7 @@ div:has(> .btn-more) {
         padding: 0 3px 0 0;
         font-size: 0.7rem;
         display: inline;
-        color: #999;
+        /* color: #999; */
     }
 }
 
@@ -960,6 +966,7 @@ section.pf-single {
 .about-me {
     background: #f9f5e3;
     padding: 0;
+    margin-inline: .5rem;
     height: fit-content;
     position: relative;
     background-repeat: no-repeat;
