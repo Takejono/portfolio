@@ -564,11 +564,11 @@ hr {
         width: 60lvw;
         text-align: left;
             img {
-        border-radius: 0 2% 10% 0% / 0 25% 75% 0%;
+        border-radius: 0 2% 10% 0% / 0 40% 60% 0%;
         }
     }
     .head-holder {
-        margin-top: 33vh;
+        margin-top: 38vh;
         width: 41lvw;
         right: 0;
         background: none;
