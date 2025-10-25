@@ -614,19 +614,21 @@ div:has(> .btn-more) {
     width: fit-content;
     height: fit-content;
     margin-inline: auto;
-    border-radius: 0rem 0rem 0.3rem 0.2rem;
     h2 {
         position: relative;
         font-weight: 500;
         font-size: 3.5rem;
         letter-spacing: -0.05ch;
+        line-height: 1;
+        margin: 0 0 2rem;
     }
 }
 .desc-nom {
     position: relative;
     top: 1rem;
     right: 0;
-    font-size: 1.74rem;
+    margin-left: 0rem;
+    font-size: 1.84rem;
     font-weight: 400;
     color: #afaa9f;
 }
