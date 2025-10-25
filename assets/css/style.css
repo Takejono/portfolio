@@ -558,6 +558,22 @@ hr {
         }
     }
 }
+@media (min-aspect-ratio : 4/3) {
+    .carousel-cell {
+        width: 60lvw;
+        text-align: left;
+            img {
+        border-radius: 0 2% 10% 0% / 0 25% 75% 0%;
+        }
+    }
+    .head-holder {
+        margin-top: 33vh;
+        width: 50lvw;
+        right: 0;
+        background: none;
+    }
+}
+
 
 div:has(> .btn-more) {
     text-align: center;
