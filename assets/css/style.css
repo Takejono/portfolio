@@ -36,11 +36,11 @@ body {
 
 h2 {
     font-family: "Stardom", "Kaisei Tokumin", serif;
-    font-size: clamp(0rem, 8vw, 6rem);
+    font-size: clamp(0rem, 10vw, 6rem);
     font-weight: 600;
     line-height: 1.5;
     margin: 0 var(--margin-bord) 0;
-    /* padding-top: 1rem; */
+    padding: 1rem;
     color: var(--base-font-color);
     z-index: 2;
 }
@@ -612,7 +612,8 @@ div:has(> .btn-more) {
         font-size: 3.5rem;
         letter-spacing: -0.05ch;
         line-height: 1;
-        margin: 0 0 2rem;
+        margin: 0.5rem 0 2rem;
+        padding: 0;
     }
 }
 .desc-nom {
