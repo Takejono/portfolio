@@ -210,6 +210,7 @@ hr {
         img {
             width: 70%;
             height: auto;
+            margin: 1rem 1rem 0;
         }
     }
     .title-logo-txt {
@@ -223,16 +224,17 @@ hr {
     .animated-text {
         text-align: right;
         position: relative;
-        margin: 2.5rem 1rem 0;
+        margin: 2rem 1rem 0;
     }
     .rotate {
+        background: rgba(255, 127, 80, 0.813);
+        padding: 0 1rem;
         position: absolute;
-        width: 100%;
+        line-height: 1.3;
         letter-spacing: 0.6rem;
-        font-size: clamp(0rem, 3vw, 1.3rem);
-        color: var(--contact-color);
-        filter: drop-shadow(0 0px 3px var(--base-bg-color));
-        right: 5px;
+        font-size: clamp(1rem, 2vw, 1.3rem);
+        color: var(--base-bg-color);
+        right: 0rem;
         bottom: 0px;
         opacity: 0;
         animation-duration: 9s;
