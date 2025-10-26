@@ -2,15 +2,14 @@
    Start Preloader & General Styling
 ----------------------------------*/
 :root {
-    /* --divide-bg-color: #fffdf5; */
     --hvr-color: #faca09;
     --contact-bg-color: #09234a;
     --contact-color: #787164;
-    /* --news-color: #c68c3a; */
     --hello-end-color: #454138;
     --base-bg-color: #fffdf5;
     --margin-bord: 1rem;
-    --news-color: #af7c2a;
+    --news-color: #ca720e;
+    --base-font-color: #413c30;
 }
 html {
     height: 100%;
@@ -25,8 +24,8 @@ body {
     line-height: 1.8;
     height: 100%;
     background: var(--base-bg-color);
-    color: #3d3a33;
-    fill: #3d3a33;
+    color: var(--base-font-color);
+    fill: var(--base-font-color);
     &:lang(jp) {
         font-size: 0.9rem;
     }
@@ -41,8 +40,8 @@ h2 {
     font-weight: 600;
     line-height: 1.5;
     margin: 0 var(--margin-bord) 0;
-    padding-top: 1rem;
-    color: var(--hello-end-color);
+    /* padding-top: 1rem; */
+    color: var(--base-font-color);
     z-index: 2;
 }
 h2:lang(jp) {
@@ -54,7 +53,7 @@ a {
 }
 hr {
     margin: 0 var(--margin-bord);
-    border: solid 2px coral;
+    border: solid 2px var(--news-color);
 }
 
 .content a {
@@ -190,13 +189,13 @@ hr {
             fill 1s ease-in,
             filter 1s ease-in;
         &.drawed {
-            stroke: var(--contact-color);
+            stroke: var(--base-bg-color);
             stroke-dasharray: 300, 0;
-            fill: var(--base-bg-color);
+            fill: var(--base-font-color);
             /* filter: drop-shadow(0 -4px 6px #756b64c8); */
         }
         &:hover {
-            /* stroke: #e9862f; */
+            stroke: var(--contact-color);
             fill: #ffffff00;
             /* stroke-width: 1px; */
             stroke-dasharray: 0, 300;
@@ -211,15 +210,15 @@ hr {
         text-align: right;
         position: relative;
         max-width: 900px;
-        margin-top: 0.5rem;
+        margin: 1rem 0.5rem 0;
     }
     .rotate {
         position: absolute;
         width: 100%;
         letter-spacing: 0.6rem;
-        font-size: clamp(0rem, 2vw, 1.3rem);
+        font-size: clamp(0rem, 3vw, 1.3rem);
         color: var(--contact-color);
-        filter: drop-shadow(0 0px 2px var(--base-bg-color));
+        filter: drop-shadow(0 0px 3px var(--base-bg-color));
         right: 5px;
         bottom: 0px;
         opacity: 0;
@@ -508,6 +507,8 @@ hr {
         /* color: #afaa9f; */
         /* -webkit-text-stroke-color: #9f9a90; */
         text-align: right;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         transition: all 0.3s linear;
         &:hover {
             color: var(--hvr-color);
@@ -569,20 +570,12 @@ hr {
     }
     .head-holder {
         margin-top: 38vh;
-        width: 41lvw;
+        width: 55lvw;
         right: 0;
         background: none;
         .animated-text {
-            margin-top: 1.5rem;
-        }
-        .title-logo.drawed {
-            fill: #3d3a33;
-            stroke-width: 2px;
-            stroke: var(--base-bg-color);
-        }
-        .animated-text {
-            text-align: center;
-            margin: 2.5rem 0 0 3rem;
+            /* text-align: center; */
+            margin: 2.5rem 1rem 0;
         }
     }
 }
@@ -1020,17 +1013,14 @@ section.pf-single {
 ----------------------------------*/
 
 .contact {
-    /* background: var(--contact-bg-color); */
     position: relative;
-    padding-top: 1px;
-    /* padding-bottom: 3rem; */
     padding-bottom: 1rem;
-    .divider svg {
+    /* .divider svg {
         fill: var(--contact-bg-color);
         position: absolute;
         transform: scaleX(1);
         bottom: -1px;
-    }
+    } */
     h2 {
         text-align: center;
     }
