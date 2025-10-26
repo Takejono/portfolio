@@ -583,9 +583,11 @@ hr {
     }
     .head-holder {
         margin-top: 38vh;
-        width: 60lvw;
+        width: fit-content;
         right: 0;
         background: none;
+        /* background: var(--base-bg-color);
+        border-radius: 20% 0 0 20% / 50% 0 0 50%; */
     }
 }
 
