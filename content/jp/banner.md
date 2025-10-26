@@ -12,12 +12,11 @@ occupations:
 
 # slider background image loop
 slider_images:
-- "images/slider/slider-1.jpg"
 - "images/slider/slider-2.jpg"
-- "images/slider/slider-3.jpg"
+- "images/slider/slider-6.jpg"
 - "images/slider/slider-4.jpg"
 - "images/slider/slider-5.jpg"
-- "images/slider/slider-6.jpg"
+- "images/portfolio/kaimaru-01.jpg"
 
 # button
 button:
@@ -25,6 +24,7 @@ button:
   label : "start"
   link : "#hello"
 
+layout: "home"
 
 # custom style
 custom_class: ""
