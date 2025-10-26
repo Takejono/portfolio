@@ -20,14 +20,16 @@
                   {{ end }}
     </select>
     {{ end }}
-  <nav id="menu-nav">
+
+{{ if not .IsHome}}
+  <!-- <nav id="menu-nav">
     <div class="menu-icon">
       <span></span>
       <span></span>
       <span></span>
-    </div>
+    </div> -->
     <div id="menu-slider">
-      <div id="menu-back"></div>
+      <!-- <div id="menu-back"></div> -->
       <ul id="menu-list">
           {{ range site.Menus.main }}
           <li>
@@ -37,4 +39,5 @@
         </ul>
     </div>
 </nav>
+{{ end }}
 </section>
