@@ -181,32 +181,31 @@ hr {
     .title-logo {
         /* max-width: 900px; */
         display: flexbox;
-        stroke: #e9862f;
+        /* stroke: #e9862f;
         fill: #ffffff00;
         stroke-width: 1px;
-        stroke-dasharray: 0, 300;
+        stroke-dasharray: 0, 300; */
         transition:
             stroke 0.8s ease-out,
             stroke-dasharray 0.5s ease-out,
             fill 1s ease-in,
             filter 1s ease-in;
-        &.drawed {
+        /* &.drawed {
             stroke: var(--base-bg-color);
             stroke-dasharray: 300, 0;
             fill: var(--base-font-color);
-            /* filter: drop-shadow(0 -4px 6px #756b64c8); */
-        }
-        &:hover {
+        } */
+        /* &:hover {
             stroke: var(--contact-color);
             fill: #ffffff00;
-            /* stroke-width: 1px; */
+            stroke-width: 1px;
             stroke-dasharray: 0, 300;
             transition:
                 stroke 1s ease-out,
                 stroke-dasharray 0.5s ease-out,
                 fill 0.3s ease-in,
                 filter 0.3s ease-in;
-        }
+        } */
         img {
             width: 80%;
             height: auto;
@@ -224,8 +223,7 @@ hr {
     .animated-text {
         text-align: right;
         position: relative;
-        max-width: 900px;
-        margin: 1rem 0.5rem 0;
+        margin: 2.5rem 1rem 0;
     }
     .rotate {
         position: absolute;
@@ -588,12 +586,6 @@ hr {
         width: 45lvw;
         right: 0;
         background: none;
-        .title-logo-txt {
-
-        }
-        .animated-text {
-            margin: 2.5rem 1rem 0;
-        }
     }
 }
 
