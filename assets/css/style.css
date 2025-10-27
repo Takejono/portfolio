@@ -944,7 +944,7 @@ section.pf-single {
         color: var(--news-color);
     }
     a {
-        border-bottom: 1px dashed var(--base-bg-color);
+        border-bottom: 1px dashed var(--base-font-color);
     }
 }
 
