@@ -16,17 +16,17 @@
               <div class="rotate">{{ . }}</div>
               {{ end }}
     </div> -->
-    <ul id="menu-index">
+    <!-- <ul id="menu-index">
       <li>
       <a class="" href="/portfolio">Portfolio</a>
       </li>
       <li>
-      <a class="" href="#news">News</a>
+      <a class="accordion-trigger" href="#news">News</a>
       </li>
       <li>
-      <a class="" href="#about">Présentation</a>
+      <a class="accordion-trigger" href="#about">Présentation</a>
       </li>
-    </ul>
+    </ul> -->
   </div>
 </section>
 {{ end }}
@@ -59,7 +59,7 @@
           {{ end }}
         </div>
     <a href="{{`portfolio` | absLangURL}}">
-      <h2 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h2">{{ .Title }}</h2>
+      <h2 class="wow blurIn" data-wow-duration="0.6s" id="folio-title-index">{{ .Title }}</h2>
       <!-- <h2 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h2">Portfolio</h2> -->
     </a>
 
