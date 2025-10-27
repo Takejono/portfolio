@@ -31,10 +31,13 @@
     <div id="menu-slider">
       <!-- <div id="menu-back"></div> -->
       <ul id="menu-list">
+          {{ $currentPage := . }}
           {{ range site.Menus.main }}
+          {{ if not ($currentPage.IsMenuCurrent "main" .) }}
           <li>
-            <a class="menu-list-link" href="{{absLangURL "" }}{{ .URL }}">{{ .Name }}</a>
+            <a class="menu-list-link" href="{{ .URL | absLangURL}}">{{ .Name }}</a>
           </li>
+          {{ end }}
           {{ end }}
         </ul>
     </div>

@@ -92,12 +92,12 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
 # main menu
         [[languages.fr.menu.main]]
         name = "Home"
-        url = "#home"
+        pageref = "/"
         weight = 1
 
        [[languages.fr.menu.main]]
         name = "Portfolio"
-        url = "portfolio"
+        pageref = "/portfolio"
         weight = 3
 
 
@@ -116,12 +116,12 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
 # main menu
         [[languages.jp.menu.main]]
         name = "ホーム"
-        url = "#home"
+        pageref = "/"
         weight = 1
 
         [[languages.jp.menu.main]]
         name = "ポートフォリオ"
-        url = "portfolio"
+        pageref = "/portfolio"
         weight = 3
 
 ################################### en language #####################################
@@ -139,10 +139,10 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
 # main menu
         [[languages.en.menu.main]]
         name = "Home"
-        url = "#home"
+        pageref = "/"
         weight = 1
 
        [[languages.en.menu.main]]
         name = "Portfolio"
-        url = "portfolio"
+        pageref = "/portfolio"
         weight = 3
