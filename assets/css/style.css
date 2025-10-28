@@ -45,7 +45,7 @@ h2 {
 }
 h2:lang(jp) {
     word-break: keep-all;
-    /* font-size: clamp(2rem, 5vw, 4rem); */
+    font-size: clamp(1rem, 5vw, 4rem);
 }
 a {
     text-decoration: none;
