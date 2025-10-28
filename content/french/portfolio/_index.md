@@ -6,10 +6,15 @@ link_list: "&#43;"
 linkTitle: "PORTFOLIO"
 layout: "portfolio-list"
 metier:
-- "Artiste"
-- "Peintre"
-- "Illustrateur"
-- "Graphiste"
+- name: "Artiste"
+  data: "*"
+- name: "Peintre"
+  data: ".art"
+- name: "Illustrateur"
+  data: ".illustration"
+- name: "Graphiste"
+  data: ".design"
+
 
 # custom style
 custom_class: ""
