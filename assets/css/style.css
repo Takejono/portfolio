@@ -171,7 +171,7 @@ hr {
     position: absolute;
     padding: 1rem 0 2rem;
     margin-right: 1rem;
-    background: linear-gradient(var(--base-bg-color)2rem, transparent
+    /* background: linear-gradient(var(--base-bg-color)2rem, transparent */
     );
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -209,6 +209,9 @@ hr {
             width: 70%;
             height: auto;
             margin: 1rem 1rem 0;
+            filter: drop-shadow(0px 1px 3px var(--base-bg-color));
+            /* mix-blend-mode:hard-light; */
+            /* background: color-mix(in srgb, var(--base-bg-color), transparent 70%); */
         }
     }
     /* .title-logo-txt {
@@ -218,11 +221,11 @@ hr {
         font-weight: 600;
         text-align: right;
     } */
-    .animated-text {
+    /* .animated-text {
         text-align: right;
         position: relative;
         margin: 2rem 1rem 0;
-    }
+    } */
     /* .rotate {
         background: rgba(255, 127, 80, 0.813);
         padding: 0 1rem;
@@ -594,7 +597,7 @@ hr {
         position: absolute;
         bottom: 0;
         margin: 0;
-        padding: 5rem var(--margin-bord) 0;
+        padding: 3rem var(--margin-bord) 0;
         background: linear-gradient(to top, var(--base-bg-color), transparent);
         h3 {
             font-size: 0.9rem;
