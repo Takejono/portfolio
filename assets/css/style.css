@@ -798,82 +798,53 @@ hr {
     }
 }
 
-/* .filtr-item:hover .item-caption,
-.carousel-cell:hover .item-caption,
-.carousel-cell.is-selected .item-caption,
-.filtr-item .item-caption {
-    opacity: 1;
-} */
-
 section.pf-single {
-    padding-bottom: 4rem;
+    padding: 2rem 4rem 4rem;
+    .title-pf-single {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 3rem;
+        margin: 3rem 0;
+        text-align: center;
+        &:lang(jp) {
+        font-family: "Zen Kaku Gothic Antique", serif;
+        font-weight: 500;
+        font-size: 2rem;
+        }
+    }
 }
 .folio-wrapper {
-    padding: 4rem 1.5rem;
+    padding: 1rem 0rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 1.5rem;
     justify-content: center;
     .carousel-wrap {
-        flex-basis: 600px;
+        flex-basis: 500px;
     }
     #carousel-folio {
         height: min-content;
-        max-height: 500px;
+        /* max-height: 500px; */
         .flickity-viewport {
             transition: all 0.6s ease-in-out;
         }
     }
     .folio-item {
-        max-height: 500px;
+        max-height: 600px;
         object-fit: contain;
         width: 100%;
         margin-right: 0.5rem;
     }
     .caption {
-        /* position: relative; */
-        margin: 0 0rem;
-        /* padding-top: 1rem; */
         text-align: center;
         font-size: 0.8rem;
     }
-    /* .flickity-page-dots {
-        position: relative; */
-        /* margin-top: 1rem !important; */
-        /* bottom: 0rem;
-    } */
-    /* #carousel-nav {
-        margin-top: 2rem;
-        height: 60px;
-        .folio-item {
-            height: 80px;
-            object-fit: contain;
-            width: auto;
-            margin-right: 0rem;
-            opacity: 0.4;
-            transition: opacity 0.5s;
-            &.is-selected {
-                opacity: 1;
-            }
-        }
-    } */
 }
 
 .desc-text {
     flex-basis: 600px;
     blockquote {
         font-style: italic;
-    }
-    h3 {
-        font-size: 3rem;
-        font-weight: 300;
-        line-height: 3rem;
-        margin: 0 0 3rem;
-    }
-    h3:lang(jp) {
-        font-family: "Zen Kaku Gothic Antique", serif;
-        font-weight: 500;
-        font-size: 2rem;
     }
 }
 .infos-gallery {
@@ -886,6 +857,14 @@ section.pf-single {
         list-style: none;
         padding: 0;
         font-size: 0.8rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 1rem;
+        li {
+            flex: 1 1 200px;
+            border-top: 1px dotted;
+        }
         svg, img {
             top: 5px;
             position: relative;
@@ -900,7 +879,7 @@ section.pf-single {
         li > div {
             display: inline-block;
             vertical-align: text-top;
-            padding: 0 0 0.5rem 3px;
+            padding: 0 0 0 0.4rem;
         }
     }
 }

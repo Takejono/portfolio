@@ -9,6 +9,7 @@
     |
     safeHTMLAttr}}
 >
+    <h3 class="title-pf-single">{{.Title | markdownify}}</h3>
     <div class="folio-wrapper">
         <div class="carousel-wrap">
             <div id="carousel-folio">
@@ -43,7 +44,6 @@
         </div>
 
         <div class="desc-text wow fadeInUp" data-wow-duration=".8s">
-            <h3>{{.Title | markdownify}}</h3>
             <div class="content">{{.Content}}</div>
 
             <div class="infos-gallery wow fadeInUp" data-wow-duration="1s">
