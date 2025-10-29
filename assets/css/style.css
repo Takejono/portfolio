@@ -813,7 +813,6 @@ section.pf-single {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
-    justify-items: center;
     justify-content: center;
     .carousel-wrap {
         flex-basis: 600px;
@@ -829,14 +828,16 @@ section.pf-single {
         margin-right: 0.5rem;
     }
     .caption {
-        margin: 0;
-        padding: 0;
+        /* position: relative; */
+        margin: 0 0 1rem;
+        padding-top: 1rem;
         text-align: center;
         font-size: 0.8rem;
     }
     .flickity-page-dots {
-        margin-top: 1rem !important;
-        bottom: -3rem;
+        /* position: relative; */
+        /* margin-top: 1rem !important; */
+        /* bottom: 0rem; */
     }
     /* #carousel-nav {
         margin-top: 2rem;

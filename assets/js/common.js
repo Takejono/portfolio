@@ -8,15 +8,15 @@ window.addEventListener("load", function () {
   }
   setTimeout(byeLoader, 1800);
 
-  const el = document.getElementById("menu-nav");
-  const list = document.querySelectorAll(
-    "#menu-back, .menu-icon, .menu-list-link",
-  );
-  for (let i = 0; i < list.length; i++) {
-    list[i].addEventListener("click", function () {
-      el.classList.toggle("active");
-    });
-  }
+  // const el = document.getElementById("menu-nav");
+  // const list = document.querySelectorAll(
+  //   "#menu-back, .menu-icon, .menu-list-link",
+  // );
+  // for (let i = 0; i < list.length; i++) {
+  //   list[i].addEventListener("click", function () {
+  //     el.classList.toggle("active");
+  //   });
+  // }
 });
 
 // Wow Plugin Initialization
