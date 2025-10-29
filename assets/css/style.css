@@ -468,7 +468,7 @@ hr {
         /* font-size: clamp(1rem, 8vh, 2.5rem); */
         font-family: "General Sans", "Kaisei Tokumin";
         font-weight: 500;
-        letter-spacing: 0.3vw;
+        /* letter-spacing: 0.1vw; */
         /* filter: blur(30px); */
         transition: all 0.3s linear;
         text-decoration: none;
@@ -671,16 +671,13 @@ hr {
     flex-wrap: wrap;
     gap: clamp(0rem, 2vw, 1rem);
     justify-content: center;
-    --font-clamp: clamp(0.9rem, 1.7vw, 1.4rem);
-    font-size: var(--font-clamp);
-    letter-spacing: clamp(0rem, 0.39vw, 1rem);
     color: #303030;
     .button {
         cursor: pointer;
         font-family: "General Sans", serif;
         font-weight: 300;
-        font-size: var(--font-clamp);
-        letter-spacing: clamp(0rem, 0.39vw, 1rem);
+        font-size: clamp(0.7rem, 1.9vw, 1.4rem);
+        letter-spacing: clamp(0rem, 0.2vw, 0.2rem);
         padding: 0rem;
         color: #303030;
         border: none;
@@ -691,6 +688,9 @@ hr {
         &.is-checked,
         &:hover {
             text-decoration: underline 2px var(--hvr-color);
+        }
+        &:jp {
+        font-size: clamp(0.7rem, 1.5vw, 1rem);
         }
     }
 }
