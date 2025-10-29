@@ -610,7 +610,7 @@ hr {
         width: 55lvw;
         text-align: left;
             img {
-        /* border-radius: 0; */
+        border-radius: 0;
         }
     }
 }
