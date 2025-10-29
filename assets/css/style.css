@@ -21,7 +21,7 @@ body {
     font-family: "General Sans", "Zen Kaku Gothic Antique", sans-serif;
     font-weight: 350;
     letter-spacing: 0.02rem;
-    line-height: 1.8;
+    line-height: 1.5;
     height: 100%;
     background: var(--base-bg-color);
     color: var(--base-font-color);
