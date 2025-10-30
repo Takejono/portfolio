@@ -66,7 +66,7 @@
 </section>
 {{ end }}
 <!-- End Portfolio -->
-<hr>
+<hr class="hr-home">
 <!-- Start News -->
 {{ with .GetPage "news"}}
 <section class="news {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="news">
@@ -86,7 +86,7 @@
 </section>
 {{ end }}
 <!-- end News -->
-<hr>
+<hr class="hr-home">
 <!-- Start About Me -->
 {{ with .GetPage "about" }}
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}  style="background-image: url('{{ .Params.image | absURL}}');" id="about">
@@ -99,7 +99,7 @@
 </section>
 {{ end }}
 <!-- End About Me -->
-<hr>
+<hr class="hr-home">
 <!-- Start Contact -->
 {{ with .GetPage "contact"}}
 <section class="contact is-opened {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="contact">

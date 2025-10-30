@@ -50,7 +50,7 @@ h2:lang(jp) {
 a {
     text-decoration: none;
 }
-hr {
+.hr-home {
     margin: 0 var(--margin-bord);
     border: solid 1.5px var(--base-font-color);
 }
