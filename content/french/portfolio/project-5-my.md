@@ -1,10 +1,10 @@
 ---
 title: "Patisserie Masaki YAMAMOTO"
-date: 2025-07-12T12:14:34+06:00
-image: "images/portfolio/my-5.jpg"
+date: 2025-10-12T12:14:34+06:00
+image: "images/portfolio/my-8.jpg"
 img_title: "«  » - "
 categories: ["Design"]
-description: "« Boîte à chocolat Gokan » 2025"
+description: "« Affiche d'événement mensuel » 2025"
 order: "21"
 draft: false
 project_info:
@@ -12,6 +12,8 @@ project_info:
   icon: "brush-fill"
   content: "Digital"
 resources:
+- src: images/portfolio/my-5.jpg
+  caption: "« Boîte à chocolat Gokan » 2025"
 - src: images/portfolio/my-6.jpg
   caption: "« Boîte à chocolat Gokan » 2025"
 - src: images/portfolio/my-7.jpg
