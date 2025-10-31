@@ -172,7 +172,7 @@ a {
     margin-right: 1rem;
     display: grid;
     align-items: top;
-    /* background: linear-gradient(var(--base-bg-color)2rem, transparent */
+    background: linear-gradient(var(--base-bg-color)2rem, transparent);
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     .title-logo {
