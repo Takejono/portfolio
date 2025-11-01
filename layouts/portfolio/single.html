@@ -3,12 +3,7 @@
 <style>
     {{.Params.custom_css | safeCSS}}
 </style>
-<section
-    class="pf-single {{.Params.custom_class}}"
-    {{.Params.custom_attributes
-    |
-    safeHTMLAttr}}
->
+<section class="pf-single {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
     <h3 class="title-pf-single">{{.Title | markdownify}}</h3>
     <div class="folio-wrapper">
         <div class="carousel-wrap">

@@ -2,11 +2,11 @@
 
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
-  <div class="portfolio-typo">
-  <span class="desc-nom wow blurIn" data-wow-duration=".6s">Takeshi JONOO</span>
-  <h2 class="wow blurIn" data-wow-duration=".6s">Portfolio</h2>
+  <div class="portfolio-typo wow fadeInUp" data-wow-duration=".5s">
+  <span class="desc-nom">Takeshi JONOO</span>
+  <h2>Portfolio</h2>
   </div>
-  <div class="portfolio-filters wow fadeInUp" data-wow-duration=".7s">
+  <div class="portfolio-filters wow fadeInUp" data-wow-duration=".8s">
     {{ range  $i,$e := .Params.Metier }}
      {{ if ne $i 0 }}|{{end}}<button class="button{{ if eq $i 0 }} is-checked{{end}}" data-filter="{{ .data }}">{{ .name | markdownify }}</button>
      {{ end }}
