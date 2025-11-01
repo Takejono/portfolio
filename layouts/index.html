@@ -59,7 +59,7 @@
           {{ end }}
         </div>
     <a href="{{`portfolio` | absLangURL}}">
-      <h2 class="wow blurIn" data-wow-duration="0.6s" id="folio-title-index">{{ .Title }}</h2>
+      <h2 class="wow fadeInLeft" data-wow-duration="0.6s" id="folio-title-index">{{ .Title }}</h2>
       <!-- <h2 class="wow blurIn" data-wow-duration="0.6s" id="portfolio-h2">Portfolio</h2> -->
     </a>
 
@@ -71,7 +71,7 @@
 {{ with .GetPage "news"}}
 <section class="news {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="news">
     <!-- {{ partial "divider" }} -->
-  <h2 class="wow blurIn accordion-trigger" data-wow-duration="0.6s" id="news-h2">{{ .Title }}</h2>
+  <h2 class="wow fadeInLeft accordion-trigger" data-wow-duration="0.6s" id="news-h2">{{ .Title }}</h2>
   <div class="acc">
   <div class="acc-content">
   <div class="post-container content">
@@ -90,7 +90,7 @@
 <!-- Start About Me -->
 {{ with .GetPage "about" }}
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}  style="background-image: url('{{ .Params.image | absURL}}');" id="about">
-  <h2 class="wow blurIn accordion-trigger" data-wow-duration="0.6s">{{ .Title | markdownify}}</h2>
+  <h2 class="wow fadeInLeft accordion-trigger" data-wow-duration="0.6s">{{ .Title | markdownify}}</h2>
   <div class="acc">
   <div class="acc-content">
     <div class="content">{{ .Content | markdownify | emojify }}</div>

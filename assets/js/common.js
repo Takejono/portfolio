@@ -22,7 +22,7 @@ window.addEventListener("load", function () {
 // Wow Plugin Initialization
 const wow = new WOW({
   animateClass: "animated",
-  offset: 60,
+  offset: 90,
   mobile: true,
 });
 wow.init();

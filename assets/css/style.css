@@ -135,6 +135,20 @@ a {
     }
 }
 
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(100vw);
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0vw);
+    }
+}
+
 @keyframes blurIn {
     from {
         filter: blur(10px);
@@ -146,6 +160,11 @@ a {
 
 .fadeInUp {
     animation-name: fadeInUp;
+}
+.fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 8s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .blurIn {
     animation-name: blurIn;
