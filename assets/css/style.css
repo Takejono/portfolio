@@ -830,7 +830,7 @@ section.pf-single {
     gap: 1.5rem;
     justify-content: center;
     .carousel-wrap {
-        flex-basis: 500px;
+        flex-basis: 700px;
     }
     #carousel-folio {
         height: min-content;
