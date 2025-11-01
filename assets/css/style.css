@@ -38,7 +38,7 @@ h2 {
     font-family: "Stardom", "Kaisei Tokumin", serif;
     font-size: clamp(2rem, 5vw, 4rem);
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.7;
     margin: 0 var(--margin-bord) 0;
     padding: 1rem;
     color: var(--base-font-color);
@@ -138,14 +138,16 @@ a {
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
-        transform: translateX(100vw);
+        transform: translateY(3rem);
+        filter: blur(10px);
     }
-    50% {
+    40% {
         opacity: 0;
     }
     100% {
         opacity: 1;
-        transform: translateX(0vw);
+        transform: translateY(0rem);
+        filter: blur(0px);
     }
 }
 
@@ -163,8 +165,8 @@ a {
 }
 .fadeInLeft {
     animation-name: fadeInLeft;
-    animation-duration: 8s;
-    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    /* animation-duration: 1s; */
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 .blurIn {
     animation-name: blurIn;
