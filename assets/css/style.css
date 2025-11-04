@@ -625,7 +625,6 @@ a {
     }
 }
 
-
 /* div:has(> .btn-more) {
     text-align: center;
     .btn-more {
@@ -699,7 +698,7 @@ a {
         &:hover {
             text-decoration: underline 2px var(--hvr-color);
         }
-        &:jp {
+        &:lang(jp) {
         font-size: clamp(0.7rem, 1.5vw, 1rem);
         }
     }
