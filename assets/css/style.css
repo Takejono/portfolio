@@ -182,7 +182,7 @@ a {
     margin-right: 1rem;
     display: grid;
     align-items: top;
-    background: linear-gradient(var(--base-bg-color)2rem, transparent);
+    /* background: linear-gradient(var(--base-bg-color)2rem, transparent); */
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     .title-logo {
@@ -596,12 +596,26 @@ a {
     z-index: 0;
     overflow: hidden;
     width: 100vw;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                var(--base-bg-color) 2rem,
+                transparent 30%
+            );
+        }
     img {
         transition: all 0.3s ease-in-out;
         object-fit: cover;
         width: 100%;
         height: 100%;
         border-radius: 0 0 0% 100% / 0 0 0% 15%;
+        z-index: 9;
     }
     .item-caption {
         position: absolute;
@@ -619,7 +633,11 @@ a {
     .carousel-cell {
         width: 55lvw;
         text-align: left;
-            img {
+            &::after {
+            content: "";
+            background: none;
+        }
+        img {
         border-radius: 0;
         }
     }
