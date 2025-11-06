@@ -623,6 +623,7 @@ a {
         margin: 0;
         padding: 3rem var(--margin-bord) 0;
         background: linear-gradient(to top, var(--base-bg-color), transparent);
+        z-index: 1;
         h3 {
             font-size: 0.9rem;
             line-height: 0.3;
