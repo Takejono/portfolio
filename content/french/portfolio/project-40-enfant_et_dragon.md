@@ -25,4 +25,4 @@ resources:
   caption: ""
 ---
 Une série des illustrations pour un roman d'autoédition. L'histoire raconte l'itinière d'enfance à l'adult dans un univers fantagique noire et philosophique.
-Ecrivain : Lyssandre Procopieu
+Ecrivain : Lyssandre Procopiou
