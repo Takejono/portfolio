@@ -21,8 +21,6 @@ resources:
   caption: ""
 - src: images/portfolio/ed-5.jpg
   caption: ""
-- src: images/portfolio/ed-6.jpg
-  caption: ""
 ---
 自費出版小説の挿絵。洞窟で巨大な龍に育てられる一人の子供の大人への成長を哲学的に描いたお話。  
 書き手 : リサンドル・プロコピユ
