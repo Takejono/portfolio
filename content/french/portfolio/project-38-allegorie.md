@@ -23,6 +23,8 @@ resources:
   caption: ""
 - src: images/portfolio/allegorie-4.jpg
   caption: ""
+- src: images/portfolio/allegorie-5.jpg
+  caption: ""
 
 
 ---
