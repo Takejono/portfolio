@@ -43,7 +43,7 @@ var flkty = new Flickity(elem, {
   fade: true,
   prevNextButtons: false,
   pageDots: false,
-  autoPlay: 3000,
+  autoPlay: 6000,
   draggable: false,
   pauseAutoPlayOnHover: false,
   //   wrapAround: true
