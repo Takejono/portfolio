@@ -38,16 +38,16 @@ wow.init();
 	 Start Header
 		----------------------------------*/
 // Background Slider Header
-var elem = document.querySelector("#background-slide");
-var flkty = new Flickity(elem, {
-  fade: true,
-  prevNextButtons: false,
-  pageDots: false,
-  autoPlay: 6000,
-  draggable: false,
-  pauseAutoPlayOnHover: false,
-  //   wrapAround: true
-});
+// var elem = document.querySelector("#background-slide");
+// var flkty = new Flickity(elem, {
+//   fade: true,
+//   prevNextButtons: false,
+//   pageDots: false,
+//   autoPlay: 6000,
+//   draggable: false,
+//   pauseAutoPlayOnHover: false,
+//   wrapAround: true
+// });
 
 /*--------------------------------
 		 End Header
