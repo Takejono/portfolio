@@ -1071,10 +1071,11 @@ section.pf-single {
         bottom: -1px;
     } */
     h2 {
-        text-align: center;
+        text-align: right;
     }
     p {
-        text-align: center;
+        margin-right: 2rem;
+        text-align: right;
         font-weight: 550;
         font-size: 1.1rem;
         a {
