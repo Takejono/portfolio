@@ -2,7 +2,7 @@
    Start Preloader & General Styling
 ----------------------------------*/
 :root {
-    --hvr-color: #faca09;
+    --hvr-color: #ffd325;
     --contact-bg-color: #09234a;
     --contact-color: #787164;
     --hello-end-color: #454138;
@@ -64,6 +64,7 @@ a {
         border-bottom: 1px solid var(--hvr-color);
         color: var(--hvr-color);
         text-decoration: none;
+        background-color: coral;
     }
 }
 
