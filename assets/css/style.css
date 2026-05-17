@@ -1112,7 +1112,7 @@ section.pf-single {
 
 .footer-icons {
     display: flex;
-    margin-inline: auto;
+    margin-inline: auto 2rem;
     width: 8rem;
     justify-content: space-between;
     padding: 1rem 0 0;
