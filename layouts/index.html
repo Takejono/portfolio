@@ -1,8 +1,6 @@
 {{ define "main" }}
 
-<style>{{.Params.custom_css | safeCSS}}</style>
-
-
+{{- partial "header.html" . -}}
 
   {{ with .GetPage "about" }}
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="about">
