@@ -12,8 +12,6 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-Takeshi JONOO
-
 Painter / Illustrator in Marseille.  
 
 Graduated in Graphic Design in 1999 at Tama, Tokyo.  

@@ -1,17 +1,42 @@
 {{ define "main" }}
 
 <style>{{.Params.custom_css | safeCSS}}</style>
-<section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
-  <div class="portfolio-typo wow fadeInUp" data-wow-duration=".5s">
-  <span class="desc-nom">Takeshi JONOO</span>
-  <h2>Portfolio</h2>
+
+  {{ with .GetPage "about" }}
+<section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="about">
+  <span class="wow fadeInUp accordion-trigger desc-nom" data-wow-duration="0.8s">Takeshi JONOO</span>
+  <div class="acc">
+  <div class="acc-content">
+    <div class="content">{{ .Content | markdownify | emojify }}</div>
   </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .GetPage "news"}}
+<section class="news {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="news">
+  <h2 class="wow fadeInUp accordion-trigger" data-wow-duration="0.8s" id="news-h2">{{ .Title }}</h2>
+  <div class="acc">
+  <div class="acc-content">
+  <div class="post-container content">
+    {{ range .Pages.ByDate.Reverse }}
+    {{ partial "post-summary.html" . }}
+    {{ end }}
+  </div>
+  </div>
+  </div>
+  {{ partial "randomize-color" }}
+</section>
+{{ end }}
+
+<section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
+<h2>Portfolio</h2>
   <div class="portfolio-filters wow fadeInUp" data-wow-duration=".8s">
     {{ range  $i,$e := .Params.Metier }}
-     {{ if ne $i 0 }}|{{end}}<button class="button{{ if eq $i 0 }} is-checked{{end}}" data-filter="{{ .data }}">{{ .name | markdownify }}</button>
-     {{ end }}
+    {{ if ne $i 0 }}|{{end}}
+    <button class="button{{ if eq $i 0 }} is-checked{{end}}" data-filter="{{ .data }}">{{ .name | markdownify }}</button>
+    {{ end }}
   </div>
-    
         <div class="pf-wrapper">
           {{ range .Data.Pages }}
           <div class="filtr-item {{range $index, $element:= .Params.categories }}{{if ne $index 0}}{{end}} {{. | urlize}}{{ end }}">
@@ -29,4 +54,6 @@
           {{ end }}
         </div>
 </section>
+{{ partial "accordion" }}
+
 {{ end }}

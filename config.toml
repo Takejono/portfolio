@@ -85,7 +85,7 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         weight = 1
         [languages.fr.params]
         # copyright
-        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)"
 
 
 ################# french navigation ##################
@@ -95,12 +95,6 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         pageref = "/"
         weight = 1
 
-       [[languages.fr.menu.main]]
-        name = "Portfolio"
-        pageref = "/portfolio"
-        weight = 3
-
-
 ################################### jp language #####################################
     [languages.jp]
         languageName = "JP"
@@ -109,8 +103,7 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         weight = 2
         [languages.jp.params]
         # copyright
-        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
-
+        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)"
 
 ################# jp navigation ##################
 # main menu
@@ -118,11 +111,6 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         name = "ホーム"
         pageref = "/"
         weight = 1
-
-        [[languages.jp.menu.main]]
-        name = "ポートフォリオ"
-        pageref = "/portfolio"
-        weight = 3
 
 ################################### en language #####################################
     [languages.en]
@@ -132,8 +120,7 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         weight = 3
         [languages.en.params]
         # copyright
-        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)<br>Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
-
+        copyright = "&copy; [Takeshi JONOO](https://t-jonoo.com)"
 
 ################# en navigation ##################
 # main menu
@@ -141,8 +128,3 @@ link = "https://www.instagram.com/takeshi_jonoo_drawing"
         name = "Home"
         pageref = "/"
         weight = 1
-
-       [[languages.en.menu.main]]
-        name = "Portfolio"
-        pageref = "/portfolio"
-        weight = 3
