@@ -34,7 +34,7 @@
 <h2>Portfolio</h2>
   <div class="portfolio-filters wow fadeInUp" data-wow-duration=".8s">
     {{ range  $i,$e := .Params.Metier }}
-    {{ if ne $i 0 }}|{{end}}
+    <!-- {{ if ne $i 0 }}|{{end}} -->
     <button class="button{{ if eq $i 0 }} is-checked{{end}}" data-filter="{{ .data }}">{{ .name | markdownify }}</button>
     {{ end }}
   </div>
