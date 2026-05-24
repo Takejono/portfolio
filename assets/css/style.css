@@ -990,7 +990,7 @@ section.pf-single {
     }
     .content {
         position: relative;
-        padding: 1rem 0;
+        padding: 2.5rem 0 1rem;
         width: clamp(24rem, 80vw, 80ch);
         text-align: justify;
         p {
