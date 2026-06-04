@@ -668,7 +668,7 @@ a {
     top: 1rem;
     font-size: 1.84rem;
     font-weight: 400;
-    color: #afaa9f;
+    /* color: #afaa9f; */
     z-index: 2;
 }
 
@@ -975,7 +975,7 @@ section.pf-single {
 ----------------------------------*/
 
 .about-me {
-    background: var(--base-bg-color);
+    /* background: var(--base-bg-color); */
     padding: 2rem 0 0;
     margin-inline: var(--margin-bord);
     height: fit-content;
