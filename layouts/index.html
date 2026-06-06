@@ -4,7 +4,7 @@
 
   {{ with .GetPage "about" }}
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="about">
-  <span class="wow fadeInUp accordion-trigger desc-nom" data-wow-duration="0.8s">Takeshi JONOO</span>
+  <h1 class="wow fadeInUp accordion-trigger desc-nom" data-wow-duration="0.8s">Takeshi JONOO</h1>
   <div class="acc">
   <div class="acc-content">
     <div class="content">{{ .Content | markdownify | emojify }}</div>
@@ -12,6 +12,11 @@
   </div>
 </section>
 {{ end }}
+
+  <!-- <button class="contact-button" popovertarget="contact-infos">CONTACT</button>
+  <popover class="social-popover" popover id="contact-infos" data-content="Contact me on social media!" data-placement="top" data-trigger="hover">
+  {{ partial "social-icon.html" . }}
+  </popover> -->
 
 {{ with .GetPage "news"}}
 <section class="news {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="news">
@@ -31,7 +36,7 @@
 
   {{ with .GetPage "portfolio" }}
 <section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
-<h2>Portfolio</h2>
+<!-- <h2>Portfolio</h2> -->
   <div class="portfolio-filters wow fadeInUp" data-wow-duration=".8s">
     {{ range  $i,$e := .Params.Metier }}
     <!-- {{ if ne $i 0 }}|{{end}} -->
