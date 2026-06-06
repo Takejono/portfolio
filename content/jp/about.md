@@ -1,5 +1,5 @@
 ---
-title : "絵描き紹介"
+title : "じょうのお たけし"
 image : "images/backgrounds/portrait04.jpg"
 # button
 button:

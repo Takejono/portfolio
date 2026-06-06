@@ -1,5 +1,5 @@
 ---
-title : "ABOUT ME"
+title : "Takeshi JONOO"
 image : "images/backgrounds/portrait04.jpg"
 # button
 button:

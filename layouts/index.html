@@ -4,7 +4,7 @@
 
   {{ with .GetPage "about" }}
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="about">
-  <h1 class="wow fadeInUp accordion-trigger desc-nom" data-wow-duration="0.8s">Takeshi JONOO</h1>
+  <h1 class="wow fadeInUp accordion-trigger desc-nom" data-wow-duration="0.8s">{{ .Title }}</h1>
   <div class="acc">
   <div class="acc-content">
     <div class="content">{{ .Content | markdownify | emojify }}</div>
