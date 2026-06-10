@@ -13,10 +13,12 @@
 </section>
 {{ end }}
 
-  <!-- <button class="contact-button" popovertarget="contact-infos">CONTACT</button>
+{{ with .GetPage "contact"}}
+  <button class="contact-button" popovertarget="contact-infos">{{ .Title }}</button>
   <popover class="social-popover" popover id="contact-infos" data-content="Contact me on social media!" data-placement="top" data-trigger="hover">
   {{ partial "social-icon.html" . }}
-  </popover> -->
+  </popover>
+{{ end }}
 
 {{ with .GetPage "news"}}
 <section class="news {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="news">
