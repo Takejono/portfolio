@@ -14,7 +14,7 @@
 {{ end }}
 
 {{ with .GetPage "contact"}}
-  <button class="contact-button" popovertarget="contact-infos">{{ .Title }}</button>
+  <button class="contact-button wow fadeInUp" data-wow-duration="0.8s" popovertarget="contact-infos">{{ .Title }}</button>
   <popover class="social-popover" popover id="contact-infos" data-content="Contact me on social media!" data-placement="top" data-trigger="hover">
   {{ partial "social-icon.html" . }}
   </popover>
