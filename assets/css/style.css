@@ -756,7 +756,7 @@ section.pf-single {
     width: fit-content;
     justify-content: space-between;
     justify-items: baseline;
-    padding: 1rem 0 0;
+    padding-left: 2rem;
     list-style: none;
     gap: 2rem;
     a {
