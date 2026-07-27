@@ -2,7 +2,7 @@
 
 {{- partial "header.html" . -}}
 
-  {{ with .GetPage "about" }}
+  <!-- {{ with .GetPage "about" }}
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="about">
   <h1 class="wow fadeInUp accordion-trigger desc-nom" data-wow-duration="0.8s">{{ .Title }}</h1>
   <div class="acc">
@@ -11,14 +11,7 @@
   </div>
   </div>
 </section>
-{{ end }}
-
-{{ with .GetPage "contact"}}
-  <button class="contact-button wow fadeInUp" data-wow-duration="0.8s" popovertarget="contact-infos">{{ .Title }}</button>
-  <popover class="social-popover" popover id="contact-infos" data-content="Contact me on social media!" data-placement="top" data-trigger="hover">
-  {{ partial "social-icon.html" . }}
-  </popover>
-{{ end }}
+{{ end }} -->
 
 {{ with .GetPage "news"}}
 <section class="news {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="news">
@@ -38,29 +31,47 @@
 
   {{ with .GetPage "portfolio" }}
 <section class="portfolio portfolio-list {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}>
-<!-- <h2>Portfolio</h2> -->
+<div class="pf-wrapper">
+<div class="stamp title-top filtr-item wow fadeInUp" data-wow-duration=".8s">
+
+  {{ with .GetPage "contact"}}
+  <button class="contact-button wow fadeInUp" data-wow-duration="0.8s" popovertarget="contact-infos">{{ .Title }}</button>
+  <popover class="social-popover" popover id="contact-infos" data-content="Contact me on social media!" data-placement="top" data-trigger="hover">
+  {{ partial "social-icon.html" . }}
+  </popover>
+{{ end }}
+
+  {{ with .GetPage "about" }}
+  <div class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="about">
+    <h1 class="wow fadeInUp accordion-trigger desc-nom" data-wow-duration="0.8s">{{ .Title }}</h1>
+    <div class="acc">
+    <div class="acc-content">
+      <div class="content">{{ .Content | markdownify | emojify }}</div>
+    </div>
+    </div>
+  </div>
+  {{ end }}
   <div class="portfolio-filters wow fadeInUp" data-wow-duration=".8s">
     {{ range  $i,$e := .Params.Metier }}
-    <!-- {{ if ne $i 0 }}|{{end}} -->
     <button class="button{{ if eq $i 0 }} is-checked{{end}}" data-filter="{{ .data }}">{{ .name | markdownify }}</button>
     {{ end }}
   </div>
-        <div class="pf-wrapper">
-          {{ range .Data.Pages }}
-          <div class="filtr-item {{range $index, $element:= .Params.categories }}{{if ne $index 0}}{{end}} {{. | urlize}}{{ end }}">
-              <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}"></a>
-              <div class="item-caption">
-                <a href="{{.Permalink}}">
-                  <h3>{{ .Title | markdownify }}</h3>
-                </a>
-                {{ range .Params.categories }}
-                <p>{{ . | title }}</p>
-                {{ end }}
-               <div class="item-created">{{ .PublishDate.Format "2006" }}</div>
-              </div>
-          </div>
-          {{ end }}
-        </div>
+</div>
+  {{ range .Data.Pages }}
+  <div class="filtr-item {{range $index, $element:= .Params.categories }}{{if ne $index 0}}{{end}} {{. | urlize}}{{ end }}">
+      <a class="" href="{{.Permalink}}" title="{{ .Title | markdownify }}"><img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}"></a>
+      <div class="item-caption">
+        <a href="{{.Permalink}}">
+          <h3>{{ .Title | markdownify }}</h3>
+        </a>
+        {{ range .Params.categories }}
+        <p>{{ . | title }}</p>
+        {{ end }}
+        <div class="item-created">{{ .PublishDate.Format "2006" }}</div>
+      </div>
+  </div>
+  {{ end }}
+</div>
 </section>
 {{ end }}
 
