@@ -583,7 +583,6 @@ section.pf-single {
         color: var(--news-color);
         font-family: var(--f-sansserif);
         font-weight: 500;
-        margin-left: -0.4rem;
         @media (max-width: 600px) {
         & {
                 width: 100%;
