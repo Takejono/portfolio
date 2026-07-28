@@ -583,8 +583,7 @@ section.pf-single {
         color: var(--news-color);
         font-family: var(--f-sansserif);
         font-weight: 500;
-        margin-left: -0rem;
-
+        margin-left: -0.4rem;
         @media (max-width: 600px) {
         & {
                 width: 100%;
@@ -600,7 +599,9 @@ section.pf-single {
                 width: 33%;
             }
         }
-
+        .is-opened & {
+        font-size: 2rem;
+        }
     }
     h3 {
         font-size: 1.8rem;
