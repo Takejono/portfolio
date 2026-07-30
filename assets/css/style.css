@@ -188,7 +188,7 @@ a {
     opacity: 0;
     transition: all 0.8s cubic-bezier(0.2, 0.39, 0.51, 1);
     .about-me & {
-        transition: all 0.8s cubic-bezier(0.8, 0.3, 0.1, 0.3);
+        transition: all 0.8s cubic-bezier(0.9, 0.8, 0.4, 1);
     }
 }
 .acc-content {
