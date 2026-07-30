@@ -170,7 +170,37 @@ a {
 /*--------------------------------
    End Preloader & General Styling
 ----------------------------------*/
+/*--------------------------------
+   Accordion fonction
+----------------------------------*/
 
+.accordion-trigger {
+    cursor: pointer;
+    transition: all 0.3s linear;
+    &:hover {
+        color: var(--hvr-color);
+    }
+}
+.acc {
+    display: grid;
+    grid-template-rows: 0fr;
+    align-content: center;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.2, 0.39, 0.51, 1);
+    .about-me & {
+        transition: all 0.8s cubic-bezier(0.8, 0.3, 0.1, 0.3);
+    }
+}
+.acc-content {
+    overflow: hidden;
+}
+section.is-opened .acc {
+    grid-template-rows: 1fr;
+    opacity: 1;
+}
+/*--------------------------------
+   End Accordion fonction
+----------------------------------*/
 /*--------------------------------
   Start Menu
 ----------------------------------*/
@@ -774,33 +804,4 @@ section.pf-single {
 
 /*--------------------------------
    End Contact
-----------------------------------*/
-
-/*--------------------------------
-   Accordion fonction
-----------------------------------*/
-
-.accordion-trigger {
-    cursor: pointer;
-    transition: all 0.3s linear;
-    &:hover {
-        color: var(--hvr-color);
-    }
-}
-.acc {
-    display: grid;
-    grid-template-rows: 0fr;
-    align-content: center;
-    opacity: 0;
-    transition: all 0.8s cubic-bezier(0.2, 0.39, 0.51, 1);
-}
-.acc-content {
-    overflow: hidden;
-}
-section.is-opened .acc {
-    grid-template-rows: 1fr;
-    opacity: 1;
-}
-/*--------------------------------
-   End Accordion fonction
 ----------------------------------*/
