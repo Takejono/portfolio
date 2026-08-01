@@ -370,7 +370,7 @@ section.is-opened .acc {
 }
 
 .pf-wrapper {
-    margin: 0rem 0rem 4rem 0rem;
+    margin-bottom: 0rem 0rem 4rem 0rem;
 }
 
 .title-top {
@@ -679,7 +679,7 @@ section.pf-single {
     font-weight: 450;
     z-index: 2;
     letter-spacing: 0.2ch;
-    margin-bottom: 2.5rem;
+    margin: 2.3rem 0 2.5rem;
     transition: all 0.8s;
     &:hover {
         cursor: help;
